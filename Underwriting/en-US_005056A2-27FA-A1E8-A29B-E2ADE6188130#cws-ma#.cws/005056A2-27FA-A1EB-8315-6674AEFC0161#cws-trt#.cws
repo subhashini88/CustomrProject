@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8315-6674AEFC4161">
+	<DocumentID>005056A2-27FA-A1EB-8315-6674AEFC0161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8315-6674AEFC0161</Name>
+	<Description>Ongoing New Hire Enrollments</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-12T06:40:26.517</CreationDate>
+	<Notes/>
+	<Text>Ongoing New Hire Enrollments</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8315-6674AEFB8161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

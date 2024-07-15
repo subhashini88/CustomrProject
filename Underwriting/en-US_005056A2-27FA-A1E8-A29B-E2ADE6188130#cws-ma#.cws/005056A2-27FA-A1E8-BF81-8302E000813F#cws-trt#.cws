@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BF81-8302E000C13F">
+	<DocumentID>005056A2-27FA-A1E8-BF81-8302E000813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BF81-8302E000813F</Name>
+	<Description>GetAgentMasterForAgentCode</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-12-12T12:27:07.73</CreationDate>
+	<Notes/>
+	<Text>GetAgentMasterForAgentCode</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BF81-8302E000013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

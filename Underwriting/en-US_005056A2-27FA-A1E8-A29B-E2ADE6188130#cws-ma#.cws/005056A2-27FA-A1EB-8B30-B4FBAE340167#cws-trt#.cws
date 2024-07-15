@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8B30-B4FBAE344167">
+	<DocumentID>005056A2-27FA-A1EB-8B30-B4FBAE340167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8B30-B4FBAE340167</Name>
+	<Description>Master APPId</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-11-22T15:51:54.444</CreationDate>
+	<Notes/>
+	<Text>Master APPId</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8B30-B4FBAE338167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

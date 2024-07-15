@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC59-38ADCC13813F">
+	<DocumentID>005056A2-27FA-A1E8-BC59-38ADCC13413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC59-38ADCC13413F</Name>
+	<Description>Trac Successful ?</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-26T10:30:44.868</CreationDate>
+	<Notes/>
+	<Text>Trac Successful ?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC59-38ADCC12C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-95F7-118CDF144175">
+	<DocumentID>005056A2-27FA-A1EC-95F7-118CDF140175</DocumentID>
+	<Name>005056A2-27FA-A1EC-95F7-118CDF140175</Name>
+	<Description>Phone</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-12-08T05:56:49.312</CreationDate>
+	<Notes/>
+	<Text>Phone</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-95F7-118CDF138175"
+		/>
+	</TextIdentifier>
+</TranslatedText>

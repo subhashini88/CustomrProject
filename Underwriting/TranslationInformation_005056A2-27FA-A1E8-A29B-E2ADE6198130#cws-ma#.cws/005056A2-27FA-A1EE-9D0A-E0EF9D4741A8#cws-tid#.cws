@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9D0A-E0EF9D4781A8">
+	<DocumentID>005056A2-27FA-A1EE-9D0A-E0EF9D4741A8</DocumentID>
+	<Name>005056A2-27FA-A1EE-9D0A-E0EF9D4741A8</Name>
+	<Description>Decision_89</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-10-26T18:34:04.281</CreationDate>
+	<Notes/>
+	<DefaultText>Decision_89</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-9D0A-E0EF9D47C1A8"
+		/>
+	</Translations>
+</TextIdentifier>

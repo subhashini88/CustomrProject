@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AC43-630510D0011E">
+	<DocumentID>005056A2-7798-A1E8-AC43-630510CFC11E</DocumentID>
+	<Name>005056A2-7798-A1E8-AC43-630510CFC11E</Name>
+	<Description>Multiple Lapse/HCH(Yes/No)</Description>
+	<CreatedBy>vidhyasri</CreatedBy>
+	<CreationDate>2018-09-05T13:15:47.193</CreationDate>
+	<Notes/>
+	<Text>Multiple Lapse/HCH(Yes/No)</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AC43-630510CF411E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

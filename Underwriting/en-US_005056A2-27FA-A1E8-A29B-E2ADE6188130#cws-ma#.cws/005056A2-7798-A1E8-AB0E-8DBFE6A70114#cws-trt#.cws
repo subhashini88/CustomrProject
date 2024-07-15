@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AB0E-831EB7514114">
+	<DocumentID>005056A2-7798-A1E8-AB0E-8DBFE6A70114</DocumentID>
+	<Name>005056A2-7798-A1E8-AB0E-8DBFE6A70114</Name>
+	<Description>cd_application_number</Description>
+	<CreatedBy>Sankar, Harshet</CreatedBy>
+	<CreationDate>2018-08-30T09:51:20.697</CreationDate>
+	<Notes/>
+	<Text>cd_application_number</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AB0E-8DBFE6A68114"
+		/>
+	</TextIdentifier>
+</TranslatedText>

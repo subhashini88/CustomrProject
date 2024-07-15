@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-964B-CFF968964158">
+	<DocumentID>005056A2-27FA-A1EA-964B-CFF968960158</DocumentID>
+	<Name>005056A2-27FA-A1EA-964B-CFF968960158</Name>
+	<Description>Has Combined Insurance asked that we inquire about HIV?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-02-27T07:18:47.151</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we inquire about HIV?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-964B-CFF968958158"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9565-9BE346870168">
+	<DocumentID>005056A2-27FA-A1EB-9565-9BE34686C168</DocumentID>
+	<Name>WksOpsCase Control Report</Name>
+	<Description>WksOpsCase Control Report</Description>
+	<CreatedBy>Abhishek</CreatedBy>
+	<CreationDate>2021-01-13T12:44:29.465</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="WksOpsCase Control Report"
+			count="-1"
+			autodeploy="true"
+			targetLastModified="2021-01-13T11:55:37.905"
+			msgHolderLastModified="2021-01-19T05:47:14.683">
+			<datetime>
+				<daily>
+					<time>20:0</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9565-9BE346854168">
+			<DocumentID>005056A2-27FA-A1EB-9565-9BE346850168</DocumentID>
+			<Name>005056A2-27FA-A1EB-9565-9BE346850168</Name>
+			<Description>005056A2-27FA-A1EB-9565-9BE346850168</Description>
+			<CreatedBy>Abhishek</CreatedBy>
+			<CreationDate>2021-01-13T12:44:29.465</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EB-9466-C163B19A0168"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

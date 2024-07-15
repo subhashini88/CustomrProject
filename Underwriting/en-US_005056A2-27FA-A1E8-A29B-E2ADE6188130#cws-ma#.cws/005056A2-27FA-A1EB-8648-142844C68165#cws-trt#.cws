@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8648-142844C6C165">
+	<DocumentID>005056A2-27FA-A1EB-8648-142844C68165</DocumentID>
+	<Name>005056A2-27FA-A1EB-8648-142844C68165</Name>
+	<Description>BAND REMITTANCE</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-10-28T13:26:22.141</CreationDate>
+	<Notes/>
+	<Text>BAND REMITTANCE</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8648-142844C60165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9F1E-0D01B2F00147">
+	<DocumentID>005056A2-27FA-A1E9-9F1E-0D01B2EFC147</DocumentID>
+	<Name>005056A2-27FA-A1E9-9F1E-0D01B2EFC147</Name>
+	<Description>GetUnderwritingUnprocessedCasesCount</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-05-22T11:50:59.483</CreationDate>
+	<Notes/>
+	<Text>GetUnderwritingUnprocessedCasesCount</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9F1E-0D01B2EF4147"
+		/>
+	</TextIdentifier>
+</TranslatedText>

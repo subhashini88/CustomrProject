@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-AB10-5E28BE8E817C">
+	<DocumentID>005056A2-27FA-A1EC-AB10-5E28BE8E417C</DocumentID>
+	<Name>005056A2-27FA-A1EC-AB10-5E28BE8E417C</Name>
+	<Description>UpdateManualTaskDetails</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2022-03-25T13:50:12.172</CreationDate>
+	<Notes/>
+	<Text>UpdateManualTaskDetails</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-AB10-5E28BE8DC17C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

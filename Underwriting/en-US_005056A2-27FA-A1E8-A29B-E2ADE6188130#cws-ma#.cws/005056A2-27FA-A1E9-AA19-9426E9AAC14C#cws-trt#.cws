@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AA19-9426E9AB014C">
+	<DocumentID>005056A2-27FA-A1E9-AA19-9426E9AAC14C</DocumentID>
+	<Name>005056A2-27FA-A1E9-AA19-9426E9AAC14C</Name>
+	<Description>&lt;b style=&quot;font-size: medium;&quot;&gt;&lt;SPAN style=&quot;color: #ff1200;&quot;&gt;Effective date Notification&lt;/SPAN&gt;&lt;/b&gt;</Description>
+	<CreatedBy>ARUN</CreatedBy>
+	<CreationDate>2019-07-17T07:50:44.037</CreationDate>
+	<Notes/>
+	<Text>&lt;b style=&quot;font-size: medium;&quot;&gt;&lt;SPAN style=&quot;color: #ff1200;&quot;&gt;Effective date Notification&lt;/SPAN&gt;&lt;/b&gt;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-AA19-9426E9AA414C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

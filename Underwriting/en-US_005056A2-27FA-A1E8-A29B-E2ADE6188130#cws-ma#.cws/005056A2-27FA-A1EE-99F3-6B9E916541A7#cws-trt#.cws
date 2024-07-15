@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-99F3-6B9E916581A7">
+	<DocumentID>005056A2-27FA-A1EE-99F3-6B9E916541A7</DocumentID>
+	<Name>005056A2-27FA-A1EE-99F3-6B9E916541A7</Name>
+	<Description>Questionnaire Received</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-10-11T07:51:01.797</CreationDate>
+	<Notes/>
+	<Text>Questionnaire Received</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-99F3-6B9E9164C1A7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-ABAC-FF0FD9E4817C">
+	<DocumentID>005056A2-27FA-A1EC-ABAC-FF0FD9E4417C</DocumentID>
+	<Name>005056A2-27FA-A1EC-ABAC-FF0FD9E4417C</Name>
+	<Description>AssignTask Enrollment Case_New</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2022-03-28T16:43:51.499</CreationDate>
+	<Notes/>
+	<Text>AssignTask Enrollment Case_New</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-ABAC-FF0FD9E3C17C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

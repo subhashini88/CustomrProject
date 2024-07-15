@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-82A7-CA808835818D">
+	<DocumentID>005056A2-27FA-A1ED-82A7-CA808835418D</DocumentID>
+	<Name>005056A2-27FA-A1ED-82A7-CA808835418D</Name>
+	<Description>Get all mail</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-23T15:56:56.596</CreationDate>
+	<Notes/>
+	<Text>Get all mail</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-82A7-CA808834C18D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

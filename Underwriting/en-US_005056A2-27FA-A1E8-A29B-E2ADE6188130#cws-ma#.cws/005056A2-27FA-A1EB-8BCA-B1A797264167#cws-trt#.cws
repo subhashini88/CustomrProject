@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8BCA-B1A797268167">
+	<DocumentID>005056A2-27FA-A1EB-8BCA-B1A797264167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8BCA-B1A797264167</Name>
+	<Description>eFullfillment</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-11-26T13:26:53.377</CreationDate>
+	<Notes/>
+	<Text>eFullfillment</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8BCA-B1A79725C167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

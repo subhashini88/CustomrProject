@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9DE9-03F776A54146">
+	<DocumentID>005056A2-27FA-A1E9-9DE9-03F776A50146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9DE9-03F776A50146</Name>
+	<Description>UpdateTbl_underwriting_OrderRequirement Task to nu</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-05-16T06:53:57.066</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_underwriting_OrderRequirement Task to nu</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9DE9-03F776A48146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

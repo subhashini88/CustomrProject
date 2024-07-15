@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-4A1146A1013F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-4A1146A0C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-4A1146A0C13F</Name>
+	<Description>unans_dep_med_ques_note_date</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.059</CreationDate>
+	<Notes/>
+	<Text>unans_dep_med_ques_note_date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-4A1146A0413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

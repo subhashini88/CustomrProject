@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-ACE3-A14E078AC19A">
+	<DocumentID>005056A2-27FA-A1ED-ACE3-A14E078A819A</DocumentID>
+	<Name>005056A2-27FA-A1ED-ACE3-A14E078A819A</Name>
+	<Description>CheckRealBatchFilesCount</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-23T16:01:05.337</CreationDate>
+	<Notes/>
+	<DefaultText>CheckRealBatchFilesCount</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-ACE3-A14E078B019A"
+		/>
+	</Translations>
+</TextIdentifier>

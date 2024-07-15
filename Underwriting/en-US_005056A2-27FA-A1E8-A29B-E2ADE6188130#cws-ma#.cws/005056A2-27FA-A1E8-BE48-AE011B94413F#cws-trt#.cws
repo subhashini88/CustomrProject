@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BE48-AE011B94813F">
+	<DocumentID>005056A2-27FA-A1E8-BE48-AE011B94413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BE48-AE011B94413F</Name>
+	<Description>Stroke, TIA, Heart Attack or Congestive Heart Failure, Chronic Atrial Fibrillation or Coronary Artery Disease?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-06T06:55:49.637</CreationDate>
+	<Notes/>
+	<Text>Stroke, TIA, Heart Attack or Congestive Heart Failure, Chronic Atrial Fibrillation or Coronary Artery Disease?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BE48-AE011B93C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

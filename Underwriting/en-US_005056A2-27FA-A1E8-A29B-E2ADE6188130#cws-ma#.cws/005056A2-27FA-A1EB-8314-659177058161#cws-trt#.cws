@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8314-65917705C161">
+	<DocumentID>005056A2-27FA-A1EB-8314-659177058161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8314-659177058161</Name>
+	<Description>Initial Payroll Deduction Report Sent</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-12T06:12:00.451</CreationDate>
+	<Notes/>
+	<Text>Initial Payroll Deduction Report Sent</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8314-659177050161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

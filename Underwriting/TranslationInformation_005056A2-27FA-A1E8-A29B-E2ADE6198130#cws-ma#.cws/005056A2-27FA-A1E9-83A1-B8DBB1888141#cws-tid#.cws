@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-83A1-B8DBB188C141">
+	<DocumentID>005056A2-27FA-A1E9-83A1-B8DBB1888141</DocumentID>
+	<Name>005056A2-27FA-A1E9-83A1-B8DBB1888141</Name>
+	<Description>Agent Licensing Error</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-02T13:32:36.693</CreationDate>
+	<Notes/>
+	<DefaultText>Agent Licensing Error</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-83A1-B8DBB1890141"
+		/>
+	</Translations>
+</TextIdentifier>

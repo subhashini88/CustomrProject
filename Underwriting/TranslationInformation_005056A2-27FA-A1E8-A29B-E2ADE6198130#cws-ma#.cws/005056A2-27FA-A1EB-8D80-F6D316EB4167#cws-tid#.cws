@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8D80-F6D316EB8167">
+	<DocumentID>005056A2-27FA-A1EB-8D80-F6D316EB4167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8D80-F6D316EB4167</Name>
+	<Description>AddLSPNotesBPm</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-12-04T07:47:54.461</CreationDate>
+	<Notes/>
+	<DefaultText>AddLSPNotesBPm</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8D80-F6D316EBC167"
+		/>
+	</Translations>
+</TextIdentifier>

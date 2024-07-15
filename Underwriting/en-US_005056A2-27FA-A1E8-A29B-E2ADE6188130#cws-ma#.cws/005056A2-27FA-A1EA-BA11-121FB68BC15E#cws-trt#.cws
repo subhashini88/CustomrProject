@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BA11-121FB68C015E">
+	<DocumentID>005056A2-27FA-A1EA-BA11-121FB68BC15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BA11-121FB68BC15E</Name>
+	<Description>WKSAutoClose</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-08-27T09:21:28.237</CreationDate>
+	<Notes/>
+	<Text>WKSAutoClose</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BA11-121FB68B415E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9F01-2B4ADF81C16A">
+	<DocumentID>005056A2-27FA-A1EB-9F01-2B4ADF81816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9F01-2B4ADF81816A</Name>
+	<Description>GetCaseAssignmentsUponStatus</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-03T09:50:51.402</CreationDate>
+	<Notes/>
+	<Text>GetCaseAssignmentsUponStatus</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9F01-2B4ADF81016A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

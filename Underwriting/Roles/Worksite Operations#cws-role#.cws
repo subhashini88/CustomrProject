@@ -1,0 +1,18 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BF01-39B0FD3CC160">
+	<DocumentID>005056A2-27FA-A1EA-BF01-39B0FD3D0160</DocumentID>
+	<Name>Worksite Operations</Name>
+	<Description>Worksite Operations</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2020-09-21T12:27:08.229</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

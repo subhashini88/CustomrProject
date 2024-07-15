@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-4293570F813F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-4293570F413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-4293570F413F</Name>
+	<Description>disability_income_range</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:06.616</CreationDate>
+	<Notes/>
+	<Text>disability_income_range</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-4293570EC13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

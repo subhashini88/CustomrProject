@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9396-12B4F7268168">
+	<DocumentID>005056A2-27FA-A1EB-9396-12B4F7264168</DocumentID>
+	<Name>005056A2-27FA-A1EB-9396-12B4F7264168</Name>
+	<Description>Assign Alert Task</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2021-01-04T06:47:07.017</CreationDate>
+	<Notes/>
+	<Text>Assign Alert Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9396-12B4F725C168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

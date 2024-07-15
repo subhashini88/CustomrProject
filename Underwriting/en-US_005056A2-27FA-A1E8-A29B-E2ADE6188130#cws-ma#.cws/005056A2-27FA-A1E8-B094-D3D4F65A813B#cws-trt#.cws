@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B094-D3D4F65AC13B">
+	<DocumentID>005056A2-27FA-A1E8-B094-D3D4F65A813B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B094-D3D4F65A813B</Name>
+	<Description>cd_hch</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-09-27T12:55:37.934</CreationDate>
+	<Notes/>
+	<Text>cd_hch</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B094-D3D4F65A013B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-916D-6B7B9333C168">
+	<DocumentID>005056A2-27FA-A1EB-916D-6B7B93338168</DocumentID>
+	<Name>005056A2-27FA-A1EB-916D-6B7B93338168</Name>
+	<Description>UW</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-12-24T07:15:29.872</CreationDate>
+	<Notes/>
+	<DefaultText>UW</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-916D-6B7B93340168"
+		/>
+	</Translations>
+</TextIdentifier>

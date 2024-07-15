@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-915C-D306A88581A4">
+	<DocumentID>005056A2-27FA-A1EE-915C-D306A88541A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-915C-D306A88541A4</Name>
+	<Description>PFP_MDMDetails</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-08-28T07:20:15.273</CreationDate>
+	<Notes/>
+	<Text>PFP_MDMDetails</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-915C-D306A884C1A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

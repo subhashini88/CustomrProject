@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A010-1ED1BE058147">
+	<DocumentID>005056A2-27FA-A1E9-A010-1ED1BE054147</DocumentID>
+	<Name>005056A2-27FA-A1E9-A010-1ED1BE054147</Name>
+	<Description>Pre Completed?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-05-27T05:37:01.793</CreationDate>
+	<Notes/>
+	<Text>Pre Completed?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A010-1ED1BE04C147"
+		/>
+	</TextIdentifier>
+</TranslatedText>

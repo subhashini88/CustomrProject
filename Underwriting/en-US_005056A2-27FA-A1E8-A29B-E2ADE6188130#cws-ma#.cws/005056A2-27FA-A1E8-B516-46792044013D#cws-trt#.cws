@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B516-46792044413D">
+	<DocumentID>005056A2-27FA-A1E8-B516-46792044013D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B516-46792044013D</Name>
+	<Description>Case Status Closed?</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-20T11:17:41.969</CreationDate>
+	<Notes/>
+	<Text>Case Status Closed?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B516-46792043813D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

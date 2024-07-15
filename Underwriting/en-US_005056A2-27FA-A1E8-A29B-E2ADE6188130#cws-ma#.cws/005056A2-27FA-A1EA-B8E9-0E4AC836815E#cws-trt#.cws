@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B8E9-0E4AC836C15E">
+	<DocumentID>005056A2-27FA-A1EA-B8E9-0E4AC836815E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B8E9-0E4AC836815E</Name>
+	<Description>MVR</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-21T11:51:25.882</CreationDate>
+	<Notes/>
+	<Text>MVR</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B8E9-0E4AC836015E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

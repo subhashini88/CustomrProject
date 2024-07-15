@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8F49-78076A4E0157">
+	<DocumentID>005056A2-27FA-A1EA-8F49-78076A4DC157</DocumentID>
+	<Name>005056A2-27FA-A1EA-8F49-78076A4DC157</Name>
+	<Description>All States: Has Combined Insurance asked that we inquire if insured is currently on disability?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-01-23T08:21:57.348</CreationDate>
+	<Notes/>
+	<Text>All States: Has Combined Insurance asked that we inquire if insured is currently on disability?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8F49-78076A4D4157"
+		/>
+	</TextIdentifier>
+</TranslatedText>

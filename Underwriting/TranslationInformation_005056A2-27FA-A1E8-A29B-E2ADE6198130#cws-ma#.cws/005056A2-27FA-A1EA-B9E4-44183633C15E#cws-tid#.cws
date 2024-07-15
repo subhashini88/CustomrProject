@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B9E4-44183634015E">
+	<DocumentID>005056A2-27FA-A1EA-B9E4-44183633C15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B9E4-44183633C15E</Name>
+	<Description>Tab7</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-27T04:39:01.099</CreationDate>
+	<Notes/>
+	<DefaultText>Tab7</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-B9E4-44183634415E"
+		/>
+	</Translations>
+</TextIdentifier>

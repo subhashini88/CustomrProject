@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B8E9-4EC47904C15E">
+	<DocumentID>005056A2-27FA-A1EA-B8E9-4EC47904815E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B8E9-4EC47904815E</Name>
+	<Description>Add Additional Insured</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-21T12:02:47.042</CreationDate>
+	<Notes/>
+	<Text>Add Additional Insured</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B8E9-4EC47904015E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

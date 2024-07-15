@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9D35-F777AFC3C16A">
+	<DocumentID>005056A2-27FA-A1EB-9D35-F777AFC3816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9D35-F777AFC3816A</Name>
+	<Description>New Business Batch</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-22T06:33:31.325</CreationDate>
+	<Notes/>
+	<Text>New Business Batch</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9D35-F777AFC3016A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

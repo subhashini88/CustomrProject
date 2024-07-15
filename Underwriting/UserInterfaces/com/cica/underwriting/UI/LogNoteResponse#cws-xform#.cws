@@ -1,0 +1,262 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B1BF-A2D04AF1813B">
+	<DocumentID>005056A2-27FA-A1E8-B1BF-A2D04AF1413B</DocumentID>
+	<Name>LogNoteResponse</Name>
+	<Description>LogNoteResponse</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-03T11:43:12.814</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<style
+					src="com/cica/uw/styles/UW_Demo_CaseScreen.css"
+					documentID="005056A2-27FA-A1E8-B5B4-E2EFB109813D"
+				/>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						appearance="box"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+						id="ResponseGroupbox"
+						wcpforms:customclass="autoextent"
+						isNavigationEnabled="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="h_layout"
+						wcpforms:size="70% auto"
+						wcpforms:labelalign="ontop">
+						<xforms:label
+							textIdentifier="005056A2-27FA-A1E8-B0B4-4DA3D5BAC13B"
+							wcpforms:class="groupheader">Response:</xforms:label>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="Result"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 16.4931px"
+							wcpforms:customclass="autoextent">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-B0B4-4DA3D5B8413B"
+								wcpforms:class="v_label removed">Result:</xforms:label>
+						</xforms:output>
+						<xforms:textarea
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+							id="NonVendorOrderRequiremnt"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 116px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-B702-B516AA52013D"
+								wcpforms:class="v_label">NonVendorOrderRequiremnt</xforms:label>
+						</xforms:textarea>
+						<xforms:group
+							appearance="controlbox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+							id="controlbox1"
+							controltype="button"
+							wcpforms:layout="horizontal"
+							wcpforms:class="v_layout autoextent"
+							wcpforms:align="left_align"
+							wcpforms:size="null auto"
+							wcpforms:customclass="autoextent">
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="btnOk"
+								wcpforms:class="h_button"
+								wcpforms:size="null 21.9965px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1E8-B0B4-4DA3D5B3413B">Ok</xforms:label>
+								<xforms:action
+									xmlns:ev="http://www.w3.org/2001/xml-events"
+									ev:event="xforms-activate">
+									<xforms:btnOk_Click/>
+								</xforms:action>
+							</xforms:trigger>
+						</xforms:group>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var responseMsg;
+function Form_Init(eventObject)
+{
+    NonVendorOrderRequiremnt.hide();
+          
+}
+function dialogReturnValue() {     }
+function btnOk_Click(eventObject)
+{
+    application.container.close();
+
+}
+function Form_InitDone(eventObject)
+{
+//debugger;
+    var resMessage=application.event.data.response;
+    
+    
+    responseMsg =resMessage.indexOf("NonVendor");
+    if(responseMsg>=0)
+    {
+        Result.hide();
+        NonVendorOrderRequiremnt.show();
+        NonVendorOrderRequiremnt.disable();
+        var newResp=resMessage.split("$$");
+        var NonResMessage="";
+        for(var z=0;z<newResp.length;z++)
+        {
+            NonResMessage=NonResMessage+"\n"+newResp[z];
+        }
+        
+        NonVendorOrderRequiremnt.setValue(NonResMessage);
+                
+    }
+    else
+    Result.setValue(resMessage);
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-init">
+				<xforms:Form_Init/>
+			</xforms:action>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>LogNoteResponse</taskDescription>
+	<taskName>LogNoteResponse</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FB30E88"
+			path="Underwriting/Web/com/cica/uw/styles/UW_Demo_CaseScreen.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+	</StyleSheets>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B1BF-A2D04AEF013B">
+			<DocumentID>005056A2-27FA-A1E8-B1BF-A2D04AEEC13B</DocumentID>
+			<Name>005056A2-27FA-A1E8-B1BF-A2D04AEEC13B</Name>
+			<Description>005056A2-27FA-A1E8-B1BF-A2D04AEEC13B</Description>
+			<CreatedBy>vinod</CreatedBy>
+			<CreationDate>2018-10-03T11:43:12.814</CreationDate>
+			<Notes/>
+			<DeveloperText>LogNoteResponse</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1E8-B1BF-A2D04AEF413B"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B702-B516AA53C13D">
+			<DocumentID>005056A2-27FA-A1E8-B702-B516AA53813D</DocumentID>
+			<Name>005056A2-27FA-A1E8-B702-B516AA53813D</Name>
+			<Description>005056A2-27FA-A1E8-B702-B516AA53813D</Description>
+			<CreatedBy>vinod</CreatedBy>
+			<CreationDate>2018-10-30T07:14:22.099</CreationDate>
+			<Notes/>
+			<UIRef>NonVendorOrderRequiremnt</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E8-B702-B516AA51C13D">
+					<DocumentID>005056A2-27FA-A1E8-B702-B516AA51813D</DocumentID>
+					<Name>005056A2-27FA-A1E8-B702-B516AA51813D</Name>
+					<Description>005056A2-27FA-A1E8-B702-B516AA51813D</Description>
+					<CreatedBy>vinod</CreatedBy>
+					<CreationDate>2018-10-30T07:14:22.098</CreationDate>
+					<Notes/>
+					<DeveloperText>NonVendorOrderRequiremnt</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E8-B702-B516AA52013D"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-B1BF-A2D04AF1413B"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices/>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B1BF-A2D04AEDC13B">
+			<DocumentID>005056A2-27FA-A1E8-B1BF-A2D04AED813B</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>vinod</CreatedBy>
+			<CreationDate>2018-10-03T11:45:07.764</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

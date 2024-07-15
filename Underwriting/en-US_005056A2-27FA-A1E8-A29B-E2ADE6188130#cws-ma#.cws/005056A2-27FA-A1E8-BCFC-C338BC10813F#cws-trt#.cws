@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCFC-C338BC10C13F">
+	<DocumentID>005056A2-27FA-A1E8-BCFC-C338BC10813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCFC-C338BC10813F</Name>
+	<Description>Case in Underwriting Queue ?</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T17:39:56.42</CreationDate>
+	<Notes/>
+	<Text>Case in Underwriting Queue ?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BCFC-C338BC10013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

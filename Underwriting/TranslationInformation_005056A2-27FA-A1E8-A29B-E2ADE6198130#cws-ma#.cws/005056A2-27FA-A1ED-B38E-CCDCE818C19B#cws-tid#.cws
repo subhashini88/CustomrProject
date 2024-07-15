@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B38D-713F64B5819B">
+	<DocumentID>005056A2-27FA-A1ED-B38E-CCDCE818C19B</DocumentID>
+	<Name>005056A2-27FA-A1ED-B38E-CCDCE818C19B</Name>
+	<Description>PP and GI count</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-29T14:08:54.7</CreationDate>
+	<Notes/>
+	<DefaultText>PP and GI count</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-B38D-713F64B5C19B"
+		/>
+	</Translations>
+</TextIdentifier>

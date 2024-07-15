@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A45E-AB79D2380131">
+	<DocumentID>005056A2-27FA-A1E8-A45E-AB79D237C131</DocumentID>
+	<Name>005056A2-27FA-A1E8-A45E-AB79D237C131</Name>
+	<Description>comp_unans_business_info</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-27T08:55:53.118</CreationDate>
+	<Notes/>
+	<Text>comp_unans_business_info</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-A45E-AB79D2374131"
+		/>
+	</TextIdentifier>
+</TranslatedText>

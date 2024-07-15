@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B613-3129CA6E013D">
+	<DocumentID>005056A2-27FA-A1E8-B613-3129CA6DC13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B613-3129CA6DC13D</Name>
+	<Description>Has Combined Insurance asked that we obtain the Medical advice or Treatment for: Heart attack, angina, coronary artery disease with angioplasty, stent placement, heart valve disorder or aorta disorder?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-25T12:15:40.069</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we obtain the Medical advice or Treatment for: Heart attack, angina, coronary artery disease with angioplasty, stent placement, heart valve disorder or aorta disorder?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B613-3129CA6D413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

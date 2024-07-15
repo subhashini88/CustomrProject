@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8292-EB8AE9E28172">
+	<DocumentID>005056A2-27FA-A1EC-8292-EB8AE9E24172</DocumentID>
+	<Name>005056A2-27FA-A1EC-8292-EB8AE9E24172</Name>
+	<Description>inputTriage</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-31T11:52:54.712</CreationDate>
+	<Notes/>
+	<Text>inputTriage</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-8292-EB8AE9E1C172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

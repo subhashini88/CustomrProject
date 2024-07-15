@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCFC-C338BC1AC13F">
+	<DocumentID>005056A2-27FA-A1E8-BCFC-C338BC1A813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCFC-C338BC1A813F</Name>
+	<Description>Get all close out date policies which are not jet approved (Ignore Jet approved policies which went to closed queue as discussed  - UWOT 1830</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T17:39:56.419</CreationDate>
+	<Notes/>
+	<Text>Get all close out date policies which are not jet approved (Ignore Jet approved policies which went to closed queue as discussed  - UWOT 1830</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BCFC-C338BC1A013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

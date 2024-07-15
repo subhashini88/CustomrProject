@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-AA2E-6EF059C0816D">
+	<DocumentID>005056A2-27FA-A1EB-AA2E-6EF059C0416D</DocumentID>
+	<Name>005056A2-27FA-A1EB-AA2E-6EF059C0416D</Name>
+	<Description>Fax</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-04-29T07:11:19.846</CreationDate>
+	<Notes/>
+	<Text>Fax</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-AA2E-6EF059BFC16D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

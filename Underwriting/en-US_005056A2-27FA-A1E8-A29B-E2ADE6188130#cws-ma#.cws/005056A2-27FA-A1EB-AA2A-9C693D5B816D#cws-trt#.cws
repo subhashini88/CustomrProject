@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-AA2A-9C693D5BC16D">
+	<DocumentID>005056A2-27FA-A1EB-AA2A-9C693D5B816D</DocumentID>
+	<Name>005056A2-27FA-A1EB-AA2A-9C693D5B816D</Name>
+	<Description>Tab3</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-04-29T05:25:54.571</CreationDate>
+	<Notes/>
+	<Text>Tab3</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-AA2A-9C693D5B016D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

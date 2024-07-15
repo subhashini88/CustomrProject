@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EB-84B5-60698F0D0165">
+	<DocumentID>005056A2-27FA-A1EB-84B5-60698F0CC165</DocumentID>
+	<Name>CheckGroupStatusSchedule</Name>
+	<Description>CheckGroupStatusSchedule</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-10-20T13:36:24.025</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="CheckGroupStatusSchedule"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="2023-03-20T10:40:01.919"
+			msgHolderLastModified="2023-02-27T10:44:05.357">
+			<datetime>
+				<daily>
+					<time>3:0</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1ED-B47B-57C8250D019B">
+			<DocumentID>005056A2-27FA-A1ED-B47B-57C8250CC19B</DocumentID>
+			<Name>005056A2-27FA-A1ED-B47B-57C8250CC19B</Name>
+			<Description>005056A2-27FA-A1ED-B47B-57C8250CC19B</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-04-03T07:04:45.1</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1ED-ADA2-0C562325019A"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

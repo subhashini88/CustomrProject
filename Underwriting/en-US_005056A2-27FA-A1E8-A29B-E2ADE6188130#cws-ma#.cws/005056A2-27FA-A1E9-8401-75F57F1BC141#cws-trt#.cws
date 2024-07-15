@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8401-75F57F1C0141">
+	<DocumentID>005056A2-27FA-A1E9-8401-75F57F1BC141</DocumentID>
+	<Name>005056A2-27FA-A1E9-8401-75F57F1BC141</Name>
+	<Description>dft_DueDate</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2019-01-04T09:52:55.451</CreationDate>
+	<Notes/>
+	<Text>dft_DueDate</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8401-75F57F1B4141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

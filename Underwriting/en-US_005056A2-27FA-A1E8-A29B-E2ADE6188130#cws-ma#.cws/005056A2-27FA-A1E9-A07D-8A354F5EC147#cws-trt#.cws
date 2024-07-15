@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A07D-8A354F5F0147">
+	<DocumentID>005056A2-27FA-A1E9-A07D-8A354F5EC147</DocumentID>
+	<Name>005056A2-27FA-A1E9-A07D-8A354F5EC147</Name>
+	<Description>Audit Info</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-05-29T09:58:36.807</CreationDate>
+	<Notes/>
+	<Text>Audit Info</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A07D-8A354F5E4147"
+		/>
+	</TextIdentifier>
+</TranslatedText>

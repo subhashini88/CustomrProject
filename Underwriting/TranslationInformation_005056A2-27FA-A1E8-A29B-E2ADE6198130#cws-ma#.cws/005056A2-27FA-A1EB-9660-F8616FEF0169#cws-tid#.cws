@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9660-F8616FEF4169">
+	<DocumentID>005056A2-27FA-A1EB-9660-F8616FEF0169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9660-F8616FEF0169</Name>
+	<Description>Decision_33</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-01-18T12:00:47.011</CreationDate>
+	<Notes/>
+	<DefaultText>Decision_33</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9660-F8616FEF8169"
+		/>
+	</Translations>
+</TextIdentifier>

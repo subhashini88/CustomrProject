@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-ACA6-A6EEF2D9C11E">
+	<DocumentID>005056A2-7798-A1E8-ACA6-A6EEF2D9811E</DocumentID>
+	<Name>005056A2-7798-A1E8-ACA6-A6EEF2D9811E</Name>
+	<Description>Rx Rules Decision:</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-07T12:51:49.671</CreationDate>
+	<Notes/>
+	<Text>Rx Rules Decision:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-ACA6-A6EEF2D9011E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

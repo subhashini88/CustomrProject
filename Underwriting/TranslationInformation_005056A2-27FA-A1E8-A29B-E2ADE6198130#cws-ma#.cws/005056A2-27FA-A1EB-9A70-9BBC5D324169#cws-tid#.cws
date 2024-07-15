@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9A70-9BBC5D328169">
+	<DocumentID>005056A2-27FA-A1EB-9A70-9BBC5D324169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9A70-9BBC5D324169</Name>
+	<Description>Enrollment Eff Date:</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-02-08T09:09:31.267</CreationDate>
+	<Notes/>
+	<DefaultText>Enrollment Eff Date:</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9A70-9BBC5D32C169"
+		/>
+	</Translations>
+</TextIdentifier>

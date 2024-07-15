@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEE-F98032AD813F">
+	<DocumentID>005056A2-27FA-A1E8-BDEE-F98032AD413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEE-F98032AD413F</Name>
+	<Description>What is your Medicare Part B effective Date as shown on your Medicare card?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T12:13:10.43</CreationDate>
+	<Notes/>
+	<Text>What is your Medicare Part B effective Date as shown on your Medicare card?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEF-590996B4013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

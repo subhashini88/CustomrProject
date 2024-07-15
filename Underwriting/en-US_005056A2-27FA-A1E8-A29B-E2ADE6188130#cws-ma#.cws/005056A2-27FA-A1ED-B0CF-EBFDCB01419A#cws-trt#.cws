@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B0CF-EBFDCB01819A">
+	<DocumentID>005056A2-27FA-A1ED-B0CF-EBFDCB01419A</DocumentID>
+	<Name>005056A2-27FA-A1ED-B0CF-EBFDCB01419A</Name>
+	<Description>if Processing of LSP Screens got delayed</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-15T15:02:28.492</CreationDate>
+	<Notes/>
+	<Text>if Processing of LSP Screens got delayed</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B0CF-EBFDCB00C19A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

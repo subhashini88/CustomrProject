@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B347-7D229384C19B">
+	<DocumentID>005056A2-27FA-A1ED-B347-7D229384819B</DocumentID>
+	<Name>005056A2-27FA-A1ED-B347-7D229384819B</Name>
+	<Description>API Time Out Error ReTrigger</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-28T07:52:11.5</CreationDate>
+	<Notes/>
+	<Text>API Time Out Error ReTrigger</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B347-7D229384019B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

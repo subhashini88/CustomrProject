@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BAB9-425E16B3417E">
+	<DocumentID>005056A2-27FA-A1EC-BAB9-425E16B3017E</DocumentID>
+	<Name>005056A2-27FA-A1EC-BAB9-425E16B3017E</Name>
+	<Description>yes_4</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2022-06-13T06:55:43.625</CreationDate>
+	<Notes/>
+	<DefaultText>yes_4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-BAB9-425E16B3817E"
+		/>
+	</Translations>
+</TextIdentifier>

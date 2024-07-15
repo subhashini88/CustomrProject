@@ -1,0 +1,27 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A427-816D6E4A8131">
+	<DocumentID>005056A2-27FA-A1E8-A427-816D6E4A4131</DocumentID>
+	<Name>005056A2-27FA-A1E8-A427-816D6E4A4131</Name>
+	<Description>Button1</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-26T07:08:27.077</CreationDate>
+	<Notes/>
+	<DefaultText>Button1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-A427-816D6E4AC131"
+		/>
+		<uri
+			id="005056A2-27FA-A1E9-903B-B0DD5D3D8144"
+		/>
+	</Translations>
+</TextIdentifier>

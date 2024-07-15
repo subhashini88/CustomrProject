@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9A83-1D7655D84169">
+	<DocumentID>005056A2-27FA-A1EB-9A83-1D7655D80169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9A83-1D7655D80169</Name>
+	<Description>Complete Case</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-02-08T12:57:48.387</CreationDate>
+	<Notes/>
+	<Text>Complete Case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9A83-1D7655D78169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

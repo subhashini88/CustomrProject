@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B63E-7EEF5161819B">
+	<DocumentID>005056A2-27FA-A1ED-B63E-7EEF5161419B</DocumentID>
+	<Name>005056A2-27FA-A1ED-B63E-7EEF5161419B</Name>
+	<Description>AEBOTtest</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-04-12T06:24:01.513</CreationDate>
+	<Notes/>
+	<Text>AEBOTtest</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B63E-7EEF5160C19B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

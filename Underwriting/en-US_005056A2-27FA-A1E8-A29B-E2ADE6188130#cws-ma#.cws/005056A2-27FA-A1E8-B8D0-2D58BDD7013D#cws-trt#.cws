@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B8D0-2D58BDD7413D">
+	<DocumentID>005056A2-27FA-A1E8-B8D0-2D58BDD7013D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B8D0-2D58BDD7013D</Name>
+	<Description>ErrorScreen</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-08T10:28:27.575</CreationDate>
+	<Notes/>
+	<Text>ErrorScreen</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B8D0-2D58BDD6813D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

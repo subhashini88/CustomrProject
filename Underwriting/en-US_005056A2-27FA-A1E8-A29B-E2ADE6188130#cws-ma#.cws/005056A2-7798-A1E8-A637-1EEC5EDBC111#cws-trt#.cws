@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-A637-1EEC5EDC0111">
+	<DocumentID>005056A2-7798-A1E8-A637-1EEC5EDBC111</DocumentID>
+	<Name>005056A2-7798-A1E8-A637-1EEC5EDBC111</Name>
+	<Description>AssingTask</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-08-05T18:22:46.188</CreationDate>
+	<Notes/>
+	<Text>AssingTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-A637-1EEC5EDB4111"
+		/>
+	</TextIdentifier>
+</TranslatedText>

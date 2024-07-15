@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-82D6-1AF475C2418D">
+	<DocumentID>005056A2-27FA-A1ED-82D6-1AF475C2018D</DocumentID>
+	<Name>005056A2-27FA-A1ED-82D6-1AF475C2018D</Name>
+	<Description>Send Task Process</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-24T13:58:49.467</CreationDate>
+	<Notes/>
+	<Text>Send Task Process</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-82D6-1AF475C1818D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

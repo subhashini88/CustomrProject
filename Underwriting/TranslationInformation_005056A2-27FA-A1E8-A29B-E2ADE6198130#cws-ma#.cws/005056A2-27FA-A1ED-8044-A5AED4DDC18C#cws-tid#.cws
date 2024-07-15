@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8044-A5AED4DE018C">
+	<DocumentID>005056A2-27FA-A1ED-8044-A5AED4DDC18C</DocumentID>
+	<Name>005056A2-27FA-A1ED-8044-A5AED4DDC18C</Name>
+	<Description>getpolicydetails</Description>
+	<CreatedBy>Keerthi</CreatedBy>
+	<CreationDate>2022-07-11T12:18:01.395</CreationDate>
+	<Notes/>
+	<DefaultText>getpolicydetails</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-8044-A5AED4DE418C"
+		/>
+	</Translations>
+</TextIdentifier>

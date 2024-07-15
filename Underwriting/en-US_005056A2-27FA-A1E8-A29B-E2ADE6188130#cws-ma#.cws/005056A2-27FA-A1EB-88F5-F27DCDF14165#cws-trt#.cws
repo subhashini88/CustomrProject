@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-88F5-F27DCDF18165">
+	<DocumentID>005056A2-27FA-A1EB-88F5-F27DCDF14165</DocumentID>
+	<Name>005056A2-27FA-A1EB-88F5-F27DCDF14165</Name>
+	<Description>Insured Name*:</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-11-11T07:14:39.002</CreationDate>
+	<Notes/>
+	<Text>Insured Name*:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-88F5-F27DCDF0C165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

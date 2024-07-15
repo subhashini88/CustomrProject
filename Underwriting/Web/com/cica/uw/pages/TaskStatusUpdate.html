@@ -1,0 +1,359 @@
+<html>
+<head>
+</head>
+<script type="text/javascript">
+
+setPublic(SalesTasksEventHandler, "cpc.nsinbox.utils");
+
+function SalesTasksEventHandler()
+{
+
+}
+
+// Any Initialization to the Library do it in this function
+function initializeObject(SalesTasksEventHandler)
+{
+
+}
+
+SalesTasksEventHandler.attachType = function(SalesTasksEventHandlerHTMLObject)
+{
+    initializeObject(SalesTasksEventHandlerHTMLObject);
+}
+
+SalesTasksEventHandler.detachType = function(SalesTasksEventHandlerHTMLObject)
+{
+
+}
+
+/**
+*    @dataObject - this array will contain SourceType,SourceInstanceId,TaskId & Workflow object as properties.
+*/
+
+SalesTasksEventHandler.prototype.OnBeforePause = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    
+    /* For example, take a look at the custom logic sample provided for disabling the option of pausing multiple tasks
+    
+        if(dataObject.SelectedOptions.length > 1)
+        {
+            for(var i=0; i<dataObject.SelectedOptions.length; i++)
+            {
+                dataObject.SelectedOptions[i].ReturnValue = false;
+            }
+        }
+    */
+    
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterPause = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterStart = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterResume = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeStart = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeResume = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeSuspend = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterSuspend = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeSkip = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterSkip = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeStop = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterStop = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeClaim = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterClaim = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeRevoke = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterRevoke = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeAssign = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterAssign = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeForward = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterForward = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeDelegate = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterDelegate = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeTransfer = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterTransfer = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeAttachment = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterAttachment = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeDeleteAttachment = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterDeleteAttachment = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeUpdateAttachment = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterUpdateAttachment = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeViewAttachment = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterViewAttachment = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeMemo = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterMemo = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeUpdateMemo = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterUpdateMemo = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeDeleteMemo = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterDeleteMemo = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeModifyAttributes = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterModifyAttributes = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+
+SalesTasksEventHandler.prototype.OnBeforeCommit = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterCommit = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+
+}
+
+function aftercommitcallback(dataObject)
+{
+    return function(returnVal)
+    {
+        if(returnVal == "1")
+        {
+
+        }
+        else if (returnVal == "0")
+        {
+
+        }
+        else
+        {
+
+        }
+
+        dataObject.CallBackFunction(dataObject.dataObject);
+    }
+}
+
+SalesTasksEventHandler.prototype.OnBeforePlanFreeFollowUps = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterPlanFreeFollowUps = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforePlanInterMediateFollowups = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterPlanInterMediateFollowups = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnAfterOpen = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+SalesTasksEventHandler.prototype.OnBeforeClose = function(dataObject,CallBackFunction)
+{
+    //custom logic
+    CallBackFunction(dataObject);
+}
+
+</script>
+<body>
+</body>
+</html>

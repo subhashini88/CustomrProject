@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B1B9-71D3C86D413B">
+	<DocumentID>005056A2-27FA-A1E8-B1B9-71D3C86D013B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B1B9-71D3C86D013B</Name>
+	<Description>Peronal Follow Up</Description>
+	<CreatedBy>ramya</CreatedBy>
+	<CreationDate>2018-10-03T09:56:13.991</CreationDate>
+	<Notes/>
+	<Text>Peronal Follow Up</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B1B9-71D3C86C813B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

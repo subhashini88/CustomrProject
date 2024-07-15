@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9D6F-468336B5416A">
+	<DocumentID>005056A2-27FA-A1EB-9D6F-468336B5016A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9D6F-468336B5016A</Name>
+	<Description>GetAllADLErrorFiles</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-23T10:19:03.88</CreationDate>
+	<Notes/>
+	<Text>GetAllADLErrorFiles</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9D6F-468336B4816A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

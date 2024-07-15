@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-84E2-A900447A0165">
+	<DocumentID>005056A2-27FA-A1EB-84E2-A9004479C165</DocumentID>
+	<Name>005056A2-27FA-A1EB-84E2-A9004479C165</Name>
+	<Description>datePicker diffFont</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-21T11:19:10.982</CreationDate>
+	<Notes/>
+	<Text>datePicker diffFont</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-84E2-A90044794165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCFE-FDDCBFF1C13F">
+	<DocumentID>005056A2-27FA-A1E8-BCFE-FDDCBFF1813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCFE-FDDCBFF1813F</Name>
+	<Description>Email Will Include , Policy Number , Company Code what was the decision applied, , Was Decision Successful or not ,  , What was the letter id , and was letter id submission successful or not ?</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T17:39:56.444</CreationDate>
+	<Notes/>
+	<Text>Email Will Include , Policy Number , Company Code what was the decision applied, , Was Decision Successful or not ,  , What was the letter id , and was letter id submission successful or not ?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BCFE-FDDCBFF1013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

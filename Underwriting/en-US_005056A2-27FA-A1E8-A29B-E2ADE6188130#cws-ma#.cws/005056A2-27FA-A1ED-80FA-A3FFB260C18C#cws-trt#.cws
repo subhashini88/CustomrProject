@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-80FA-A3FFB261018C">
+	<DocumentID>005056A2-27FA-A1ED-80FA-A3FFB260C18C</DocumentID>
+	<Name>005056A2-27FA-A1ED-80FA-A3FFB260C18C</Name>
+	<Description>Vertical Lane</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-07-15T03:13:40.81</CreationDate>
+	<Notes/>
+	<Text>Vertical Lane</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-80FA-A3FFB260418C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9FB5-49382F3C8147">
+	<DocumentID>005056A2-27FA-A1E9-9FB5-49382F3C4147</DocumentID>
+	<Name>005056A2-27FA-A1E9-9FB5-49382F3C4147</Name>
+	<Description>Person Info</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-05-25T10:10:35.073</CreationDate>
+	<Notes/>
+	<Text>Person Info</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9FB5-49382F3BC147"
+		/>
+	</TextIdentifier>
+</TranslatedText>

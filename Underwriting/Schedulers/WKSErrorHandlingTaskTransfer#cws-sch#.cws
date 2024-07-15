@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8D58-307839054167">
+	<DocumentID>005056A2-27FA-A1EB-8D58-307839050167</DocumentID>
+	<Name>WKSErrorHandlingTaskTransfer</Name>
+	<Description>WKSErrorHandlingTaskTransfer</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-12-03T12:30:07.966</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="WKSErrorHandlingTaskTransfer"
+			count="-1"
+			autodeploy="true"
+			targetLastModified="2020-11-30T04:19:00.107"
+			msgHolderLastModified="2020-12-24T07:14:47.315">
+			<datetime>
+				<daily>
+					<time>10:10</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8D58-307839008167">
+			<DocumentID>005056A2-27FA-A1EB-8D58-307839004167</DocumentID>
+			<Name>005056A2-27FA-A1EB-8D58-307839004167</Name>
+			<Description>005056A2-27FA-A1EB-8D58-307839004167</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-03T12:30:07.966</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EB-8B9C-CCCC649C8167"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

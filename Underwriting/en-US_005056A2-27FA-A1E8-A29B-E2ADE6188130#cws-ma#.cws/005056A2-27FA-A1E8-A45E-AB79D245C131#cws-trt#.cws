@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A45E-AB79D2460131">
+	<DocumentID>005056A2-27FA-A1E8-A45E-AB79D245C131</DocumentID>
+	<Name>005056A2-27FA-A1E8-A45E-AB79D245C131</Name>
+	<Description>comp_unans_medicaid_question</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-27T08:55:53.025</CreationDate>
+	<Notes/>
+	<Text>comp_unans_medicaid_question</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-A45E-AB79D2454131"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BDFC-B10D23204160">
+	<DocumentID>005056A2-27FA-A1EA-BDFC-B10D23200160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BDFC-B10D23200160</Name>
+	<Description>Abnormal Mammogram</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T08:52:09.884</CreationDate>
+	<Notes/>
+	<Text>Abnormal Mammogram</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BDFC-B10D231F8160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

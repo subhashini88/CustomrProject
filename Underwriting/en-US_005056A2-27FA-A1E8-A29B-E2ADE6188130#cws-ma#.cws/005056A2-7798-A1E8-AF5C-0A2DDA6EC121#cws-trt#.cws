@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AF5C-0A2DDA6F0121">
+	<DocumentID>005056A2-7798-A1E8-AF5C-0A2DDA6EC121</DocumentID>
+	<Name>005056A2-7798-A1E8-AF5C-0A2DDA6EC121</Name>
+	<Description>Cancel</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-21T09:05:14.571</CreationDate>
+	<Notes/>
+	<Text>Cancel</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AF5C-0A2DDA6E4121"
+		/>
+	</TextIdentifier>
+</TranslatedText>

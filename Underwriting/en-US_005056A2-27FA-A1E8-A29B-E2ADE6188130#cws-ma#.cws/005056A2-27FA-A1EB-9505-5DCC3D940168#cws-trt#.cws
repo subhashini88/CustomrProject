@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9505-5DCC3D944168">
+	<DocumentID>005056A2-27FA-A1EB-9505-5DCC3D940168</DocumentID>
+	<Name>005056A2-27FA-A1EB-9505-5DCC3D940168</Name>
+	<Description>Cancellation Reason</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-01-12T09:26:29.891</CreationDate>
+	<Notes/>
+	<Text>Cancellation Reason</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9505-5DCC3D938168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

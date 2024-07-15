@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC7F-1A191357413F">
+	<DocumentID>005056A2-27FA-A1E8-BC7F-1A191357013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC7F-1A191357013F</Name>
+	<Description>Assign Values to Input Mesasge</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-27T04:28:57.714</CreationDate>
+	<Notes/>
+	<Text>Assign Values to Input Mesasge</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC7F-1A191356813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

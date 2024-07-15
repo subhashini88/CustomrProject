@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A496-6A79AD2F414A">
+	<DocumentID>005056A2-27FA-A1E9-A496-6A79AD2F014A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A496-6A79AD2F014A</Name>
+	<Description>(915)PSA TEST ON BLOOD(males only)</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T06:18:54.953</CreationDate>
+	<Notes/>
+	<Text>(915)PSA TEST ON BLOOD(males only)</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A496-6A79AD2E814A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

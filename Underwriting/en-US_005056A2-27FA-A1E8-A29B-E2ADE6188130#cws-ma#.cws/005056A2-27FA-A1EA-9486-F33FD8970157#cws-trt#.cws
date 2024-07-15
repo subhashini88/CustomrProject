@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-9486-F33FD8974157">
+	<DocumentID>005056A2-27FA-A1EA-9486-F33FD8970157</DocumentID>
+	<Name>005056A2-27FA-A1EA-9486-F33FD8970157</Name>
+	<Description>BPM TaskCompletionActivity</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-02-18T08:40:24.517</CreationDate>
+	<Notes/>
+	<Text>BPM TaskCompletionActivity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-9486-F33FD8968157"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A049-AEB95B27016A">
+	<DocumentID>005056A2-27FA-A1EB-A049-AEB95B26C16A</DocumentID>
+	<Name>005056A2-27FA-A1EB-A049-AEB95B26C16A</Name>
+	<Description>BOT error batch</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2021-03-09T22:48:23.174</CreationDate>
+	<Notes/>
+	<Text>BOT error batch</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A049-AEB95B26416A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

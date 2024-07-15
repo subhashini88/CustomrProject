@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A496-6A79AD2B814A">
+	<DocumentID>005056A2-27FA-A1E9-A496-6A79AD2B414A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A496-6A79AD2B414A</Name>
+	<Description>(916)HBA1C TEST ON BLOOD</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T06:18:54.897</CreationDate>
+	<Notes/>
+	<Text>(916)HBA1C TEST ON BLOOD</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A496-6A79AD2AC14A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

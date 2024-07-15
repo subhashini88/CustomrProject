@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B451-779444CDC13D">
+	<DocumentID>005056A2-27FA-A1E8-B451-779444CD813D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B451-779444CD813D</Name>
+	<Description>&lt;h4&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;This State only allows a Maximum of 2 Exclusion Riders.&amp;#160; Please refer to Management if the Policy requires 3+&lt;/span&gt;&lt;/h4&gt;_446</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-16T13:43:23.488</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;h4&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;This State only allows a Maximum of 2 Exclusion Riders.&amp;#160; Please refer to Management if the Policy requires 3+&lt;/span&gt;&lt;/h4&gt;_446</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B451-779444CE013D"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B88F-B4EBAEA7C17E">
+	<DocumentID>005056A2-27FA-A1EC-B88F-B4EBAEA7817E</DocumentID>
+	<Name>Underwriting Service</Name>
+	<Description>Underwriting Service</Description>
+	<CreatedBy>Karthik</CreatedBy>
+	<CreationDate>2022-06-02T08:38:54.942</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1EC-BB4C-0ABAE37C417E">
+			<DocumentID>005056A2-27FA-A1EC-BB4C-0ABAE37C017E</DocumentID>
+			<Name>ManualServiceTaskCreator_005056A2-27FA-A1EC-BB4C-0ABAE37C017E</Name>
+			<Description>ManualServiceTaskCreator_005056A2-27FA-A1EC-BB4C-0ABAE37C017E</Description>
+			<CreatedBy>kunal</CreatedBy>
+			<CreationDate>2022-06-16T11:15:31.943</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1EC-B951-BF36CCBCC17E"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+</RoleDesignTime>

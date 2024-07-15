@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B25B-1E4683CCC13B">
+	<DocumentID>005056A2-27FA-A1E8-B25B-1E4683CC813B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B25B-1E4683CC813B</Name>
+	<Description>Nonvcendor</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-06T13:46:38.911</CreationDate>
+	<Notes/>
+	<Text>Nonvcendor</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B25B-1E4683CC013B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

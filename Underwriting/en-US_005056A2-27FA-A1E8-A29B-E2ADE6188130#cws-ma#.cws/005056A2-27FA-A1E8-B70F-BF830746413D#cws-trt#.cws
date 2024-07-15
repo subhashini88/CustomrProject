@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B70F-BF830746813D">
+	<DocumentID>005056A2-27FA-A1E8-B70F-BF830746413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B70F-BF830746413D</Name>
+	<Description>asyncUI</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-10-30T12:26:42.294</CreationDate>
+	<Notes/>
+	<Text>asyncUI</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B70F-BF830745C13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B335-2DB7D487416F">
+	<DocumentID>005056A2-27FA-A1EB-B335-2DB7D487016F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B335-2DB7D487016F</Name>
+	<Description>GetOnlyCompleteOrNA_Using_MtrAppNo</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-14T05:52:36.575</CreationDate>
+	<Notes/>
+	<Text>GetOnlyCompleteOrNA_Using_MtrAppNo</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B335-2DB7D486816F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

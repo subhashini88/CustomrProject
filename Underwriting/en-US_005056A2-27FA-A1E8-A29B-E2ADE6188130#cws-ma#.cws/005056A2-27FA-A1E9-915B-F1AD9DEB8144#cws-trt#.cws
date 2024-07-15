@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-915B-F1AD9DEBC144">
+	<DocumentID>005056A2-27FA-A1E9-915B-F1AD9DEB8144</DocumentID>
+	<Name>005056A2-27FA-A1E9-915B-F1AD9DEB8144</Name>
+	<Description>Send email only for the old cases</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-03-13T09:19:42.963</CreationDate>
+	<Notes/>
+	<Text>Send email only for the old cases</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-915B-F1AD9DEB0144"
+		/>
+	</TextIdentifier>
+</TranslatedText>

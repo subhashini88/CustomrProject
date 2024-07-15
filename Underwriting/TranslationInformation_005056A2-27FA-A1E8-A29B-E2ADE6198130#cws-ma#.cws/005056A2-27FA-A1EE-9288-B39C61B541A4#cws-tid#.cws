@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9288-B39C61B581A4">
+	<DocumentID>005056A2-27FA-A1EE-9288-B39C61B541A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-9288-B39C61B541A4</Name>
+	<Description>Claim Status</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-09-03T06:32:32.311</CreationDate>
+	<Notes/>
+	<DefaultText>Claim Status</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-9288-B39C61B5C1A4"
+		/>
+	</Translations>
+</TextIdentifier>

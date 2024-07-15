@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-ACD5-A200A864017C">
+	<DocumentID>005056A2-27FA-A1EC-ACD5-A200A863C17C</DocumentID>
+	<Name>005056A2-27FA-A1EC-ACD5-A200A863C17C</Name>
+	<Description>Job Status</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2022-04-03T14:31:25.258</CreationDate>
+	<Notes/>
+	<DefaultText>Job Status</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-ACD5-A200A864417C"
+		/>
+	</Translations>
+</TextIdentifier>

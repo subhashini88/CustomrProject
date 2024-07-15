@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BBA9-23C30C19015E">
+	<DocumentID>005056A2-27FA-A1EA-BBA9-23C30C18C15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BBA9-23C30C18C15E</Name>
+	<Description>Child Benefit:</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-04T12:41:38.969</CreationDate>
+	<Notes/>
+	<Text>Child Benefit:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BBA9-23C30C18415E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

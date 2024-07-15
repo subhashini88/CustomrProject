@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9FB5-49382F3C0147">
+	<DocumentID>005056A2-27FA-A1E9-9FB5-49382F3BC147</DocumentID>
+	<Name>005056A2-27FA-A1E9-9FB5-49382F3BC147</Name>
+	<Description>Person Info</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-05-25T10:10:35.069</CreationDate>
+	<Notes/>
+	<DefaultText>Person Info</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-9FB5-49382F3C4147"
+		/>
+	</Translations>
+</TextIdentifier>

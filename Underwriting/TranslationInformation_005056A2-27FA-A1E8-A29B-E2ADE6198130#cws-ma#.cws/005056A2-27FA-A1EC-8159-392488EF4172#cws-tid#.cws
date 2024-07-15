@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8159-392488EF8172">
+	<DocumentID>005056A2-27FA-A1EC-8159-392488EF4172</DocumentID>
+	<Name>005056A2-27FA-A1EC-8159-392488EF4172</Name>
+	<Description>Non NB case creation_1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-25T06:20:41.487</CreationDate>
+	<Notes/>
+	<DefaultText>Non NB case creation_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-8159-392488EFC172"
+		/>
+	</Translations>
+</TextIdentifier>

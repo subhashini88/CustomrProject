@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-82F4-304E7BA5818D">
+	<DocumentID>005056A2-27FA-A1ED-82F4-304E7BA5418D</DocumentID>
+	<Name>005056A2-27FA-A1ED-82F4-304E7BA5418D</Name>
+	<Description>UW CCA case</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-25T04:20:25.482</CreationDate>
+	<Notes/>
+	<Text>UW CCA case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-82F4-304E7BA4C18D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B641-23DEAE75413D">
+	<DocumentID>005056A2-27FA-A1E8-B641-23DEAE75013D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B641-23DEAE75013D</Name>
+	<Description>UploadFileBPM</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-26T09:56:00.176</CreationDate>
+	<Notes/>
+	<Text>UploadFileBPM</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B641-23DEAE74813D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

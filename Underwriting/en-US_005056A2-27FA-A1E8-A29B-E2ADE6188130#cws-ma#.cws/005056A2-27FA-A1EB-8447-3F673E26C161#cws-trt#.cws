@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8447-3F673E270161">
+	<DocumentID>005056A2-27FA-A1EB-8447-3F673E26C161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8447-3F673E26C161</Name>
+	<Description>Foolow</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-10-18T09:52:40.38</CreationDate>
+	<Notes/>
+	<Text>Foolow</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8447-3F673E264161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

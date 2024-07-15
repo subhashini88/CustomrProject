@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B6EB-90ADFF55C15D">
+	<DocumentID>005056A2-27FA-A1EA-B6EB-90ADFF55815D</DocumentID>
+	<Name>005056A2-27FA-A1EA-B6EB-90ADFF55815D</Name>
+	<Description>GetUnderwritingRecordForPolicyNumber</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-08-11T09:39:18.362</CreationDate>
+	<Notes/>
+	<Text>GetUnderwritingRecordForPolicyNumber</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B6EB-90ADFF55015D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

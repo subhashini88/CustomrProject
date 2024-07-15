@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-821C-DC023B418161">
+	<DocumentID>005056A2-27FA-A1EB-821C-DC023B414161</DocumentID>
+	<Name>005056A2-27FA-A1EB-821C-DC023B414161</Name>
+	<Description>Bill Call Request Notes:</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-07T08:10:50.81</CreationDate>
+	<Notes/>
+	<Text>Bill Call Request Notes:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-821C-DC023B40C161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

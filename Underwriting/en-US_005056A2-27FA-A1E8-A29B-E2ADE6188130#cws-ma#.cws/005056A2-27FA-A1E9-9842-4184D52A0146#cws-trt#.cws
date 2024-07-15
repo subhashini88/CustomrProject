@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9842-4184D52A4146">
+	<DocumentID>005056A2-27FA-A1E9-9842-4184D52A0146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9842-4184D52A0146</Name>
+	<Description>Coverage Dependent Form</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-17T12:05:46.79</CreationDate>
+	<Notes/>
+	<Text>Coverage Dependent Form</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9842-4184D5298146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

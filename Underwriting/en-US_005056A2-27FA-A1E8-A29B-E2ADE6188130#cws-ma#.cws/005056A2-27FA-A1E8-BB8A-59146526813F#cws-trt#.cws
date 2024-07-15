@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-59146526C13F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-59146526813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-59146526813F</Name>
+	<Description>uw_pend_cpe_rev_dt</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:06.622</CreationDate>
+	<Notes/>
+	<Text>uw_pend_cpe_rev_dt</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-59146526013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

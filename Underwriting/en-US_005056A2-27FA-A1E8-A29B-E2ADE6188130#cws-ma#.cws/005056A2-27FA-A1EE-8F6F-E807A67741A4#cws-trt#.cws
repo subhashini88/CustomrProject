@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8F6F-E807A67781A4">
+	<DocumentID>005056A2-27FA-A1EE-8F6F-E807A67741A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8F6F-E807A67741A4</Name>
+	<Description>PFP?</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2023-08-18T12:31:48.406</CreationDate>
+	<Notes/>
+	<Text>PFP?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8F6F-E807A676C1A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

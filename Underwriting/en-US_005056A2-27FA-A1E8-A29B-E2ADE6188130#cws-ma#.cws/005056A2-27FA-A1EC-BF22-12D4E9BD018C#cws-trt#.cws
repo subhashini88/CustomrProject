@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BF22-12D4E9BD418C">
+	<DocumentID>005056A2-27FA-A1EC-BF22-12D4E9BD018C</DocumentID>
+	<Name>005056A2-27FA-A1EC-BF22-12D4E9BD018C</Name>
+	<Description>getImtaskforPHSfollow_up</Description>
+	<CreatedBy>Karthik</CreatedBy>
+	<CreationDate>2022-07-05T17:40:10.96</CreationDate>
+	<Notes/>
+	<Text>getImtaskforPHSfollow_up</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BF22-12D4E9BC818C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

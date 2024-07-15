@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8C61-7AF3F13D8167">
+	<DocumentID>005056A2-27FA-A1EB-8C61-7AF3F13D4167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8C61-7AF3F13D4167</Name>
+	<Description>Assign Action1</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2020-11-28T14:28:11.888</CreationDate>
+	<Notes/>
+	<DefaultText>Assign Action1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8C61-7AF3F13DC167"
+		/>
+	</Translations>
+</TextIdentifier>

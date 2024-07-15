@@ -1,0 +1,500 @@
+
+.primary-header .groupheader {
+    background-color: #337ab7;
+    font-size: 12px;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 30px;
+    /* font-size: 13px; */
+  }
+  .primary-header .groupheader label {
+    color:#fff;
+    /* padding: 16px; */
+  }
+  .primary-header .xcontainerbox {
+        margin: 5px 5px;
+  }
+  .primary-header .xcontainerbox .groupheader {
+    background-color: #ddd;
+    /* padding: 3px; */
+    text-align: center;
+    margin-right: 85%;
+    /* position: relative; */
+    /* top: 10px; */
+    padding: 1px;
+  }
+  .primary-header .xcontainerbox .groupheader label{
+    color: #080808;
+    font-size: 12px;
+    /* margin: 10px; */
+    position: relative;
+    top: 0;
+    font-weight: normal !important;
+  }
+  
+  .primary-header.v_layout , .primary-header .h_layout{
+    /* margin: 0 10px; */
+    font-size: 10px;
+    color: #106bad;
+    font-weight: bold;
+    /* margin: 1em 3.4em 0 10px; */
+    position: relative;
+  }
+  .primary-header .h_button {
+    /* background-color: #337ab7; */
+    color: #fff;
+    border-radius: 4px;
+    border-color: transparent;
+    border-color: #98012e;
+    background-color: #98012e;
+  }
+  .primary-header .h_button.sec-btn{
+     border-color: #98012e;
+    background-color: transparent;
+    color: #98012e;
+  }
+  .primary-header .v_label {
+    margin: 1px 5px;
+    top: 23px;
+    /* position: absolute; */
+    z-index: 9;
+  }
+  
+  .primary-header .fieldsbox {
+    height: 30px;
+    margin-bottom:10px;
+  }
+  .primary-header .fieldsbox input {
+    color: #555;
+    /* width: 200px; */
+    /* margin-top: 0px; */
+  }
+  .primary-header .selectbox,.left_align, .primary-header .fieldsbox input.input {height: 30px;color: #555;background-color: #fff;background-image: none;/* border: 1px solid #ccc; */border-radius: 4px;/* margin: 0 0 0 0; */}
+  .primary-header .autoextent .left_align {
+  border-color: transparent;
+  }
+  
+  .primary-header .input#input8, .primary-header .input#input7  {
+    height: 30px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  
+  .primary-header button.item.small.lookup_button {
+    position: relative;
+    left: 120px;
+    top: -22px;
+  }
+  .primary-header .listbox{
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   
+  }
+  .primary-header .selectfield button.closed {
+  background-color:transparent;
+  }
+  
+  .primary-header .h_layout.field_col{
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .primary-header .choicegroup .h_label {
+   border-color: transparent;
+  }
+  .primary-header .lookup.fieldsbox {
+    margin-right: 0;
+  }
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+  width: 1.3em;
+  height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #c3c8ce;
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-color: #2196F3;
+  outline: 0.1em solid #2196F3;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #0271fd;
+  }
+  .primary-header button, .primary-header .h_button, .primary-header .v_button {
+      background-image: none;
+      height: 30px;
+  }
+  .h_layout{
+  margin: 1em 3.4em 5px 0;
+  }
+  .primary-header.v_layout, .primary-header .h_layout .choicebox {
+  position:relative;
+  top:20px;
+  }
+  /*.primary-header.v_layout, .primary-header .h_layout .simplecontainer.right_align{
+  position:relative;
+  top:40px;
+  }*/
+  .primary-header .grid.data th {
+    background-color: #ddd;
+    background-image: none;
+    border-color: transparent;
+    height: 30px;
+    border: none;
+    text-align: left;
+    padding-left: 0;
+  }
+  .primary-header .grid.data th label{
+    color: #080808;
+    font-size: 11px;
+    font-weight: normal;
+  }
+  .primary-header td .fieldsbox input.input {
+   border:none;
+   font-size: 10px;
+   color: #000;
+  }
+  .primary-header .highlight, .primary-header .grid tr.highlight.evenrow, .primary-header .grid tr.highlight.oddrow, .primary-header .grid tr.highlight, .primary-header menuitem.highlight, .primary-header .evenrow.highlight, .primary-header .oddrow.highlight, .primary-header .lightmedium.highlight, .primary-header .light.highlight {
+       background-color: transparent;
+       border: none;
+  }
+  .primary-header .grid.data tbody td {
+      border: none;
+      /* height: 31px; */
+  }
+  .primary-header .f_layout .left_align {
+    border:none;
+  }
+  
+  .primary-header .h_layout.field_input label{
+      font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top: 0;
+      left: -3px;
+  }
+  .primary-header .f_layout .simplecontainer.left_align img {/* padding-right: 3px; */padding-left: 5px;}
+  .primary-header .look_right button.item.small.lookup_button{
+    left:170px;
+  }
+  .primary-header .look_right{
+    position:relative;
+  }
+  .primary-header .look_right.topview .v_label{
+    top:0;
+    margin: 1px 0;
+  }
+  .primary-header .floating_coln{
+    position:relative;
+  }
+  .primary-header .floating_coln.topview .v_label{
+    top:0;
+    margin: 1px 0;
+  }
+  .primary-header td .fieldsbox{
+    padding: 0px;
+    margin-bottom: 0;
+  }
+  .primary-header .h_layout.autoextent .simplecontainer.left_align img {
+    padding: 5px 15px 0 0;
+  }
+  .primary-header #TskResId{
+    margin: 1px 0 0;
+    padding: 3px;
+  }
+.primary-header .dropDown_colm {
+    margin-top:24px;
+font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top:0px;
+  }
+
+.primary-header .dropDown_Operator {
+    margin-top:-2px;
+font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top:0px;
+  }
+.primary-header .dropDown_Operator label  {
+    margin-top: 11px;
+     font-size: 10px;
+    color: #106bad;
+    
+  }
+.primary-header .dropDown_colm  label  {
+    margin-top: 11px;
+     font-size: 10px;
+    color: #106bad;
+    
+  }
+ .primary-header.v_layout, .primary-header .h_layout.saved_search{
+    position:relative;
+    left: 470px;
+  }
+
+.primary-header .dropDown_colm {
+    margin-top:24px;
+font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top:0px;
+  }
+
+.primary-header .dropDown_Operator {
+    margin-top:-2px;
+font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top:0px;
+  }
+.primary-header .dropDown_Operator label  {
+    margin-top: 11px;
+     font-size: 10px;
+    color: #106bad;
+    
+  }
+.primary-header .dropDown_colm  label  {
+    margin-top: 11px;
+     font-size: 10px;
+    color: #106bad;
+    
+  }
+ .primary-header.v_layout, .primary-header .h_layout.saved_search{
+    position:relative;
+    left: 470px;
+  }
+
+ .primary-header .tabcontainer
+{
+    background:#ffffff !important;
+}
+
+
+
+.primary-header span
+{
+/*    color: #106bad;
+    font-size: 15px;*/
+    margin-left: -2px; 
+color: #0067a2 !important;
+    font-family: arial !important;
+    height: 20px !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.64px !important;
+}
+
+
+.primary-header p
+{
+ 
+    font-size: 13px;
+    color: black;
+
+}
+
+.primary-header .h_choicebox
+{
+ width:100% !important;font-size: 14px;padding-top: 10px;font-weight: normal;
+}
+
+.primary-header .activetab
+{
+
+    background: #106bad !important;
+   /* display: -webkit-inline-box  !important;
+           height: 35px;
+    padding: 10%;*/
+/*font-size: x-large;*/
+margin-left: 20px !important;
+    height: 50px;
+    object-fit: contain;
+    border: 0px none;
+font-size:xx-large;
+}
+
+.primary-header .activetab label
+{
+
+    font-size: 18px !important;
+    font-family: Arial !important;
+    font-weight: normal !important;
+    color: #ffffff !important;
+    /* font-family: sans-serif !important; */
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 1.03px;
+
+}
+
+
+ .primary-header .inactivetab
+{
+   
+    /*background: transparent !important;
+    display: -webkit-inline-box !important;
+    height: 35px;
+    padding: 10%;*/
+    margin-left: 20px !important;
+    height: 50px;
+    object-fit: contain;
+    border: 1px solid;
+    border-color: #d3d3d373;
+    background-color: transparent;
+font-size:xx-large;
+}
+
+ .primary-header .inactivetab label
+{
+
+   font-size: 18px !important;
+    font-family: Arial !important;
+    font-weight: normal !important;
+    color: #00629b !important;
+    /* font-family: sans-serif !important; */
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 1.03px;
+
+}
+ .primary-header .tabcontent
+{
+  margin-top: 2.8% !important;
+    margin-left: 0.5%;
+    border-radius: 0px;
+    border-color: #d3d3d338;
+    object-fit: contain;
+    box-shadow: 0 1px 3px 1px rgba(205,205,205,0.5);
+}
+
+ .primary-header .v_layout .simplecontainer
+{
+   /* margin-left:10px !important;*/
+}
+
+.primary-header .NotesType  .h_choicebox{
+width:125px !important;
+}
+.primary-header .Notes  .fieldsbox{
+height:auto !important;
+
+}
+.primary-header .Notes  button{
+    font-size: 14px;
+    width: auto;
+    background-color: #106bad;
+    color: #fff;
+   padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+border-color: transparent;
+}
+.primary-header .notesHistory  .fieldsbox{
+padding-top: 30px;
+height:165px;
+font-size:14px;
+ font-family: Arial !important;
+ font-weight: normal !important;
+}
+.primary-header .Notes  textarea
+{
+font: -webkit-control;
+}
+
+.primary-header .notesHistory  .fieldsbox textarea{
+border: 0px solid #ccc;
+color:#555;
+pointer-events:none
+}
+.primary-header .UwTab .h_choicebox{
+width:155px !important;
+}
+.primary-header .pending-button .btn-default.active,
+.primary-header .pending-button button,
+.primary-header .pending-button button:hover,
+.primary-header .pending-button .btn-default:active,
+.primary-header .pending-button .open>.dropdown-toggle.btn-default {
+    background-color: #98012e;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.primary-header .pending-button .dropdown-menu>li>a {
+    color: #98012e;
+}
+.primary-header .pending-button button.iapp-typical-btn {
+    margin: 2px 0 0;
+    background-color: transparent;
+    color: #98012e;
+    border: 1px solid #98012e;
+    padding: 5px 20px;
+}
+.primary-header .pending-button .caret{
+    height: auto !important;
+    color: #fff !important;
+}
+.primary-header  input[type=radio] {
+    margin: 0 .5em 0 0;
+}
+.primary-header .AppQues .grid.data th,.primary-header .AppQues .grid.navigational th{
+    background-color: #ffffff;
+    background-image: none;
+    border-color: transparent;
+    height: 30px;
+    border: hidden;
+    text-align: left;
+    padding-left: 0;
+}
+.primary-header .AppQues  .grid.data th label,.primary-header .AppQues .grid.navigational th label {
+    color: #0067a2 !important;
+    font-family: arial !important;
+    height: 20px !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.64px !important;
+}
+.primary-header .AppQues  .grid.data tbody,.grid.navigational tbody{
+    border: hidden;
+}
+  .primary-header .AppQues   td .fieldsbox input.input {
+  color: #555;
+font-size: 13px
+  }
+.data input.output.ifocus, .data .input[class~=output]:focus,.navigational .input, .navigational .output, .navigational .input[class~=input]:focus, .navigational .input[class~=output]:focus {
+font-size: 10px !important;
+}
+
+.primary-header .tableLogs tbody{
+pointer-events: none;
+}
+.primary-header .tableLogs tr.oddrow{
+background-color: white;
+}

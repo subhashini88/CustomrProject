@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-847B-10A7FC8DC165">
+	<DocumentID>005056A2-27FA-A1EB-847B-10A7FC8D8165</DocumentID>
+	<Name>005056A2-27FA-A1EB-847B-10A7FC8D8165</Name>
+	<Description>close case</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-10-19T09:27:27.457</CreationDate>
+	<Notes/>
+	<DefaultText>close case</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-847B-10A7FC8E0165"
+		/>
+	</Translations>
+</TextIdentifier>

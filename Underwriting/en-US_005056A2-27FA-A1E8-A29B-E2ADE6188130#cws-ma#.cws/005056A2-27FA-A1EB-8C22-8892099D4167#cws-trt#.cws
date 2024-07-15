@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8C22-8892099D8167">
+	<DocumentID>005056A2-27FA-A1EB-8C22-8892099D4167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8C22-8892099D4167</Name>
+	<Description>RoleCheck</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-11-27T08:32:12.979</CreationDate>
+	<Notes/>
+	<Text>RoleCheck</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8C22-8892099CC167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

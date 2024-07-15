@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A84F-47E67E5EC16D">
+	<DocumentID>005056A2-27FA-A1EB-A84F-47E67E5E816D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A84F-47E67E5E816D</Name>
+	<Description>GetUnProcessedLatestMasterAPPID_Rep</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-19T18:30:28.033</CreationDate>
+	<Notes/>
+	<DefaultText>GetUnProcessedLatestMasterAPPID_Rep</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-A84F-47E67E5F016D"
+		/>
+	</Translations>
+</TextIdentifier>

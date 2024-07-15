@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A496-6A79AD3E014A">
+	<DocumentID>005056A2-27FA-A1E9-A496-6A79AD3DC14A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A496-6A79AD3DC14A</Name>
+	<Description>(551)BLOOD PROFILE WITHOUT URINE</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T06:18:54.919</CreationDate>
+	<Notes/>
+	<Text>(551)BLOOD PROFILE WITHOUT URINE</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A496-6A79AD3D414A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

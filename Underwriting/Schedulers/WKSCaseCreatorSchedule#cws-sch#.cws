@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BA4B-B25A6526415E">
+	<DocumentID>005056A2-27FA-A1EA-BA4B-B25A6526015E</DocumentID>
+	<Name>WKSCaseCreatorSchedule</Name>
+	<Description>WKSCaseCreatorSchedule</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-08-28T13:05:10.857</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Hourly</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="WKSCaseCreatorSchedule"
+			count="-1"
+			autodeploy="true"
+			targetLastModified="2020-08-28T09:05:40.11"
+			msgHolderLastModified="2020-12-24T07:14:45.144">
+			<datetime>
+				<hourly>
+					<minutes>0</minutes>
+				</hourly>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BA4B-B25A6524015E">
+			<DocumentID>005056A2-27FA-A1EA-BA4B-B25A6523C15E</DocumentID>
+			<Name>005056A2-27FA-A1EA-BA4B-B25A6523C15E</Name>
+			<Description>005056A2-27FA-A1EA-BA4B-B25A6523C15E</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-08-28T13:05:10.857</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EA-BA3D-52452565415E"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

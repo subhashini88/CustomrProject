@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9DA6-721AFB97416A">
+	<DocumentID>005056A2-27FA-A1EB-9DA6-721AFB97016A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9DA6-721AFB97016A</Name>
+	<Description>update InsIID and status</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2021-02-24T12:15:07.167</CreationDate>
+	<Notes/>
+	<Text>update InsIID and status</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9DA6-721AFB96816A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

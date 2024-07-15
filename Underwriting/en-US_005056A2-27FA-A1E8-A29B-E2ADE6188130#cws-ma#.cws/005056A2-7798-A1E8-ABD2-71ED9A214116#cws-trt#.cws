@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-ABD2-71ED9A218116">
+	<DocumentID>005056A2-7798-A1E8-ABD2-71ED9A214116</DocumentID>
+	<Name>005056A2-7798-A1E8-ABD2-71ED9A214116</Name>
+	<Description>logged_by</Description>
+	<CreatedBy>Gunasekaran, VidhyaSri</CreatedBy>
+	<CreationDate>2018-09-03T07:22:10.672</CreationDate>
+	<Notes/>
+	<Text>logged_by</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-ABD2-71ED9A20C116"
+		/>
+	</TextIdentifier>
+</TranslatedText>

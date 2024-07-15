@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BF1F-D9994E9A418C">
+	<DocumentID>005056A2-27FA-A1EC-BF1F-D9994E9A018C</DocumentID>
+	<Name>005056A2-27FA-A1EC-BF1F-D9994E9A018C</Name>
+	<Description>UpdateTblUWPI_FollowUp1</Description>
+	<CreatedBy>Karthik</CreatedBy>
+	<CreationDate>2022-07-05T17:11:36.454</CreationDate>
+	<Notes/>
+	<Text>UpdateTblUWPI_FollowUp1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BF1F-D9994E99818C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8857-5BC8E2D5C154">
+	<DocumentID>005056A2-27FA-A1EA-8857-5BC8E2D58154</DocumentID>
+	<Name>005056A2-27FA-A1EA-8857-5BC8E2D58154</Name>
+	<Description>MillimanDrugFill</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-12-18T06:14:28.344</CreationDate>
+	<Notes/>
+	<Text>MillimanDrugFill</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8857-5BC8E2D50154"
+		/>
+	</TextIdentifier>
+</TranslatedText>

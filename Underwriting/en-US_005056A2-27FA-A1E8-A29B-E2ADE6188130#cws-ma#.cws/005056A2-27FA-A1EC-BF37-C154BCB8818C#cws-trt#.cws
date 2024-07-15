@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BF37-C154BCB8C18C">
+	<DocumentID>005056A2-27FA-A1EC-BF37-C154BCB8818C</DocumentID>
+	<Name>005056A2-27FA-A1EC-BF37-C154BCB8818C</Name>
+	<Description>getImtaskfortblUWPI_FollowUp1</Description>
+	<CreatedBy>Karthik</CreatedBy>
+	<CreationDate>2022-07-06T04:08:13.535</CreationDate>
+	<Notes/>
+	<Text>getImtaskfortblUWPI_FollowUp1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BF37-C154BCB8018C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

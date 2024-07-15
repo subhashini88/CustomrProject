@@ -1,0 +1,18 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8454-7ED193A9018E">
+	<DocumentID>005056A2-27FA-A1ED-8454-7ED193A8C18E</DocumentID>
+	<Name>Underwriting Service Pending</Name>
+	<Description>Underwriting Service Pending</Description>
+	<CreatedBy>Karthikeyan</CreatedBy>
+	<CreationDate>2022-08-01T05:56:43.076</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

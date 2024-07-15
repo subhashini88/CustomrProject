@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA5E-5BF9A928413E">
+	<DocumentID>005056A2-27FA-A1E8-BA5E-5BF9A928013E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA5E-5BF9A928013E</Name>
+	<Description>&lt;span  style='font-weight:bold;color: #7f7f7f;;font-family: arial black, gadget, sans-serif ;text-decoration:underline;'     &gt;CHICAGO :&lt;/span&gt;</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-16T08:27:35.373</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;span  style='font-weight:bold;color: #7f7f7f;;font-family: arial black, gadget, sans-serif ;text-decoration:underline;'     &gt;CHICAGO :&lt;/span&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BA5E-5BF9A928813E"
+		/>
+	</Translations>
+</TextIdentifier>

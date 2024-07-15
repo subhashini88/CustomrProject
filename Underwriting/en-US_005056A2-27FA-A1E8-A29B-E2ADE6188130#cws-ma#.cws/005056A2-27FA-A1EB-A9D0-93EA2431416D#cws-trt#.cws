@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A9D0-93EA2431816D">
+	<DocumentID>005056A2-27FA-A1EB-A9D0-93EA2431416D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A9D0-93EA2431416D</Name>
+	<Description>Expedited WKSOPS Case Creation</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-27T10:21:30.807</CreationDate>
+	<Notes/>
+	<Text>Expedited WKSOPS Case Creation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A9D0-93EA2430C16D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

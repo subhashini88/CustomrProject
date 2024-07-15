@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B8D0-065A0B42C13D">
+	<DocumentID>005056A2-27FA-A1E8-B8D0-065A0B42813D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B8D0-065A0B42813D</Name>
+	<Description>benefit_health_benAcc1</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-08T10:28:24.889</CreationDate>
+	<Notes/>
+	<Text>benefit_health_benAcc1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B8D0-065A0B42013D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

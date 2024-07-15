@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCB3-06BA2E6C013F">
+	<DocumentID>005056A2-27FA-A1E8-BCB3-06BA2E6BC13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCB3-06BA2E6BC13F</Name>
+	<Description>Insured 2 Company Policy</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-28T05:57:18.384</CreationDate>
+	<Notes/>
+	<Text>Insured 2 Company Policy</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BCB3-06BA2E6B413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

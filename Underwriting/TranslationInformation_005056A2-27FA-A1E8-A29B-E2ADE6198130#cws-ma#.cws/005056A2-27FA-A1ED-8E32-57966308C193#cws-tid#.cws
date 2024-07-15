@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8E32-579663090193">
+	<DocumentID>005056A2-27FA-A1ED-8E32-57966308C193</DocumentID>
+	<Name>005056A2-27FA-A1ED-8E32-57966308C193</Name>
+	<Description>Non-CICA Code</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-09-20T10:01:28.99</CreationDate>
+	<Notes/>
+	<DefaultText>Non-CICA Code</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-8E32-579663094193"
+		/>
+	</Translations>
+</TextIdentifier>

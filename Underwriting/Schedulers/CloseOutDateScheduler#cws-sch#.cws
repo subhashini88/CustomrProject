@@ -1,0 +1,69 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC81-27509704C13F">
+	<DocumentID>005056A2-27FA-A1E8-BC81-27509704813F</DocumentID>
+	<Name>CloseOutDateScheduler</Name>
+	<Description>CloseOutDateScheduler</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-27T06:19:21.832</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Weekly</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="CloseOutDateScheduler"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="2019-05-10T10:14:31.526"
+			msgHolderLastModified="2019-05-27T11:15:12.276">
+			<datetime>
+				<weekly>
+					<weekday>2 7:40</weekday>
+					<weekday>3 7:40</weekday>
+					<weekday>4 7:40</weekday>
+					<weekday>5 7:40</weekday>
+					<weekday>6 7:40</weekday>
+					<weekday>7 7:40</weekday>
+					<weekday>1 7:40</weekday>
+				</weekly>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1E9-9CBE-938A59B10146">
+			<DocumentID>005056A2-27FA-A1E9-9CBE-938A59B0C146</DocumentID>
+			<Name>005056A2-27FA-A1E9-9CBE-938A59B0C146</Name>
+			<Description>005056A2-27FA-A1E9-9CBE-938A59B0C146</Description>
+			<CreatedBy>ramya</CreatedBy>
+			<CreationDate>2019-05-10T10:20:54.112</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1E9-9CA1-49192407C146"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

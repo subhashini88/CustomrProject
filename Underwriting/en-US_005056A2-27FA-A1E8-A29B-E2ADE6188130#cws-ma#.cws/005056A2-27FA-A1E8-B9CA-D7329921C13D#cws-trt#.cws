@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9CA-D7329922013D">
+	<DocumentID>005056A2-27FA-A1E8-B9CA-D7329921C13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9CA-D7329921C13D</Name>
+	<Description>Ending Script*</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-11-13T11:08:18.508</CreationDate>
+	<Notes/>
+	<Text>Ending Script*</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B9CA-D7329921413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

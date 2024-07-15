@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B342-1CE6ABCBC16F">
+	<DocumentID>005056A2-27FA-A1EB-B342-1CE6ABCB816F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B342-1CE6ABCB816F</Name>
+	<Description>NBErrorTaskScheduler</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-14T12:02:57.143</CreationDate>
+	<Notes/>
+	<Text>NBErrorTaskScheduler</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B342-1CE6ABCB016F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

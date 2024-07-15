@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B5DA-5E8E3A6CC19B">
+	<DocumentID>005056A2-27FA-A1ED-B5DA-5E8E3A6C819B</DocumentID>
+	<Name>005056A2-27FA-A1ED-B5DA-5E8E3A6C819B</Name>
+	<Description>callSFService</Description>
+	<CreatedBy>Karthikeyan</CreatedBy>
+	<CreationDate>2023-04-10T06:42:15.657</CreationDate>
+	<Notes/>
+	<Text>callSFService</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B5DA-5E8E3A6C019B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

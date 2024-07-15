@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8326-AAECAD9B418D">
+	<DocumentID>005056A2-27FA-A1ED-8326-AAECAD9B018D</DocumentID>
+	<Name>005056A2-27FA-A1ED-8326-AAECAD9B018D</Name>
+	<Description>This is test UI for testing SearchHumanTasks web service testing.</Description>
+	<CreatedBy>Prashant Chauhan</CreatedBy>
+	<CreationDate>2022-07-26T10:17:30.13</CreationDate>
+	<Notes/>
+	<Text>This is test UI for testing SearchHumanTasks web service testing.</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-8326-AAECAD9A818D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

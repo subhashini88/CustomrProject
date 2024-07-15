@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCFF-866DFBB0413F">
+	<DocumentID>005056A2-27FA-A1E8-BCFF-866DFBB0013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCFF-866DFBB0013F</Name>
+	<Description>Case is moved to Closed Queue , irrespective of decision applied successful or not , and letter submission successful or not</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T17:49:49.128</CreationDate>
+	<Notes/>
+	<Text>Case is moved to Closed Queue , irrespective of decision applied successful or not , and letter submission successful or not</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BCFF-866DFBAF813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

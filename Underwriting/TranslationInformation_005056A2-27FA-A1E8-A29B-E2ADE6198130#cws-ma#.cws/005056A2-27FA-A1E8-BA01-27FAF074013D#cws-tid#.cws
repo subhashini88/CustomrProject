@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA01-27FAF074413D">
+	<DocumentID>005056A2-27FA-A1E8-BA01-27FAF074013D</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA01-27FAF074013D</Name>
+	<Description>Input38</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-14T12:06:11.923</CreationDate>
+	<Notes/>
+	<DefaultText>Input38</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BA01-27FAF074813D"
+		/>
+	</Translations>
+</TextIdentifier>

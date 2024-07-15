@@ -1,0 +1,18 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1EB-827D-5E3580684161">
+	<DocumentID>005056A2-27FA-A1EB-827D-5E3580680161</DocumentID>
+	<Name>Worksite Enrollment</Name>
+	<Description>Worksite Enrollment</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-10-09T07:25:36.839</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

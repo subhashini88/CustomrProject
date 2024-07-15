@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-ACA6-A6EEF2DF411E">
+	<DocumentID>005056A2-7798-A1E8-ACA6-A6EEF2DF011E</DocumentID>
+	<Name>005056A2-7798-A1E8-ACA6-A6EEF2DF011E</Name>
+	<Description>Select3</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-07T12:49:58.516</CreationDate>
+	<Notes/>
+	<Text>Select3</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-ACA6-A6EEF2DE811E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

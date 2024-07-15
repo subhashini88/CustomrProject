@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8E53-E7C7D441C167">
+	<DocumentID>005056A2-27FA-A1EB-8E53-E7C7D4418167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8E53-E7C7D4418167</Name>
+	<Description>Copy of ChecKGroupStatus</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-12-08T12:21:11.45</CreationDate>
+	<Notes/>
+	<Text>Copy of ChecKGroupStatus</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8E53-E7C7D4410167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

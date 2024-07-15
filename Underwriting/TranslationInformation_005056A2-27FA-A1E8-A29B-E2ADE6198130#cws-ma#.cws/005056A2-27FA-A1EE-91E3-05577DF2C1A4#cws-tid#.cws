@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-91E3-05577DF301A4">
+	<DocumentID>005056A2-27FA-A1EE-91E3-05577DF2C1A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-91E3-05577DF2C1A4</Name>
+	<Description>transfer_3</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-30T23:33:19.768</CreationDate>
+	<Notes/>
+	<DefaultText>transfer_3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-91E3-05577DF341A4"
+		/>
+	</Translations>
+</TextIdentifier>

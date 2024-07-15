@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AE9B-6B915D27411E">
+	<DocumentID>005056A2-7798-A1E8-AE9B-6B915D27011E</DocumentID>
+	<Name>005056A2-7798-A1E8-AE9B-6B915D27011E</Name>
+	<Description>SendEvent</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-17T11:54:36.842</CreationDate>
+	<Notes/>
+	<Text>SendEvent</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AE9B-6B915D26811E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

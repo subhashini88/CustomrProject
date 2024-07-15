@@ -1,0 +1,618 @@
+
+.primary-header .groupheader {
+    background-color: #337ab7;
+    font-size: 12px;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 30px;
+    /* font-size: 13px; */
+  }
+  .primary-header .groupheader label {
+    color:#fff;
+    /* padding: 16px; */
+  }
+  .primary-header .xcontainerbox {
+        margin: 5px 5px;
+  }
+  .primary-header .xcontainerbox .groupheader {
+    
+    text-align: left;
+    
+    /* position: relative; */
+    /* top: 10px; */
+    padding: 5px;
+  }
+  .primary-header .xcontainerbox .groupheader label{
+    color: #ffffff;
+    font-size: 12px;
+    /* margin: 10px; */
+    position: relative;
+    top: 0;
+  }
+  
+
+  .primary-header .h_button.sec-btn{
+     border-color: #98012e;
+    background-color: transparent;
+    color: #98012e;
+  }
+  .primary-header .v_label {
+     font-family: arial !important;
+    color: #0067a7  !important;
+    padding-bottom: 4px !important;
+    height: 15px !important;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.46px !important;
+  }
+  
+  .primary-header .fieldsbox {
+    height: 30px;
+    margin-bottom:10px;
+  }
+
+ .primary-header .selectbox,.left_align, .primary-header .fieldsbox input.input, .primary-header .inputFieldLeftAlign {
+height: 30px;
+color: #555;
+background-color: #fff;
+background-image: none;
+ border: 0px solid #ccc; 
+/*border-radius: 4px;*/
+/* margin: 0 0 0 0; */
+font-size:15px !important;
+font: -webkit-small-control;
+/*width:100%;*/
+}
+  .primary-header .autoextent .left_align {
+  border-color: transparent;
+  }
+  
+  
+  .primary-header button.item.small.lookup_button {
+    position: relative;
+left: 135px;
+    top: -25px;
+  }
+  .primary-header .listbox{
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   
+  }
+  .primary-header .selectfield button.closed {
+  background-color:transparent;
+  }
+  
+  .primary-header .h_layout.field_col{
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .primary-header .choicegroup .h_label {
+   border-color: transparent;
+  }
+  .primary-header .lookup.fieldsbox {
+    margin-right: 0;
+  }
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+  width: 1em;
+  height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #c3c8ce;
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-color: #2196F3;
+  outline: 0.1em solid #2196F3;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #0271fd;
+  }
+  .primary-header button, .primary-header .h_button, .primary-header .v_button {
+      background-image: none;
+      height: 30px;
+  }
+  .h_layout{
+  margin: 1em 3.4em 5px 0;
+  }
+  .primary-header.v_layout, .primary-header .h_layout .choicebox {
+  position:relative;
+  top:20px;
+  }
+  /*.primary-header.v_layout, .primary-header .h_layout .simplecontainer.right_align{
+  position:relative;
+  top:40px;
+  }*/
+  .primary-header .grid.data th,.primary-header .grid.navigational th{
+    background-color: #ffffff;
+    background-image: none;
+    border-color: transparent;
+    height: 30px;
+    border: none;
+    text-align: center;
+    padding-left: 0;
+  }
+  .primary-header .grid.data th label,.primary-header .grid.navigational th label{
+    color: #080808;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .primary-header .grid thead
+{
+visibility: collapse;
+}
+.primary-header td input[type=checkbox] {
+       margin-left: -8px;
+    margin-right: 0px;
+    margin-top: -23px !important;
+}
+.primary-header .questions .tableQues {
+ margin-left: -2px;
+}
+
+  .primary-header td .fieldsbox input.input {
+   border:none;
+   color: black !important;
+    font-family: arial;
+      margin: 0;
+    padding: 0px;
+    display: inline;
+    font-size: 1em;
+    line-height: 1.4;
+    text-align: left;
+    left: 0;
+    position: relative;
+    top: 0;
+    pointer-events: none;
+
+  }
+  .primary-header td .fieldsbox {
+height:auto !important;
+}
+
+  .primary-header td .fieldsbox  textarea {
+   border:none;
+   color: black !important;
+    font-family: arial;
+      margin: 0;
+    padding: 0px;
+    display: inline;
+    font-size:15px;
+    line-height: 1.4;
+    text-align: left;
+    left: 0;
+    position: relative;
+    top: 0;
+    pointer-events: none;
+  height:41px !important;
+    overflow-y: hidden !important;
+  }
+  .primary-header .highlight, .primary-header .grid tr.highlight.evenrow, .primary-header .grid tr.highlight.oddrow, .primary-header .grid tr.highlight, .primary-header menuitem.highlight, .primary-header .evenrow.highlight, .primary-header .oddrow.highlight, .primary-header .lightmedium.highlight, .primary-header .light.highlight {
+       background-color: transparent;
+       border: none;
+  }
+  .primary-header .grid.data tbody td,.grid.navigational tbody td {
+      border: none;
+width:4%;
+      /* height: 31px; */
+background-color: white;
+  }
+
+  .primary-header tbody tr.evenrow {
+    visibility: collapse;
+}
+  .primary-header tbody tr.oddrow{
+    visibility: collapse;
+}
+  .primary-header .f_layout .left_align {
+    border:none;
+  }
+  
+  .primary-header .h_layout.field_input label{
+      font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top: 0;
+      left: -3px;
+  }
+  .primary-header .f_layout .simplecontainer.left_align img {/* padding-right: 3px; */padding-left: 5px;}
+  .primary-header .look_right button.item.small.lookup_button{
+    left:170px;
+  }
+  .primary-header .look_right{
+    position:relative;
+  }
+  .primary-header .look_right.topview .v_label{
+    top:0;
+    margin: 1px 0;
+  }
+  .primary-header .floating_coln{
+    position:relative;
+  }
+  .primary-header .floating_coln.topview .v_label{
+    top:0;
+    margin: 1px 0;
+  }
+  .primary-header td .fieldsbox{
+    padding: 0px;
+    margin-bottom: 0;
+  }
+.primary-header table{
+overflow:hidden;
+border:0px !important;
+}
+  .primary-header .h_layout.autoextent .simplecontainer.left_align img {
+    padding: 5px 15px 0 0;
+  }
+  .primary-header #TskResId{
+    margin: 1px 0 0;
+    padding: 3px;
+  }
+.primary-header .dropDown_colm {
+    margin-top:24px;
+font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top:0px;
+  }
+
+.primary-header .dropDown_Operator {
+    margin-top:-2px;
+font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top:0px;
+  }
+.primary-header .dropDown_Operator label  {
+    margin-top: 11px;
+     font-size: 10px;
+    color: #106bad;
+    
+  }
+.primary-header .dropDown_colm  label  {
+    margin-top: 11px;
+     font-size: 10px;
+    color: #106bad;
+    
+  }
+ .primary-header.v_layout, .primary-header .h_layout.saved_search{
+    position:relative;
+    left: 470px;
+  }
+
+ .primary-header .tabcontainer
+{
+    background:#ffffff !important;
+}
+
+
+
+.primary-header span
+{
+/*    color: #106bad;
+    font-size: 15px;*/
+    margin-left: -2px; 
+color: black !important;
+    font-family: arial !important;
+    height: 20px !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.64px !important;
+}
+
+
+.primary-header p
+{
+ 
+    font-size: 13px;
+    color: black;
+
+}
+
+.primary-header .h_choicebox
+{
+ width:100%;font-size: 14px;padding-top: 10px;font-weight: normal;
+}
+
+.primary-header .activetab
+{
+
+    background: #106bad !important;
+   /* display: -webkit-inline-box  !important;
+           height: 35px;
+    padding: 10%;*/
+/*font-size: x-large;*/
+margin-left: 20px !important;
+    height: 50px;
+    object-fit: contain;
+    border: 0px none;
+font-size:xx-large;
+}
+
+.primary-header .activetab label
+{
+
+    font-size: 18px !important;
+    font-family: Arial !important;
+    font-weight: normal !important;
+    color: #ffffff !important;
+    /* font-family: sans-serif !important; */
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 1.03px;
+
+}
+
+
+ .primary-header .inactivetab
+{
+   
+    /*background: transparent !important;
+    display: -webkit-inline-box !important;
+    height: 35px;
+    padding: 10%;*/
+    margin-left: 20px !important;
+    height: 50px;
+    object-fit: contain;
+    border: 1px solid;
+    border-color: #d3d3d373;
+    background-color: transparent;
+font-size:xx-large;
+}
+
+ .primary-header .inactivetab label
+{
+
+   font-size: 18px !important;
+    font-family: Arial !important;
+    font-weight: normal !important;
+    color: #00629b !important;
+    /* font-family: sans-serif !important; */
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 1.03px;
+
+}
+ .primary-header .tabcontent
+{
+  margin-top: 2.8% !important;
+    margin-left: 0.5%;
+    border-radius: 0px;
+    border-color: #d3d3d338;
+    object-fit: contain;
+    box-shadow: 0 1px 3px 1px rgba(205,205,205,0.5);
+}
+
+ .primary-header .v_layout .simplecontainer
+{
+  overflow-x:hidden !important;
+}
+
+/* Vendor Requirement */
+
+.primary-header .ReqRadio
+{
+padding-bottom: 40px;
+}
+.primary-header .ReqRadio label {
+    color: #555;
+    font-size: 14px;
+}
+/*.primary-header #ParentGroupID,.primary-header #ParentGroupOrd2,.primary-header #ParentGroupOrd3,.primary-header #ParentGroupOrd4,.primary-header #ParentGroupOrd5, .primary-header .ParentGroupOrder3 {
+padding-top:25px;
+font-size:16px;
+overflow:hidden;
+}*/
+.primary-header .Text{
+top:26px;
+}
+.primary-header .h_button{
+font-size: 14px;
+    width: auto;
+    background-color: #D3D3D3;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    border-color: transparent;
+   
+}
+.primary-header label, .h_label, .v_label, span {
+    color: black ;
+font-family: arial;
+font-weight: unset;
+}
+
+.primary-header .OrderReq .fieldsbox{
+left:145px !important;
+top:10px !important;
+}
+.primary-header .OrderReq {
+padding-top:10px !important;
+height:15px !important;
+}
+.primary-header label.h_label.left_align{
+    font-size: 18px;
+    width: 100% !important;
+    top: 2px ;
+}
+.primary-header .InputBorder textarea {
+height:auto !important;
+}
+.primary-header .InputBorder .selectbox     ,.primary-header .InputBorder .input{
+
+    height: 30px;
+  color: #555 !important;
+  background-color: #fff !important;
+  background-image: none !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+}
+.primary-header .InputBorder .selectbox input {
+    
+    /*padding-top: 4px;*/
+    padding-left: 7px;
+}
+.primary-header .InputBorder .selectbox  input.output.ifocus, .primary-header .InputBorder .selectbox .input[class~=output]:focus {
+
+background-color:white !important;
+}
+
+.primary-header .InputBorder .left_align{
+width:auto !important;
+    left: 10px;
+}
+.primary-header .InputBorder .lookup_button{
+   top: -22px !important;
+    left: 128px !important;
+}
+.selectfield input{
+color:#555!important;
+font-size: 15px!important;
+}
+.primary-header .Header{
+left:10px;
+}
+.primary-header .pending-button .btn-default.active,
+.primary-header .pending-button button,
+.primary-header .pending-button button:hover,
+.primary-header .pending-button .btn-default:active,
+.primary-header .pending-button .open>.dropdown-toggle.btn-default {
+    background-color: #98012e;
+    color: #fff;
+    margin: 0 10px;
+    height:auto !important;
+}
+
+.primary-header .pending-button .dropdown-menu>li>a {
+    color: #98012e;
+}
+.primary-header .pending-button button.iapp-typical-btn {
+    margin: 2px 0 0;
+    background-color: transparent;
+    color: #98012e;
+    border: 1px solid #98012e;
+    padding: 5px 20px;
+    width:160px;
+}
+.primary-header .pending-button .caret{
+    height: auto !important;
+    color: #fff !important;
+}
+.primary-header input[type=checkbox], .primary-header input[type=radio] {
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+.primary-header .RefAttachHeader .refreshBtn {
+  background-color: white;
+  border-color: white;
+  border: 0px solid #FFFFFF; 
+  color: #0067a7;
+  /*padding-left: 10px;*/
+  font-size: 15px;
+  cursor: pointer;
+  height: 0px;
+    width: 100px;
+    font-weight: normal;
+	margin-left: -4px;
+	margin-top: 1px;
+}
+.primary-header .RefAttachHeader  .viewAttachments {
+    height: 30px;
+    margin-bottom:10px;
+padding-left: 22px;
+	/*padding-left: 290px;*/
+	color: #0067a7 !important;
+	font-size:15px !important;
+	font: -webkit-small-control;
+/*width: 230px !important;*/
+  }
+ .primary-header .RefAttachHeader a:link, a:visited {
+  color: #0067a7;
+  text-decoration: none;
+  cursor: auto;
+}
+
+.primary-header .RefAttachHeader a:link:active, a:visited:active {
+  color: #0067a7;
+text-decoration: none;
+}
+  .primary-header .paddingScrollField1 .PaddingScroll .fieldsbox{
+	padding-left: 110px;
+        width: 440px !important;
+  }
+.primary-header .RefAttachHeader  .viewAttachments a{
+  text-decoration: underline !important;
+  }
+.create-task .feedbackbox #fb_titlebar {
+
+    background-color: #337ab7;
+      padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: none;
+top:0px;
+left: -1px;
+right: -1px;
+}
+.create-task .feedbackbox #fb_titlebar h1 {
+    
+    font-size: 18px;
+   font-family: arial;
+font-weight: normal;
+}
+ .primary-header .rollercontainer 
+{
+left: -10px !important;
+top: 6px !important;
+}
+.primary-header .YesNoChoice .yes {
+width: 70px !important;
+}
+.primary-header .YesNoChoice .no{
+width: 90px !important;
+}
+.primary-header .questions .invisiblegroupbox{
+    margin-left: 25px;
+}
+.primary-header .Checkboxleft .h_layout .choicebox {
+    margin-left: 25px;
+}
+.primary-header .Checkboxleft .leftpadding{
+    margin-left: 25px;
+}
+.primary-header .Splattention {
+height:110px !important;
+}
+.primary-header .Splattention textarea{
+height:100px !important;
+}
+.primary-header .decspace {
+  margin-top: -20px !important;
+margin-bottom:-20px !important;
+}
+
+ .primary-header .edit-view-btn{
+     color: #0067a7 !important;
+  }

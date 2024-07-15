@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B973-6D824AE0015E">
+	<DocumentID>005056A2-27FA-A1EA-B973-6D824ADFC15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B973-6D824ADFC15E</Name>
+	<Description>Delete Order Details</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T06:07:28.632</CreationDate>
+	<Notes/>
+	<Text>Delete Order Details</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B973-6D824ADF415E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

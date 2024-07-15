@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8920-76099BBB0142">
+	<DocumentID>005056A2-27FA-A1E9-8920-76099BBAC142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8920-76099BBAC142</Name>
+	<Description>MVR Created</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-30T11:33:07.644</CreationDate>
+	<Notes/>
+	<Text>MVR Created</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8920-76099BBA4142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

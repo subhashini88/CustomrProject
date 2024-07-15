@@ -1,0 +1,572 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EA-9CFE-A6524FBEC159">
+	<DocumentID>005056A2-27FA-A1EA-9CFE-A6524FBF0159</DocumentID>
+	<Name>User Details Lookup</Name>
+	<Description>User Details Lookup</Description>
+	<CreatedBy>kmohan</CreatedBy>
+	<CreationDate>2020-04-01T10:11:10.057</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetOrganizationalUsersoperationModel"
+					wcpforms:businessElement="tns:entry"
+					wcpforms:automatic="true"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="5">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/1.0/ldap/GetOrganizationalUsers"
+							operationName="GetOrganizationalUsers"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1E8-B024-3FBEADD0C13A">
+							<dn
+								xmlns="http://schemas.cordys.com/1.0/ldap"
+							/>
+							<sort
+								xmlns="http://schemas.cordys.com/1.0/ldap"
+							/>
+							<sortBy
+								xmlns="http://schemas.cordys.com/1.0/ldap"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<xforms:action
+						ev:event="xforms-onrequest">
+						<xforms:GetOrganizationalUsersoperationModel_OnRequest/>
+					</xforms:action>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/1.0/ldap</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/1.0/ldap</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetOrganizationInfoModel"
+					wcpforms:businessElement="tns:GetOrganizationInfoResponse"
+					wcpforms:automatic="true"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:nontransactional="true"
+					singleTransaction="false"
+					promptToSave="true"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/1.0/notification/GetOrganizationInfo"
+							operationName="GetOrganizationInfo"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EA-A377-78762408C15A"
+						/>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<xforms:action
+						ev:event="xforms-onresponse">
+						<xforms:GetOrganizationInfoModel_OnResponse/>
+					</xforms:action>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/1.0/notification</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/1.0/notification</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:input
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+						id="selUser"
+						doEBIValidate="false"
+						wcpforms:class="f_layout"
+						wcpforms:size="301px auto"
+						wcpforms:position="33px 33px">
+						<xforms:label
+							textIdentifier="005056A2-27FA-A1EA-9D00-4C2FD18C4159"
+							wcpforms:class="h_label left_align"
+							wcpforms:size="85px null">User</xforms:label>
+						<wcpforms:zoom>
+							<wcpforms:url
+								documentID="005056A2-27FA-A1EA-9A8B-7A0286144159">com/cica/underwriting/UI/lookup/Select Task Name.caf</wcpforms:url>
+							<wcpforms:businessAttribute>tns:CaseOrTaskName</wcpforms:businessAttribute>
+							<xforms:trigger>
+								<xforms:label>
+									<img
+										xmlns="http://schemas.cordys.com/1.0/xform"
+										src="wcp/theme/default/icon/lookup/lookup_file.png"
+									/>
+								</xforms:label>
+							</xforms:trigger>
+							<xforms:action
+								ev:event="xforms-onafterzoom">
+								<xforms:selUser_AfterZoom/>
+							</xforms:action>
+						</wcpforms:zoom>
+						<xforms:action
+							ev:event="xforms-before-data-bind">
+							<xforms:selUser_BeforeBind/>
+						</xforms:action>
+						<xforms:action
+							ev:event="xforms-value-changed">
+							<xforms:selUser_Change/>
+						</xforms:action>
+					</xforms:input>
+					<xforms:repeat
+						wcpforms:displayContextMenu="true"
+						wcpforms:toggleColumns="true"
+						wcpforms:movableColumns="false"
+						wcpforms:saveState="false"
+						wcpforms:autoInsert="false"
+						wcpforms:minRows="5"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+						id="table1"
+						synchronizedDialogFrame="main"
+						isNavigationEnabled="true"
+						wcpforms:gridtype="datagrid"
+						wcpforms:checkboxes="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="f_layout"
+						wcpforms:size="auto auto"
+						model="GetOrganizationalUsersoperationModel"
+						fixedHeader="true"
+						columnSortable="true"
+						wcpforms:anchors="30px 80px 618.01px 0px"
+						fixedWidth="true"
+						wcpforms:position="30px 80px">
+						<xforms:group
+							appearance="elementbar"
+							id="_elementBar"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+							<xforms:group
+								appearance="paginationbar"
+								id="_paginationBar"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsPaginationbar"
+								wcpforms:class="paginationbar">
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navFind1"
+									standardid="navFind">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/find.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Find</xforms:hint>
+									<xforms:action
+										ev:event="onbeforefind">
+										<xforms:navFind1_BeforeFind/>
+									</xforms:action>
+								</xforms:trigger>
+							</xforms:group>
+							<xforms:group
+								appearance="controlbar"
+								id="_controlBar"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+								wcpforms:class="controlbar">
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navInsert1"
+									standardid="navInsert">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/add.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Insert</xforms:hint>
+									<xforms:action
+										ev:event="onafterinsert">
+										<xforms:navInsert1_AfterInsert/>
+									</xforms:action>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navDelete1"
+									standardid="navDelete">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/delete.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Delete</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navRefresh1"
+									standardid="navRefresh">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/refresh.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Refresh</xforms:hint>
+									<xforms:action
+										ev:event="onafterrefresh">
+										<xforms:navRefresh1_AfterRefresh/>
+									</xforms:action>
+									<xforms:action
+										ev:event="onbeforerefresh">
+										<xforms:navRefresh1_BeforeRefresh/>
+									</xforms:action>
+								</xforms:trigger>
+							</xforms:group>
+						</xforms:group>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="op_name"
+							doEBIValidate="false"
+							wcpforms:size="121px 100%"
+							ref="tns:cn/tns:string"
+							model="GetOrganizationalUsersoperationModel"
+							wcpforms:dataType="string"
+							wcpforms:textalign="left_align">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E9-8BB5-2250968FC142">Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="output1"
+							doEBIValidate="false"
+							ref="tns:authenticationuser/tns:string"
+							wcpforms:size="auto 100%"
+							wcpforms:dataType="string"
+							wcpforms:textalign="left_align">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EA-9C92-CA3DF63BC159">User Definition</xforms:label>
+						</xforms:output>
+					</xforms:repeat>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var obj=new Object();
+var orgDn="";
+var _zoom_ReturnData=null;
+var str="";
+function Form_InitDone(eventObject)
+{
+    table1.create();
+
+    
+    debugger;
+    GetOrganizationalUsersoperationModel.reset();
+    //navInsert1.enable();
+    var len=table1.getRows().length;
+    
+    navInsert1.click();
+    //table1.insertRow();
+    op_name[len+1].setValue("Unassigned");
+    output1[len+1].setValue("Unassigned");
+
+    
+    navDelete1.hide();
+    navInsert1.hide();
+    navFind1.show();
+    navFind1.enable();
+
+
+    
+}
+
+function GetOrganizationalUsersoperationModel_OnRequest(eventObject)
+{
+    cordys.setNodeText(eventObject.request, ".//*[local-name()='dn']", orgDn);
+}
+
+function navFind1_BeforeFind(eventObject)
+{
+    //cordys.setNodeText(eventObject.request, ".//*[local-name()='dn']", "o=claim_dev,cn=cordys,cn=awDev101,o=aceins.com");
+}
+
+function navInsert1_AfterInsert(eventObject)
+{
+   debugger;
+   //op_name[table1.getIndex()].setValue("Unassigned");
+   //output1[table1.getIndex()].setValue("Unassigned");
+}
+function navRefresh1_AfterRefresh(eventObject)
+{
+        
+        GetOrganizationalUsersoperationModel.reset();
+        navInsert1.show();
+        //navInsert1.enable();
+        navInsert1.click();
+        navInsert1.hide();
+        
+}
+function navRefresh1_BeforeRefresh(eventObject)
+{
+        GetOrganizationalUsersoperationModel.clear();
+}
+function GetOrganizationInfoModel_OnResponse(eventObject)
+{
+    orgDn=cordys.getNodeText(eventObject.response,".//*[local-name()='DN']","");
+}
+
+
+function selUser_AfterZoom(eventObject)
+{
+debugger;
+for(var i=0;i<eventObject.options.length;i++)
+{    
+     str=str+eventObject.options[i].value+"~/~";
+ }
+ selUser.setValue(str);
+ alert(str);
+}
+function selUser_BeforeBind(eventObject)
+{
+    //selUser.setValue(str);
+}
+function selUser_Change(eventObject)
+{
+    selUser.setValue(str);
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>User Details Lookup</taskDescription>
+	<taskName>User Details Lookup</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms>
+		<uri
+			id="005056A2-27FA-A1EA-9A8B-7A0286144159"
+		/>
+	</ReferredXForms>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9CFE-A6524FB98159">
+			<DocumentID>005056A2-27FA-A1EA-9CFE-A6524FB94159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9CFE-A6524FB94159</Name>
+			<Description>005056A2-27FA-A1EA-9CFE-A6524FB94159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-01T10:11:10.059</CreationDate>
+			<Notes/>
+			<DeveloperText></DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9CFE-A6524FBD4159">
+			<DocumentID>005056A2-27FA-A1EA-9CFE-A6524FBD8159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9A3A-2595C06FC159</Name>
+			<Description>005056A2-27FA-A1EA-9A3A-2595C06FC159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-01T10:11:10.058</CreationDate>
+			<Notes/>
+			<UIRef>op_name</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-9CFE-A6524FBCC159">
+					<DocumentID>005056A2-27FA-A1EA-9CFE-A6524FBD0159</DocumentID>
+					<Name>005056A2-27FA-A1EA-9A3A-2595C06A4159</Name>
+					<Description>005056A2-27FA-A1EA-9A3A-2595C06A4159</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-04-01T10:11:10.059</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-9CFE-A6524FBF0159"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9CFE-A6524FBC4159">
+			<DocumentID>005056A2-27FA-A1EA-9CFE-A6524FBC8159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9AAA-CCEBE7A38159</Name>
+			<Description>005056A2-27FA-A1EA-9AAA-CCEBE7A38159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-01T10:11:10.054</CreationDate>
+			<Notes/>
+			<UIRef>output1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-9CFE-A6524FBBC159">
+					<DocumentID>005056A2-27FA-A1EA-9CFE-A6524FBC0159</DocumentID>
+					<Name>005056A2-27FA-A1EA-9C92-CA3DF63B4159</Name>
+					<Description>005056A2-27FA-A1EA-9C92-CA3DF63B4159</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-04-01T10:11:10.054</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-9CFE-A6524FBF0159"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9D00-4C2FD18E0159">
+			<DocumentID>005056A2-27FA-A1EA-9D00-4C2FD18DC159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9D00-4C2FD18DC159</Name>
+			<Description>005056A2-27FA-A1EA-9D00-4C2FD18DC159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-01T10:14:41.128</CreationDate>
+			<Notes/>
+			<UIRef>selUser</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-9D00-4C2FD18C0159">
+					<DocumentID>005056A2-27FA-A1EA-9D00-4C2FD18BC159</DocumentID>
+					<Name>005056A2-27FA-A1EA-9D00-4C2FD18BC159</Name>
+					<Description>005056A2-27FA-A1EA-9D00-4C2FD18BC159</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-04-01T10:14:41.13</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-9CFE-A6524FBF0159"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1E8-B024-3FBEADD0C13A"
+		/>
+		<uri
+			id="005056A2-27FA-A1EA-A377-78762408C15A"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9CFE-A6524FBE4159">
+			<DocumentID>005056A2-27FA-A1EA-9CFE-A6524FBE8159</DocumentID>
+			<Name>GetOrganizationalUsersoperationModel</Name>
+			<Description>GetOrganizationalUsersoperationModel</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-01T10:11:10.055</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/ldap</namespace>
+			<operationName>GetOrganizationalUsers</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9CFE-A6524FBDC159">
+			<DocumentID>005056A2-27FA-A1EA-9CFE-A6524FBE0159</DocumentID>
+			<Name>GetOrganizationInfoModel</Name>
+			<Description>GetOrganizationInfoModel</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-01T10:11:10.058</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/notification</namespace>
+			<operationName>GetOrganizationInfo</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9D00-4C2FD18B8159">
+			<DocumentID>005056A2-27FA-A1EA-9D00-4C2FD18B4159</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-01T10:14:41.13</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

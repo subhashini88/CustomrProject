@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCFF-29FEEB95413F">
+	<DocumentID>005056A2-27FA-A1E8-BCFF-29FEEB95013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCFF-29FEEB95013F</Name>
+	<Description>Irrespective of Letter submission successful or not we will move the case to closed cases</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T17:39:56.432</CreationDate>
+	<Notes/>
+	<Text>Irrespective of Letter submission successful or not we will move the case to closed cases</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BCFF-29FEEB94813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

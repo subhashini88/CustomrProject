@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCFF-F9FC5ABDC13F">
+	<DocumentID>005056A2-27FA-A1E8-BCFF-F9FC5ABD813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCFF-F9FC5ABD813F</Name>
+	<Description>To Move Case to Closed Queue</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T17:57:56.013</CreationDate>
+	<Notes/>
+	<Text>To Move Case to Closed Queue</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BCFF-F9FC5ABD013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

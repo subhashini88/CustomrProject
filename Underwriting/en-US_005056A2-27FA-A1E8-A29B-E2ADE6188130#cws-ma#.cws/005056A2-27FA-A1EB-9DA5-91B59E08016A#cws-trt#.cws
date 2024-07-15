@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9DA5-91B59E08416A">
+	<DocumentID>005056A2-27FA-A1EB-9DA5-91B59E08016A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9DA5-91B59E08016A</Name>
+	<Description>Update Status</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2021-02-24T12:01:05.488</CreationDate>
+	<Notes/>
+	<Text>Update Status</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9DA5-91B59E07816A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

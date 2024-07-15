@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8863-8C76BF94C154">
+	<DocumentID>005056A2-27FA-A1EA-8863-8C76BF948154</DocumentID>
+	<Name>005056A2-27FA-A1EA-8863-8C76BF948154</Name>
+	<Description>DaysSupply</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-12-18T12:04:11.604</CreationDate>
+	<Notes/>
+	<Text>DaysSupply</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8863-8C76BF940154"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-560D8976013F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-560D8975C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-560D8975C13F</Name>
+	<Description>non_uw_pend_req1_ord_date</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:06.645</CreationDate>
+	<Notes/>
+	<Text>non_uw_pend_req1_ord_date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-560D8975413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

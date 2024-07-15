@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-96B7-E0BD861C4169">
+	<DocumentID>005056A2-27FA-A1EB-96B7-E0BD861C0169</DocumentID>
+	<Name>005056A2-27FA-A1EB-96B7-E0BD861C0169</Name>
+	<Description>LSP API</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-01-20T07:04:38.957</CreationDate>
+	<Notes/>
+	<DefaultText>LSP API</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-96B7-E0BD861C8169"
+		/>
+	</Translations>
+</TextIdentifier>

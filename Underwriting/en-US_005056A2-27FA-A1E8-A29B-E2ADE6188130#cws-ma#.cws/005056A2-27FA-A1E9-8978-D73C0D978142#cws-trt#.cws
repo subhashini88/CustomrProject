@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8978-D73C0D97C142">
+	<DocumentID>005056A2-27FA-A1E9-8978-D73C0D978142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8978-D73C0D978142</Name>
+	<Description>Precomplete Process</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-02-01T05:38:31.272</CreationDate>
+	<Notes/>
+	<Text>Precomplete Process</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8978-D73C0D970142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

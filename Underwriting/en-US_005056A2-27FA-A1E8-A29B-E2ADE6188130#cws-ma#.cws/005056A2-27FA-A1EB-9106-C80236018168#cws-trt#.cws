@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9106-C8023601C168">
+	<DocumentID>005056A2-27FA-A1EB-9106-C80236018168</DocumentID>
+	<Name>005056A2-27FA-A1EB-9106-C80236018168</Name>
+	<Description>Universal Life Protector</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-12-22T06:04:02.845</CreationDate>
+	<Notes/>
+	<Text>Universal Life Protector</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9106-C80236010168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

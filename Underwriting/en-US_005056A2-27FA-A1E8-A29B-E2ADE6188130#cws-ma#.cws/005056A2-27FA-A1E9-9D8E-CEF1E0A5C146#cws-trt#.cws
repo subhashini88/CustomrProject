@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9D8E-CEF1E0A60146">
+	<DocumentID>005056A2-27FA-A1E9-9D8E-CEF1E0A5C146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9D8E-CEF1E0A5C146</Name>
+	<Description>PolicyNumber</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-05-14T12:00:33.235</CreationDate>
+	<Notes/>
+	<Text>PolicyNumber</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9D8E-CEF1E0A54146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

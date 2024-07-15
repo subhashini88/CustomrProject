@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8129-8150BC110172">
+	<DocumentID>005056A2-27FA-A1EC-8129-8150BC10C172</DocumentID>
+	<Name>005056A2-27FA-A1EC-8129-8150BC10C172</Name>
+	<Description>Terminated</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-24T07:59:27.573</CreationDate>
+	<Notes/>
+	<Text>Terminated</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-8129-8150BC104172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

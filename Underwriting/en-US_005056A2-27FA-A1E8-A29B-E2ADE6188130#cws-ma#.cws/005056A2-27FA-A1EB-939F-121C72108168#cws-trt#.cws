@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-939F-121C7210C168">
+	<DocumentID>005056A2-27FA-A1EB-939F-121C72108168</DocumentID>
+	<Name>005056A2-27FA-A1EB-939F-121C72108168</Name>
+	<Description>FindAgentSSN</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2021-01-04T11:06:54.723</CreationDate>
+	<Notes/>
+	<Text>FindAgentSSN</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-939F-121C72100168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

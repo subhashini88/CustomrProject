@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE06-B121F9F88160">
+	<DocumentID>005056A2-27FA-A1EA-BE06-B121F9F84160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE06-B121F9F84160</Name>
+	<Description>Polyp</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T13:00:56.761</CreationDate>
+	<Notes/>
+	<Text>Polyp</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BE06-B121F9F7C160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AD9C-D83ACC63819A">
+	<DocumentID>005056A2-27FA-A1ED-AD9C-D83ACC63419A</DocumentID>
+	<Name>005056A2-27FA-A1ED-AD9C-D83ACC63419A</Name>
+	<Description>UpdateReviewActionSummary for PP</Description>
+	<CreatedBy>chaitanya</CreatedBy>
+	<CreationDate>2023-02-27T10:39:39.031</CreationDate>
+	<Notes/>
+	<Text>UpdateReviewActionSummary for PP</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-AD9C-D83ACC62C19A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

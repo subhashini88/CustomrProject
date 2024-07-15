@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AC7D-EA4BD944414C">
+	<DocumentID>005056A2-27FA-A1E9-AC7D-EA4BD944014C</DocumentID>
+	<Name>005056A2-27FA-A1E9-AC7D-EA4BD944014C</Name>
+	<Description>Plan Activity for Post Issue  Review Task</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-07-29T12:01:13.027</CreationDate>
+	<Notes/>
+	<Text>Plan Activity for Post Issue  Review Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-AC7D-EA4BD943814C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

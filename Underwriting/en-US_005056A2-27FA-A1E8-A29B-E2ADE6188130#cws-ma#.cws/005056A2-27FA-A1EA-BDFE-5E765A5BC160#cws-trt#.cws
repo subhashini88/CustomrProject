@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BDFE-5E765A5C0160">
+	<DocumentID>005056A2-27FA-A1EA-BDFE-5E765A5BC160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BDFE-5E765A5BC160</Name>
+	<Description>Asthma</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T08:52:09.881</CreationDate>
+	<Notes/>
+	<Text>Asthma</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BDFE-5E765A5B4160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

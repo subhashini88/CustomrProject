@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8E32-84BF7E184193">
+	<DocumentID>005056A2-27FA-A1ED-8EA6-BAD633CE0193</DocumentID>
+	<Name>005056A2-27FA-A1ED-8EA6-BAD633CE0193</Name>
+	<Description>GetUW_EDMDataObject</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-22T17:27:14.81</CreationDate>
+	<Notes/>
+	<Text>GetUW_EDMDataObject</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-8EA6-BAD633CD8193"
+		/>
+	</TextIdentifier>
+</TranslatedText>

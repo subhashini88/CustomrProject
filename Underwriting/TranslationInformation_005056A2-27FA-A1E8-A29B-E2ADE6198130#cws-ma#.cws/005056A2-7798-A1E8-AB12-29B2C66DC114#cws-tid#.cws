@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-7798-A1E8-AB12-29B2C66E0114">
+	<DocumentID>005056A2-7798-A1E8-AB12-29B2C66DC114</DocumentID>
+	<Name>005056A2-7798-A1E8-AB12-29B2C66DC114</Name>
+	<Description>cd_reason</Description>
+	<CreatedBy>Ramamurthy, Abirama Sundari</CreatedBy>
+	<CreationDate>2018-08-30T12:15:36.379</CreationDate>
+	<Notes/>
+	<DefaultText>cd_reason</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-7798-A1E8-AB12-29B2C66E4114"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8453-E2B913E6C172">
+	<DocumentID>005056A2-27FA-A1EC-8453-E2B913E68172</DocumentID>
+	<Name>005056A2-27FA-A1EC-8453-E2B913E68172</Name>
+	<Description>DecryptFile</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-09-09T09:37:03.932</CreationDate>
+	<Notes/>
+	<Text>DecryptFile</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-8453-E2B913E60172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

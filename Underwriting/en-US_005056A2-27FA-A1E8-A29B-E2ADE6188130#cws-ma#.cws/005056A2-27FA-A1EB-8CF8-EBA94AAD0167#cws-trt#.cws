@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8CF8-EBA94AAD4167">
+	<DocumentID>005056A2-27FA-A1EB-8CF8-EBA94AAD0167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8CF8-EBA94AAD0167</Name>
+	<Description>GetWKSVendorOrderDetailsby_CaseNTaskID</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-12-01T14:52:03.299</CreationDate>
+	<Notes/>
+	<Text>GetWKSVendorOrderDetailsby_CaseNTaskID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8CF8-EBA94AAC8167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

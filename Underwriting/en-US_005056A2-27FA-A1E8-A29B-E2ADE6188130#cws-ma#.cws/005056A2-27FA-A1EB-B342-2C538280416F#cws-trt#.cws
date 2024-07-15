@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B342-2C538280816F">
+	<DocumentID>005056A2-27FA-A1EB-B342-2C538280416F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B342-2C538280416F</Name>
+	<Description>WKSPeriodicReAssignment</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-14T12:04:40.904</CreationDate>
+	<Notes/>
+	<Text>WKSPeriodicReAssignment</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B342-2C53827FC16F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

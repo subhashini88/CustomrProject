@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B877-14807A7B015E">
+	<DocumentID>005056A2-27FA-A1EA-B877-14807A7AC15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B877-14807A7AC15E</Name>
+	<Description>Worklist</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-08-19T07:03:09.704</CreationDate>
+	<Notes/>
+	<Text>Worklist</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B877-14807A7A415E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

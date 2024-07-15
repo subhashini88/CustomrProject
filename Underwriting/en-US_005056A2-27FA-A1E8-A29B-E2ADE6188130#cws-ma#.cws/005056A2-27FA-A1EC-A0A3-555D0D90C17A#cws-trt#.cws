@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-A0A3-555D0D91017A">
+	<DocumentID>005056A2-27FA-A1EC-A0A3-555D0D90C17A</DocumentID>
+	<Name>005056A2-27FA-A1EC-A0A3-555D0D90C17A</Name>
+	<Description>Check Multiple Deduction frequency</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2022-01-31T12:00:12.2</CreationDate>
+	<Notes/>
+	<Text>Check Multiple Deduction frequency</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-A0A3-555D0D90417A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

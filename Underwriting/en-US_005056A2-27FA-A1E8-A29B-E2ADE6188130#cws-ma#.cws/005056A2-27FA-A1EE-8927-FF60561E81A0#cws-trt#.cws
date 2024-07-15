@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8927-FF60561EC1A0">
+	<DocumentID>005056A2-27FA-A1EE-8927-FF60561E81A0</DocumentID>
+	<Name>005056A2-27FA-A1EE-8927-FF60561E81A0</Name>
+	<Description>UW Manual Task Creation</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2023-07-17T13:14:28.667</CreationDate>
+	<Notes/>
+	<Text>UW Manual Task Creation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8927-FF60561E01A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

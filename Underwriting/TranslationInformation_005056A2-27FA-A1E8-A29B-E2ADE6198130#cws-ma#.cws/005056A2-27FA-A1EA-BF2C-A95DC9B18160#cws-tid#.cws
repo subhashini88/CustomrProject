@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BF2C-A95DC9B1C160">
+	<DocumentID>005056A2-27FA-A1EA-BF2C-A95DC9B18160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BF2C-A95DC9B18160</Name>
+	<Description>APP &amp; POLICY INFO</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-22T11:24:28.345</CreationDate>
+	<Notes/>
+	<DefaultText>APP &amp; POLICY INFO</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BF2C-A95DC9B20160"
+		/>
+	</Translations>
+</TextIdentifier>

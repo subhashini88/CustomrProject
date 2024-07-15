@@ -1,0 +1,11 @@
+<xml xmlns="http://schemas.cordys.com/1.0/xmlstore">
+  <FromId>DedicatedService@combined.com</FromId>
+   <FromIDforAEBOT>DedicatedService@combined.com</FromIDforAEBOT>
+  <FromIDforSendPolicy>DedicatedService@combined.com</FromIDforSendPolicy> 
+  <BCC>DedicatedService@combined.com</BCC>
+  <MonitoringMailTo1>combinedclaimupdates@combined.com</MonitoringMailTo1>
+  <MonitoringMailTo />
+  <MonitoringMailforAEBOT>valaja.geetha@combined.com,manojkumar.reddyyeruva@combined.com,kavya.ananda@combined.com</MonitoringMailforAEBOT>
+  <MonitoringMailCC />
+  <MonitoringMailFrom>CICAImagingADMteam@Chubb.com</MonitoringMailFrom>
+</xml>

@@ -1,0 +1,66 @@
+<links xmlns="http://schemas.cordys.com/1.0/xmlstore">
+  <link id="uw_dev">
+    <ccpuLink>
+      <baseUrl>http://ussbycwass2004v:9086/CCPU/callCenter/CallCenterEngine?serviceCenter=21&amp;claimNumber=</baseUrl>
+    </ccpuLink>
+    <ccpuLinkCanada>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?serviceCenter=02&amp;claimNumber=</baseUrl>
+    </ccpuLinkCanada>
+    <PccpuLink>
+      <baseUrl>http://ussbycwass2004v:9086/CCPU/callCenter/CallCenterEngine?lineOfBusiness=X&amp;reqId=0112&amp;serviceCenter=21&amp;policyNumber=</baseUrl>
+    </PccpuLink>
+    <PccpuLinkCanada>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?lineOfBusiness=X&amp;reqId=0885&amp;serviceCenter=02&amp;policyNumber=</baseUrl>
+    </PccpuLinkCanada>
+  </link>
+  <link id="uw_devsit">
+    <ccpuLink>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?serviceCenter=41&amp;claimNumber=</baseUrl>
+    </ccpuLink>
+    <ccpuLinkCanada>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?serviceCenter=02&amp;claimNumber=</baseUrl>
+    </ccpuLinkCanada>
+    <PccpuLink>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?lineOfBusiness=X&amp;reqId=0885&amp;serviceCenter=01&amp;policyNumber=</baseUrl>
+    </PccpuLink>
+    <PccpuLinkCanada>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?lineOfBusiness=X&amp;reqId=0885&amp;serviceCenter=02&amp;policyNumber=</baseUrl>
+    </PccpuLinkCanada>
+  </link>
+  <link id="Underwriting">
+    <ccpuLink>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?serviceCenter=41&amp;claimNumber=</baseUrl>
+    </ccpuLink>
+    <ccpuLinkCanada>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?serviceCenter=02&amp;claimNumber=</baseUrl>
+    </ccpuLinkCanada>
+    <PccpuLink>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?lineOfBusiness=X&amp;reqId=0885&amp;serviceCenter=41&amp;policyNumber=</baseUrl>
+    </PccpuLink>
+    <PccpuLinkCanada>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?lineOfBusiness=X&amp;reqId=0885&amp;serviceCenter=02&amp;policyNumber=</baseUrl>
+    </PccpuLinkCanada>
+  </link>
+  <link id="claimsuat">
+    <ccpuLink>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?serviceCenter=41&amp;claimNumber=</baseUrl>
+    </ccpuLink>
+    <ccpuLinkCanada>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?serviceCenter=02&amp;claimNumber=</baseUrl>
+    </ccpuLinkCanada>
+    <PccpuLink>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?lineOfBusiness=X&amp;reqId=0885&amp;serviceCenter=01&amp;policyNumber=</baseUrl>
+    </PccpuLink>
+    <PccpuLinkCanada>
+      <baseUrl>http://isamt03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?lineOfBusiness=X&amp;reqId=0885&amp;serviceCenter=02&amp;policyNumber=</baseUrl>
+    </PccpuLinkCanada>
+  </link>
+  <link id="PolicyholderServices">
+    <ccpuLink>
+      <baseUrl>http://isamp03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?serviceCenter=01&amp;claimNumber=</baseUrl>
+    </ccpuLink>
+    <PccpuLink>
+      <baseUrl>http://isamp03.combinedinsurance.com/CCPU/callCenter/CallCenterEngine?lineOfBusiness=X&amp;reqId=0885&amp;serviceCenter=01&amp;policyNumber=</baseUrl>
+    </PccpuLink>
+  </link>
+</links>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BB6D-D89F6D66415E">
+	<DocumentID>005056A2-27FA-A1EA-BB6D-D89F6D66015E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BB6D-D89F6D66015E</Name>
+	<Description>Physician name</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-09-03T07:36:53.915</CreationDate>
+	<Notes/>
+	<Text>Physician name</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BB6D-D89F6D65815E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

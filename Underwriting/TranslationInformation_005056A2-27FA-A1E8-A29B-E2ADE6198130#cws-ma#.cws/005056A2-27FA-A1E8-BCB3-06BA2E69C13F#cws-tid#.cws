@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCB3-06BA2E6A013F">
+	<DocumentID>005056A2-27FA-A1E8-BCB3-06BA2E69C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCB3-06BA2E69C13F</Name>
+	<Description>PI Type</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-28T05:57:18.385</CreationDate>
+	<Notes/>
+	<DefaultText>PI Type</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BCB3-06BA2E6A413F"
+		/>
+	</Translations>
+</TextIdentifier>

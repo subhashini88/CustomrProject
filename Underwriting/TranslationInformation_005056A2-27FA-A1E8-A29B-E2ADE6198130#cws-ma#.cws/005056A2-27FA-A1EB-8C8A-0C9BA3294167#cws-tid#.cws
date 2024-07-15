@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8C8A-0C9BA3298167">
+	<DocumentID>005056A2-27FA-A1EB-8C8A-0C9BA3294167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8C8A-0C9BA3294167</Name>
+	<Description>getTargetWorkListName</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-11-29T15:51:10.205</CreationDate>
+	<Notes/>
+	<DefaultText>getTargetWorkListName</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8C8A-0C9BA329C167"
+		/>
+	</Translations>
+</TextIdentifier>

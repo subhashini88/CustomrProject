@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-7798-A1E8-ABD2-71ED9A290116">
+	<DocumentID>005056A2-7798-A1E8-ABD2-71ED9A28C116</DocumentID>
+	<Name>005056A2-7798-A1E8-ABD2-71ED9A28C116</Name>
+	<Description>hangup_time</Description>
+	<CreatedBy>Gunasekaran, VidhyaSri</CreatedBy>
+	<CreationDate>2018-09-03T07:22:10.674</CreationDate>
+	<Notes/>
+	<DefaultText>hangup_time</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-7798-A1E8-ABD2-71ED9A294116"
+		/>
+	</Translations>
+</TextIdentifier>

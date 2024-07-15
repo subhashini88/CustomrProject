@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AE30-FB026D39419A">
+	<DocumentID>005056A2-27FA-A1ED-AE30-FB026D39019A</DocumentID>
+	<Name>005056A2-27FA-A1ED-AE30-FB026D39019A</Name>
+	<Description>To check  count of input batch files and processed batch files for that case are equal</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-02T06:32:25.774</CreationDate>
+	<Notes/>
+	<Text>To check  count of input batch files and processed batch files for that case are equal</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-AE30-FB026D38819A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

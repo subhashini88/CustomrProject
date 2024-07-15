@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-A3A4-5965C329815A">
+	<DocumentID>005056A2-27FA-A1EA-A3A4-5965C329415A</DocumentID>
+	<Name>005056A2-27FA-A1EA-A3A4-5965C329415A</Name>
+	<Description>UpdateSearchWorklists</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-05-05T05:48:27.89</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateSearchWorklists</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-A3A4-5965C329C15A"
+		/>
+	</Translations>
+</TextIdentifier>

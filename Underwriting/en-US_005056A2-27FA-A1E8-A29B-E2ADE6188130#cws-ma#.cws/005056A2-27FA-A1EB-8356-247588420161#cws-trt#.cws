@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8356-247588424161">
+	<DocumentID>005056A2-27FA-A1EB-8356-247588420161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8356-247588420161</Name>
+	<Description>Critical Illness Champion</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-13T14:03:09.238</CreationDate>
+	<Notes/>
+	<Text>Critical Illness Champion</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8356-247588418161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-81BC-64B2D2418161">
+	<DocumentID>005056A2-27FA-A1EB-81BC-64B2D2414161</DocumentID>
+	<Name>005056A2-27FA-A1EB-81BC-64B2D2414161</Name>
+	<Description>005056A2-27FA-A1EB-81BC-64B2D2414161</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-05T10:15:18.72</CreationDate>
+	<Notes/>
+	<Text>&lt;div&gt;&lt;SPAN style=&quot;;font-size: x-small;;font-family: arial, helvetica, sans-serif ;&quot;&gt;&lt;bR /&gt;&lt;/SPAN&gt;&lt;/div&gt;&lt;p&gt;&lt;SPAN style=&quot;font-size: x-small;;font-family: arial, helvetica, sans-serif ;&quot;&gt;&lt;bR /&gt;&lt;/SPAN&gt;&lt;/p&gt;&lt;h6&gt;&lt;SPAN style=&quot;;font-size: x-small;;font-family: arial, helvetica, sans-serif ;&quot;&gt;Implementation Call Required?&lt;/SPAN&gt;&lt;/h6&gt;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-81BC-64B2D240C161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

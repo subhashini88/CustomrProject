@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-91B6-EFDBA656C144">
+	<DocumentID>005056A2-27FA-A1E9-91B6-EFDBA6568144</DocumentID>
+	<Name>005056A2-27FA-A1E9-91B6-EFDBA6568144</Name>
+	<Description>UpdateTbl_underwriting_worksheet Rx</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-03-15T05:15:53.63</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_underwriting_worksheet Rx</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-91B6-EFDBA6560144"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8C6C-F6607C140167">
+	<DocumentID>005056A2-27FA-A1EB-8C6C-F6607C13C167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8C6C-F6607C13C167</Name>
+	<Description>GetCaseModel</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2020-11-28T20:30:47.49</CreationDate>
+	<Notes/>
+	<Text>GetCaseModel</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8C6C-F6607C134167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

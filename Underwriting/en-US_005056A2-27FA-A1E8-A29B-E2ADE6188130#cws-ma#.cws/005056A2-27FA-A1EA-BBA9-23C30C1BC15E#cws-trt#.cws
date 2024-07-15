@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BBA9-23C30C1C015E">
+	<DocumentID>005056A2-27FA-A1EA-BBA9-23C30C1BC15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BBA9-23C30C1BC15E</Name>
+	<Description>Spouse Benefit:</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-04T12:39:43.793</CreationDate>
+	<Notes/>
+	<Text>Spouse Benefit:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BBA9-23C30C1B415E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

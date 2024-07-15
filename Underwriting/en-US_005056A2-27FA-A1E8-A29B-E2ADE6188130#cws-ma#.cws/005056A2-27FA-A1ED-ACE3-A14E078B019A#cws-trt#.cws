@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-ACE3-A14E078B419A">
+	<DocumentID>005056A2-27FA-A1ED-ACE3-A14E078B019A</DocumentID>
+	<Name>005056A2-27FA-A1ED-ACE3-A14E078B019A</Name>
+	<Description>CheckRealBatchFilesCount</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-23T16:01:05.337</CreationDate>
+	<Notes/>
+	<Text>CheckRealBatchFilesCount</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-ACE3-A14E078A819A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

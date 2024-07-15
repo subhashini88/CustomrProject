@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-960C-B93D56D501A7">
+	<DocumentID>005056A2-27FA-A1EE-960C-B93D56D4C1A7</DocumentID>
+	<Name>005056A2-27FA-A1EE-960C-B93D56D4C1A7</Name>
+	<Description>UW_ReindexerProcess</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-09-21T04:00:19.825</CreationDate>
+	<Notes/>
+	<Text>UW_ReindexerProcess</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-960C-B93D56D441A7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

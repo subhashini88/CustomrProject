@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-830E-C4368ED20161">
+	<DocumentID>005056A2-27FA-A1EB-830E-C4368ED1C161</DocumentID>
+	<Name>005056A2-27FA-A1EB-830E-C4368ED1C161</Name>
+	<Description>Effective Date</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-12T05:58:00.501</CreationDate>
+	<Notes/>
+	<Text>Effective Date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-830E-C4368ED14161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

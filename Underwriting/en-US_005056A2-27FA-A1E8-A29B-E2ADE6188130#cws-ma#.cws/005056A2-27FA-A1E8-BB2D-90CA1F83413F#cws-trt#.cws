@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB2D-90CA1F83813F">
+	<DocumentID>005056A2-27FA-A1E8-BB2D-90CA1F83413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB2D-90CA1F83413F</Name>
+	<Description>Incomplete</Description>
+	<CreatedBy>PRTIWA1</CreatedBy>
+	<CreationDate>2018-11-20T11:23:32.731</CreationDate>
+	<Notes/>
+	<Text>Incomplete</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB2D-90CA1F82C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

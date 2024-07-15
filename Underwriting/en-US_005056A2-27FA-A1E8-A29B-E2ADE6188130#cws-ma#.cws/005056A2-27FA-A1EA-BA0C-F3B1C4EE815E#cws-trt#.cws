@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BA0C-F3B1C4EEC15E">
+	<DocumentID>005056A2-27FA-A1EA-BA0C-F3B1C4EE815E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BA0C-F3B1C4EE815E</Name>
+	<Description>WKS caseCreation</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-08-27T07:09:14.625</CreationDate>
+	<Notes/>
+	<Text>WKS caseCreation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BA0C-F3B1C4EE015E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

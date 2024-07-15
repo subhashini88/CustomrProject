@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE02-DE7A28594160">
+	<DocumentID>005056A2-27FA-A1EA-BE02-DE7A28590160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE02-DE7A28590160</Name>
+	<Description>Is Case Active?</Description>
+	<CreatedBy>Abhishek</CreatedBy>
+	<CreationDate>2020-09-16T11:03:35.91</CreationDate>
+	<Notes/>
+	<Text>Is Case Active?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BE02-DE7A28588160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

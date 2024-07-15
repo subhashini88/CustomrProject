@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-970B-30711D02C145">
+	<DocumentID>005056A2-27FA-A1E9-970B-30711D028145</DocumentID>
+	<Name>005056A2-27FA-A1E9-970B-30711D028145</Name>
+	<Description>(333)Combined TELE-INTERVIEW- Fibromylagia</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-11T07:41:19.634</CreationDate>
+	<Notes/>
+	<Text>(333)Combined TELE-INTERVIEW- Fibromylagia</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-970B-30711D020145"
+		/>
+	</TextIdentifier>
+</TranslatedText>

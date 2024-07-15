@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A8D5-D029026E816D">
+	<DocumentID>005056A2-27FA-A1EB-A8D5-D029026E416D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A8D5-D029026E416D</Name>
+	<Description>AppPalette1</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-04-22T11:00:47.73</CreationDate>
+	<Notes/>
+	<Text>AppPalette1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A8D5-D029026DC16D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

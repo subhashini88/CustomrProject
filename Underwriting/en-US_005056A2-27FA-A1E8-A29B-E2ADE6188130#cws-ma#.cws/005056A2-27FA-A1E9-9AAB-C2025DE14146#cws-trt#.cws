@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9AAB-C2025DE18146">
+	<DocumentID>005056A2-27FA-A1E9-9AAB-C2025DE14146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9AAB-C2025DE14146</Name>
+	<Description>60DayPending</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-04-29T18:50:14.514</CreationDate>
+	<Notes/>
+	<Text>60DayPending</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9AAB-C2025DE0C146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

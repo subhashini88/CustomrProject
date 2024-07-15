@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-84A1-C4B87268C165">
+	<DocumentID>005056A2-27FA-A1EB-84A1-C4B872688165</DocumentID>
+	<Name>005056A2-27FA-A1EB-84A1-C4B872688165</Name>
+	<Description>FetchOnlyCompleteOrNAUsingMtrAppNo</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-10-20T05:37:46.27</CreationDate>
+	<Notes/>
+	<Text>FetchOnlyCompleteOrNAUsingMtrAppNo</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-84A1-C4B872680165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

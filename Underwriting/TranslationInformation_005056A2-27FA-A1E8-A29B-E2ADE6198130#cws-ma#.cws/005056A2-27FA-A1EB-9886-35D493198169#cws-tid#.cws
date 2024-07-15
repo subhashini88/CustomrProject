@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9886-35D49319C169">
+	<DocumentID>005056A2-27FA-A1EB-9886-35D493198169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9886-35D493198169</Name>
+	<Description>Output16</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-01-29T10:06:02.584</CreationDate>
+	<Notes/>
+	<DefaultText>Output16</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9886-35D4931A0169"
+		/>
+	</Translations>
+</TextIdentifier>

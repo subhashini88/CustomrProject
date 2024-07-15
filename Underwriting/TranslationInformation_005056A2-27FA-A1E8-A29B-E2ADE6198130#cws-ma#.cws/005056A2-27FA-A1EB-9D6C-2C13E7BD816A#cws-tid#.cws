@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9D6C-2C13E7BDC16A">
+	<DocumentID>005056A2-27FA-A1EB-9D6C-2C13E7BD816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9D6C-2C13E7BD816A</Name>
+	<Description>REAL Batch Number</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-02-23T11:50:47.736</CreationDate>
+	<Notes/>
+	<DefaultText>REAL Batch Number</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9D6C-2C13E7BE016A"
+		/>
+	</Translations>
+</TextIdentifier>

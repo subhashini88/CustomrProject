@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BE48-AE011B90013F">
+	<DocumentID>005056A2-27FA-A1E8-BE48-AE011B8FC13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BE48-AE011B8FC13F</Name>
+	<Description>Chronic Obstructive Lung/Pulmonary Disease, Chronic Bronchitis or Emphysema?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-06T06:55:49.643</CreationDate>
+	<Notes/>
+	<Text>Chronic Obstructive Lung/Pulmonary Disease, Chronic Bronchitis or Emphysema?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BE48-AE011B8F413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

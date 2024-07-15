@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-92D1-A9ECB5F241A4">
+	<DocumentID>005056A2-27FA-A1EE-92D1-A9ECB5F201A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-92D1-A9ECB5F201A4</Name>
+	<Description>HouseHoldData</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-09-04T17:17:09.667</CreationDate>
+	<Notes/>
+	<Text>HouseHoldData</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-92D1-A9ECB5F181A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BC99-AB781EEE015E">
+	<DocumentID>005056A2-27FA-A1EA-BC99-AB781EEDC15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BC99-AB781EEDC15E</Name>
+	<Description>Master App Number:</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-09-09T07:29:55.954</CreationDate>
+	<Notes/>
+	<Text>Master App Number:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BC99-AB781EED415E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

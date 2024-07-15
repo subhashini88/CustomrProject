@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-83C9-023A50AC818D">
+	<DocumentID>005056A2-27FA-A1ED-83C9-023A50AC418D</DocumentID>
+	<Name>005056A2-27FA-A1ED-83C9-023A50AC418D</Name>
+	<Description>PPE</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2022-07-29T09:51:50.365</CreationDate>
+	<Notes/>
+	<Text>PPE</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-83C9-023A50ABC18D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

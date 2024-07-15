@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8476-954273250165">
+	<DocumentID>005056A2-27FA-A1EB-8476-95427324C165</DocumentID>
+	<Name>TransferIMTaskfromWEWtoWEPW</Name>
+	<Description>TransferIMTaskfromWEWtoWEPW</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-10-19T09:31:10.083</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="TransferIMTaskfromWEWtoWEPW"
+			count="-1"
+			autodeploy="true"
+			targetLastModified="2020-10-19T08:53:23.274"
+			msgHolderLastModified="2020-12-24T07:14:45.194">
+			<datetime>
+				<daily>
+					<time>0:5</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8CC1-D337369A4167">
+			<DocumentID>005056A2-27FA-A1EB-8CC1-D337369A0167</DocumentID>
+			<Name>005056A2-27FA-A1EB-8CC1-D337369A0167</Name>
+			<Description>005056A2-27FA-A1EB-8CC1-D337369A0167</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2020-11-30T12:31:33.773</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EB-83EB-5376BEA0C161"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

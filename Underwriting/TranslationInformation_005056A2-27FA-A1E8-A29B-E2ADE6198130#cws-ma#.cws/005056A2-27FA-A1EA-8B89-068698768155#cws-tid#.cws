@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8B89-06869876C155">
+	<DocumentID>005056A2-27FA-A1EA-8B89-068698768155</DocumentID>
+	<Name>005056A2-27FA-A1EA-8B89-068698768155</Name>
+	<Description>Answer exists?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-01-03T12:57:31.268</CreationDate>
+	<Notes/>
+	<DefaultText>Answer exists?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-8B89-068698770155"
+		/>
+	</Translations>
+</TextIdentifier>

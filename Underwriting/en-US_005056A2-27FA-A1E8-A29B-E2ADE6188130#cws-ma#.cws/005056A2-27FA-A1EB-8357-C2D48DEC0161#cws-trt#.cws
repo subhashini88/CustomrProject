@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8357-C2D48DEC4161">
+	<DocumentID>005056A2-27FA-A1EB-8357-C2D48DEC0161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8357-C2D48DEC0161</Name>
+	<Description>High Deductible Buffer</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-13T14:45:24.714</CreationDate>
+	<Notes/>
+	<Text>High Deductible Buffer</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8357-C2D48DEB8161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

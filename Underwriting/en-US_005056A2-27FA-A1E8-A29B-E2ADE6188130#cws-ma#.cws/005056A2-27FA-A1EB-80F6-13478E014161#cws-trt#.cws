@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-80F6-13478E018161">
+	<DocumentID>005056A2-27FA-A1EB-80F6-13478E014161</DocumentID>
+	<Name>005056A2-27FA-A1EB-80F6-13478E014161</Name>
+	<Description>Exception message</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-10-01T11:25:07.613</CreationDate>
+	<Notes/>
+	<Text>Exception message</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-80F6-13478E00C161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

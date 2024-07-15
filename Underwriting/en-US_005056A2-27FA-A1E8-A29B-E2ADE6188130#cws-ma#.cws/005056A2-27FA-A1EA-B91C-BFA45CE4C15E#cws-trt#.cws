@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B91C-BFA45CE5015E">
+	<DocumentID>005056A2-27FA-A1EA-B91C-BFA45CE4C15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B91C-BFA45CE4C15E</Name>
+	<Description>Insured Name:</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-22T12:32:18.268</CreationDate>
+	<Notes/>
+	<Text>Insured Name:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B91C-BFA45CE4415E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

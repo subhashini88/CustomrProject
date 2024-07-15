@@ -1,0 +1,28 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B736-0CCDE4A3019C">
+	<DocumentID>005056A2-27FA-A1ED-B736-0CCDE4A2C19C</DocumentID>
+	<Name>005056A2-27FA-A1ED-B736-0CCDE4A2C19C</Name>
+	<Description>Correct
+ Batch Queue
+check</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-04-17T05:16:19.903</CreationDate>
+	<Notes/>
+	<DefaultText>Correct
+ Batch Queue
+check</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-B736-0CCDE4A3419C"
+		/>
+	</Translations>
+</TextIdentifier>

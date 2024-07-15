@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BC99-AB781EF7015E">
+	<DocumentID>005056A2-27FA-A1EA-BC99-AB781EF6C15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BC99-AB781EF6C15E</Name>
+	<Description>GroupEnrollmentCase</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-09-09T07:23:22.446</CreationDate>
+	<Notes/>
+	<DefaultText>GroupEnrollmentCase</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BC99-AB781EF7415E"
+		/>
+	</Translations>
+</TextIdentifier>

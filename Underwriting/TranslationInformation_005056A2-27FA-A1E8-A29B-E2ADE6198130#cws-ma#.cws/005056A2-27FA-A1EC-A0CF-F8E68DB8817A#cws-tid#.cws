@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-A0CF-F8E68DB8C17A">
+	<DocumentID>005056A2-27FA-A1EC-A0CF-F8E68DB8817A</DocumentID>
+	<Name>005056A2-27FA-A1EC-A0CF-F8E68DB8817A</Name>
+	<Description>SearchLDAP</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2022-02-01T09:31:25.212</CreationDate>
+	<Notes/>
+	<DefaultText>SearchLDAP</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-A0CF-F8E68DB9017A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8401-75F57F188141">
+	<DocumentID>005056A2-27FA-A1E9-8401-75F57F184141</DocumentID>
+	<Name>005056A2-27FA-A1E9-8401-75F57F184141</Name>
+	<Description>dft_CaseID</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2019-01-04T09:52:55.454</CreationDate>
+	<Notes/>
+	<DefaultText>dft_CaseID</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-8401-75F57F18C141"
+		/>
+	</Translations>
+</TextIdentifier>

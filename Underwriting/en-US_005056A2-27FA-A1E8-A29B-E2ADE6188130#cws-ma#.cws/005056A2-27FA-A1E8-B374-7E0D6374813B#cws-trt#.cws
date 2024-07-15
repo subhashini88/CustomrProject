@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B374-7E0D6374C13B">
+	<DocumentID>005056A2-27FA-A1E8-B374-7E0D6374813B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B374-7E0D6374813B</Name>
+	<Description>UpdateTbl_underwriting_worksheet</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-12T04:31:39.147</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_underwriting_worksheet</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B374-7E0D6374013B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,34 @@
+
+<BusinessIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.businessidentifier.BusinessIdentifier"
+	RuntimeDocumentID="005056A2-27FA-A1EE-960D-221F43AC81A7">
+	<DocumentID>005056A2-27FA-A1EE-960D-221F43AC41A7</DocumentID>
+	<Name>UW_CM8DocID</Name>
+	<Description>UW_CM8DocID</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-09-21T04:43:08.913</CreationDate>
+	<Notes/>
+	<DataType>1</DataType>
+	<Precision>0</Precision>
+	<TranslatableDescription/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EE-960D-221F43A981A7">
+			<DocumentID>005056A2-27FA-A1EE-960D-221F43A941A7</DocumentID>
+			<Name>005056A2-27FA-A1EE-960D-221F43A941A7</Name>
+			<Description>005056A2-27FA-A1EE-960D-221F43A941A7</Description>
+			<CreatedBy>Sarada</CreatedBy>
+			<CreationDate>2023-09-21T04:43:08.913</CreationDate>
+			<Notes/>
+			<DeveloperText>UW_CM8DocID</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EE-960D-221F43AA41A7"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+</BusinessIdentifier>

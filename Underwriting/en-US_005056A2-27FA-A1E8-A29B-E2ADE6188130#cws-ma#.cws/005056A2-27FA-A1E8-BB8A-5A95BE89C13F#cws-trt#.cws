@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-5A95BE8A013F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-5A95BE89C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-5A95BE89C13F</Name>
+	<Description>uw_pend_PHI2_reason</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.091</CreationDate>
+	<Notes/>
+	<Text>uw_pend_PHI2_reason</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-5C142825013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

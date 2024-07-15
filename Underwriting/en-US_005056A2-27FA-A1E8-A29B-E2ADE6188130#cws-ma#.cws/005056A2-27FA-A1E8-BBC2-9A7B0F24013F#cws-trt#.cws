@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BBC2-9A7B0F24413F">
+	<DocumentID>005056A2-27FA-A1E8-BBC2-9A7B0F24013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BBC2-9A7B0F24013F</Name>
+	<Description>005056A2-27FA-A1E8-BBC2-9A7B0F24013F</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-23T10:34:14.163</CreationDate>
+	<Notes/>
+	<Text>A Non Vendor Follow Up was scheduled and before the delay is completed , the user opened and completed the requirement , then the table would be updated as to have status as complete and if the status is complete then we are not creating a task that was scheduled if not a task has to b e created on scheduled time</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BBC2-9A7B0F23813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

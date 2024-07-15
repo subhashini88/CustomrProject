@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A496-6A79AD32014A">
+	<DocumentID>005056A2-27FA-A1E9-A496-6A79AD31C14A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A496-6A79AD31C14A</Name>
+	<Description>(913)HEP. B &amp; C TEST ON BLOOD</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T06:18:54.888</CreationDate>
+	<Notes/>
+	<DefaultText>(913)HEP. B &amp; C TEST ON BLOOD</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-A496-6A79AD32414A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8401-75F57F1A0141">
+	<DocumentID>005056A2-27FA-A1E9-8401-75F57F19C141</DocumentID>
+	<Name>005056A2-27FA-A1E9-8401-75F57F19C141</Name>
+	<Description>dft_policy_severity</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2019-01-04T09:52:55.466</CreationDate>
+	<Notes/>
+	<DefaultText>dft_policy_severity</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-8401-75F57F1A4141"
+		/>
+	</Translations>
+</TextIdentifier>

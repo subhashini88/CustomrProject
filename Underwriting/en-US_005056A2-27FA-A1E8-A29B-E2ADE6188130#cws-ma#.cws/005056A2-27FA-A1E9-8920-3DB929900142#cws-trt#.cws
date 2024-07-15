@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8920-3DB929904142">
+	<DocumentID>005056A2-27FA-A1E9-8920-3DB929900142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8920-3DB929900142</Name>
+	<Description>Count of Non Vendor</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-30T11:23:22.888</CreationDate>
+	<Notes/>
+	<Text>Count of Non Vendor</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8920-3DB9298F8142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A048-CA76251A016A">
+	<DocumentID>005056A2-27FA-A1EB-A048-CA762519C16A</DocumentID>
+	<Name>005056A2-27FA-A1EB-A048-CA762519C16A</Name>
+	<Description>Fetch Case instance ID</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2021-03-09T22:48:23.174</CreationDate>
+	<Notes/>
+	<Text>Fetch Case instance ID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A048-CA762519416A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

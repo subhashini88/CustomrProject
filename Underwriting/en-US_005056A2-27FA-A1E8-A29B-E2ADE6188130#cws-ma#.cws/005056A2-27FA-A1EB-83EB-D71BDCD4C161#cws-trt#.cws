@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-83EB-D71BDCD50161">
+	<DocumentID>005056A2-27FA-A1EB-83EB-D71BDCD4C161</DocumentID>
+	<Name>005056A2-27FA-A1EB-83EB-D71BDCD4C161</Name>
+	<Description>Embedded Sub-Process</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2020-10-16T15:01:35.682</CreationDate>
+	<Notes/>
+	<Text>Embedded Sub-Process</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-83EB-D71BDCD44161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

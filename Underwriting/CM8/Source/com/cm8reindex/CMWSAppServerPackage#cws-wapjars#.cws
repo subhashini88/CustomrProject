@@ -1,0 +1,40 @@
+
+<WSAppServerJavaArchiveSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="005056A2-27FA-A1EC-AE6F-353B3B04C17C">
+	<DocumentID>005056A2-27FA-A1EC-AE6F-353B3B04817C</DocumentID>
+	<Name>CMWSAppServerPackage</Name>
+	<Description>CMWSAppServerPackage</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2022-04-11T17:28:43.322</CreationDate>
+	<Notes/>
+	<JarFileName>CMWSAppServerPackage</JarFileName>
+	<NamespacePrefix></NamespacePrefix>
+	<Dependencies>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="005056A2-27FA-A1EC-AE6F-353B3B05417C">
+			<DocumentID>005056A2-27FA-A1EC-AE6F-353B3B05017C</DocumentID>
+			<Name>CMWSAppServerPackage_Dependency</Name>
+			<Description/>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2022-04-11T17:28:43.322</CreationDate>
+			<Notes/>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+			<ISVPName></ISVPName>
+		</JavaArchiveReferenceDependency>
+	</Dependencies>
+	<SourceFolder>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-C40A2028CE88"
+			path="Underwriting/Java/CM8DB_Java/Source"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="005056A2-27FA-A1EB-B8F0-B7850C388170"
+		/>
+	</WSAppServerPackage>
+</WSAppServerJavaArchiveSource>

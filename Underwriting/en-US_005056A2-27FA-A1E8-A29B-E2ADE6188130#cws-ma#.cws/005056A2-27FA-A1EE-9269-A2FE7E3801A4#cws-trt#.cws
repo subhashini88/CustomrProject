@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9269-A2FE7E3841A4">
+	<DocumentID>005056A2-27FA-A1EE-9269-A2FE7E3801A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-9269-A2FE7E3801A4</Name>
+	<Description>Claim type</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-02T16:08:33.671</CreationDate>
+	<Notes/>
+	<Text>Claim type</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-9269-A2FE7E3781A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

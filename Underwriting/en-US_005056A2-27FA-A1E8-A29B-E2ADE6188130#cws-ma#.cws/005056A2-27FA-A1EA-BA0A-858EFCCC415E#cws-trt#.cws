@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BA0A-858EFCCC815E">
+	<DocumentID>005056A2-27FA-A1EA-BA0A-858EFCCC415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BA0A-858EFCCC415E</Name>
+	<Description>Auto close BPM</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-08-27T06:10:47.204</CreationDate>
+	<Notes/>
+	<Text>Auto close BPM</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BA0A-858EFCCBC15E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

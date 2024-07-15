@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BF3A-DF96D0A9818C">
+	<DocumentID>005056A2-27FA-A1EC-BF3A-DF96D0A9418C</DocumentID>
+	<Name>005056A2-27FA-A1EC-BF3A-DF96D0A9418C</Name>
+	<Description>Other Department</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-06T05:31:46.043</CreationDate>
+	<Notes/>
+	<Text>Other Department</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BF3A-DF96D0A8C18C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

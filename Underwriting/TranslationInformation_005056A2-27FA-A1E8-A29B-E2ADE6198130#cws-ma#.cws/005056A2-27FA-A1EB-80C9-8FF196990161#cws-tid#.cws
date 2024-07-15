@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-80C9-8291E146C161">
+	<DocumentID>005056A2-27FA-A1EB-80C9-8FF196990161</DocumentID>
+	<Name>005056A2-27FA-A1EB-80C9-8FF196990161</Name>
+	<Description>close the case</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-09-30T14:09:39.274</CreationDate>
+	<Notes/>
+	<DefaultText>close the case</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-80C9-8291E1470161"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEF-590996A4C13F">
+	<DocumentID>005056A2-27FA-A1E8-BDEF-590996A4813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEF-590996A4813F</Name>
+	<Description>Thyroid Disorder</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T12:16:34.801</CreationDate>
+	<Notes/>
+	<Text>Thyroid Disorder</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEF-590996A4013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

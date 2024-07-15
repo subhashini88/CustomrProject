@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-94A3-6D5AB130C175">
+	<DocumentID>005056A2-27FA-A1EC-94A3-6D5AB1308175</DocumentID>
+	<Name>005056A2-27FA-A1EC-94A3-6D5AB1308175</Name>
+	<Description>TransferDeductionAlertTask</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-12-01T10:24:22.042</CreationDate>
+	<Notes/>
+	<DefaultText>TransferDeductionAlertTask</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-94A3-6D5AB1310175"
+		/>
+	</Translations>
+</TextIdentifier>

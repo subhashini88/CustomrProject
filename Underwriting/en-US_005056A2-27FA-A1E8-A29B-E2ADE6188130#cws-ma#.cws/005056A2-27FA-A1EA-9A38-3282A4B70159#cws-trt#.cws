@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-9A38-3282A4B74159">
+	<DocumentID>005056A2-27FA-A1EA-9A38-3282A4B70159</DocumentID>
+	<Name>005056A2-27FA-A1EA-9A38-3282A4B70159</Name>
+	<Description>Has Combined Insurance asked that we obtain the Salary Continuation?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-03-18T08:02:34.735</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we obtain the Salary Continuation?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-9A38-3282A4B68159"
+		/>
+	</TextIdentifier>
+</TranslatedText>

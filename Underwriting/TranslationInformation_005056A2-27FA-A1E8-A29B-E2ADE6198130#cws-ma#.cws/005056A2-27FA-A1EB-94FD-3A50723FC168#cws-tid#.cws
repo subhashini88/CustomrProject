@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-94FD-3A5072400168">
+	<DocumentID>005056A2-27FA-A1EB-94FD-3A50723FC168</DocumentID>
+	<Name>005056A2-27FA-A1EB-94FD-3A50723FC168</Name>
+	<Description>Select7</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-01-11T10:32:18.442</CreationDate>
+	<Notes/>
+	<DefaultText>Select7</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-94FD-3A5072404168"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-81C4-6FB57B514172">
+	<DocumentID>005056A2-27FA-A1EC-81C4-6FB57B510172</DocumentID>
+	<Name>005056A2-27FA-A1EC-81C4-6FB57B510172</Name>
+	<Description>reinstatement record count</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-27T08:39:19.834</CreationDate>
+	<Notes/>
+	<Text>reinstatement record count</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-81C4-6FB57B508172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

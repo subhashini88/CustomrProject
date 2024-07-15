@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9F05-F066E612C16A">
+	<DocumentID>005056A2-27FA-A1EB-9F05-F066E612816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9F05-F066E612816A</Name>
+	<Description>Transfer Tasks</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-03T12:14:39.971</CreationDate>
+	<Notes/>
+	<Text>Transfer Tasks</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9F05-F066E612016A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

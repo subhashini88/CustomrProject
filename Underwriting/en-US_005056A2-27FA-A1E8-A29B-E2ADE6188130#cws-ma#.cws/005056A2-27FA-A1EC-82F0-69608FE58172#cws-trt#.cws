@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-82F0-69608FE5C172">
+	<DocumentID>005056A2-27FA-A1EC-82F0-69608FE58172</DocumentID>
+	<Name>005056A2-27FA-A1EC-82F0-69608FE58172</Name>
+	<Description>updateSubActivityForCaseAndTask</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-02T09:13:22.45</CreationDate>
+	<Notes/>
+	<Text>updateSubActivityForCaseAndTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-82F0-69608FE50172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

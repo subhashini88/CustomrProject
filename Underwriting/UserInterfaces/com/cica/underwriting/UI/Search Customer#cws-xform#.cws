@@ -1,0 +1,2531 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D364160">
+	<DocumentID>005056A2-27FA-A1EA-BF95-2F519D368160</DocumentID>
+	<Name>Search Customer</Name>
+	<Description>Search Customer</Description>
+	<CreatedBy>kmohan</CreatedBy>
+	<CreationDate>2020-09-24T10:59:36.682</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetLSPAlphaModel"
+					wcpforms:businessElement="tns:GetLSPAlphaResult"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false"
+					wcpforms:nontransactional="true">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://tempuri.org//GetLSPAlpha"
+							operationName="GetLSPAlpha"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EA-B718-6A14EAB5C15D">
+							<request0370
+								xmlns="http://tempuri.org/"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://tempuri.org/</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://tempuri.org/</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="ns1">http://schemas.datacontract.org/2004/07/DB2Service</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xforms:model
+					id="dummyModel"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:automatic="false"
+					wcpforms:businessElement="dummy"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:timeout=""
+						wcpforms:iteratorSize="50"
+					/>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetPolicyInsureds0355Model"
+					wcpforms:businessElement="tns:GetPolicyInsureds0355Result"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false"
+					wcpforms:nontransactional="true">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://tempuri.org//GetPolicyInsureds0355"
+							operationName="GetPolicyInsureds0355"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EC-AA6C-FD9E527A817C">
+							<request0355
+								xmlns="http://tempuri.org/"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://tempuri.org/</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://tempuri.org/</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="ns1">http://schemas.datacontract.org/2004/07/CTGService</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetdropdownbyidentifierModel"
+					wcpforms:businessElement="tns:tuple"
+					wcpforms:automatic="true"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false"
+					wcpforms:nontransactional="true">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/uw/dataservices/1.0/Getdropdownbyidentifier"
+							operationName="Getdropdownbyidentifier"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EC-AA72-A93F4BAE417C">
+							<identifier
+								xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<xforms:action
+						ev:event="xforms-onrequest">
+						<xforms:GetdropdownbyidentifierModel_OnRequest/>
+					</xforms:action>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="getContractsAlphaDetailsModel"
+					wcpforms:businessElement="tns:Data"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false"
+					wcpforms:nontransactional="true">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/default/getContractsAlphaDetails"
+							operationName="getContractsAlphaDetails"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EC-AA7A-A54C67C4817C">
+							<City
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<DOB
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<FNamePercent
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<FName
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<LNamePercent
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<LName
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<MiddleName
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<Gender
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<ServiceCenter
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<State
+								xmlns="http://schemas.cordys.com/default"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/default</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/default</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="getContractsAlphaDetailsModel1"
+					wcpforms:businessElement="tns:Data"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false"
+					wcpforms:nontransactional="true">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/default/getContractsAlphaDetails"
+							operationName="getContractsAlphaDetails"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EC-AA7A-A54C67C4817C">
+							<City
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<DOB
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<FNamePercent
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<FName
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<LNamePercent
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<LName
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<MiddleName
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<Gender
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<ServiceCenter
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<State
+								xmlns="http://schemas.cordys.com/default"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/default</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/default</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						xmlns=""
+						id="custTblTpl">
+						<ResponseData
+							xmlns="">
+							<tuple>
+								<old>
+									<Customer_Details>
+										<policyNo/>
+										<personName/>
+										<dob/>
+										<state/>
+										<city/>
+										<personId/>
+										<select/>
+										<sa/>
+										<lob/>
+										<AdminSystem/>
+										<serachCriteria/>
+										<actualDOB/>
+										<hch/>
+										<zip/>
+										<addressType/>
+										<Sex/>
+										<customerId/>
+									</Customer_Details>
+								</old>
+							</tuple>
+						</ResponseData>
+					</xml>
+					<xml
+						xmlns=""
+						id="custTblRes">
+						<ResponseData
+							xmlns=""
+						/>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						appearance="box"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+						id="groupbox1"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 393px"
+						wcpforms:labelalign="ontop"
+						isNavigationEnabled="true">
+						<xforms:label
+							textIdentifier="005056A2-27FA-A1EA-BF95-41E9BE2D0160"
+							wcpforms:class="groupheader">Search Customer</xforms:label>
+						<xforms:group
+							appearance="group"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+							id="group1"
+							wcpforms:layout="vertical"
+							wcpforms:class="h_layout"
+							wcpforms:size="22% 89px"
+							wcpforms:labelalign="ontop">
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="PolicyIp"
+								wcpforms:class="h_layout"
+								wcpforms:size="95.6046% auto"
+								doEBIValidate="false"
+								isNavigationEnabled="true">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8383-B957E6FE0161"
+									wcpforms:class="v_label">Policy Number*</xforms:label>
+							</xforms:input>
+						</xforms:group>
+						<xforms:group
+							appearance="group"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+							id="group2"
+							wcpforms:layout="vertical"
+							wcpforms:class="h_layout"
+							wcpforms:size="70% 89px"
+							wcpforms:labelalign="ontop">
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="firstName"
+								wcpforms:class="h_layout"
+								wcpforms:size="22% auto"
+								doEBIValidate="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8383-B957E6FC8161"
+									wcpforms:class="v_label">First Name*</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="LNameIp"
+								wcpforms:class="h_layout"
+								wcpforms:size="22% auto"
+								doEBIValidate="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8383-B957E6FB0161"
+									wcpforms:class="v_label">Last Name*</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="dobIp"
+								wcpforms:class="h_layout"
+								wcpforms:size="22% auto"
+								wcpforms:displayformat="shortdate"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								doEBIValidate="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EA-BF33-1185BFDCC160"
+									wcpforms:class="v_label">DOB</xforms:label>
+							</xforms:input>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="GenderIp"
+								wcpforms:size="22% auto"
+								wcpforms:class="h_layout"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:dataType="string"
+								wcpforms:textalign="left_align">
+								<xforms:label
+									textIdentifier="005056A2-4E48-A1E8-A008-3D92940B0109"
+									wcpforms:class="v_label">Gender</xforms:label>
+								<xforms:item>
+									<xforms:label>SELECT</xforms:label>
+									<xforms:value/>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>Male</xforms:label>
+									<xforms:value>M</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>Female</xforms:label>
+									<xforms:value>F</xforms:value>
+								</xforms:item>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="FnamePerc"
+								wcpforms:size="22% auto"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:class="h_layout">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EA-BF33-6AD51644C160"
+									wcpforms:class="v_label">First Name %</xforms:label>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="LnamePerc"
+								wcpforms:size="22% auto"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:dataType="string"
+								wcpforms:textalign="left_align"
+								wcpforms:class="h_layout">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EA-BF33-6AD516434160"
+									wcpforms:class="v_label">Last Name %</xforms:label>
+								<xforms:itemset
+									xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+									model="">
+									<xforms:label
+										ref=""
+									/>
+									<xforms:value
+										ref=""
+									/>
+								</xforms:itemset>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="StateIp"
+								wcpforms:size="22% auto"
+								wcpforms:class="h_layout"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:dataType="string"
+								wcpforms:textalign="left_align">
+								<xforms:label
+									textIdentifier="005056A2-4E48-A1E8-A0D8-A7EC09A08109"
+									wcpforms:class="v_label">State</xforms:label>
+								<xforms:itemset
+									xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+									model="GetdropdownbyidentifierModel">
+									<xforms:label
+										ref="tns:Description"
+									/>
+									<xforms:value
+										ref="tns:Value"
+									/>
+								</xforms:itemset>
+							</xforms:select1>
+							<xforms:group
+								appearance="controlbox"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+								id="controlbox1"
+								controltype="button"
+								wcpforms:layout="horizontal"
+								wcpforms:class="h_layout autoextent"
+								wcpforms:align="left_align"
+								wcpforms:size="22% auto">
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+									id="searchBtn"
+									wcpforms:class="h_button"
+									wcpforms:size="40% 22px">
+									<xforms:label
+										textIdentifier="005056A2-7798-A1E8-AF2B-0BFFC1F8C120">Search</xforms:label>
+									<xforms:action
+										ev:event="xforms-activate">
+										<xforms:searchBtn_Click/>
+									</xforms:action>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+									id="ClearBtn"
+									wcpforms:class="h_button"
+									wcpforms:size="40% 22px">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1EA-BF33-1185BFD5C160">Clear</xforms:label>
+									<xforms:action
+										ev:event="xforms-activate">
+										<xforms:ClearBtn_Click/>
+									</xforms:action>
+								</xforms:trigger>
+							</xforms:group>
+						</xforms:group>
+						<xforms:repeat
+							wcpforms:displayContextMenu="true"
+							wcpforms:toggleColumns="true"
+							wcpforms:movableColumns="false"
+							wcpforms:saveState="false"
+							wcpforms:autoInsert="true"
+							wcpforms:minRows="5"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+							id="CustomerTbl"
+							wcpforms:gridtype="datagrid"
+							wcpforms:checkboxes="false"
+							wcpforms:layout="vertical"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 177px"
+							synchronizedDialogFrame="main"
+							isNavigationEnabled="true"
+							model="dummyModel"
+							nodeset="ResponseData/tuple/old/Customer_Details"
+							fixedHeader="true">
+							<xforms:group
+								appearance="elementbar"
+								id="_elementBar"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+								<xforms:group
+									appearance="controlbar"
+									id="_controlBar"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+									wcpforms:class="controlbar">
+									<xforms:trigger
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+										id="navRefresh1"
+										standardid="navRefresh">
+										<xforms:label>
+											<img
+												src="wcp/theme/default/icon/action/refresh.png"
+											/>
+										</xforms:label>
+										<xforms:hint>Refresh</xforms:hint>
+										<xforms:action
+											ev:event="onafterrefresh">
+											<xforms:searchBtn_Click/>
+										</xforms:action>
+									</xforms:trigger>
+								</xforms:group>
+							</xforms:group>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="PolicyCol"
+								wcpforms:size="116px 100%"
+								doEBIValidate="false"
+								model="dummyModel"
+								ref="ResponseData/tuple/old/Customer_Details/policyNo">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1E8-9D77-A63E45254127">Policy Number</xforms:label>
+							</xforms:output>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="PersonIdCol"
+								wcpforms:size="87px 100%"
+								doEBIValidate="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EA-BF30-DDA5A38EC160">Person ID</xforms:label>
+							</xforms:output>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="NameCol"
+								wcpforms:size="123px 100%"
+								doEBIValidate="false"
+								ref="ns1:PolicyDetails/ns1:Response0355Container/ns1:OwnerProfile/ns1:FullName">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EA-BF33-1185BFCC4160">Name</xforms:label>
+							</xforms:output>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="dobCol"
+								wcpforms:size="92px 100%"
+								doEBIValidate="false"
+								ref="ns1:PolicyDetails/ns1:Response0355Container/ns1:OwnerProfile/ns1:DateOfBirth">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EA-BF33-1185BFDCC160">DOB</xforms:label>
+							</xforms:output>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="StateCodeCol"
+								wcpforms:size="86px 100%"
+								doEBIValidate="false"
+								ref="ns1:PolicyDetails/ns1:Response0355Container/ns1:MailingAddress/ns1:State">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EA-BF33-1185BFCA4160">State Code</xforms:label>
+							</xforms:output>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="cityCol"
+								wcpforms:size="114px 100%"
+								doEBIValidate="false"
+								ref="ns1:PolicyDetails/ns1:Response0355Container/ns1:MailingAddress/ns1:City">
+								<xforms:label
+									textIdentifier="005056A2-4E48-A1E8-A2FB-3B351067410B">City</xforms:label>
+							</xforms:output>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="address"
+								wcpforms:size="100px 100%"
+								doEBIValidate="false"
+								ref="ns1:PolicyDetails/ns1:Response0355Container/ns1:MailingAddress/ns1:Street">
+								<xforms:label
+									textIdentifier="005056A2-7798-A1E9-86BE-919A080F012F">Address</xforms:label>
+							</xforms:output>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="zipCol"
+								doEBIValidate="false"
+								wcpforms:size="auto 100%">
+								<xforms:label
+									textIdentifier="005056A2-7798-A1E8-A65E-8767F5574111">Zip Code</xforms:label>
+							</xforms:output>
+							<xforms:action
+								ev:event="xforms-onrowclick">
+								<xforms:CustomerTbl_xformsonrowclick/>
+							</xforms:action>
+						</xforms:repeat>
+						<xforms:label
+							appearance="richtext"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRichtext"
+							id="cntRte"
+							textIdentifier="005056A2-27FA-A1EC-AA68-0455085DC17C"
+							wcpforms:class="h_layout"
+							wcpforms:size="40% 20px">
+							<![CDATA[<span style="color: #7f7f7f;">Count:0</span>]]>
+						</xforms:label>
+						<xforms:group
+							appearance="controlbox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+							id="controlbox2"
+							controltype="button"
+							wcpforms:layout="horizontal"
+							wcpforms:class="h_layout autoextent"
+							wcpforms:align="right_align"
+							wcpforms:size="55% auto">
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="cancelBtn"
+								wcpforms:class="h_button"
+								wcpforms:size="57px 22px">
+								<xforms:label
+									textIdentifier="005056A2-4E48-A1E8-A39B-007A1993C10B">Cancel</xforms:label>
+								<xforms:action
+									ev:event="xforms-activate">
+									<xforms:cancelBtn_Click/>
+								</xforms:action>
+							</xforms:trigger>
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="okBtn"
+								wcpforms:class="h_button"
+								wcpforms:size="54px 22px">
+								<xforms:label
+									textIdentifier="005056A2-7798-A1E9-81E0-5274EAC1C12E">Ok</xforms:label>
+								<xforms:action
+									ev:event="xforms-activate">
+									<xforms:okBtn_Click/>
+								</xforms:action>
+							</xforms:trigger>
+						</xforms:group>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var AlphaSearch_Details = [];
+var decision="";
+var action="";
+var currentFormat = 'yyyymmdd';
+var rowObj={
+    policy:'',
+    personid:'',
+    name:'',
+    dob:'',
+    state:'',
+    city:'',
+    address:'',
+    zip:''
+};
+var rowIndex=0;
+var namespaces = {tns:"http://schemas.cordys.com/notification/ws-humantask/execution/2.0"};
+function Form_InitDone(eventObject)
+{
+    application.setDialogSize("1000px","500px");
+    //cntRte.hide();
+    if(application.event.data && application.event.data.policy!="")    
+    PolicyIp.setValue(application.event.data.policy);
+    else PolicyIp.setValue('');//F2439638
+    CustomerTbl.create();
+    CustomerTbl.hideColumn(7);
+    //zipCol
+    for(var i=100;i>=1;i--)
+    {
+        var option={value:i,description:i};        
+        LnamePerc.addOption(option,false,0,false);
+        FnamePerc.addOption(option,false,0,false);
+    
+    }
+    var option={value:'',description:'SELECT'};
+    LnamePerc.addOption(option,false,0,false);
+    FnamePerc.addOption(option,false,0,false);
+    LnamePerc.setValue('75');
+    FnamePerc.setValue('75');
+    
+    StateIp.setValue("");
+    cntRte.setValue("Records Count:0");
+}
+function searchBtn_Click(eventObject)
+{
+    CustomerTbl.refresh();
+    dummyModel.clear();
+    AlphaSearch_Details=[];
+    cntRte.setValue("Records Count:0");
+   
+   if(PolicyIp.getValue()!='' && PolicyIp.getValue()!=undefined)
+   {
+   
+    var resp=cordys.cloneXMLDocument(custTblRes.XMLDocument);
+    var request = GetPolicyInsureds0355Model.getMethodRequest();
+	cordys.setNodeText(request, ".//*[local-name()='Request0355CustomerKey']", PolicyIp.getValue());
+	cordys.setNodeText(request, ".//*[local-name()='Request0355PolicyCount']", '1');
+	cordys.setNodeText(request, ".//*[local-name()='Request0355ServiceCenter']", '01');
+	GetPolicyInsureds0355Model.setMethodRequest(request);
+	GetPolicyInsureds0355Model.reset();
+	GetPolicyInsureds0355Model.refreshAllViews();
+	var a = GetPolicyInsureds0355Model.getData();
+	
+	var PU355retStatus=cordys.getNodeText(a,".//*[local-name()='cTGAppMessages']/*[local-name()='ReturnStatus']","");
+    var PU355retMsg=cordys.getNodeText(a,".//*[local-name()='cTGAppMessages']/*[local-name()='ReturnMessage']","");
+    if(cordys.getNodeText(a,".//*[local-name()='PolicyDetails']","")!=""){
+	var mAddress={
+	mstate:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='MState']",""),
+	mcity:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='MCity']",""),
+	mstreet:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='MStreet']",""),
+	mzip:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='MZip']",""),
+	mzipext:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='MZipExtension']","")
+	
+	};
+	var rAddress={
+	rstate:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='RState']",""),
+	rcity:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='RCity']",""),
+	rstreet:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='RStreet']",""),
+	rzip:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='RZip']",""),
+	rzipext:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='RZipExtension']","")
+    };
+    var mAddrFlg=(mAddress.mstate!="" && mAddress.mCity!="")?true:false;
+    
+    AlphaSearch_Details.push({
+        policyNo:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='PolicyNumber']",""),	
+		personName:((cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='FullName']","")!="")?cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='FullName']",""):cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='OwnerProfile']/*[local-name()='FullName']","")),
+		dob: ((cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='DateOfBirth']","")!="")?((dateFormatter(cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY')!="")?((dateFormatter(cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY')).substr(0,2)+"/"+(dateFormatter(cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY').substr(8,2))):""):((dateFormatter(cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='OwnerProfile']/*[local-name()='DateOfBirth']",""),'MM/DD/YYYY')!="")?((dateFormatter(cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='OwnerProfile']/*[local-name()='DateOfBirth']",""),'MM/DD/YYYY')).substr(0,2))+"/"+(dateFormatter(cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='OwnerProfile']/*[local-name()='DateOfBirth']",""),'MM/DD/YYYY').substr(8,2)):"")),
+		state:((mAddrFlg)?mAddress.mstate:rAddress.rstate),
+		city:((mAddrFlg)?mAddress.mcity:rAddress.rcity),
+		personId: cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='CustomerId']",""),
+		select:false,
+		sa:((mAddrFlg)?mAddress.mstreet:rAddress.rstreet),
+		lob:'',
+		AdminSystem: cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='AdminSystem']",""),
+		serachCriteria : 'P',
+		actualDOB: ((cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='DateOfBirth']","")!="")?(dateFormatter(cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY')): (dateFormatter(cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='OwnerProfile']/*[local-name()='DateOfBirth']",""),'MM/DD/YYYY'))),	
+		hch : (cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='HCH']","") == "Y")?true:false,
+		zip : ((mAddrFlg)? (mAddress.mzipext != ''?(mAddress.mzip+'-'+mAddress.mzipext):mAddress.mzip) :(rAddress.rzipext != ''?(rAddress.rzip+"-"+rAddress.rzipext):rAddress.rzip)),
+		addressType : (mAddrFlg ? "M" : "R"),
+		Sex : ((cordys.getNodeText(GetPolicyInsureds0355Model.getData(),".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='Sex']","")!="")?cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='InsuredProfile']/*[local-name()='Sex']",""):cordys.getNodeText(GetPolicyInsureds0355Model.getData(),".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='OwnerProfile']/*[local-name()='Sex']","")),
+        customerId:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='CustomerId']","")
+							
+	
+	
+	
+	});
+    var depdCount=cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='DependentCount']","");
+    var dependentDetails = (cordys.selectXMLNodes(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='DependentProfile']/*[local-name()='Profile']")!= "") ? cordys.selectXMLNodes(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='DependentProfile']/*[local-name()='Profile']") : "";
+    
+    if (depdCount>0) {
+	if (dependentDetails.length>1) {
+	    for (i = 0; i < dependentDetails.length; i++) {
+			AlphaSearch_Details.push({
+			    policyNo:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='PolicyNumber']",""),
+			    personName: cordys.getNodeText(dependentDetails[i],".//*[local-name()='FullName']",""),
+			    dob:((dateFormatter(cordys.getNodeText(dependentDetails[i],".//*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY')!="")?((dateFormatter(cordys.getNodeText(dependentDetails[i],".//*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY')).substr(0,2)+"/"+(dateFormatter(cordys.getNodeText(dependentDetails[i],".//*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY')).substr(8,2)):""),
+				state:((mAddrFlg)?mAddress.mstate:rAddress.rstate),
+				city:((mAddrFlg)?mAddress.mcity:rAddress.rcity),
+				personId:'',
+				select:false,
+				sa:((mAddrFlg)?mAddress.mstreet:rAddress.rstreet),
+				lob:'',
+		        AdminSystem: cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='AdminSystem']",""),
+		        serachCriteria : 'P',
+				actualDOB: dateFormatter(cordys.getNodeText(dependentDetails[i],".//*[local-name()='DateOfBirth']",""),'MM/DD/YYYY'),
+				hch : (cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='HCH']","") == "Y"),
+		        zip : ((mAddrFlg)? (mAddress.mzipext != ''?(mAddress.mzip+'-'+mAddress.mzipext):mAddress.mzip) :(rAddress.rzipext != ''?(rAddress.rzip+"-"+rAddress.rzipext):rAddress.rzip)),
+				addressType : (mAddrFlg ? "M" : "R"),
+				Sex : cordys.getNodeText(dependentDetails[i],".//*[local-name()='Sex']",""),
+				customerId : cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='CustomerId']","")
+			});
+	      }
+		} else {
+			AlphaSearch_Details.push({
+			    policyNo:cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='PolicyNumber']",""),
+			    personName: cordys.getNodeText(dependentDetails,".//*[local-name()='FullName']",""),
+			    dob:((dateFormatter(cordys.getNodeText(dependentDetails,".//*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY')!="")?((dateFormatter(cordys.getNodeText(dependentDetails,".//*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY')).substr(0,2)+"/"+(dateFormatter(cordys.getNodeText(dependentDetails,".//*[local-name()='DateOfBirth']",""), 'MM/DD/YYYY')).substr(8,2)):""),
+				state:((mAddrFlg)?mAddress.mstate:rAddress.rstate),
+				city:((mAddrFlg)?mAddress.mcity:rAddress.rcity),
+				personId:'',
+				select:false,
+				sa:((mAddrFlg)?mAddress.mstreet:rAddress.rstreet),
+				lob:'',
+		        AdminSystem: cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='AdminSystem']",""),
+		        serachCriteria : 'P',
+				actualDOB: dateFormatter(cordys.getNodeText(dependentDetails,".//*[local-name()='DateOfBirth']",""),'MM/DD/YYYY'),
+				hch : (cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='consolidatdData']/*[local-name()='HCH']","") == "Y"),
+		        zip : ((mAddrFlg)? (mAddress.mzipext != ''?(mAddress.mzip+'-'+mAddress.mzipext):mAddress.mzip) :(rAddress.rzipext != ''?(rAddress.rzip+"-"+rAddress.rzipext):rAddress.rzip)),
+				addressType : (mAddrFlg ? "M" : "R"),
+				Sex : cordys.getNodeText(dependentDetails,".//*[local-name()='Sex']",""),
+				customerId : cordys.getNodeText(a,".//*[local-name()='PolicyDetails']/*[local-name()='Response0355Container']/*[local-name()='CustomerId']","")
+			});
+	    }
+		}
+   }
+   
+	} else {
+	
+	    
+	              if(firstName.getValue()=="" || LNameIp.getValue()=="")
+			{
+				if(firstName.getValue()=="" && LNameIp.getValue()=="")
+					application.notify("First Name and Last Name are mandatory"	,"Validation");
+				else if(LNameIp.getValue()=="")		    
+					application.notify("Last Name is mandatory"	,"Validation");
+				else if(firstName.getValue()=="")		   
+					application.notify("First Name is mandatory","Validation");
+				//searchBtn.disable();				
+				return;
+			}
+	                var L70retStatus="";
+			var L70retMsg="";
+			var LSPretStatus="";
+			var LSPretMsg="";
+		
+					
+			var lspRequest = GetLSPAlphaModel.getMethodRequest();
+			cordys.setNodeText(lspRequest, ".//*[local-name()='City']", PolicyIp.getValue());
+			cordys.setNodeText(lspRequest, ".//*[local-name()='DOB']",  getOnlydate(dobIp.getValue()));
+			cordys.setNodeText(lspRequest, ".//*[local-name()='FNamePercent']", FnamePerc.getValue());
+			cordys.setNodeText(lspRequest, ".//*[local-name()='FirstName']", ((firstName.getValue())?((firstName.getValue()).toUpperCase()):""));
+			cordys.setNodeText(lspRequest, ".//*[local-name()='LNamePercent']", LnamePerc.getValue());
+			cordys.setNodeText(lspRequest, ".//*[local-name()='LastName']", ((LNameIp.getValue)?((LNameIp.getValue()).toUpperCase()):""));
+			cordys.setNodeText(lspRequest, ".//*[local-name()='MiddleName']", "");
+			cordys.setNodeText(lspRequest, ".//*[local-name()='Gender']", GenderIp.getValue());
+			cordys.setNodeText(lspRequest, ".//*[local-name()='ServiceCenter']", '0000');
+			cordys.setNodeText(lspRequest, ".//*[local-name()='State']", StateIp.getValue());
+			GetLSPAlphaModel.setMethodRequest(lspRequest);
+			GetLSPAlphaModel.reset();
+			var lspData = GetLSPAlphaModel.getData();
+			
+			LSPretStatus=cordys.getNodeText(lspData ,".//*[local-name()='GetLSPAlphaResult']/*[local-name()='dB2ServiceMessages']/*[local-name()='DB2ServiceReturnCode']","");
+			LSPretMsg=cordys.getNodeText(lspData ,".//*[local-name()='GetLSPAlphaResult']/*[local-name()='dB2ServiceMessages']/*[local-name()='DB2ServiceReturnMessage']","");
+						if(cordys.getNodeText(lspData ,".//*[local-name()='GetLSPAlphaResult']/*[local-name()='AlphaList']","")!="")
+			{
+			    var lspalphasearchdata=cordys.selectXMLNode(lspData ,".//*[local-name()='GetLSPAlphaResult']");
+				var lspalphalistdata = (cordys.getNodeText(lspalphasearchdata,".//*[local-name()='AlphaList']") != "" )? cordys.selectXMLNodes(lspalphasearchdata,".//*[local-name()='AlphaList']/*[local-name()='Response0370AlphaList']") : "";
+				if(lspalphalistdata.length==1)lspalphalistdata=lspalphalistdata;
+				if(lspalphalistdata != "" && lspalphalistdata !=undefined) {
+					if (lspalphalistdata.length>1){
+					
+					   for (var i = 0; i < lspalphalistdata.length; i++) 
+						{	
+							AlphaSearch_Details.push({
+								policyNo:'',
+								personName: cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='Name']",""),
+								dob: ((cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='DOB']","")!="")?(((cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='DOB']",""))).substr(0,2)+"/"+(cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='DOB']","")).substr(2,2)):""),
+								state:cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='State']",""),
+								city:cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='City']",""),
+								personId:cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='ClientNumber']",""),
+								select:false,
+								sa:cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='Address']",""),
+								lob:cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='LOB']",""),
+								AdminSystem: 'WRKS',
+								serachCriteria : 'N',
+								actualDOB : cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='DOB']",""),
+								Sex : cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='Gender']",""),
+								zip : cordys.getNodeText(lspalphalistdata[i],".//*[local-name()='ZipCode']",""),
+								addressType : 'M'
+							});
+											
+						}	 
+					
+					
+					}else
+					{
+					    if(cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='ServiceCenter']","")!="NORE" && cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='ServiceCenter']","")!="NOREC")
+						{    AlphaSearch_Details.push({
+								policyNo:'',
+								personName: cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='Name']",""),
+								dob: ((cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='DOB']","")!="")?(((cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='DOB']",""))).substr(0,2)+"/"+(cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='DOB']","")).substr(2,2)):""),
+								state:cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='State']",""),
+								city:cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='City']",""),
+								personId:cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='ClientNumber']",""),
+								select:false,
+								sa:cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='Address']",""),
+								lob:cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='LOB']",""),
+								AdminSystem: 'WRKS',
+								serachCriteria : 'N',
+								actualDOB : cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='DOB']",""),
+								Sex : cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='Gender']",""),
+								zip : cordys.getNodeText(lspalphalistdata[0],".//*[local-name()='ZipCode']",""),
+								addressType : 'M'
+							});
+						}
+					
+					}
+			            }
+			
+			}
+			
+			
+						var alphasearchdata;
+						var alphalistdata;
+						var alphasearchdata1;
+						var alphalistdata1;
+			
+									var l70Request1 = getContractsAlphaDetailsModel.getMethodRequest();
+			cordys.setNodeText(l70Request1, ".//*[local-name()='City']", "");
+			cordys.setNodeText(l70Request1, ".//*[local-name()='DOB']", getOnlydate(dobIp.getValue()));
+			cordys.setNodeText(l70Request1, ".//*[local-name()='FNamePercent']", FnamePerc.getValue());
+			cordys.setNodeText(l70Request1, ".//*[local-name()='FName']", ((firstName.getValue())?((firstName.getValue()).toUpperCase()):""));
+			cordys.setNodeText(l70Request1, ".//*[local-name()='LNamePercent']", LnamePerc.getValue());
+			cordys.setNodeText(l70Request1, ".//*[local-name()='LName']", ((LNameIp.getValue)?((LNameIp.getValue()).toUpperCase()):""));
+			cordys.setNodeText(l70Request1, ".//*[local-name()='MiddleName']", "");
+			cordys.setNodeText(l70Request1, ".//*[local-name()='Gender']", GenderIp.getValue());
+			cordys.setNodeText(l70Request1, ".//*[local-name()='ServiceCenter']", "02");
+			cordys.setNodeText(l70Request1, ".//*[local-name()='State']", StateIp.getValue());
+			getContractsAlphaDetailsModel.setMethodRequest(l70Request1);
+			getContractsAlphaDetailsModel.reset();
+			var l70Data1 = getContractsAlphaDetailsModel.getData();
+			
+			L70retStatus= cordys.getNodeText(l70Data1 ,".//*[local-name()='GetContractsAlphaResult']/*[local-name()='cTGAppMessages']/*[local-name()='ReturnStatus']","");
+			L70retMsg= cordys.getNodeText(l70Data1 ,".//*[local-name()='GetContractsAlphaResult']/*[local-name()='cTGAppMessages']/*[local-name()='ReturnMessage']","");
+			
+			if(cordys.getNodeText(l70Data1 ,".//*[local-name()='GetContractsAlphaResult']/*[local-name()='AlphaList']","")!=""){
+				alphasearchdata1 = cordys.selectXMLNode(l70Data1 ,".//*[local-name()='GetContractsAlphaResult']");
+				alphalistdata1 = (cordys.getNodeText(alphasearchdata1,".//*[local-name()='AlphaList']") != "" )? cordys.selectXMLNodes(alphasearchdata1,".//*[local-name()='AlphaList']/*[local-name()='Response0370AlphaList']") : "";
+				if(alphalistdata1.length==1)alphalistdata1=alphalistdata1;
+			
+				
+				if (alphalistdata1 != "" && alphalistdata1 !=undefined) {
+					
+	
+			
+
+			
+					if (alphalistdata1.length>1) 
+					{
+						for (var i1 = 0; i1 < alphalistdata1.length; i1++) {
+							var alphaOwlistdata1 = cordys.selectXMLNodes(alphalistdata1,".//*[local-name()='IsOwnerIdList']/*[local-name()='string']");
+							if(alphaOwlistdata1!="" && alphaOwlistdata1!=undefined)
+							{
+								if (alphaOwlistdata1.length>1){
+														
+									for (var j1 = 0; j1 < alphaOwlistdata1.length; j1++) {
+										AlphaSearch_Details.push({
+											policyNo:'',
+											personName:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='City']",""),
+											personId:alphaOwlistdata1[j1].textContent,
+											select:false,
+											sa:'',
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+										});
+								
+									}
+								}else{
+									if(alphaOwlistdata1.length>0){
+										AlphaSearch_Details.push({
+											policyNo:'',
+											personName:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='City']",""),
+											personId:alphaOwlistdata1[0].textContent,
+											select:false,
+											sa:((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='StreetAddress']",""))?cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='StreetAddress']",""):""),
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+											
+										});
+									}					
+														
+								}
+							}
+							
+							var alphaPollistdata1 = cordys.selectXMLNodes(alphalistdata1[i1],".//*[local-name()='IsDependentPolicyList']/*[local-name()='string']");
+							if(alphaPollistdata1!="" && alphaPollistdata1!=undefined)
+							{
+								if (alphaPollistdata1.length>1){
+														
+									for (var k1 in alphaPollistdata1) {
+									
+										AlphaSearch_Details.push({
+											policyNo: alphaPollistdata1[k1],
+											personName:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='City']",""),
+											personId:'',
+											select:false,
+											sa: ((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='StreetAddress']","")!="")?(cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='StreetAddress']","")):""),
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+										});
+									
+									}
+									
+								}else{
+									
+									AlphaSearch_Details.push({
+										policyNo:((alphaPollistdata1.length>0)?alphaPollistdata1[0]:""),
+										personName:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='LastName']",""),
+										dob: ((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+										state:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='State']",""),
+										city:cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='City']",""),
+										personId:'',
+										select:false,
+										sa: ((cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='StreetAddress']","")!="")?(cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='StreetAddress']","")):""),
+										lob:'',
+										AdminSystem: 'PICS',
+										serachCriteria : 'C',
+										actualDOB : cordys.getNodeText(alphalistdata1[i1],".//*[local-name()='BirthMonthYear']",""),
+										addressType : 'M'
+									});
+									
+								}
+								
+							}
+						}
+	  
+					
+			}else
+					{
+							var alphaOwlistdata11 = cordys.selectXMLNodes(alphalistdata1[0],".//*[local-name()='IsOwnerIdList']/*[local-name()='string']");
+							if(alphaOwlistdata11!="" && alphaOwlistdata11!=undefined)
+							{
+								if (alphaOwlistdata11.length>1){
+									
+									for (var l1 = 0; l1 < alphaOwlistdata11.length; l1++) {
+									
+										AlphaSearch_Details.push({
+											policyNo: '',
+											personName:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata1[0],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata1[0],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='City']",""),
+											personId:alphaOwlistdata11[l1].textContent,
+											select:false,
+											sa: '',
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+											
+										});								
+									
+									
+									}
+										
+									
+								}else{
+									if(alphaOwlistdata11.length>0){
+										AlphaSearch_Details.push({
+											policyNo: '',
+											personName:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata1[0],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata1[0],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='City']",""),
+											personId:alphaOwlistdata11[0].textContent,
+											select:false,
+											sa: '',
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+											
+										});	
+									}
+								}
+							}
+							 var alphaPollistdata11 = cordys.selectXMLNodes(alphalistdata1[0],".//*[local-name()='IsDependentPolicyList']/*[local-name()='string']");
+							if(alphaPollistdata11!="" && alphaPollistdata11!=undefined)
+							{
+								if (alphaPollistdata11.length>1){
+									for (var l1 = 0; l1 < alphaPollistdata11.length; l1++) {
+														
+										AlphaSearch_Details.push({
+											policyNo: alphaPollistdata11[l1],
+											personName:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata1[0],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata1[0],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='City']",""),
+											personId:'',
+											select:false,
+											sa:((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='StreetAddress']","")!="")?cordys.getNodeText(alphalistdata1[0],".//*[local-name()='StreetAddress']",""):''),
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+										});
+														
+														
+														
+									}
+														
+									
+								}else{
+									if(alphaPollistdata11.length>0){
+										AlphaSearch_Details.push({
+											policyNo: ((alphaPollistdata11.length>0)?alphaPollistdata11[0]:''),
+											personName:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata1[0],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata1[0],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata1[0],".//*[local-name()='City']",""),
+											personId:'',
+											select:false,
+											sa:((cordys.getNodeText(alphalistdata1[0],".//*[local-name()='StreetAddress']","")!="")?cordys.getNodeText(alphalistdata1[0],".//*[local-name()='StreetAddress']",""):''),
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata1[0],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+										});
+									}
+									
+								}
+							}
+						
+					}
+			
+				}
+				
+				}
+	
+	 
+			
+			
+		
+			var l70Request = getContractsAlphaDetailsModel1.getMethodRequest();
+			cordys.setNodeText(l70Request, ".//*[local-name()='City']", "");
+			cordys.setNodeText(l70Request, ".//*[local-name()='DOB']", getOnlydate(dobIp.getValue()));
+			cordys.setNodeText(l70Request, ".//*[local-name()='FNamePercent']", FnamePerc.getValue());
+			cordys.setNodeText(l70Request, ".//*[local-name()='FName']", ((firstName.getValue())?((firstName.getValue()).toUpperCase()):""));
+			cordys.setNodeText(l70Request, ".//*[local-name()='LNamePercent']", LnamePerc.getValue());
+			cordys.setNodeText(l70Request, ".//*[local-name()='LName']", ((LNameIp.getValue)?((LNameIp.getValue()).toUpperCase()):""));
+			cordys.setNodeText(l70Request, ".//*[local-name()='MiddleName']", "");
+			cordys.setNodeText(l70Request, ".//*[local-name()='Gender']", GenderIp.getValue());
+			cordys.setNodeText(l70Request, ".//*[local-name()='ServiceCenter']", '01');
+			cordys.setNodeText(l70Request, ".//*[local-name()='State']", StateIp.getValue());
+			getContractsAlphaDetailsModel1.setMethodRequest(l70Request);
+			getContractsAlphaDetailsModel1.reset();
+			var l70Data = getContractsAlphaDetailsModel1.getData();
+			
+			L70retStatus= cordys.getNodeText(l70Data ,".//*[local-name()='GetContractsAlphaResult']/*[local-name()='cTGAppMessages']/*[local-name()='ReturnStatus']","");
+			L70retMsg= cordys.getNodeText(l70Data ,".//*[local-name()='GetContractsAlphaResult']/*[local-name()='cTGAppMessages']/*[local-name()='ReturnMessage']","");
+			if(cordys.getNodeText(l70Data ,".//*[local-name()='GetContractsAlphaResult']/*[local-name()='AlphaList']","")!=""){
+				alphasearchdata = cordys.selectXMLNode(l70Data ,".//*[local-name()='GetContractsAlphaResult']");
+				alphalistdata = (cordys.getNodeText(alphasearchdata,".//*[local-name()='AlphaList']") != "" )? cordys.selectXMLNodes(alphasearchdata,".//*[local-name()='AlphaList']/*[local-name()='Response0370AlphaList']") : "";
+				if(alphalistdata.length==1)alphalistdata=alphalistdata;
+				
+				if (alphalistdata != "" && alphalistdata !=undefined) {							
+				
+						if (alphalistdata.length>1) 
+					{
+						for (var i = 0; i < alphalistdata.length; i++) {
+							var alphaOwlistdata = cordys.selectXMLNodes(alphalistdata,".//*[local-name()='IsOwnerIdList']/*[local-name()='string']");
+							if(alphaOwlistdata!="" && alphaOwlistdata!=undefined)
+							{
+								if (alphaOwlistdata.length>1){
+														
+									for (var j = 0; j < alphaOwlistdata.length; j++) {
+										AlphaSearch_Details.push({
+											policyNo:'',
+											personName:cordys.getNodeText(alphalistdata[i],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata[i],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata[i],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata[i],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata[i],".//*[local-name()='City']",""),
+											personId:alphaOwlistdata[j],
+											select:false,
+											sa:'',
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+										});
+								
+									}
+								}else{
+									if (alphaOwlistdata.length>0){			
+										AlphaSearch_Details.push({
+											policyNo:'',
+											personName:cordys.getNodeText(alphalistdata[i],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata[i],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata[i],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata[i],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata[i],".//*[local-name()='City']",""),
+											personId:alphaOwlistdata[0].textContent,
+											select:false,
+											sa:((cordys.getNodeText(alphalistdata[i],".//*[local-name()='StreetAddress']","")!="")?cordys.getNodeText(alphalistdata[i],".//*[local-name()='StreetAddress']",""):""),
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+											
+										});
+														
+														
+								}
+							}
+							
+							var alphaPollistdata = cordys.selectXMLNodes(alphalistdata[i],".//*[local-name()='IsDependentPolicyList']/*[local-name()='string']");
+							if(alphaPollistdata!="" && alphaPollistdata!=undefined)
+							{
+								if (alphaPollistdata.length>1){
+														
+									for (var k in alphaPollistdata) {
+									
+										AlphaSearch_Details.push({
+											policyNo: alphaPollistdata[k],
+											personName:cordys.getNodeText(alphalistdata[i],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata[i],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata[i],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata[i],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata[i],".//*[local-name()='City']",""),
+											personId:'',
+											select:false,
+											sa: ((cordys.getNodeText(alphalistdata[i],".//*[local-name()='StreetAddress']","")!="")?cordys.getNodeText(alphalistdata[i],".//*[local-name()='StreetAddress']",""):""),
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+										});
+									
+									}
+									
+								}else{
+								if (alphaPollistdata.length>0){	
+									AlphaSearch_Details.push({
+										policyNo: ((alphaPollistdata.length>0)?alphaPollistdata[0]:""),
+										personName:cordys.getNodeText(alphalistdata[i],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata[i],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata[i],".//*[local-name()='LastName']",""),
+										dob: ((cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+										state:cordys.getNodeText(alphalistdata[i],".//*[local-name()='State']",""),
+										city:cordys.getNodeText(alphalistdata[i],".//*[local-name()='City']",""),
+										personId:'',
+										select:false,
+										sa: ((cordys.getNodeText(alphalistdata[i],".//*[local-name()='StreetAddress']",""))?cordys.getNodeText(alphalistdata[i],".//*[local-name()='StreetAddress']",""):""),
+										lob:'',
+										AdminSystem: 'PICS',
+										serachCriteria : 'C',
+										actualDOB : cordys.getNodeText(alphalistdata[i],".//*[local-name()='BirthMonthYear']",""),
+										addressType : 'M'
+									});
+								}	
+								}
+								
+							}
+						}
+						}	
+					}else
+					{
+						
+			
+				
+			
+			
+			
+	
+
+							var alphaOwlistdata1 = cordys.selectXMLNodes(alphalistdata[0],".//*[local-name()='IsOwnerIdList']/*[local-name()='string']");
+							if(alphaOwlistdata1!="" && alphaOwlistdata1!=undefined)
+							{
+								if (alphaOwlistdata1.length>1){
+									
+									for (var l = 0; l < alphaOwlistdata1.length; l++) {
+									
+										AlphaSearch_Details.push({
+											policyNo: '',
+											personName:cordys.getNodeText(alphalistdata[0],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata[0],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata[0],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata[0],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata[0],".//*[local-name()='City']",""),
+											personId:alphaOwlistdata1[l].textContent,
+											select:false,
+											sa: '',
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+											
+										});								
+									
+									
+									}
+										
+									
+								}else{
+									if (alphaOwlistdata1.length>0){
+										AlphaSearch_Details.push({
+											policyNo: '',
+											personName:cordys.getNodeText(alphalistdata[0],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata[0],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata[0],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata[0],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata[0],".//*[local-name()='City']",""),
+											personId:alphaOwlistdata1[0].textContent,
+											select:false,
+											sa: '',
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+											
+										});	
+									}
+								}
+							}
+							
+							var alphaPollistdata1 = cordys.selectXMLNodes(alphalistdata[0],".//*[local-name()='IsDependentPolicyList']/*[local-name()='string']");
+							if(alphaPollistdata1!="" && alphaPollistdata1!=undefined)
+							{
+								if (alphaPollistdata1.length>1){
+									for (var l = 0; l < alphaPollistdata1.length; l++) {
+														
+										AlphaSearch_Details.push({
+											policyNo: alphaPollistdata1[l],
+											personName:cordys.getNodeText(alphalistdata[0],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata[0],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata[0],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata[0],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata[0],".//*[local-name()='City']",""),
+											personId:'',
+											select:false,
+											sa:((cordys.getNodeText(alphalistdata[0],".//*[local-name()='StreetAddress']","")!="")?(cordys.getNodeText(alphalistdata[0],".//*[local-name()='StreetAddress']","")!=""):""),
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+										});
+														
+														
+														
+									}
+														
+									
+								}else{
+									if(alphaPollistdata1.length>0){
+										AlphaSearch_Details.push({
+											policyNo: alphaPollistdata1[0],
+											personName:cordys.getNodeText(alphalistdata[0],".//*[local-name()='FirstName']","")+cordys.getNodeText(alphalistdata[0],".//*[local-name()='MiddleName']","")+cordys.getNodeText(alphalistdata[0],".//*[local-name()='LastName']",""),
+											dob: ((cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")!="")?((cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")).substr(0,2)+"/"+(cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']","")).substr(2,2)):""),
+											state:cordys.getNodeText(alphalistdata[0],".//*[local-name()='State']",""),
+											city:cordys.getNodeText(alphalistdata[0],".//*[local-name()='City']",""),
+											personId:'',
+											select:false,
+											sa:((cordys.getNodeText(alphalistdata[0],".//*[local-name()='StreetAddress']","")!="")?(cordys.getNodeText(alphalistdata[0],".//*[local-name()='StreetAddress']","")!=""):""),
+											lob:'',
+											AdminSystem: 'PICS',
+											serachCriteria : 'C',
+											actualDOB : cordys.getNodeText(alphalistdata[0],".//*[local-name()='BirthMonthYear']",""),
+											addressType : 'M'
+										});
+									
+									}
+								}
+							}
+					}
+				
+				
+				}
+			}
+			
+			
+	}
+	
+	if(AlphaSearch_Details.length>0)
+	cntRte.setValue("Records Count:"+AlphaSearch_Details.length);
+	else 	cntRte.setValue("Records Count:0");
+	
+	if(AlphaSearch_Details.length>0)
+    {    
+        for(var i=0;i<AlphaSearch_Details.length;i++)
+        {
+        
+            /*var re3=cordys.cloneXMLDocument(custTblTpl.XMLDocument);
+            
+            var param1=cordys.selectXMLNode(re3,".//*[local-name()='tuple']",namespaces);
+                           
+             cordys.setNodeText(param1,".//*[local-name()='policyNo']",AlphaSearch_Details[i].policyNo);
+             cordys.setNodeText(param1,".//*[local-name()='personName']",AlphaSearch_Details[i].personName);
+             cordys.setNodeText(param1,".//*[local-name()='dob']",AlphaSearch_Details[i].dob);                
+             cordys.setNodeText(param1,".//*[local-name()='state']",AlphaSearch_Details[i].state);
+             cordys.setNodeText(param1,".//*[local-name()='personId']",AlphaSearch_Details[i].personId);
+             cordys.setNodeText(param1,".//*[local-name()='sa']",AlphaSearch_Details[i].personName);                
+             cordys.setNodeText(param1,".//*[local-name()='lob']",AlphaSearch_Details[i].lob);
+             cordys.setNodeText(param1,".//*[local-name()='AdminSystem']",AlphaSearch_Details[i].AdminSystem);
+             cordys.setNodeText(param1,".//*[local-name()='serachCriteria']",AlphaSearch_Details[i].serachCriteria);                
+             cordys.setNodeText(param1,".//*[local-name()='actualDOB']",AlphaSearch_Details[i].actualDOB);
+             cordys.setNodeText(param1,".//*[local-name()='hch']",AlphaSearch_Details[i].hch);
+             cordys.setNodeText(param1,".//*[local-name()='zip']",AlphaSearch_Details[i].zip);
+             cordys.setNodeText(param1,".//*[local-name()='addressType']",AlphaSearch_Details[i].addressType);
+             cordys.setNodeText(param1,".//*[local-name()='Sex']",AlphaSearch_Details[i].Sex);
+              cordys.setNodeText(param1,".//*[local-name()='customerId']",AlphaSearch_Details[i].customerId);
+             
+            cordys.appendXMLNode(cordys.selectXMLNode(re3,".//*[local-name()='tuple']",""),cordys.selectXMLNode(resp,".//*[local-name()='ResponseData']",""));
+            */
+            CustomerTbl.create();
+            PolicyCol[i+1].setValue(AlphaSearch_Details[i].policyNo);
+            PersonIdCol[i+1].setValue(AlphaSearch_Details[i].personId);
+            NameCol[i+1].setValue(AlphaSearch_Details[i].personName);
+            dobCol[i+1].setValue(AlphaSearch_Details[i].dob);
+            StateCodeCol[i+1].setValue(AlphaSearch_Details[i].state);
+            cityCol[i+1].setValue(AlphaSearch_Details[i].city);
+            address[i+1].setValue(AlphaSearch_Details[i].sa);
+            zipCol[i+1].setValue(AlphaSearch_Details[i].zip);            
+
+        
+        
+        }
+    
+    
+    }
+    
+}
+function ClearBtn_Click(eventObject)
+{
+    PolicyIp.setValue("");
+    firstName.setValue("");
+    FnamePerc.setValue("75");
+    dobIp.setValue("");
+    LNameIp.setValue("");
+    LnamePerc.setValue("75");
+    StateIp.setValue("");
+    GenderIp.setValue("");
+    CustomerTbl.refresh();
+    dummyModel.clear();
+    AlphaSearch_Details = [];
+    cntRte.setValue("Records Count:0");
+    rowIndex=-1;
+}
+function cancelBtn_Click(eventObject)
+{
+    decision="Cancel";
+    application.container.close();
+}
+function okBtn_Click(eventObject)
+{
+    if(rowIndex<=0){
+        application.notify("Please select Record","validation");
+        return;
+    }
+    decision="Ok";
+    action="Success";
+    application.container.close();
+}
+function dateFormatter(date, requiredFormat) {
+		if(date != null && date != '')
+		 {   //return date;
+		if (date.length == 8 && currentFormat == 'yyyymmdd' && requiredFormat.toLowerCase() == 'mm/dd/yyyy'){
+		//return new Date(date.substring(4,6)+"/"+date.substring(6,date.length)+"/"+date.substring(0,4));
+		return (date.substring(4,6)+"/"+date.substring(6,date.length)+"/"+date.substring(0,4));
+		}else if(date.length == 10 && (currentFormat == 'dd-mm-yyyy' || currentFormat == 'yyyy-mm-dd') && requiredFormat.toLowerCase() == 'mm/dd/yyyy'){
+		return new Date((currentFormat == 'yyyy-mm-dd'? date.substring(3,5) : date.substring(6,date.length) )+"/"+date.substring(0,2) +"/"+(currentFormat == 'yyyy-mm-dd'? date.substring(6,date.length) : date.substring(3,5)));
+		}
+		}
+		/*return (!(this.isNullOrEmptyOrUndefined(date)) && (moment(date).format(requiredFormat).toUpperCase() != "INVALID DATE"))? moment(date).format(requiredFormat):'';*/
+
+
+}
+function GetdropdownbyidentifierModel_OnRequest(eventObject)
+{
+      cordys.setNodeText (eventObject.request,".//*[local-name()='identifier']","State");
+}
+function CustomerTbl_xformsonrowclick(eventObject)
+{    
+    rowObj={
+        policy:PolicyCol[eventObject.rowIndex].getValue(),
+        personid:PersonIdCol[eventObject.rowIndex].getValue(),
+        name:NameCol[eventObject.rowIndex].getValue(),
+        dob:dobCol[eventObject.rowIndex].getValue(),
+        state:StateCodeCol[eventObject.rowIndex].getValue(),
+        city:cityCol[eventObject.rowIndex].getValue(),
+        address:address[eventObject.rowIndex].getValue(),
+        zip:zipCol[eventObject.rowIndex].getValue()
+    };
+    rowIndex=eventObject.rowIndex;
+    
+    
+}
+function dialogReturnValue()
+{
+  var obj=new Object();  
+  obj.decision=decision;
+  obj.action=action;
+  obj.rowObj=rowObj;
+  return obj;
+    
+}
+function getOnlydate(date)
+{
+    var Frmdt="";
+    if(date!=null && date!="")
+    {	var dt=(((date).toISOString()).split("T")[0]);
+	Frmdt=dt.substr(0,4)+dt.substr(5,2)+dt.substr(8,2);//yyyymmdd
+    }
+    return Frmdt;
+}	
+
+
+
+							
+				  
+			
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>Search Customer</taskDescription>
+	<taskName>Search Customer</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-41E9BE2CC160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-41E9BE2C8160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF95-41E9BE2C8160</Name>
+			<Description>005056A2-27FA-A1EA-BF95-41E9BE2C8160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.678</CreationDate>
+			<Notes/>
+			<DeveloperText>Search Customer1</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EC-A94A-2E49FA92017C"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D354160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D358160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF32-4DC42B604160</Name>
+			<Description>005056A2-27FA-A1EA-BF32-4DC42B604160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.677</CreationDate>
+			<Notes/>
+			<UIRef>groupbox1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-41E9BE2AC160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-41E9BE2A8160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF95-41E9BE2A8160</Name>
+					<Description>005056A2-27FA-A1EA-BF95-41E9BE2A8160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T11:01:06.676</CreationDate>
+					<Notes/>
+					<DeveloperText>Search Customer</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA8F017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D344160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D348160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF32-4DC42B5AC160</Name>
+			<Description>005056A2-27FA-A1EA-BF32-4DC42B5AC160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.679</CreationDate>
+			<Notes/>
+			<UIRef>PolicyIp</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-8383-B957E6FDC161">
+					<DocumentID>005056A2-27FA-A1EB-8383-B957E6FD8161</DocumentID>
+					<Name>005056A2-27FA-A1EB-8383-B957E6FD8161</Name>
+					<Description>005056A2-27FA-A1EB-8383-B957E6FD8161</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-10-14T11:20:41.259</CreationDate>
+					<Notes/>
+					<DeveloperText>Policy Number*</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA93017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D334160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D338160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF32-4DC42B594160</Name>
+			<Description>005056A2-27FA-A1EA-BF32-4DC42B594160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.683</CreationDate>
+			<Notes/>
+			<UIRef>firstName</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-8383-B957E6FC4161">
+					<DocumentID>005056A2-27FA-A1EB-8383-B957E6FC0161</DocumentID>
+					<Name>005056A2-27FA-A1EB-8383-B957E6FC0161</Name>
+					<Description>005056A2-27FA-A1EB-8383-B957E6FC0161</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-10-14T11:20:41.258</CreationDate>
+					<Notes/>
+					<DeveloperText>First Name*</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA9B017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D324160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D328160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF32-4DC42B584160</Name>
+			<Description>005056A2-27FA-A1EA-BF32-4DC42B584160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.68</CreationDate>
+			<Notes/>
+			<UIRef>LNameIp</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-8383-B957E6FAC161">
+					<DocumentID>005056A2-27FA-A1EB-8383-B957E6FA8161</DocumentID>
+					<Name>005056A2-27FA-A1EB-8383-B957E6FA8161</Name>
+					<Description>005056A2-27FA-A1EB-8383-B957E6FA8161</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-10-14T11:20:41.258</CreationDate>
+					<Notes/>
+					<DeveloperText>Last Name*</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA9D017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D314160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D318160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF32-4DC42B574160</Name>
+			<Description>005056A2-27FA-A1EA-BF32-4DC42B574160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.677</CreationDate>
+			<Notes/>
+			<UIRef>dobIp</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D30C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D310160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFDC4160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFDC4160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.681</CreationDate>
+					<Notes/>
+					<DeveloperText>DOB2</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA8D017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D304160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D308160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFDB4160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFDB4160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.678</CreationDate>
+			<Notes/>
+			<UIRef>GenderIp</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2FC160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D300160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFDAC160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFDAC160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.677</CreationDate>
+					<Notes/>
+					<DeveloperText>Gender1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA97017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2F4160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2F8160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFD9C160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFD9C160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.684</CreationDate>
+			<Notes/>
+			<UIRef>StateIp</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2EC160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2F0160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFD94160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFD94160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.677</CreationDate>
+					<Notes/>
+					<DeveloperText>State2</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA9A017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2E4160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2E8160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFD84160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFD84160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.678</CreationDate>
+			<Notes/>
+			<UIRef>searchBtn</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2DC160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2E0160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFD7C160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFD7C160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.677</CreationDate>
+					<Notes/>
+					<DeveloperText>Search5</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA8C017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2D4160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2D8160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFD6C160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFD6C160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.675</CreationDate>
+			<Notes/>
+			<UIRef>ClearBtn</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2CC160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2D0160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFD54160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFD54160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.676</CreationDate>
+					<Notes/>
+					<DeveloperText>Clear1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA9C017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2C4160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2C8160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFD44160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFD44160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.683</CreationDate>
+			<Notes/>
+			<UIRef>address</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2BC160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2C0160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFC8C160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFC8C160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.681</CreationDate>
+					<Notes/>
+					<DeveloperText>Address</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA94017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2B4160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2B8160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFD34160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFD34160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.684</CreationDate>
+			<Notes/>
+			<UIRef>PolicyCol</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2AC160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2B0160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFCDC160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFCDC160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.681</CreationDate>
+					<Notes/>
+					<DeveloperText>Policy Number1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA9E017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D2A4160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2A8160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFD24160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFD24160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.683</CreationDate>
+			<Notes/>
+			<UIRef>PersonIdCol</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D29C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D2A0160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFCD4160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFCD4160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.678</CreationDate>
+					<Notes/>
+					<DeveloperText>Person ID</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA90017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D294160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D298160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFD14160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFD14160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.678</CreationDate>
+			<Notes/>
+			<UIRef>NameCol</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D28C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D290160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFCBC160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFCBC160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.683</CreationDate>
+					<Notes/>
+					<DeveloperText>Name4</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA98017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D284160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D288160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFD04160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFD04160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.681</CreationDate>
+			<Notes/>
+			<UIRef>dobCol</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D27C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D280160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFCB4160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFCB4160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.679</CreationDate>
+					<Notes/>
+					<DeveloperText>DOB1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA8A017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D274160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D278160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFCF4160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFCF4160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.677</CreationDate>
+			<Notes/>
+			<UIRef>StateCodeCol</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D26C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D270160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFC9C160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFC9C160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.68</CreationDate>
+					<Notes/>
+					<DeveloperText>State Code</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA96017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D264160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D268160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-1185BFCE4160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-1185BFCE4160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.68</CreationDate>
+			<Notes/>
+			<UIRef>cityCol</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D25C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D260160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-1185BFC94160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-1185BFC94160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.681</CreationDate>
+					<Notes/>
+					<DeveloperText>City1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA8E017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D254160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D258160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-6AD5164F4160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-6AD5164F4160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.678</CreationDate>
+			<Notes/>
+			<UIRef>cancelBtn</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D24C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D250160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-6AD5164CC160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-6AD5164CC160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.677</CreationDate>
+					<Notes/>
+					<DeveloperText>Cancel1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA99017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D244160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D248160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-6AD5164D4160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-6AD5164D4160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.679</CreationDate>
+			<Notes/>
+			<UIRef>okBtn</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D23C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D240160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-6AD5164C4160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-6AD5164C4160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.678</CreationDate>
+					<Notes/>
+					<DeveloperText>Ok1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA91017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D234160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D238160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-6AD51647C160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-6AD51647C160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.678</CreationDate>
+			<Notes/>
+			<UIRef>LnamePerc</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D22C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D230160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-6AD51642C160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-6AD51642C160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.675</CreationDate>
+					<Notes/>
+					<DeveloperText>Last Name %</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA9F017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D224160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D228160</DocumentID>
+			<Name>005056A2-27FA-A1EA-BF33-6AD51645C160</Name>
+			<Description>005056A2-27FA-A1EA-BF33-6AD51645C160</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.675</CreationDate>
+			<Notes/>
+			<UIRef>FnamePerc</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D21C160">
+					<DocumentID>005056A2-27FA-A1EA-BF95-2F519D220160</DocumentID>
+					<Name>005056A2-27FA-A1EA-BF33-6AD516444160</Name>
+					<Description>005056A2-27FA-A1EA-BF33-6AD516444160</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-09-24T10:59:36.679</CreationDate>
+					<Notes/>
+					<DeveloperText>First Name %</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FA95017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-82BA-C28BDFE0C161">
+			<DocumentID>005056A2-27FA-A1EB-82BA-C28BDFE08161</DocumentID>
+			<Name>005056A2-27FA-A1EB-82BA-C28BDFE08161</Name>
+			<Description>005056A2-27FA-A1EB-82BA-C28BDFE08161</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-10-10T11:39:16.72</CreationDate>
+			<Notes/>
+			<UIRef>zipCol</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-82BA-C28BDFE04161">
+					<DocumentID>005056A2-27FA-A1EB-82BA-C28BDFE00161</DocumentID>
+					<Name>005056A2-27FA-A1EB-82BA-C28BDFE00161</Name>
+					<Description>005056A2-27FA-A1EB-82BA-C28BDFE00161</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-10-10T11:39:16.72</CreationDate>
+					<Notes/>
+					<DeveloperText>Zip Code</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-A94A-2E49FAA0017C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A9D2-865BFA74C16D">
+			<DocumentID>005056A2-27FA-A1EB-A9D2-865BFA74816D</DocumentID>
+			<Name>005056A2-27FA-A1EB-A9D2-865BFA74816D</Name>
+			<Description>005056A2-27FA-A1EB-A9D2-865BFA74816D</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2021-04-29T06:25:14.742</CreationDate>
+			<Notes/>
+			<UIRef>cntRte</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EC-AA68-0455085D817C">
+					<DocumentID>005056A2-27FA-A1EC-AA68-0455085D417C</DocumentID>
+					<Name>005056A2-27FA-A1EC-AA68-0455085D417C</Name>
+					<Description>005056A2-27FA-A1EC-AA68-0455085D417C</Description>
+					<CreatedBy>Akanksha</CreatedBy>
+					<CreationDate>2022-03-22T05:33:19.838</CreationDate>
+					<Notes/>
+					<DeveloperText>&lt;span style=&quot;color: #7f7f7f;&quot;&gt;Count:0&lt;/span&gt;</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EC-AA68-0455085DC17C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BF95-2F519D368160"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1EC-AA72-A93F4BAE417C"
+		/>
+		<uri
+			id="005056A2-27FA-A1EC-AA7A-A54C67C4817C"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BF95-2F519D35C160">
+			<DocumentID>005056A2-27FA-A1EA-BF95-2F519D360160</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-09-24T10:59:36.683</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8231-7D4DD9E00161">
+			<DocumentID>005056A2-27FA-A1EB-8231-7D4DD9DFC161</DocumentID>
+			<Name>GetPolicyInsureds0355Model</Name>
+			<Description>GetPolicyInsureds0355Model</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-10-07T17:59:40.22</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://tempuri.org/</namespace>
+			<operationName>GetPolicyInsureds0355</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8231-7D4DD9DE0161">
+			<DocumentID>005056A2-27FA-A1EB-8231-7D4DD9DDC161</DocumentID>
+			<Name>GetLSPAlphaModel</Name>
+			<Description>GetLSPAlphaModel</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-10-07T18:00:38.81</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://tempuri.org/</namespace>
+			<operationName>GetLSPAlpha</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8285-704FED3D0161">
+			<DocumentID>005056A2-27FA-A1EB-8285-704FED3CC161</DocumentID>
+			<Name>dummyModel</Name>
+			<Description>dummyModel</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-10-09T20:02:50.438</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName></operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-82B0-6843013F4161">
+			<DocumentID>005056A2-27FA-A1EB-82B0-6843013F0161</DocumentID>
+			<Name>GetdropdownbyidentifierModel</Name>
+			<Description>GetdropdownbyidentifierModel</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-10-10T08:04:38.958</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/uw/dataservices/1.0</namespace>
+			<operationName>Getdropdownbyidentifier</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A8B2-B262F19BC16D">
+			<DocumentID>005056A2-27FA-A1EB-A8B2-B262F19B816D</DocumentID>
+			<Name>getContractsAlphaDetailsModel</Name>
+			<Description>getContractsAlphaDetailsModel</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2021-04-21T17:57:32.882</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/default</namespace>
+			<operationName>getContractsAlphaDetails</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A8CB-DD996F5AC16D">
+			<DocumentID>005056A2-27FA-A1EB-A8CB-DD996F5A816D</DocumentID>
+			<Name>getContractsAlphaDetailsModel1</Name>
+			<Description>getContractsAlphaDetailsModel1</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2021-04-22T07:37:26.658</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/default</namespace>
+			<operationName>getContractsAlphaDetails</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1EA-A3A8-3EFA1AD2415A">
+	<DocumentID>005056A2-27FA-A1EA-A3A8-3EFA1AD2015A</DocumentID>
+	<Name>custom search</Name>
+	<Description>custom search</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-05-05T07:25:57.518</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1EA-A709-DA6E21E2C15B">
+			<DocumentID>005056A2-27FA-A1EA-A709-DA6E21E2815B</DocumentID>
+			<Name>Custom Search_005056A2-27FA-A1EA-A709-DA6E21E2815B</Name>
+			<Description>Custom Search_005056A2-27FA-A1EA-A709-DA6E21E2815B</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-05-22T12:26:33.639</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1EA-A706-F0E0A275415B"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+</RoleDesignTime>

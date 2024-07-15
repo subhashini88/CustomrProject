@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-826F-4CA868CD418D">
+	<DocumentID>005056A2-27FA-A1ED-826F-4CA868CD018D</DocumentID>
+	<Name>005056A2-27FA-A1ED-826F-4CA868CD018D</Name>
+	<Description>OK_4</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2022-07-22T12:56:13.153</CreationDate>
+	<Notes/>
+	<DefaultText>OK_4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-826F-4CA868CD818D"
+		/>
+	</Translations>
+</TextIdentifier>

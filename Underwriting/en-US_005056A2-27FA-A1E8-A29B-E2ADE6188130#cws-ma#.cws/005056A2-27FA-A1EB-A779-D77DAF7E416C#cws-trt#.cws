@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A779-D77DAF7E816C">
+	<DocumentID>005056A2-27FA-A1EB-A779-D77DAF7E416C</DocumentID>
+	<Name>005056A2-27FA-A1EB-A779-D77DAF7E416C</Name>
+	<Description>Assign Second MasterAppID</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-15T13:05:03.983</CreationDate>
+	<Notes/>
+	<Text>Assign Second MasterAppID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A779-D77DAF7DC16C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

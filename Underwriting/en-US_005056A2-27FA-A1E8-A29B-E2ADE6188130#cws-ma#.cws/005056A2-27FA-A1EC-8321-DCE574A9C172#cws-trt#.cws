@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8321-DCE574AA0172">
+	<DocumentID>005056A2-27FA-A1EC-8321-DCE574A9C172</DocumentID>
+	<Name>005056A2-27FA-A1EC-8321-DCE574A9C172</Name>
+	<Description>Group Service Case</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-03T07:44:20.914</CreationDate>
+	<Notes/>
+	<Text>Group Service Case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-8321-DCE574A94172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

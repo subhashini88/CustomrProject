@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-83A4-841DDAF10141">
+	<DocumentID>005056A2-27FA-A1E9-83A4-841DDAF0C141</DocumentID>
+	<Name>005056A2-27FA-A1E9-83A4-841DDAF0C141</Name>
+	<Description>MIB Records/Requests</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-02T13:32:36.676</CreationDate>
+	<Notes/>
+	<DefaultText>MIB Records/Requests</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-83A4-841DDAF14141"
+		/>
+	</Translations>
+</TextIdentifier>

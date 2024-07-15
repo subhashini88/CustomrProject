@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AAB5-56D31FC80199">
+	<DocumentID>005056A2-27FA-A1ED-AAB5-56D31FC7C199</DocumentID>
+	<Name>005056A2-27FA-A1ED-AAB5-56D31FC7C199</Name>
+	<Description>Attempts
+Exceeded</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-12T13:04:58.783</CreationDate>
+	<Notes/>
+	<Text>Attempts
+Exceeded</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-AAB5-56D31FC74199"
+		/>
+	</TextIdentifier>
+</TranslatedText>

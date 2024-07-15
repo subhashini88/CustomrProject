@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AF9F-ECD79C73419A">
+	<DocumentID>005056A2-27FA-A1ED-AF9F-ECD79C73019A</DocumentID>
+	<Name>005056A2-27FA-A1ED-AF9F-ECD79C73019A</Name>
+	<Description>AutoClosure of AEBOT Case</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-09T15:58:16.449</CreationDate>
+	<Notes/>
+	<Text>AutoClosure of AEBOT Case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-AFA4-CB9C98E4819A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

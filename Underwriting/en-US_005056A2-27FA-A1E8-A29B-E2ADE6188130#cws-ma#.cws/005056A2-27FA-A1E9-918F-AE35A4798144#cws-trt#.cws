@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-918F-AE35A479C144">
+	<DocumentID>005056A2-27FA-A1E9-918F-AE35A4798144</DocumentID>
+	<Name>005056A2-27FA-A1E9-918F-AE35A4798144</Name>
+	<Description>SpouseRxFlag</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-03-14T10:14:32.368</CreationDate>
+	<Notes/>
+	<Text>SpouseRxFlag</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-918F-AE35A4790144"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AF2D-1520532A019A">
+	<DocumentID>005056A2-27FA-A1ED-AF2D-15205329C19A</DocumentID>
+	<Name>005056A2-27FA-A1ED-AF2D-15205329C19A</Name>
+	<Description>GetCheckGroupDataForTaskCreation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-07T07:18:18.416</CreationDate>
+	<Notes/>
+	<Text>GetCheckGroupDataForTaskCreation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-AF2D-15205329419A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

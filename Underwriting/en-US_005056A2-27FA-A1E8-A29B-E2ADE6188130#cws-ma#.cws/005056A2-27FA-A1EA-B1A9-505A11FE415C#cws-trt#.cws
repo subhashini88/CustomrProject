@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B1A9-505A11FE815C">
+	<DocumentID>005056A2-27FA-A1EA-B1A9-505A11FE415C</DocumentID>
+	<Name>005056A2-27FA-A1EA-B1A9-505A11FE415C</Name>
+	<Description>Batch Number</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-07-15T14:16:53.921</CreationDate>
+	<Notes/>
+	<Text>Batch Number</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B1A9-505A11FDC15C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

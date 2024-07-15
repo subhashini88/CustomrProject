@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9AAC-E73B5A640146">
+	<DocumentID>005056A2-27FA-A1E9-9AAC-E73B5A63C146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9AAC-E73B5A63C146</Name>
+	<Description>CloseOutDateClosure2</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-04-29T19:18:58.21</CreationDate>
+	<Notes/>
+	<Text>CloseOutDateClosure2</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9AAC-E73B5A634146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

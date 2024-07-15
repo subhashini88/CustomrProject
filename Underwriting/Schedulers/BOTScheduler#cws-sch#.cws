@@ -1,0 +1,75 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A641-B10F06F5016C">
+	<DocumentID>005056A2-27FA-A1EB-A641-B10F06F4C16C</DocumentID>
+	<Name>BOTScheduler</Name>
+	<Description>BOTScheduler</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2021-04-09T11:11:10.268</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Hourly</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="BOTScheduler"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="undefined"
+			msgHolderLastModified="2021-03-09T20:38:17.969">
+			<datetime>
+				<hourly>
+					<minutes>0</minutes>
+					<minutes>15</minutes>
+					<minutes>30</minutes>
+					<minutes>59</minutes>
+					<minutes>45</minutes>
+					<minutes>5</minutes>
+					<minutes>10</minutes>
+					<minutes>20</minutes>
+					<minutes>25</minutes>
+					<minutes>35</minutes>
+					<minutes>40</minutes>
+					<minutes>50</minutes>
+					<minutes>55</minutes>
+				</hourly>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A641-B10F06F3416C">
+			<DocumentID>005056A2-27FA-A1EB-A641-B10F06F3016C</DocumentID>
+			<Name>005056A2-27FA-A1EB-A641-B10F06F3016C</Name>
+			<Description>005056A2-27FA-A1EB-A641-B10F06F3016C</Description>
+			<CreatedBy>Divakar Rajasekhar</CreatedBy>
+			<CreationDate>2021-04-09T11:11:10.268</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EB-A045-17A07703416A"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

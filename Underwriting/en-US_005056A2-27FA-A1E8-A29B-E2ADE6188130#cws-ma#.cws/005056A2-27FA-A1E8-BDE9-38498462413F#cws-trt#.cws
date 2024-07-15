@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDE9-38498462813F">
+	<DocumentID>005056A2-27FA-A1E8-BDE9-38498462413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDE9-38498462413F</Name>
+	<Description>Carpal Tunnel</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T09:26:39.688</CreationDate>
+	<Notes/>
+	<Text>Carpal Tunnel</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDE9-38498461C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

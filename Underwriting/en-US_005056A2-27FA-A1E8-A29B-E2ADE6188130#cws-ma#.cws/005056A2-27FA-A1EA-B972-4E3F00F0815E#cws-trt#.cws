@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B972-4E3F00F0C15E">
+	<DocumentID>005056A2-27FA-A1EA-B972-4E3F00F0815E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B972-4E3F00F0815E</Name>
+	<Description>Checkbox41</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T05:52:07.636</CreationDate>
+	<Notes/>
+	<Text>Checkbox41</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B972-4E3F00F0015E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

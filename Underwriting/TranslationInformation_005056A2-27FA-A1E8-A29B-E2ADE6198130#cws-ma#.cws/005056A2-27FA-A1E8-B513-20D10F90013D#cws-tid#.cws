@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B513-20D10F90413D">
+	<DocumentID>005056A2-27FA-A1E8-B513-20D10F90013D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B513-20D10F90013D</Name>
+	<Description>Updated Worksheet - Auto Approved</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-20T09:43:44.115</CreationDate>
+	<Notes/>
+	<DefaultText>Updated Worksheet - Auto Approved</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B513-20D10F90813D"
+		/>
+	</Translations>
+</TextIdentifier>

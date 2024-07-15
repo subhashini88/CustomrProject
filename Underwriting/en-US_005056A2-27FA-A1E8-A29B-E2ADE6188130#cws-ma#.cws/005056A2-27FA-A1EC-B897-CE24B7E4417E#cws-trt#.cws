@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B897-CE24B7E4817E">
+	<DocumentID>005056A2-27FA-A1EC-B897-CE24B7E4417E</DocumentID>
+	<Name>005056A2-27FA-A1EC-B897-CE24B7E4417E</Name>
+	<Description>R</Description>
+	<CreatedBy>Keerthi</CreatedBy>
+	<CreationDate>2022-06-02T11:10:10.3</CreationDate>
+	<Notes/>
+	<Text>R</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-B897-CE24B7E3C17E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE06-7F9EE1788160">
+	<DocumentID>005056A2-27FA-A1EA-BE06-7F9EE1784160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE06-7F9EE1784160</Name>
+	<Description>Hematology</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T12:50:18.055</CreationDate>
+	<Notes/>
+	<Text>Hematology</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BE06-7F9EE177C160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

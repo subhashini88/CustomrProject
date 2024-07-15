@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A18C-970A088A816B">
+	<DocumentID>005056A2-27FA-A1EB-A18C-970A088A416B</DocumentID>
+	<Name>005056A2-27FA-A1EB-A18C-970A088A416B</Name>
+	<Description>Cancellation Case</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-03-16T08:42:14.496</CreationDate>
+	<Notes/>
+	<Text>Cancellation Case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A18C-970A0889C16B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

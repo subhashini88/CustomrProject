@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8FD6-4208C71AC1A4">
+	<DocumentID>005056A2-27FA-A1EE-8FD6-4208C71A81A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8FD6-4208C71A81A4</Name>
+	<Description>Contact center</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-20T16:36:33.464</CreationDate>
+	<Notes/>
+	<Text>Contact center</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8FD6-4208C71A01A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

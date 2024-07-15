@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9CA1-BE80A2B4C146">
+	<DocumentID>005056A2-27FA-A1E9-9CA1-BE80A2B48146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9CA1-BE80A2B48146</Name>
+	<Description>CloseOutDateProcess1</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-05-09T18:19:45.187</CreationDate>
+	<Notes/>
+	<Text>CloseOutDateProcess1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9CA1-BE80A2B40146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AC14-097B7A204199">
+	<DocumentID>005056A2-27FA-A1ED-AC14-097B7A200199</DocumentID>
+	<Name>005056A2-27FA-A1ED-AC14-097B7A200199</Name>
+	<Description>GetFPtaskLevelCountforAEBOTNew</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-19T12:43:36.632</CreationDate>
+	<Notes/>
+	<Text>GetFPtaskLevelCountforAEBOTNew</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-AC14-097B7A1F8199"
+		/>
+	</TextIdentifier>
+</TranslatedText>

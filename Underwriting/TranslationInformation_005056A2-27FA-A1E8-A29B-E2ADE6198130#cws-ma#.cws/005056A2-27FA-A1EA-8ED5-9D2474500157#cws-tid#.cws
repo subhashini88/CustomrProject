@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8ED5-9D2474504157">
+	<DocumentID>005056A2-27FA-A1EA-8ED5-9D2474500157</DocumentID>
+	<Name>005056A2-27FA-A1EA-8ED5-9D2474500157</Name>
+	<Description>Case Number</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-01-21T06:25:17.983</CreationDate>
+	<Notes/>
+	<DefaultText>Case Number</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-8ED5-9D2474508157"
+		/>
+	</Translations>
+</TextIdentifier>

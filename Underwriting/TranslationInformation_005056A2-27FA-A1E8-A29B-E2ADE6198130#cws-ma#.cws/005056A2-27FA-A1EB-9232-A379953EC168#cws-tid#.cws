@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9232-A379953F0168">
+	<DocumentID>005056A2-27FA-A1EB-9232-A379953EC168</DocumentID>
+	<Name>005056A2-27FA-A1EB-9232-A379953EC168</Name>
+	<Description>EPR Task View</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2020-12-28T06:11:05.779</CreationDate>
+	<Notes/>
+	<DefaultText>EPR Task View</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9232-A379953F4168"
+		/>
+	</Translations>
+</TextIdentifier>

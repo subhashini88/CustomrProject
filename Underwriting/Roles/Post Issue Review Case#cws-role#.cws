@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AC7A-64F50C57C14C">
+	<DocumentID>005056A2-27FA-A1E9-AC7A-64F50C57814C</DocumentID>
+	<Name>Post Issue Review Case</Name>
+	<Description>Post Issue Review Case</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-07-29T10:19:53.182</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1E9-ACB0-6402FD2F014C">
+			<DocumentID>005056A2-27FA-A1E9-ACB0-6402FD2EC14C</DocumentID>
+			<Name>ManualCaseCreator_005056A2-27FA-A1E9-ACB0-6402FD2EC14C</Name>
+			<Description>ManualCaseCreator_005056A2-27FA-A1E9-ACB0-6402FD2EC14C</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-07-30T12:03:00.216</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1E9-ACAD-AB849A54C14C"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+</RoleDesignTime>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-4D10948D013F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-4D10948CC13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-4D10948CC13F</Name>
+	<Description>medical_cond_ftf4_flag</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.218</CreationDate>
+	<Notes/>
+	<Text>medical_cond_ftf4_flag</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-4D10948C413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

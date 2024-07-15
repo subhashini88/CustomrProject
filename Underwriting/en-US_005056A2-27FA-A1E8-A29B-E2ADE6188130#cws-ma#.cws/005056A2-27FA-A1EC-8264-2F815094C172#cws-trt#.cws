@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8264-2F8150950172">
+	<DocumentID>005056A2-27FA-A1EC-8264-2F815094C172</DocumentID>
+	<Name>005056A2-27FA-A1EC-8264-2F815094C172</Name>
+	<Description>File Triage Results</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-30T12:53:40.043</CreationDate>
+	<Notes/>
+	<Text>File Triage Results</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-8264-2F8150944172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

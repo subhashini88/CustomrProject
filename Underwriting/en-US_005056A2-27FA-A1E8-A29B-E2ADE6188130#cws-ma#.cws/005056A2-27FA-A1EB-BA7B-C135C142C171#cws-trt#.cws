@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-BA7B-C135C1430171">
+	<DocumentID>005056A2-27FA-A1EB-BA7B-C135C142C171</DocumentID>
+	<Name>005056A2-27FA-A1EB-BA7B-C135C142C171</Name>
+	<Description>UWTracDecision</Description>
+	<CreatedBy>nagaraju</CreatedBy>
+	<CreationDate>2021-07-21T07:01:45.353</CreationDate>
+	<Notes/>
+	<Text>UWTracDecision</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-BA7B-C135C1424171"
+		/>
+	</TextIdentifier>
+</TranslatedText>

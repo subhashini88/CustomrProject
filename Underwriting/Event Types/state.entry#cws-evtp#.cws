@@ -1,0 +1,15 @@
+
+<CMEventType
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.casemgmt.event.CMEventType"
+	RuntimeDocumentID="005056A2-27FA-A1E8-935A-C25CE736811F">
+	<DocumentID>{9F9C7487-3468-433F-8367-390BADEA40BA}</DocumentID>
+	<Name>state.entry</Name>
+	<Description>state.entry</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-05-01T18:11:19.51</CreationDate>
+	<Notes/>
+	<Custom>false</Custom>
+	<FormAssociation/>
+	<TranslatableName/>
+</CMEventType>

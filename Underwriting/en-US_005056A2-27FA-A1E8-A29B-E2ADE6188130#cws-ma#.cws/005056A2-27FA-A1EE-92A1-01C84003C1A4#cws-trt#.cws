@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-92A1-01C8400401A4">
+	<DocumentID>005056A2-27FA-A1EE-92A1-01C84003C1A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-92A1-01C84003C1A4</Name>
+	<Description>ReOpenCase</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2023-09-03T18:04:41.181</CreationDate>
+	<Notes/>
+	<Text>ReOpenCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-92A1-01C8400341A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

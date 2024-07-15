@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9A9B-2F2B53CEC146">
+	<DocumentID>005056A2-27FA-A1E9-9A9B-2F2B53CE8146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9A9B-2F2B53CE8146</Name>
+	<Description>005056A2-27FA-A1E9-9A9B-2F2B53CE8146</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-04-29T10:58:03.478</CreationDate>
+	<Notes/>
+	<DefaultText>US #541 - If decision was rejected by trac , then in next days feed the decision would be different than the current decision available in SQL Table (Decision applied from Decisioning task by underwriter) - Since they wont match , the SSIS Package will check for taskid is not null and if the decision is not matching with current decision then update the 'Autodecision' column value as 'KickedOut' - Now we would read them and reopen the case and a reopen task (Will indicate that this was due to trac issues) and update the table underwriting autodecision column to KickedOut - Reopened Check</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-9A9B-2F2B53CF0146"
+		/>
+	</Translations>
+</TextIdentifier>

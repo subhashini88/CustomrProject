@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BF16-C408C1FD418C">
+	<DocumentID>005056A2-27FA-A1EC-BF16-C408C1FD018C</DocumentID>
+	<Name>005056A2-27FA-A1EC-BF16-C408C1FD018C</Name>
+	<Description>UWPIGetClaimantDetails</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-05T12:20:28.449</CreationDate>
+	<Notes/>
+	<Text>UWPIGetClaimantDetails</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BF16-C408C1FC818C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

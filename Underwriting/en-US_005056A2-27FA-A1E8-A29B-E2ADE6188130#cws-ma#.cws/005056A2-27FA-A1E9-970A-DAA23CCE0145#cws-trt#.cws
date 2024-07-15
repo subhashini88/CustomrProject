@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-970A-DAA23CCE4145">
+	<DocumentID>005056A2-27FA-A1E9-970A-DAA23CCE0145</DocumentID>
+	<Name>005056A2-27FA-A1E9-970A-DAA23CCE0145</Name>
+	<Description>(323)Combined TELE-INTERVIEW- Arthritis</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-11T07:41:19.669</CreationDate>
+	<Notes/>
+	<Text>(323)Combined TELE-INTERVIEW- Arthritis</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-970A-DAA23CCD8145"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B1EA-114B6594C13B">
+	<DocumentID>005056A2-27FA-A1E8-B1EA-114B6594813B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B1EA-114B6594813B</Name>
+	<Description>RevokeClaim</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-04T07:38:06.537</CreationDate>
+	<Notes/>
+	<Text>RevokeClaim</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B1EA-114B6594013B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

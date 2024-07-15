@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-A6E8-833B25874112">
+	<DocumentID>005056A2-7798-A1E8-A6E8-833B25870112</DocumentID>
+	<Name>005056A2-7798-A1E8-A6E8-833B25870112</Name>
+	<Description>Cofirm Message</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-08-09T08:05:17.319</CreationDate>
+	<Notes/>
+	<Text>Cofirm Message</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-A6E8-833B25868112"
+		/>
+	</TextIdentifier>
+</TranslatedText>

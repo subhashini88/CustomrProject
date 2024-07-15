@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-ACD6-560F7B4B014C">
+	<DocumentID>005056A2-27FA-A1E9-ACD6-560F7B4AC14C</DocumentID>
+	<Name>005056A2-27FA-A1E9-ACD6-560F7B4AC14C</Name>
+	<Description>Postissue_worksheet</Description>
+	<CreatedBy>ARUN</CreatedBy>
+	<CreationDate>2019-07-31T06:26:40.719</CreationDate>
+	<Notes/>
+	<Text>Postissue_worksheet</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-ACD6-560F7B4A414C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

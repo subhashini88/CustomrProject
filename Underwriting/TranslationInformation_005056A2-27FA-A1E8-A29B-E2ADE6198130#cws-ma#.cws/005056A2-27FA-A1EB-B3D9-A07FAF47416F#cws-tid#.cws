@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B3D9-A07FAF47816F">
+	<DocumentID>005056A2-27FA-A1EB-B3D9-A07FAF47416F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B3D9-A07FAF47416F</Name>
+	<Description>TransferTask6</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-17T12:21:17.08</CreationDate>
+	<Notes/>
+	<DefaultText>TransferTask6</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-B3D9-A07FAF47C16F"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,60 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EB-AB60-A62679D8416D">
+	<DocumentID>005056A2-27FA-A1EB-AB60-A62679D8016D</DocumentID>
+	<Name>ClaimsRescissionPIRT</Name>
+	<Description>ClaimsRescissionPIRT</Description>
+	<CreatedBy>ramya</CreatedBy>
+	<CreationDate>2021-05-05T09:26:06.355</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Duration</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="ClaimsRescissionPIRT"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="2021-04-29T06:59:43.419"
+			msgHolderLastModified="2021-07-12T20:42:59.914">
+			<duration
+				repetitive="true">0M  0W 0D 0:30:0</duration>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EB-AB60-A62679D6416D">
+			<DocumentID>005056A2-27FA-A1EB-AB60-A62679D6016D</DocumentID>
+			<Name>005056A2-27FA-A1EB-AB60-A62679D6016D</Name>
+			<Description>005056A2-27FA-A1EB-AB60-A62679D6016D</Description>
+			<CreatedBy>ramya</CreatedBy>
+			<CreationDate>2021-05-05T09:26:06.355</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EB-A9FD-14F6B817416D"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

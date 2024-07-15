@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A01C-5D36B02A8147">
+	<DocumentID>005056A2-27FA-A1E9-A01C-5D36B02A4147</DocumentID>
+	<Name>005056A2-27FA-A1E9-A01C-5D36B02A4147</Name>
+	<Description>&lt;span style=&quot;font-weight:bold;text-decoration:underline;&quot;&gt;This Task has not been created as the follow up date set while creation has not arrived , This screen can be used to pre-complete the scheduled follow up task&lt;/span&gt;</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-05-27T11:21:37.997</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;span style=&quot;font-weight:bold;text-decoration:underline;&quot;&gt;This Task has not been created as the follow up date set while creation has not arrived , This screen can be used to pre-complete the scheduled follow up task&lt;/span&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-A01C-5D36B02AC147"
+		/>
+	</Translations>
+</TextIdentifier>

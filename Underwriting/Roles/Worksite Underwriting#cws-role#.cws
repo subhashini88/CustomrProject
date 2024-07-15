@@ -1,0 +1,18 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B717-9E2EB97E415D">
+	<DocumentID>005056A2-27FA-A1EA-B717-9E2EB97E015D</DocumentID>
+	<Name>Worksite Underwriting</Name>
+	<Description>Worksite Underwriting</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-08-12T06:35:16.997</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

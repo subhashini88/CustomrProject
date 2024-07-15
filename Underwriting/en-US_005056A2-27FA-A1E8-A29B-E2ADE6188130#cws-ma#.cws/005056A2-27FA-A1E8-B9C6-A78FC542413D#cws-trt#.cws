@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9C6-A78FC542813D">
+	<DocumentID>005056A2-27FA-A1E8-B9C6-A78FC542413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9C6-A78FC542413D</Name>
+	<Description>Age Calculator</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-13T08:29:03.43</CreationDate>
+	<Notes/>
+	<Text>Age Calculator</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B9C6-A78FC541C13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

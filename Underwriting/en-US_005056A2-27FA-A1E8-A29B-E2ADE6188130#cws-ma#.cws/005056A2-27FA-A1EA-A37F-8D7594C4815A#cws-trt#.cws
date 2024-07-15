@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-A37F-8D7594C4C15A">
+	<DocumentID>005056A2-27FA-A1EA-A37F-8D7594C4815A</DocumentID>
+	<Name>005056A2-27FA-A1EA-A37F-8D7594C4815A</Name>
+	<Description>Select 11</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-05-04T11:56:04.037</CreationDate>
+	<Notes/>
+	<Text>Select 11</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-A37F-8D7594C4015A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

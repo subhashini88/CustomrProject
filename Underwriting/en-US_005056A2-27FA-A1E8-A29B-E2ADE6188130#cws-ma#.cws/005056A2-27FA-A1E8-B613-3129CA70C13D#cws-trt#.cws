@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B613-3129CA71013D">
+	<DocumentID>005056A2-27FA-A1E8-B613-3129CA70C13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B613-3129CA70C13D</Name>
+	<Description>NY Specific: Has Combined Insurance asked that we question dependent information?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-25T12:10:29.554</CreationDate>
+	<Notes/>
+	<Text>NY Specific: Has Combined Insurance asked that we question dependent information?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B613-3129CA70413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

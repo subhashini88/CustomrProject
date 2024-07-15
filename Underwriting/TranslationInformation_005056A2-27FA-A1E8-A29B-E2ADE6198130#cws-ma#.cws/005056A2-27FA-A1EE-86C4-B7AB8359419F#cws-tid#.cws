@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-86C4-B7AB8359819F">
+	<DocumentID>005056A2-27FA-A1EE-86C4-B7AB8359419F</DocumentID>
+	<Name>005056A2-27FA-A1EE-86C4-B7AB8359419F</Name>
+	<Description>Due</Description>
+	<CreatedBy>chandrasekarpradeep</CreatedBy>
+	<CreationDate>2023-07-05T09:05:20.446</CreationDate>
+	<Notes/>
+	<DefaultText>Due</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-86C4-B7AB8359C19F"
+		/>
+	</Translations>
+</TextIdentifier>

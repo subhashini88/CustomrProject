@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8E1D-70B36F2A0167">
+	<DocumentID>005056A2-27FA-A1EB-8E1D-70B36F29C167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8E1D-70B36F29C167</Name>
+	<Description>PlanActivityfor Error Handling and UW</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-12-07T10:51:40.689</CreationDate>
+	<Notes/>
+	<Text>PlanActivityfor Error Handling and UW</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8E1D-70B36F294167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

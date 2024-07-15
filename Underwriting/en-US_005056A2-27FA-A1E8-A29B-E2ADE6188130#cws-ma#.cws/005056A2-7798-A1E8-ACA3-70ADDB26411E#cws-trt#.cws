@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-ACA3-70ADDB26811E">
+	<DocumentID>005056A2-7798-A1E8-ACA3-70ADDB26411E</DocumentID>
+	<Name>005056A2-7798-A1E8-ACA3-70ADDB26411E</Name>
+	<Description>Milliman Rx Details</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-07T12:20:31.297</CreationDate>
+	<Notes/>
+	<Text>Milliman Rx Details</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-ACA3-70ADDB25C11E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

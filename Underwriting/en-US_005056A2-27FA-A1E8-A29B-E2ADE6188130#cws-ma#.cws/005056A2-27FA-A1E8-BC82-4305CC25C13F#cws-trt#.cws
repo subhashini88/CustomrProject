@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC82-4305CC26013F">
+	<DocumentID>005056A2-27FA-A1E8-BC82-4305CC25C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC82-4305CC25C13F</Name>
+	<Description>cvt_ApplicationNumber</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-11-27T06:13:42.328</CreationDate>
+	<Notes/>
+	<Text>cvt_ApplicationNumber</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC82-4305CC25413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

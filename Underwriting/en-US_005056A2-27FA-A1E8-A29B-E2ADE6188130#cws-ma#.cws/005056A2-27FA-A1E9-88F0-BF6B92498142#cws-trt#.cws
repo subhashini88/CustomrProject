@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-88F0-BF6B9249C142">
+	<DocumentID>005056A2-27FA-A1E9-88F0-BF6B92498142</DocumentID>
+	<Name>005056A2-27FA-A1E9-88F0-BF6B92498142</Name>
+	<Description>MVR</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-29T12:46:39.108</CreationDate>
+	<Notes/>
+	<Text>MVR</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-88F0-BF6B92490142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-4711491E813F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-4711491E413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-4711491E413F</Name>
+	<Description>medical_cond_aps2_b</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.086</CreationDate>
+	<Notes/>
+	<DefaultText>medical_cond_aps2_b</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-4711491EC13F"
+		/>
+	</Translations>
+</TextIdentifier>

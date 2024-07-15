@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B386-D02CEA99013B">
+	<DocumentID>005056A2-27FA-A1E8-B386-D02CEA98C13B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B386-D02CEA98C13B</Name>
+	<Description>LogNote</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-12T13:25:45.83</CreationDate>
+	<Notes/>
+	<DefaultText>LogNote</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B386-D02CEA99413B"
+		/>
+	</Translations>
+</TextIdentifier>

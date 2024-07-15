@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AAB4-AFEE19D84199">
+	<DocumentID>005056A2-27FA-A1ED-AAB4-AFEE19D80199</DocumentID>
+	<Name>005056A2-27FA-A1ED-AAB4-AFEE19D80199</Name>
+	<Description>API Error</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-12T13:04:28.866</CreationDate>
+	<Notes/>
+	<Text>API Error</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-AAB4-AFEE19D78199"
+		/>
+	</TextIdentifier>
+</TranslatedText>

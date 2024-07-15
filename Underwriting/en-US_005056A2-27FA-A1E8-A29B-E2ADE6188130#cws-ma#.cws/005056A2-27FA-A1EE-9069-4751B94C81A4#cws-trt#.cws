@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9069-4751B94CC1A4">
+	<DocumentID>005056A2-27FA-A1EE-9069-4751B94C81A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-9069-4751B94C81A4</Name>
+	<Description>Transfer and Complete/Forward</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-23T11:19:16.087</CreationDate>
+	<Notes/>
+	<Text>Transfer and Complete/Forward</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-9069-4751B94C01A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

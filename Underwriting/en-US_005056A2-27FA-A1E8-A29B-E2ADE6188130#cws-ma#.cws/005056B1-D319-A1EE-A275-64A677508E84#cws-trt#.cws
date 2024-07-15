@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056B1-D319-A1EE-A275-64A67750CE84">
+	<DocumentID>005056B1-D319-A1EE-A275-64A677508E84</DocumentID>
+	<Name>005056B1-D319-A1EE-A275-64A677508E84</Name>
+	<Description>GetAllNotes</Description>
+	<CreatedBy>SaradaPrasad.Nayak@combined.com</CreatedBy>
+	<CreationDate>2023-11-23T08:01:40.243</CreationDate>
+	<Notes/>
+	<Text>GetAllNotes</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056B1-D319-A1EE-A275-64A677500E84"
+		/>
+	</TextIdentifier>
+</TranslatedText>

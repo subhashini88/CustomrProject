@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AA0D-247B41C88113">
+	<DocumentID>005056A2-7798-A1E8-AA0D-247B41C84113</DocumentID>
+	<Name>005056A2-7798-A1E8-AA0D-247B41C84113</Name>
+	<Description>&amp;lt;h4&amp;gt;Policy / Customer actions&amp;lt;/h4&amp;gt;</Description>
+	<CreatedBy>Ramanujam.Dhanalakshmi@combined.com</CreatedBy>
+	<CreationDate>2018-08-25T07:04:45.802</CreationDate>
+	<Notes/>
+	<Text>&amp;lt;h4&amp;gt;Policy / Customer actions&amp;lt;/h4&amp;gt;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AA0D-247B41C7C113"
+		/>
+	</TextIdentifier>
+</TranslatedText>

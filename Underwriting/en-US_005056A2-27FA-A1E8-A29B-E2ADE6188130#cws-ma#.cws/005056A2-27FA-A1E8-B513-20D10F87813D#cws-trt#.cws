@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B513-20D10F87C13D">
+	<DocumentID>005056A2-27FA-A1E8-B513-20D10F87813D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B513-20D10F87813D</Name>
+	<Description>AutoDecisionApproved</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-20T09:43:44.109</CreationDate>
+	<Notes/>
+	<Text>AutoDecisionApproved</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B513-20D10F87013D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

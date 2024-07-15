@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B896-32CDA837C17E">
+	<DocumentID>005056A2-27FA-A1EC-B896-32CDA837817E</DocumentID>
+	<Name>005056A2-27FA-A1EC-B896-32CDA837817E</Name>
+	<Description>Service Type</Description>
+	<CreatedBy>Keerthi</CreatedBy>
+	<CreationDate>2022-06-02T09:57:30.571</CreationDate>
+	<Notes/>
+	<DefaultText>Service Type</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-B896-32CDA838017E"
+		/>
+	</Translations>
+</TextIdentifier>

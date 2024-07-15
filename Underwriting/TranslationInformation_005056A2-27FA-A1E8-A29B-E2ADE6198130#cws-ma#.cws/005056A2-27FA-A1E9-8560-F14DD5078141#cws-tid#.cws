@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8560-F14DD507C141">
+	<DocumentID>005056A2-27FA-A1E9-8560-F14DD5078141</DocumentID>
+	<Name>005056A2-27FA-A1E9-8560-F14DD5078141</Name>
+	<Description>Btton</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-11T10:10:40.561</CreationDate>
+	<Notes/>
+	<DefaultText>Btton</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-8560-F14DD5080141"
+		/>
+	</Translations>
+</TextIdentifier>

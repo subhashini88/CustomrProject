@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B501-DC39599B816F">
+	<DocumentID>005056A2-27FA-A1EB-B501-DC39599B416F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B501-DC39599B416F</Name>
+	<Description>CloseCaseInstance6</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-23T09:43:26.729</CreationDate>
+	<Notes/>
+	<DefaultText>CloseCaseInstance6</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-B501-DC39599BC16F"
+		/>
+	</Translations>
+</TextIdentifier>

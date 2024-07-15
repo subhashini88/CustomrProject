@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8FAA-F684A24D0168">
+	<DocumentID>005056A2-27FA-A1EB-8FAA-F684A24CC168</DocumentID>
+	<Name>005056A2-27FA-A1EB-8FAA-F684A24CC168</Name>
+	<Description>EPS task ?</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-12-15T08:28:13.973</CreationDate>
+	<Notes/>
+	<Text>EPS task ?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8FAA-F684A24C4168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

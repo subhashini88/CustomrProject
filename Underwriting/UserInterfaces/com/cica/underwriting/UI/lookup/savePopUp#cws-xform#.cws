@@ -1,0 +1,406 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EA-9E31-2EE7CBB84159">
+	<DocumentID>005056A2-27FA-A1EA-9E31-2EE7CBB88159</DocumentID>
+	<Name>savePopUp</Name>
+	<Description>savePopUp</Description>
+	<CreatedBy>kmohan</CreatedBy>
+	<CreationDate>2020-04-07T15:22:00.893</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead/>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:select1
+						appearance="check"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsCheck"
+						id="saveAsCheck"
+						doEBIValidate="false"
+						wcpforms:class="h_layout"
+						wcpforms:size="121px auto">
+						<xforms:label
+							textIdentifier="005056A2-27FA-A1EA-9E31-2EE7CBA8C159"
+							wcpforms:class="autosuggest">Save As</xforms:label>
+						<xforms:item>
+							<xforms:label>true</xforms:label>
+							<xforms:value>1</xforms:value>
+						</xforms:item>
+						<xforms:item>
+							<xforms:label>false</xforms:label>
+							<xforms:value>0</xforms:value>
+						</xforms:item>
+						<xforms:action
+							ev:event="xforms-value-changed">
+							<xforms:saveAsCheck_Change/>
+						</xforms:action>
+					</xforms:select1>
+					<xforms:input
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+						id="nameInp"
+						doEBIValidate="false"
+						wcpforms:class="v_layout"
+						wcpforms:size="275px auto">
+						<xforms:label
+							textIdentifier="005056A2-27FA-A1EA-9E31-2EE7CBA8C159"
+							wcpforms:class="h_label left_align"
+							wcpforms:size="74px null">Save As</xforms:label>
+					</xforms:input>
+					<xforms:group
+						appearance="controlbox"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+						id="controlbox1"
+						controltype="button"
+						wcpforms:layout="horizontal"
+						wcpforms:class="v_layout"
+						wcpforms:align="left_align"
+						wcpforms:size="277px 36px">
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="ok"
+							wcpforms:class="h_button"
+							wcpforms:size="null 22px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EA-9C9C-8300BF8BC159">Ok</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:ok_Click/>
+							</xforms:action>
+						</xforms:trigger>
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="cancel"
+							wcpforms:class="h_button"
+							wcpforms:size="null 22px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EA-9C9C-8300BF8A4159">Cancel</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:cancel_Click/>
+							</xforms:action>
+						</xforms:trigger>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var criteriaName="";
+var mode="";
+var lbl="";
+var decision="Cancel";
+function cancel_Click(eventObject)
+{
+    decision="Cancel"
+    application.container.close();
+}
+function ok_Click(eventObject)
+{
+    if(mode=="save as" && criteriaName==nameInp.getValue())
+  {
+      application.notify("please change the criteria name","validation");
+      return false;
+  }else if((mode=="new")&&(nameInp.getValue()==""))
+  {
+      application.notify("please enter name","validation");
+      return false;
+  }
+    
+    decision="Ok";
+    application.container.close();
+}
+function Form_InitDone(eventObject)
+{
+    
+    nameInp.hide();
+    saveAsCheck.hide();
+    lbl=application.event.data.label;
+    criteriaName=application.event.data.criteriaName;
+    
+    if(criteriaName==""){
+        mode="new";
+        nameInp.setLabel("Save As"); 
+        nameInp.show();
+    }
+    else if(criteriaName!=""){
+        mode="update"; 
+        nameInp.show(); 
+        nameInp.setValue(criteriaName);
+        nameInp.setLabel("Save"); 
+        nameInp.disable(); 
+        saveAsCheck.show(); 
+    }
+    nameInp.setLabel(lbl);
+}
+function dialogReturnValue()
+{
+  
+  var obj=new Object();
+  obj.criteriaName=nameInp.getValue();
+  obj.mode=mode;
+  obj.decision=decision;
+  return obj;
+    
+}
+function Form_Init(eventObject)
+{
+    application.setDialogSize("400px","185px");
+}
+function saveAsCheck_Change(eventObject)
+{
+    if(saveAsCheck.getValue()==1){
+        
+        nameInp.setValue(criteriaName);
+        nameInp.setLabel("Save As"); 
+        nameInp.enable();
+        nameInp.show();
+        mode="save as"; 
+    
+    }
+    else {
+        nameInp.setValue(criteriaName);
+        nameInp.setLabel("Save"); 
+        nameInp.disable();
+        //nameInp.hide();
+        mode="update"; 
+        
+    }
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+			<xforms:action
+				ev:event="xforms-init">
+				<xforms:Form_Init/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>savePopUp</taskDescription>
+	<taskName>savePopUp</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9E31-2EE7CBB20159">
+			<DocumentID>005056A2-27FA-A1EA-9E31-2EE7CBB1C159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9E31-2EE7CBB1C159</Name>
+			<Description>005056A2-27FA-A1EA-9E31-2EE7CBB1C159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-07T15:22:00.893</CreationDate>
+			<Notes/>
+			<DeveloperText></DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9E31-2EE7CBB74159">
+			<DocumentID>005056A2-27FA-A1EA-9E31-2EE7CBB78159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9D40-7E3E286F0159</Name>
+			<Description>005056A2-27FA-A1EA-9D40-7E3E286F0159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-07T15:22:00.891</CreationDate>
+			<Notes/>
+			<UIRef>nameInp</UIRef>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-9E31-2EE7CBB64159">
+					<DocumentID>005056A2-27FA-A1EA-9E31-2EE7CBB68159</DocumentID>
+					<Name>005056A2-27FA-A1EA-9D40-7E3E28638159</Name>
+					<Description>005056A2-27FA-A1EA-9D40-7E3E28638159</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-04-07T15:22:00.889</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TooltipText>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-9E96-790D390CC159">
+					<DocumentID>005056A2-27FA-A1EA-9E96-790D390C8159</DocumentID>
+					<Name>005056A2-27FA-A1EA-9E96-790D390C8159</Name>
+					<Description>005056A2-27FA-A1EA-9E96-790D390C8159</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-04-09T12:15:35.866</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-9E31-2EE7CBB88159"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9E31-2EE7CBB5C159">
+			<DocumentID>005056A2-27FA-A1EA-9E31-2EE7CBB60159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9D40-7E3E286A8159</Name>
+			<Description>005056A2-27FA-A1EA-9D40-7E3E286A8159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-07T15:22:00.893</CreationDate>
+			<Notes/>
+			<UIRef>ok</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-9E31-2EE7CBB54159">
+					<DocumentID>005056A2-27FA-A1EA-9E31-2EE7CBB58159</DocumentID>
+					<Name>005056A2-27FA-A1EA-9D40-7E3E28690159</Name>
+					<Description>005056A2-27FA-A1EA-9D40-7E3E28690159</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-04-07T15:22:00.891</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-9E31-2EE7CBB88159"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9E31-2EE7CBB4C159">
+			<DocumentID>005056A2-27FA-A1EA-9E31-2EE7CBB50159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9D40-7E3E28698159</Name>
+			<Description>005056A2-27FA-A1EA-9D40-7E3E28698159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-07T15:22:00.892</CreationDate>
+			<Notes/>
+			<UIRef>cancel</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-9E31-2EE7CBB44159">
+					<DocumentID>005056A2-27FA-A1EA-9E31-2EE7CBB48159</DocumentID>
+					<Name>005056A2-27FA-A1EA-9D40-7E3E28688159</Name>
+					<Description>005056A2-27FA-A1EA-9D40-7E3E28688159</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-04-07T15:22:00.89</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-9E31-2EE7CBB88159"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9E38-FA6AECD9C159">
+			<DocumentID>005056A2-27FA-A1EA-9E38-FA6AECD98159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9E38-FA6AECD98159</Name>
+			<Description>005056A2-27FA-A1EA-9E38-FA6AECD98159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-07T16:02:49.88</CreationDate>
+			<Notes/>
+			<UIRef>saveAsCheck</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-9E38-FA6AECD8C159">
+					<DocumentID>005056A2-27FA-A1EA-9E38-FA6AECD88159</DocumentID>
+					<Name>005056A2-27FA-A1EA-9E38-FA6AECD88159</Name>
+					<Description>005056A2-27FA-A1EA-9E38-FA6AECD88159</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-04-07T16:03:00.428</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-9E31-2EE7CBB88159"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices/>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9E31-2EE7CBB7C159">
+			<DocumentID>005056A2-27FA-A1EA-9E31-2EE7CBB80159</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-07T15:22:00.888</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

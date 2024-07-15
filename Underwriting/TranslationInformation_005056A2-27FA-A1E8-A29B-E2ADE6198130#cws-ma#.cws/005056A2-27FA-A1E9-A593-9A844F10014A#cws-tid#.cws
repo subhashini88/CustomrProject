@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A593-9A844F10414A">
+	<DocumentID>005056A2-27FA-A1E9-A593-9A844F10014A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A593-9A844F10014A</Name>
+	<Description>Requirement Type Selected</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-24T08:28:32.506</CreationDate>
+	<Notes/>
+	<DefaultText>Requirement Type Selected</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-A593-9A844F10814A"
+		/>
+	</Translations>
+</TextIdentifier>

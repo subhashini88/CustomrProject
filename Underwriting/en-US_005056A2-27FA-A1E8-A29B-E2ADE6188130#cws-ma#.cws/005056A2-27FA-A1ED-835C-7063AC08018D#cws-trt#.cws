@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-835C-7063AC08418D">
+	<DocumentID>005056A2-27FA-A1ED-835C-7063AC08018D</DocumentID>
+	<Name>005056A2-27FA-A1ED-835C-7063AC08018D</Name>
+	<Description>PlanActivities-UW Service</Description>
+	<CreatedBy>Karthikeyan</CreatedBy>
+	<CreationDate>2022-07-27T06:24:00.835</CreationDate>
+	<Notes/>
+	<Text>PlanActivities-UW Service</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-835C-7063AC07818D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

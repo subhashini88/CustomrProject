@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8E31-9E4B606B8193">
+	<DocumentID>005056A2-27FA-A1ED-8E31-9E4B606B4193</DocumentID>
+	<Name>005056A2-27FA-A1ED-8E31-9E4B606B4193</Name>
+	<Description>Writing Agent 2</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-09-20T09:51:25.192</CreationDate>
+	<Notes/>
+	<Text>Writing Agent 2</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-8E31-9E4B606AC193"
+		/>
+	</TextIdentifier>
+</TranslatedText>

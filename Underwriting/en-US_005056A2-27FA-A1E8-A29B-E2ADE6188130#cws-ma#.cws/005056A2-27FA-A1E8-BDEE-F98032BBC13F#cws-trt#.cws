@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEE-F98032BC013F">
+	<DocumentID>005056A2-27FA-A1E8-BDEE-F98032BBC13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEE-F98032BBC13F</Name>
+	<Description>Are you self-employed?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T12:05:30.955</CreationDate>
+	<Notes/>
+	<Text>Are you self-employed?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEE-F98032BB413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

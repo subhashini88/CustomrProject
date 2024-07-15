@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B385-E4D2A564C13B">
+	<DocumentID>005056A2-27FA-A1E8-B385-E4D2A564813B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B385-E4D2A564813B</Name>
+	<Description>GetCaseInstance</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-12T12:25:29.985</CreationDate>
+	<Notes/>
+	<Text>GetCaseInstance</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B385-E4D2A564013B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

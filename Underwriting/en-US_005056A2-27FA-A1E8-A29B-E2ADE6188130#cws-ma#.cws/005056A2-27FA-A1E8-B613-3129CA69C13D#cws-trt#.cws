@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B613-3129CA6A013D">
+	<DocumentID>005056A2-27FA-A1E8-B613-3129CA69C13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B613-3129CA69C13D</Name>
+	<Description>Has Combined Insurance asked that we obtain the Medical advice or Treatment for: Manic depression, schizophrenia, psychosis, alcoholism or drug addiction?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-25T12:15:40.073</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we obtain the Medical advice or Treatment for: Manic depression, schizophrenia, psychosis, alcoholism or drug addiction?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B613-3129CA69413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

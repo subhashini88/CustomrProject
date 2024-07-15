@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-91BD-F80EFE17C1A4">
+	<DocumentID>005056A2-27FA-A1EE-91BD-F80EFE1781A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-91BD-F80EFE1781A4</Name>
+	<Description>Move to pending</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-30T06:47:07.183</CreationDate>
+	<Notes/>
+	<Text>Move to pending</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-91BD-F80EFE1701A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-7798-A1E8-A6F1-18B975D10112">
+	<DocumentID>005056A2-7798-A1E8-A6F1-18B975D0C112</DocumentID>
+	<Name>005056A2-7798-A1E8-A6F1-18B975D0C112</Name>
+	<Description>Reopen</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-08-09T12:50:03.164</CreationDate>
+	<Notes/>
+	<DefaultText>Reopen</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-7798-A1E8-A6F1-18B975D14112"
+		/>
+	</Translations>
+</TextIdentifier>

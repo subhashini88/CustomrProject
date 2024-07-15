@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B880-CF2A0989C15E">
+	<DocumentID>005056A2-27FA-A1EA-B880-CF2A0989815E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B880-CF2A0989815E</Name>
+	<Description>InsuredsById</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-08-19T10:28:11.688</CreationDate>
+	<Notes/>
+	<Text>InsuredsById</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B880-CF2A0989015E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

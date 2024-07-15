@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-AFE6-9BD8986B015C">
+	<DocumentID>005056A2-27FA-A1EA-AFE6-9BD8986AC15C</DocumentID>
+	<Name>005056A2-27FA-A1EA-AFE6-9BD8986AC15C</Name>
+	<Description>Master App Number</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-07-06T16:22:30.153</CreationDate>
+	<Notes/>
+	<DefaultText>Master App Number</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-AFE6-9BD8986B415C"
+		/>
+	</Translations>
+</TextIdentifier>

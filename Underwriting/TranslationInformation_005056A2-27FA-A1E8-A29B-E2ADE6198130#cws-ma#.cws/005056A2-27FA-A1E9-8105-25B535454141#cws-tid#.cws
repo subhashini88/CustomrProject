@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8105-25B535458141">
+	<DocumentID>005056A2-27FA-A1E9-8105-25B535454141</DocumentID>
+	<Name>005056A2-27FA-A1E9-8105-25B535454141</Name>
+	<Description>uwCompanyPolicyNo</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-20T06:14:17.7</CreationDate>
+	<Notes/>
+	<DefaultText>uwCompanyPolicyNo</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-8105-25B53545C141"
+		/>
+	</Translations>
+</TextIdentifier>

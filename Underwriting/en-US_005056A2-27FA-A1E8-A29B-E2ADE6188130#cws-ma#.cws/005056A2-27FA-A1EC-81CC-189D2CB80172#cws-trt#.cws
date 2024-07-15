@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-81CC-189D2CB84172">
+	<DocumentID>005056A2-27FA-A1EC-81CC-189D2CB80172</DocumentID>
+	<Name>005056A2-27FA-A1EC-81CC-189D2CB80172</Name>
+	<Description>EnrollmentFP_Mixed</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-27T12:16:07.405</CreationDate>
+	<Notes/>
+	<Text>EnrollmentFP_Mixed</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-81CC-189D2CB78172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

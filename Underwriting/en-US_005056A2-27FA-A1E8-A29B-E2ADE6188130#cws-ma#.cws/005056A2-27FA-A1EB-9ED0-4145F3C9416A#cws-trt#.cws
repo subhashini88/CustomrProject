@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9ED0-4145F3C9816A">
+	<DocumentID>005056A2-27FA-A1EB-9ED0-4145F3C9416A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9ED0-4145F3C9416A</Name>
+	<Description>Cancellation Task</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-03-02T10:23:26.408</CreationDate>
+	<Notes/>
+	<Text>Cancellation Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9ED0-4145F3C8C16A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

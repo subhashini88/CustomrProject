@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8AFC-4841DE27C173">
+	<DocumentID>005056A2-27FA-A1EC-8AFC-4841DE278173</DocumentID>
+	<Name>005056A2-27FA-A1EC-8AFC-4841DE278173</Name>
+	<Description>GroupNumber</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-13T07:00:13.948</CreationDate>
+	<Notes/>
+	<Text>GroupNumber</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-8AFC-4841DE270173"
+		/>
+	</TextIdentifier>
+</TranslatedText>

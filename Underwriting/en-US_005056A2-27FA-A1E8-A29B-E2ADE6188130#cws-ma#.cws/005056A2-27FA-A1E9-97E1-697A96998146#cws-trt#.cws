@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-97E1-697A9699C146">
+	<DocumentID>005056A2-27FA-A1E9-97E1-697A96998146</DocumentID>
+	<Name>005056A2-27FA-A1E9-97E1-697A96998146</Name>
+	<Description>(340)Combined TELE-INTERVIEW- Musculoskeletal</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-15T13:58:48.398</CreationDate>
+	<Notes/>
+	<Text>(340)Combined TELE-INTERVIEW- Musculoskeletal</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-97E1-697A96990146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-830E-C4368EC98161">
+	<DocumentID>005056A2-27FA-A1EB-830E-C4368EC94161</DocumentID>
+	<Name>005056A2-27FA-A1EB-830E-C4368EC94161</Name>
+	<Description>Broker</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-12T06:06:49.252</CreationDate>
+	<Notes/>
+	<Text>Broker</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-830E-C4368EC8C161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

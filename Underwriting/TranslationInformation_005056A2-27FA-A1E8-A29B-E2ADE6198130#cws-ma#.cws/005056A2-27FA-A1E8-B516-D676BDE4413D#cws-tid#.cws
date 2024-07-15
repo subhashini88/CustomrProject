@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B516-D676BDE4813D">
+	<DocumentID>005056A2-27FA-A1E8-B516-D676BDE4413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B516-D676BDE4413D</Name>
+	<Description>Reopened Reason:</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-20T11:41:13.403</CreationDate>
+	<Notes/>
+	<DefaultText>Reopened Reason:</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B516-D676BDE4C13D"
+		/>
+	</Translations>
+</TextIdentifier>

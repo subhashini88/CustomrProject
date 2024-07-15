@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8EA2-1FC8B6EC81A4">
+	<DocumentID>005056A2-27FA-A1EE-8EA2-1FC8B6EC41A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8EA2-1FC8B6EC41A4</Name>
+	<Description>radio6_1</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-14T10:10:32.637</CreationDate>
+	<Notes/>
+	<Text>radio6_1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8EA2-1FC8B6EBC1A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

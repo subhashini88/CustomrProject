@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA30-6025FECD813E">
+	<DocumentID>005056A2-27FA-A1E8-BA30-6025FECD413E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA30-6025FECD413E</Name>
+	<Description>&lt;h4&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;This State requires Approval of any Exclusion Riders prior to the Issuance of the policy.&lt;/span&gt;&lt;/h4&gt;_582</Description>
+	<CreatedBy>PRTIWA1</CreatedBy>
+	<CreationDate>2018-11-15T10:48:15.559</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;h4&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;This State requires Approval of any Exclusion Riders prior to the Issuance of the policy.&lt;/span&gt;&lt;/h4&gt;_582</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BA30-6025FECDC13E"
+		/>
+	</Translations>
+</TextIdentifier>

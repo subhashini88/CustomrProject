@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AE17-454587D8819A">
+	<DocumentID>005056A2-27FA-A1ED-AE17-454587D8419A</DocumentID>
+	<Name>005056A2-27FA-A1ED-AE17-454587D8419A</Name>
+	<Description>Mapping Products</Description>
+	<CreatedBy>Prashant Chauhan</CreatedBy>
+	<CreationDate>2023-03-02T08:13:53.943</CreationDate>
+	<Notes/>
+	<Text>Mapping Products</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-AE17-454587D7C19A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9F81-8B8F2FE38147">
+	<DocumentID>005056A2-27FA-A1E9-9F81-8B8F2FE34147</DocumentID>
+	<Name>005056A2-27FA-A1E9-9F81-8B8F2FE34147</Name>
+	<Description>Smoker Status:</Description>
+	<CreatedBy>Kani</CreatedBy>
+	<CreationDate>2019-05-24T09:37:32.649</CreationDate>
+	<Notes/>
+	<Text>Smoker Status:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9F81-8B8F2FE2C147"
+		/>
+	</TextIdentifier>
+</TranslatedText>

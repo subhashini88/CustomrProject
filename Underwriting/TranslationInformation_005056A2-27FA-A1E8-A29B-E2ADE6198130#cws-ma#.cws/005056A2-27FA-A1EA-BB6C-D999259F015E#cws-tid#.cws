@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BB6C-D999259F415E">
+	<DocumentID>005056A2-27FA-A1EA-BB6C-D999259F015E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BB6C-D999259F015E</Name>
+	<Description>Condition Number</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-09-03T07:36:53.912</CreationDate>
+	<Notes/>
+	<DefaultText>Condition Number</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BB6C-D999259F815E"
+		/>
+	</Translations>
+</TextIdentifier>

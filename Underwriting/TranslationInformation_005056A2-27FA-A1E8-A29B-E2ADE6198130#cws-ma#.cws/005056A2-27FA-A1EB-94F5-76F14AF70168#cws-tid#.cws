@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-94F5-76F14AF74168">
+	<DocumentID>005056A2-27FA-A1EB-94F5-76F14AF70168</DocumentID>
+	<Name>005056A2-27FA-A1EB-94F5-76F14AF70168</Name>
+	<Description>Enrollment Methodology</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-01-11T07:35:57.413</CreationDate>
+	<Notes/>
+	<DefaultText>Enrollment Methodology</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-94F5-76F14AF78168"
+		/>
+	</Translations>
+</TextIdentifier>

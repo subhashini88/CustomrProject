@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8382-2B308F58C161">
+	<DocumentID>005056A2-27FA-A1EB-8382-2B308F588161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8382-2B308F588161</Name>
+	<Description>updateWimsData Req</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-10-14T10:35:56.222</CreationDate>
+	<Notes/>
+	<DefaultText>updateWimsData Req</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8382-2B308F590161"
+		/>
+	</Translations>
+</TextIdentifier>

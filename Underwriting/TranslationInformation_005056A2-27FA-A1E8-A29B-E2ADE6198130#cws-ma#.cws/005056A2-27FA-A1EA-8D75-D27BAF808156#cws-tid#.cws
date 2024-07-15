@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8D75-D27BAF80C156">
+	<DocumentID>005056A2-27FA-A1EA-8D75-D27BAF808156</DocumentID>
+	<Name>005056A2-27FA-A1EA-8D75-D27BAF808156</Name>
+	<Description>&amp;lt;h4&amp;gt;Milliman Drug Details&amp;lt;/h4&amp;gt;</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-01-13T07:57:13.959</CreationDate>
+	<Notes/>
+	<DefaultText>&amp;lt;h4&amp;gt;Milliman Drug Details&amp;lt;/h4&amp;gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-8D75-D27BAF810156"
+		/>
+	</Translations>
+</TextIdentifier>

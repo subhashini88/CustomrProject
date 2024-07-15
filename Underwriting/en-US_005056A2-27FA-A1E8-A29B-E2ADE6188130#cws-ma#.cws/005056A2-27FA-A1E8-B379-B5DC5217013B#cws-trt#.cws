@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B379-B5DC5217413B">
+	<DocumentID>005056A2-27FA-A1E8-B379-B5DC5217013B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B379-B5DC5217013B</Name>
+	<Description>If Jet Result ?</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-12T06:23:52.5</CreationDate>
+	<Notes/>
+	<Text>If Jet Result ?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B379-B5DC5216813B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

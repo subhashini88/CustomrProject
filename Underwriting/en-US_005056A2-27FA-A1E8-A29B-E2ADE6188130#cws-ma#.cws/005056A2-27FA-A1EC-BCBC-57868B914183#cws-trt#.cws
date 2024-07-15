@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BCBC-57868B918183">
+	<DocumentID>005056A2-27FA-A1EC-BCBC-57868B914183</DocumentID>
+	<Name>005056A2-27FA-A1EC-BCBC-57868B914183</Name>
+	<Description>PrepareCaseInputForUnderwritingPolicyy</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2022-06-23T12:57:06.47</CreationDate>
+	<Notes/>
+	<Text>PrepareCaseInputForUnderwritingPolicyy</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BCBC-57868B90C183"
+		/>
+	</TextIdentifier>
+</TranslatedText>

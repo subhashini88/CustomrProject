@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-518FEFA8C13F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-518FEFA8813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-518FEFA8813F</Name>
+	<Description>claim_req_received_flag</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.176</CreationDate>
+	<Notes/>
+	<DefaultText>claim_req_received_flag</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-518FEFA9013F"
+		/>
+	</Translations>
+</TextIdentifier>

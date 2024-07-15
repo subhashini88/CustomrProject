@@ -1,0 +1,73 @@
+
+<URLBasedForm
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.uiapplication.URLBasedForm"
+	RuntimeDocumentID="005056A2-7798-A1E8-ADF3-5C78D452411E">
+	<DocumentID>005056A2-7798-A1E8-ADF3-5C78D452011E</DocumentID>
+	<Name>Holiday Calendar US</Name>
+	<Description>Holiday Calendar US</Description>
+	<CreatedBy>vidhyasri</CreatedBy>
+	<CreationDate>2018-09-14T07:41:47.725</CreationDate>
+	<Notes/>
+	<URL>http://nausd-wapp0101:81/home/uw_dev/com/cordys/cws/ide/restenvironment.caf?workspaceID=005056A2-27FA-A1E8-AFF2-A29FA3CC813A&amp;organization=o=uw_dev,cn=cordys,cn=awDev101,o=aceins.com&amp;documentID=005056A2-27FA-A1E8-A0D9-99A9EC1DC12C</URL>
+	<WSDL/>
+	<automatic>false</automatic>
+	<caption>Holiday List</caption>
+	<data/>
+	<height>200%</height>
+	<imageUrl></imageUrl>
+	<info>Holiday List</info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters>
+		<Properties
+			xmlns:cws="http://schemas.cordys.com/cws/1.0"
+			xmlns:c="http://schemas.cordys.com/cws/1.0"
+			xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/"
+			xmlns=""
+		/>
+	</parameters>
+	<showOnStartPage>true</showOnStartPage>
+	<taskDescription>Holiday Calendar US</taskDescription>
+	<taskName>Holiday Calendar US</taskName>
+	<title>true</title>
+	<top></top>
+	<type>URLBasedForm</type>
+	<width>200%</width>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B21A-1EC1CA32C13B">
+			<DocumentID>005056A2-27FA-A1E8-B21A-1EC1CA32813B</DocumentID>
+			<Name>005056A2-27FA-A1E8-B21A-1EC1CA32813B</Name>
+			<Description>005056A2-27FA-A1E8-B21A-1EC1CA32813B</Description>
+			<CreatedBy>vinod</CreatedBy>
+			<CreationDate>2018-10-05T06:34:04.642</CreationDate>
+			<Notes/>
+			<DeveloperText>Holiday Calendar US</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1E8-B21A-1EC1CA33413B"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<aclFragments/>
+	<deliveryModels/>
+	<image>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D101C0E88"
+			path="Underwriting/Web/com/cica/uw/Icons/calendar_31.png"
+			type="com.cordys.cws.documenttypes.image.Png"
+		/>
+	</image>
+	<input/>
+	<messageParts/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</URLBasedForm>

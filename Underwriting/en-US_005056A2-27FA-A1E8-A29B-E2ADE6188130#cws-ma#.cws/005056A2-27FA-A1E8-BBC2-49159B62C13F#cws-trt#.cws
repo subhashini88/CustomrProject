@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BBC2-49159B63013F">
+	<DocumentID>005056A2-27FA-A1E8-BBC2-49159B62C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BBC2-49159B62C13F</Name>
+	<Description>If  For Inhouse PHI  , complete was sleected initially , then we create a task and complete it and update taskid back to table</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-23T10:34:14.168</CreationDate>
+	<Notes/>
+	<Text>If  For Inhouse PHI  , complete was sleected initially , then we create a task and complete it and update taskid back to table</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BBC2-49159B62413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

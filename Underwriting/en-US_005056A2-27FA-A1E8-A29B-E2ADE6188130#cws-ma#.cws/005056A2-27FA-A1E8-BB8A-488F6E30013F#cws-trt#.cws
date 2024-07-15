@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-488F6E30413F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-488F6E30013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-488F6E30013F</Name>
+	<Description>missing_agt_sign_letter_date</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.073</CreationDate>
+	<Notes/>
+	<Text>missing_agt_sign_letter_date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-488F6E2F813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

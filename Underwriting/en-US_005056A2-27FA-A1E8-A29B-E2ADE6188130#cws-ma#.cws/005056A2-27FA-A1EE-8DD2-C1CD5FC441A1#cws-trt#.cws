@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8DD2-C1CD5FC481A1">
+	<DocumentID>005056A2-27FA-A1EE-8DD2-C1CD5FC441A1</DocumentID>
+	<Name>005056A2-27FA-A1EE-8DD2-C1CD5FC441A1</Name>
+	<Description>UWRejectScreen</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-10T09:50:46.139</CreationDate>
+	<Notes/>
+	<Text>UWRejectScreen</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8DD2-C1CD5FC3C1A1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

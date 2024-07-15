@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8314-5868FE6BC161">
+	<DocumentID>005056A2-27FA-A1EB-8314-5868FE6B8161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8314-5868FE6B8161</Name>
+	<Description>Case Strategy</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-12T06:12:00.437</CreationDate>
+	<Notes/>
+	<Text>Case Strategy</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8314-5868FE6B0161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-997C-B0E4541C4169">
+	<DocumentID>005056A2-27FA-A1EB-997C-B0E4541C0169</DocumentID>
+	<Name>005056A2-27FA-A1EB-997C-B0E4541C0169</Name>
+	<Description>Create Case - NB</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-02-03T07:45:07.104</CreationDate>
+	<Notes/>
+	<Text>Create Case - NB</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-997C-B0E4541B8169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-42935717813F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-42935717413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-42935717413F</Name>
+	<Description>business_city</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.107</CreationDate>
+	<Notes/>
+	<Text>business_city</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-42935716C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-7798-A1E8-AA7D-8EC82FB98113">
+	<DocumentID>005056A2-7798-A1E8-AA7D-8EC82FB94113</DocumentID>
+	<Name>005056A2-7798-A1E8-AA7D-8EC82FB94113</Name>
+	<Description>First Name</Description>
+	<CreatedBy>Harshet.Sankar@Combined.com</CreatedBy>
+	<CreationDate>2018-08-27T12:49:23.201</CreationDate>
+	<Notes/>
+	<DefaultText>First Name</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-7798-A1E8-AA7D-8EC82FB9C113"
+		/>
+	</Translations>
+</TextIdentifier>

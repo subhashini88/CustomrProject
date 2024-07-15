@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9FC-1F5FA177813D">
+	<DocumentID>005056A2-27FA-A1E8-B9FC-1F5FA177413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9FC-1F5FA177413D</Name>
+	<Description>1. To Get Task ID of Latest created TaskID</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-14T09:36:00.922</CreationDate>
+	<Notes/>
+	<DefaultText>1. To Get Task ID of Latest created TaskID</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B9FC-1F5FA177C13D"
+		/>
+	</Translations>
+</TextIdentifier>

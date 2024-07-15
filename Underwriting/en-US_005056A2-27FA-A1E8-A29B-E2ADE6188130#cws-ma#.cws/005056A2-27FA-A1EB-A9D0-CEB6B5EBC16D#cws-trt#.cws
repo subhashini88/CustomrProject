@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A9D0-CEB6B5EC016D">
+	<DocumentID>005056A2-27FA-A1EB-A9D0-CEB6B5EBC16D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A9D0-CEB6B5EBC16D</Name>
+	<Description>WKSCompleteRequirementTask</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-27T10:27:58.839</CreationDate>
+	<Notes/>
+	<Text>WKSCompleteRequirementTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A9D0-CEB6B5EB416D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

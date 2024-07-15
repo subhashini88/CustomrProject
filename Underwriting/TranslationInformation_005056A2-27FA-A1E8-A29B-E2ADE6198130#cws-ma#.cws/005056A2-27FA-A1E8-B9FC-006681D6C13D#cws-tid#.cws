@@ -1,0 +1,28 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9FC-006681D7013D">
+	<DocumentID>005056A2-27FA-A1E8-B9FC-006681D6C13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9FC-006681D6C13D</Name>
+	<Description>1. Update Table ID to find out its Task
+2.  Update Status as Triggered
+3. Actual Order Type should be Updated</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-14T09:33:18.207</CreationDate>
+	<Notes/>
+	<DefaultText>1. Update Table ID to find out its Task
+2.  Update Status as Triggered
+3. Actual Order Type should be Updated</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B9FC-006681D7413D"
+		/>
+	</Translations>
+</TextIdentifier>

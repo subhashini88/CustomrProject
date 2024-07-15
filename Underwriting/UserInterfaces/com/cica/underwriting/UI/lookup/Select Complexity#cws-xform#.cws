@@ -1,0 +1,450 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EA-9D3B-0D8F5D450159">
+	<DocumentID>005056A2-27FA-A1EA-9D3B-0D8F5D454159</DocumentID>
+	<Name>Select Complexity</Name>
+	<Description>Select Complexity</Description>
+	<CreatedBy>kmohan</CreatedBy>
+	<CreationDate>2020-04-02T15:21:23.938</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetSearchFiledsDataObjsForElementModel"
+					wcpforms:businessElement="tns:SearchFieldsData"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/uw/dataservices/1.0/GetSearchFiledsDataObjsForEleNameandValue"
+							operationName="GetSearchFiledsDataObjsForEleNameandValue"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EE-9091-80175EFE01A4">
+							<ElementName
+								xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+							/>
+							<ElementValue
+								xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<xforms:action
+						ev:event="xforms-onrequest">
+						<xforms:GetSearchFiledsDataObjsForElementModel_OnRequest/>
+					</xforms:action>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						id="findApp"
+						type="application/javascript">
+						<Application>
+							<id>findPopUp</id>
+							<description>Find</description>
+							<caption>Find</caption>
+							<url>/cordys/com/cica/underwriting/UI/lookup/findPopUp.caf</url>
+							<frame>main</frame>
+						</Application>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:repeat
+						wcpforms:displayContextMenu="true"
+						wcpforms:toggleColumns="true"
+						wcpforms:movableColumns="false"
+						wcpforms:saveState="false"
+						wcpforms:autoInsert="false"
+						wcpforms:minRows="4"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+						id="SearchFieldsDataTable"
+						model="GetSearchFiledsDataObjsForElementModel"
+						synchronizedDialogFrame="main"
+						isNavigationEnabled="true"
+						wcpforms:gridtype="datagrid"
+						wcpforms:checkboxes="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="419px 144px"
+						fixedHeader="true"
+						columnSortable="true">
+						<xforms:group
+							appearance="elementbar"
+							id="_elementBar"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+							<xforms:group
+								appearance="controlbar"
+								id="_controlBar"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+								wcpforms:class="controlbar">
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navRefresh1"
+									standardid="navRefresh">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/refresh.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Refresh</xforms:hint>
+									<xforms:action
+										ev:event="onbeforerefresh">
+										<xforms:navRefresh1_BeforeRefresh/>
+									</xforms:action>
+									<xforms:action
+										ev:event="onafterrefresh">
+										<xforms:navRefresh1_AfterRefresh/>
+									</xforms:action>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="findIcon">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/find.png"
+										/>
+									</xforms:label>
+									<xforms:action
+										ev:event="xforms-activate">
+										<xforms:findIcon_Click/>
+									</xforms:action>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navInsert1"
+									standardid="navInsert">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/add.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Insert</xforms:hint>
+									<xforms:action
+										ev:event="onbeforeinsert">
+										<xforms:navInsert1_BeforeInsert/>
+									</xforms:action>
+									<xforms:action
+										ev:event="onafterinsert">
+										<xforms:navInsert1_AfterInsert/>
+									</xforms:action>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navDelete1"
+									standardid="navDelete">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/delete.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Delete</xforms:hint>
+								</xforms:trigger>
+							</xforms:group>
+						</xforms:group>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="ColValue"
+							doEBIValidate="false"
+							wcpforms:size="100px 100%"
+							ref="tns:ElementDesc"
+							wcpforms:dataType="string"
+							wcpforms:textalign="left_align">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EA-9A6A-2EDBCE1DC159">Complexity</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="ColDesc"
+							doEBIValidate="false"
+							ref="tns:ElementProp"
+							model="GetSearchFiledsDataObjsForElementModel"
+							wcpforms:size="auto 100%">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-A237-02FB9BB60130">Description</xforms:label>
+						</xforms:output>
+					</xforms:repeat>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[
+var eleVal="";
+var roleflag="";
+
+function GetSearchFiledsDataObjsForElementModel_OnRequest(eventObject)
+{
+    cordys.setNodeText(eventObject.request, ".//*[local-name()='ElementName']", "Complexity");
+    cordys.setNodeText(eventObject.request, ".//*[local-name()='ElementValue']", eleVal);
+        //cordys.setNodeText(eventObject.request, ".//*[local-name()='TaskType']", roleflag);
+
+}
+
+function Form_InitDone(eventObject)
+{
+    SearchFieldsDataTable.create();
+    SearchFieldsDataTable.hideColumn(2);
+    
+    GetSearchFiledsDataObjsForElementModel.reset();
+    
+    //navInsert1.enable();
+    var len=SearchFieldsDataTable.getRows().length;
+    
+    navInsert1.click();
+    //table1.insertRow();
+    ColValue[len+1].setValue("None");    
+    ColDesc[len+1].setValue("None::None");
+    
+    navDelete1.hide();
+    navInsert1.hide();   
+
+
+    var val=application.event.data.value;
+    if(val!="")
+    {
+        var valA=val.split("~/~");
+        var rows=SearchFieldsDataTable.getRows();
+        var tblLen=rows.length;
+        for(var i=0;i<valA.length;i++)
+        {
+            for(var j=1;j<=tblLen;j++)
+            {
+                if(ColDesc[j].getValue()==valA[i])
+                {
+                    SearchFieldsDataTable.checkRow(j,true);
+                }            
+            }        
+        }   
+    
+    }
+}
+function findIcon_Click(eventObject)
+{
+    var data = new Object();
+    data.label="Complexity";    
+    
+    application.showDialog(findApp.XMLDocument.documentElement, data, null, closeHandler, false);
+    
+}
+
+function closeHandler(dialogReturnValue){
+
+    eleVal=dialogReturnValue.value;
+    GetSearchFiledsDataObjsForElementModel.reset();
+}
+function navRefresh1_BeforeRefresh(eventObject)
+{
+    eleVal="";
+    GetSearchFiledsDataObjsForElementModel.reset();
+}
+function Form_Init(eventObject)
+{
+   application.setDialogSize("450px","272px");
+    application.container.description="Select Complexity";
+    application.container.caption="Select Complexity"; 
+}
+function navInsert1_BeforeInsert(eventObject)
+{
+    
+}
+function navInsert1_AfterInsert(eventObject)
+{
+    ColValue[SearchFieldsDataTable.getIndex()].setValue("None"); 
+    ColDesc[SearchFieldsDataTable.getIndex()].setValue("None::None");
+}
+function navRefresh1_AfterRefresh(eventObject)
+{
+    eleVal="";
+    GetSearchFiledsDataObjsForElementModel.reset();
+    //navInsert1.enable();
+    var len=SearchFieldsDataTable.getRows().length;    
+    navInsert1.click();    
+    ColValue[len+1].setValue("None"); 
+    ColDesc[len+1].setValue("None::None");
+    navInsert1.hide();
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+			<xforms:action
+				ev:event="xforms-init">
+				<xforms:Form_Init/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>Select Complexity</taskDescription>
+	<taskName>Select Complexity</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9D3D-6708DF99C159">
+			<DocumentID>005056A2-27FA-A1EA-9D3D-6708DF998159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9D3D-6708DF998159</Name>
+			<Description>005056A2-27FA-A1EA-9D3D-6708DF998159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-02T15:21:23.939</CreationDate>
+			<Notes/>
+			<DeveloperText></DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9D3D-6708DF9B0159">
+			<DocumentID>005056A2-27FA-A1EA-9D3D-6708DF9B4159</DocumentID>
+			<Name>005056A2-27FA-A1EA-9B32-47D6A1334159</Name>
+			<Description>005056A2-27FA-A1EA-9B32-47D6A1334159</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-02T15:21:23.939</CreationDate>
+			<Notes/>
+			<UIRef>ColValue</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-9D46-E9EEA2CC4159">
+					<DocumentID>005056A2-27FA-A1EA-9D46-E9EEA2CC0159</DocumentID>
+					<Name>005056A2-27FA-A1EA-9D46-E9EEA2CC0159</Name>
+					<Description>005056A2-27FA-A1EA-9D46-E9EEA2CC0159</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-04-02T20:25:24.43</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-9D3B-0D8F5D454159"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-A469-BBDBE361015A">
+			<DocumentID>005056A2-27FA-A1EA-A469-BBDBE360C15A</DocumentID>
+			<Name>005056A2-27FA-A1EA-A469-BBDBE360C15A</Name>
+			<Description>005056A2-27FA-A1EA-A469-BBDBE360C15A</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-05-09T05:34:48.32</CreationDate>
+			<Notes/>
+			<UIRef>ColDesc</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-A469-BBDBE360815A">
+					<DocumentID>005056A2-27FA-A1EA-A469-BBDBE360415A</DocumentID>
+					<Name>005056A2-27FA-A1EA-A469-BBDBE360415A</Name>
+					<Description>005056A2-27FA-A1EA-A469-BBDBE360415A</Description>
+					<CreatedBy>kmohan</CreatedBy>
+					<CreationDate>2020-05-09T05:34:48.321</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-9D3B-0D8F5D454159"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1EE-9091-80175EFE01A4"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-9D3D-6708DF9B8159">
+			<DocumentID>005056A2-27FA-A1EA-9D3B-0D8F5D44C159</DocumentID>
+			<Name>GetSearchFiledsDataObjsForElementModel</Name>
+			<Description>GetSearchFiledsDataObjsForElementModel</Description>
+			<CreatedBy>kmohan</CreatedBy>
+			<CreationDate>2020-04-02T15:21:23.94</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/uw/dataservices/1.0</namespace>
+			<operationName>GetSearchFiledsDataObjsForEleNameandValue</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

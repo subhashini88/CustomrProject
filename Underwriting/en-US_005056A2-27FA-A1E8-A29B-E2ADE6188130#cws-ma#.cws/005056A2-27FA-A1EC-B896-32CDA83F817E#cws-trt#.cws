@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B896-32CDA83FC17E">
+	<DocumentID>005056A2-27FA-A1EC-B896-32CDA83F817E</DocumentID>
+	<Name>005056A2-27FA-A1EC-B896-32CDA83F817E</Name>
+	<Description>UW Decision</Description>
+	<CreatedBy>Keerthi</CreatedBy>
+	<CreationDate>2022-06-02T09:57:30.571</CreationDate>
+	<Notes/>
+	<Text>UW Decision</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-B896-32CDA83F017E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-BA92-238B85EE819D">
+	<DocumentID>005056A2-27FA-A1ED-BA92-238B85EE419D</DocumentID>
+	<Name>005056A2-27FA-A1ED-BA92-238B85EE419D</Name>
+	<Description>Timer</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-05-04T07:09:07.42</CreationDate>
+	<Notes/>
+	<Text>Timer</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-BA92-238B85EDC19D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

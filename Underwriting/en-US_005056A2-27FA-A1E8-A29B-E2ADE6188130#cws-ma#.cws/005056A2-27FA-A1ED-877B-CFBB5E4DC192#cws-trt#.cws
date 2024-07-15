@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-877B-CFBB5E4E0192">
+	<DocumentID>005056A2-27FA-A1ED-877B-CFBB5E4DC192</DocumentID>
+	<Name>005056A2-27FA-A1ED-877B-CFBB5E4DC192</Name>
+	<Description>getTaskActivityLogsService</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-08-17T05:41:39.607</CreationDate>
+	<Notes/>
+	<Text>getTaskActivityLogsService</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-877B-CFBB5E7F4192"
+		/>
+	</TextIdentifier>
+</TranslatedText>

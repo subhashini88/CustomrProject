@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-92A6-93924F238168">
+	<DocumentID>005056A2-27FA-A1EB-92A6-93924F234168</DocumentID>
+	<Name>005056A2-27FA-A1EB-92A6-93924F234168</Name>
+	<Description>Enrollment Platform Review</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-12-30T12:27:07.915</CreationDate>
+	<Notes/>
+	<Text>Enrollment Platform Review</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-92A6-93924F22C168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

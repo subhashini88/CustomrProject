@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-94F3-D8E45AF3C168">
+	<DocumentID>005056A2-27FA-A1EB-94F3-D8E45AF38168</DocumentID>
+	<Name>005056A2-27FA-A1EB-94F3-D8E45AF38168</Name>
+	<Description>WKSOPSPlanActivity</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2021-01-11T06:14:08.041</CreationDate>
+	<Notes/>
+	<DefaultText>WKSOPSPlanActivity</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-94F3-D8E45AF40168"
+		/>
+	</Translations>
+</TextIdentifier>

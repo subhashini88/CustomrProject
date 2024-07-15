@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-94F8-CE78645B8168">
+	<DocumentID>005056A2-27FA-A1EB-94F8-CE78645B4168</DocumentID>
+	<Name>005056A2-27FA-A1EB-94F8-CE78645B4168</Name>
+	<Description>Multiple Billing Locations</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-01-11T09:53:55.852</CreationDate>
+	<Notes/>
+	<Text>Multiple Billing Locations</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-94F8-CE78645AC168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

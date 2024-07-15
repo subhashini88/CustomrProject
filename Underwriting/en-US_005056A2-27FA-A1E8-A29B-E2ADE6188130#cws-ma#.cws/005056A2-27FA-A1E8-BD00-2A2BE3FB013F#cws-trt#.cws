@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BD00-2A2BE3FB413F">
+	<DocumentID>005056A2-27FA-A1E8-BD00-2A2BE3FB013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BD00-2A2BE3FB013F</Name>
+	<Description>Update Decisoin Decision Date to Backend Table</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T18:01:35.18</CreationDate>
+	<Notes/>
+	<Text>Update Decisoin Decision Date to Backend Table</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BD00-2A2BE3FA813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

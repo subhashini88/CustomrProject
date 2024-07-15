@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B613-3129CA66013D">
+	<DocumentID>005056A2-27FA-A1E8-B613-3129CA65C13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B613-3129CA65C13D</Name>
+	<Description>Has Combined Insurance asked that we obtain the Medical advice or Treatment for: Kidney failure or organ transplant?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-25T12:15:40.074</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we obtain the Medical advice or Treatment for: Kidney failure or organ transplant?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B613-3129CA65413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

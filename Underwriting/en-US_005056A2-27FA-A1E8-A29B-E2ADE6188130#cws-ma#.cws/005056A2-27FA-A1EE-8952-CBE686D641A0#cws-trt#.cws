@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8952-CBE686D681A0">
+	<DocumentID>005056A2-27FA-A1EE-8952-CBE686D641A0</DocumentID>
+	<Name>005056A2-27FA-A1EE-8952-CBE686D641A0</Name>
+	<Description>Refund Date</Description>
+	<CreatedBy>manishas</CreatedBy>
+	<CreationDate>2023-07-18T09:44:38.155</CreationDate>
+	<Notes/>
+	<Text>Refund Date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8952-CBE686D5C1A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A496-614AC03D414A">
+	<DocumentID>005056A2-27FA-A1E9-A496-614AC03D014A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A496-614AC03D014A</Name>
+	<Description>(183)HEIGHT AND WEIGHT VERIFICATION</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T06:18:54.941</CreationDate>
+	<Notes/>
+	<Text>(183)HEIGHT AND WEIGHT VERIFICATION</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A496-614AC03C814A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

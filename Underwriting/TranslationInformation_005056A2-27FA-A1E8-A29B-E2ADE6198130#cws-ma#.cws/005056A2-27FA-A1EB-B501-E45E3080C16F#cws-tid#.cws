@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B501-E45E3081016F">
+	<DocumentID>005056A2-27FA-A1EB-B501-E45E3080C16F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B501-E45E3080C16F</Name>
+	<Description>Delay3</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-23T09:44:24.654</CreationDate>
+	<Notes/>
+	<DefaultText>Delay3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-B501-E45E3081416F"
+		/>
+	</Translations>
+</TextIdentifier>

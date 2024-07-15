@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B3D9-889B6DE9016F">
+	<DocumentID>005056A2-27FA-A1EB-B3D9-889B6DE8C16F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B3D9-889B6DE8C16F</Name>
+	<Description>FrameLSPXMLData1</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-17T12:18:35.546</CreationDate>
+	<Notes/>
+	<DefaultText>FrameLSPXMLData1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-B3D9-889B6DE9416F"
+		/>
+	</Translations>
+</TextIdentifier>

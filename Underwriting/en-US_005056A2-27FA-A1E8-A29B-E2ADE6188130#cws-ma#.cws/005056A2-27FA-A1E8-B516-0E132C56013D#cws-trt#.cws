@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B516-0E132C56413D">
+	<DocumentID>005056A2-27FA-A1E8-B516-0E132C56013D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B516-0E132C56013D</Name>
+	<Description>TracRejectedDecision</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-20T11:07:17.604</CreationDate>
+	<Notes/>
+	<Text>TracRejectedDecision</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B516-0E132C55813D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

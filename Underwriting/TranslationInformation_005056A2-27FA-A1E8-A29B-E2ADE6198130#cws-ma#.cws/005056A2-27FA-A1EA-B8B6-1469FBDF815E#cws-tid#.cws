@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B8B6-1469FBDFC15E">
+	<DocumentID>005056A2-27FA-A1EA-B8B6-1469FBDF815E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B8B6-1469FBDF815E</Name>
+	<Description>ContractsExById</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-08-20T11:38:30.027</CreationDate>
+	<Notes/>
+	<DefaultText>ContractsExById</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-B8B6-1469FBE0015E"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B679-38945736C19B">
+	<DocumentID>005056A2-27FA-A1ED-B679-38945736819B</DocumentID>
+	<Name>005056A2-27FA-A1ED-B679-38945736819B</Name>
+	<Description>yes_5</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-04-13T10:28:56.434</CreationDate>
+	<Notes/>
+	<DefaultText>yes_5</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-B679-38945737019B"
+		/>
+	</Translations>
+</TextIdentifier>

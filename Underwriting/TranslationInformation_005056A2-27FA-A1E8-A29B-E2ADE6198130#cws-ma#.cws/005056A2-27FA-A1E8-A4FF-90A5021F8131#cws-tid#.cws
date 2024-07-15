@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A4FF-90A5021FC131">
+	<DocumentID>005056A2-27FA-A1E8-A4FF-90A5021F8131</DocumentID>
+	<Name>005056A2-27FA-A1E8-A4FF-90A5021F8131</Name>
+	<Description>Pending Requirement Id</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-30T13:43:32.861</CreationDate>
+	<Notes/>
+	<DefaultText>Pending Requirement Id</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-A4FF-90A502200131"
+		/>
+	</Translations>
+</TextIdentifier>

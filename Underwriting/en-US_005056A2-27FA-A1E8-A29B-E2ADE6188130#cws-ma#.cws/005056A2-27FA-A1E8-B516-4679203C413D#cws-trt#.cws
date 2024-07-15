@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B516-4679203C813D">
+	<DocumentID>005056A2-27FA-A1E8-B516-4679203C413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B516-4679203C413D</Name>
+	<Description>ReopenCase</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-20T11:17:41.97</CreationDate>
+	<Notes/>
+	<Text>ReopenCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B516-4679203BC13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

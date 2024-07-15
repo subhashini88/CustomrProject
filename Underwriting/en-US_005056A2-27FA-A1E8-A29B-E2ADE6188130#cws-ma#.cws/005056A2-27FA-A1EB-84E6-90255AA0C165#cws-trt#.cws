@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-84E6-90255AA10165">
+	<DocumentID>005056A2-27FA-A1EB-84E6-90255AA0C165</DocumentID>
+	<Name>005056A2-27FA-A1EB-84E6-90255AA0C165</Name>
+	<Description>UpdateLSPMaster</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-10-21T12:39:02.28</CreationDate>
+	<Notes/>
+	<Text>UpdateLSPMaster</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-84E6-90255AA04165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

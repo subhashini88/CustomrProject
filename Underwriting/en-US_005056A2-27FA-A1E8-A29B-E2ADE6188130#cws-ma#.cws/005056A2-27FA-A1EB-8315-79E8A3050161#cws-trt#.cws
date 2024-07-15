@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8315-79E8A3054161">
+	<DocumentID>005056A2-27FA-A1EB-8315-79E8A3050161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8315-79E8A3050161</Name>
+	<Description>Past Due Parameters</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-12T06:42:05.389</CreationDate>
+	<Notes/>
+	<Text>Past Due Parameters</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8315-79E8A3048161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

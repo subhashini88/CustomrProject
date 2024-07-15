@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BE48-AE011B91813F">
+	<DocumentID>005056A2-27FA-A1E8-BE48-AE011B91413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BE48-AE011B91413F</Name>
+	<Description>Alzheimer’s Disease, Dementia, Parkinson’s Disease, Lou Gehrig’s Disease Multiple Sclerosis or Muscular Dystrophy?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-06T06:55:49.64</CreationDate>
+	<Notes/>
+	<Text>Alzheimer’s Disease, Dementia, Parkinson’s Disease, Lou Gehrig’s Disease Multiple Sclerosis or Muscular Dystrophy?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BE48-AE011B90C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

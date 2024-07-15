@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B8CF-FFD99CFA813D">
+	<DocumentID>005056A2-27FA-A1E8-B8CF-FFD99CFA413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B8CF-FFD99CFA413D</Name>
+	<Description>RUNME3</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-08T10:28:24.932</CreationDate>
+	<Notes/>
+	<Text>RUNME3</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B8CF-FFD99CF9C13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

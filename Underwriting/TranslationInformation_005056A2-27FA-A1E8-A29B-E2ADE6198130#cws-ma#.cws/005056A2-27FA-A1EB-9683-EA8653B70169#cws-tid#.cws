@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9683-EA8653B74169">
+	<DocumentID>005056A2-27FA-A1EB-9683-EA8653B70169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9683-EA8653B70169</Name>
+	<Description>EnrollmentProcessing</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-01-19T14:04:38.325</CreationDate>
+	<Notes/>
+	<DefaultText>EnrollmentProcessing</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9683-EA8653B78169"
+		/>
+	</Translations>
+</TextIdentifier>

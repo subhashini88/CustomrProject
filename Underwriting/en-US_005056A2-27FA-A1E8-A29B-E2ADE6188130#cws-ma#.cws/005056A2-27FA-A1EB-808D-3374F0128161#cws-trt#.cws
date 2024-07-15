@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-808D-3374F012C161">
+	<DocumentID>005056A2-27FA-A1EB-808D-3374F0128161</DocumentID>
+	<Name>005056A2-27FA-A1EB-808D-3374F0128161</Name>
+	<Description>WorksiteDecision Table</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-09-29T09:26:37.115</CreationDate>
+	<Notes/>
+	<Text>WorksiteDecision Table</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-808D-3374F0120161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

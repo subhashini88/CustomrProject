@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AE9C-4804C42A011E">
+	<DocumentID>005056A2-7798-A1E8-AE9C-4804C429C11E</DocumentID>
+	<Name>005056A2-7798-A1E8-AE9C-4804C429C11E</Name>
+	<Description>Updatetbl_underwriting</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-17T11:59:35.411</CreationDate>
+	<Notes/>
+	<Text>Updatetbl_underwriting</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AE9C-4804C429411E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

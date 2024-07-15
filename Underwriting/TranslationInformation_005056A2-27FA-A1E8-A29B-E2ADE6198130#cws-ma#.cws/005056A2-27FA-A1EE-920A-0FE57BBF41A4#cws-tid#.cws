@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-920A-0FE57BBF81A4">
+	<DocumentID>005056A2-27FA-A1EE-920A-0FE57BBF41A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-920A-0FE57BBF41A4</Name>
+	<Description>GetMDMId</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2023-08-31T18:09:00.477</CreationDate>
+	<Notes/>
+	<DefaultText>GetMDMId</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-920A-0FE57BBFC1A4"
+		/>
+	</Translations>
+</TextIdentifier>

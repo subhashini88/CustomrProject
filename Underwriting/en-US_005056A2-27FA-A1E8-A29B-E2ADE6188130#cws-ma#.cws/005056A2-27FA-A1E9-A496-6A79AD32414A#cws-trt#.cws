@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A496-6A79AD32814A">
+	<DocumentID>005056A2-27FA-A1E9-A496-6A79AD32414A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A496-6A79AD32414A</Name>
+	<Description>(913)HEP. B &amp; C TEST ON BLOOD</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T06:18:54.943</CreationDate>
+	<Notes/>
+	<Text>(913)HEP. B &amp; C TEST ON BLOOD</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A496-6A79AD31C14A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

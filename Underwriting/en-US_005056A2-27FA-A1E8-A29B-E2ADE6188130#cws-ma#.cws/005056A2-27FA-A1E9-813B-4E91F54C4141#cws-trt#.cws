@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-813B-4E91F54C8141">
+	<DocumentID>005056A2-27FA-A1E9-813B-4E91F54C4141</DocumentID>
+	<Name>005056A2-27FA-A1E9-813B-4E91F54C4141</Name>
+	<Description>Holiday Date</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-12-21T06:56:39.743</CreationDate>
+	<Notes/>
+	<Text>Holiday Date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-813B-4E91F54BC141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

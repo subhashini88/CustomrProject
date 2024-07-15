@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9AE3-10908147C169">
+	<DocumentID>005056A2-27FA-A1EB-9AE3-109081478169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9AE3-109081478169</Name>
+	<Description>005056A2-27FA-A1EB-9AE3-109081478169</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-02-10T11:08:29.709</CreationDate>
+	<Notes/>
+	<Text>&amp;lt;div xmlns=&quot;&quot; class=&quot;pending-button&quot;&amp;gt;&amp;lt;div class=&quot;dropup pull-right&quot;&amp;gt;&amp;lt;button class=&quot;btn btn-default dropdown-toggle&quot; type=&quot;button&quot; data-toggle=&quot;dropdown&quot;&amp;gt;Actions &amp;lt;span class=&quot;caret&quot;/&amp;gt;&amp;lt;/button&amp;gt;&amp;lt;div class=&quot;dropdown-menu dropdown-menu-right&quot; style=&quot;text-align: center;&quot;&amp;gt;&amp;lt;button class=&quot;btn iapp-typical-btn iapp-dropdown-menu dropdown-item&quot; onclick=&quot;CreateTask_Click()&quot;&amp;gt;Upload&amp;lt;/button&amp;gt;&amp;lt;button class=&quot;btn iapp-typical-btn iapp-dropdown-menu dropdown-item&quot; onclick=&quot;btn_savenexit_click()&quot;&amp;gt;Save &amp;amp;amp; Exit&amp;lt;/button&amp;gt;&amp;lt;button class=&quot;btn iapp-typical-btn iapp-dropdown-menu dropdown-item&quot; onclick=&quot;btn_complete_click()&quot;&amp;gt;Complete Task&amp;lt;/button&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9AE3-109081470169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

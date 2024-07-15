@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-AA9C-EB18650E417C">
+	<DocumentID>005056A2-27FA-A1EC-AA9C-EB18650E017C</DocumentID>
+	<Name>005056A2-27FA-A1EC-AA9C-EB18650E017C</Name>
+	<Description>Policy Number</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2022-03-23T06:37:15.508</CreationDate>
+	<Notes/>
+	<Text>Policy Number</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-AA9C-EB18650D817C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

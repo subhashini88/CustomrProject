@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BDFE-805070C8C160">
+	<DocumentID>005056A2-27FA-A1EA-BDFE-805070C88160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BDFE-805070C88160</Name>
+	<Description>Cyst</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T08:54:18.319</CreationDate>
+	<Notes/>
+	<Text>Cyst</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BDFE-805070C80160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

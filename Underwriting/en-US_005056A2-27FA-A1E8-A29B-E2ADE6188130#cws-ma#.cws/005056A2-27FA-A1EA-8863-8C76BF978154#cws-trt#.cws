@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8863-8C76BF97C154">
+	<DocumentID>005056A2-27FA-A1EA-8863-8C76BF978154</DocumentID>
+	<Name>005056A2-27FA-A1EA-8863-8C76BF978154</Name>
+	<Description>DrugGenericNameAndDosage</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-12-18T12:04:11.68</CreationDate>
+	<Notes/>
+	<Text>DrugGenericNameAndDosage</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8863-8C76BF970154"
+		/>
+	</TextIdentifier>
+</TranslatedText>

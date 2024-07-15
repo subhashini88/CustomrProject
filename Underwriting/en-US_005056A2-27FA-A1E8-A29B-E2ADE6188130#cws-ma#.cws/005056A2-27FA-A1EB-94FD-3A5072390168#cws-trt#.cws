@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-94FD-3A5072394168">
+	<DocumentID>005056A2-27FA-A1EB-94FD-3A5072390168</DocumentID>
+	<Name>005056A2-27FA-A1EB-94FD-3A5072390168</Name>
+	<Description>005056A2-27FA-A1EB-94FD-3A5072390168</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-01-11T12:16:52.596</CreationDate>
+	<Notes/>
+	<Text>&lt;bR /&gt;&lt;span  style='font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px;;color: #de350b;font-weight:bold;'  &gt;ADVISORY:&lt;/span&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px;&quot;&gt;&amp;#160;Effective Date and Paid to Date mismatch.&amp;#160;Cancellation request will be sent to Clerical Support for coordination with CSSC.&lt;/span&gt;&amp;#160;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-94FD-3A5072388168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

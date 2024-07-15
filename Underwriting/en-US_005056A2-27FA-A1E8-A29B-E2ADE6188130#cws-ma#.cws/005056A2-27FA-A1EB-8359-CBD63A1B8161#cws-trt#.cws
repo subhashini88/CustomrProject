@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8359-CBD63A1BC161">
+	<DocumentID>005056A2-27FA-A1EB-8359-CBD63A1B8161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8359-CBD63A1B8161</Name>
+	<Description>Lifetime Benefit Term (LBT)</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-13T15:19:54.327</CreationDate>
+	<Notes/>
+	<Text>Lifetime Benefit Term (LBT)</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8359-CBD63A1B0161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

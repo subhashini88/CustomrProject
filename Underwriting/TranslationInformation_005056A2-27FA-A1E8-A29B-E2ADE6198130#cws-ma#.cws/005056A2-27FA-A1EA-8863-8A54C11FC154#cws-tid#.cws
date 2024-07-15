@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8863-8A54C1200154">
+	<DocumentID>005056A2-27FA-A1EA-8863-8A54C11FC154</DocumentID>
+	<Name>005056A2-27FA-A1EA-8863-8A54C11FC154</Name>
+	<Description>ZipCode2</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-12-18T12:04:11.61</CreationDate>
+	<Notes/>
+	<DefaultText>ZipCode2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-8863-8A54C1204154"
+		/>
+	</Translations>
+</TextIdentifier>

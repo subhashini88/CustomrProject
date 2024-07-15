@@ -1,0 +1,95 @@
+.primary-header .CustomTabs .search-container i {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    right: 25px;
+}
+.primary-header .CustomTabs .search-container input {
+min-width: 350px;
+    min-height: 32px;
+    border-radius: 4px !important;
+    padding: 5px;
+    border: 1px solid #337ab7 !important;
+    font-family: inherit !important;
+    font-size: 13px !important;
+    line-height: inherit !important;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: white !important;
+}
+.primary-header .HtmCustomTable {
+height: 380px;
+overflow: scroll;
+font-size: x-small;
+overflow-x: scroll !important;
+display: block;
+}
+.primary-header .HtmCustomTable th{
+background-color: #337ab7 !important;
+    color: white;
+    border: none;
+    font-size: 11px;
+    font-weight: 600;
+}
+.primary-header .HtmCustomTable th select{
+color: #555;
+}
+.primary-header .HtmCustomTable tbody tr td{
+padding-right: 0px;
+    height: 45px !important;
+    font-size: 11px;
+    background: none;
+    border: none;
+    color: #000;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+font-weight: normal;
+}
+.primary-header .searchBox {
+padding-top: 14px;
+}
+.primary-header .CustomTable  td .fieldsbox input.input {
+    /*padding: 0px 10px;*/
+font-size: 13px;
+background:none;
+}
+
+.primary-header .CustomTable  td .input[class~=output]:focus{
+font-size:13px !important;
+}
+.primary-header .CustomTable  .tableholder>.simplecontainer {
+      overflow-x: hidden;
+}
+
+.primary-header .CustomTable  td .fieldsbox {
+height: auto !important;
+}
+.primary-header .CustomTable  td .fieldsbox textarea.input {
+    padding-right: 0px;
+height: 45px !important;
+    /*padding: 0px 10px;*/
+    font-size: 13px;
+    background: none;
+    border: none;
+    color: #000;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.primary-header .CustomTable .grid tr:hover {
+background:none;
+}
+.primary-header .CustomTable .grid.data th {
+        padding: 5px 0px;
+    /*border-bottom: 1px solid #111;*/
+    background-color: #337ab7 !important;
+}
+.primary-header .CustomTable .grid.data th label {
+color: white !important;
+}
+.primary-header .h_button.sec-btn {
+    border-color: #98012e;
+    background-color: transparent;
+    color: #98012e;
+}

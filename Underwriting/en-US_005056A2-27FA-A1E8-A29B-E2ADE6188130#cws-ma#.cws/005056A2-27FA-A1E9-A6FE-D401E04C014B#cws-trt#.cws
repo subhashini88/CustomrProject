@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A6FE-D401E04C414B">
+	<DocumentID>005056A2-27FA-A1E9-A6FE-D401E04C014B</DocumentID>
+	<Name>005056A2-27FA-A1E9-A6FE-D401E04C014B</Name>
+	<Description>DeletingCase</Description>
+	<CreatedBy>ramya</CreatedBy>
+	<CreationDate>2019-07-01T12:31:36.511</CreationDate>
+	<Notes/>
+	<Text>DeletingCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A6FE-D401E04B814B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

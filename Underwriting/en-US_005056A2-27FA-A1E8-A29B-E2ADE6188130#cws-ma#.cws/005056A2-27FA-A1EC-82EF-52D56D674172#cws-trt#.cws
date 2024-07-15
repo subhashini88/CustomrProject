@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-82EF-52D56D678172">
+	<DocumentID>005056A2-27FA-A1EC-82EF-52D56D674172</DocumentID>
+	<Name>005056A2-27FA-A1EC-82EF-52D56D674172</Name>
+	<Description>testingCaseupdate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-02T07:37:19.959</CreationDate>
+	<Notes/>
+	<Text>testingCaseupdate</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-82EF-52D56D66C172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

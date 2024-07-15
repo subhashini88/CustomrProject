@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8957-E1503F668142">
+	<DocumentID>005056A2-27FA-A1E9-8957-E1503F664142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8957-E1503F664142</Name>
+	<Description>SendMessage To Cancel Precomplete Flow</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-31T13:54:13.992</CreationDate>
+	<Notes/>
+	<Text>SendMessage To Cancel Precomplete Flow</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8957-E1503F65C142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

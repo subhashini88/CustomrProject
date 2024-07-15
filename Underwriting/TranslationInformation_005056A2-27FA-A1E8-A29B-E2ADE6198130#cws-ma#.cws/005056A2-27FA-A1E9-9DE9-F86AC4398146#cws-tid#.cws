@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9DE9-F86AC439C146">
+	<DocumentID>005056A2-27FA-A1E9-9DE9-F86AC4398146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9DE9-F86AC4398146</Name>
+	<Description>Increment foIlowup counter</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-05-16T07:06:28.085</CreationDate>
+	<Notes/>
+	<DefaultText>Increment foIlowup counter</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-9DE9-F86AC43A0146"
+		/>
+	</Translations>
+</TextIdentifier>

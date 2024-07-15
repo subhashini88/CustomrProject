@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8650-F74A4658418E">
+	<DocumentID>005056A2-27FA-A1ED-8650-F74A4658018E</DocumentID>
+	<Name>005056A2-27FA-A1ED-8650-F74A4658018E</Name>
+	<Description>Loss Date</Description>
+	<CreatedBy>keerthi9999</CreatedBy>
+	<CreationDate>2022-08-11T07:35:18.072</CreationDate>
+	<Notes/>
+	<Text>Loss Date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-8650-F74A4657818E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

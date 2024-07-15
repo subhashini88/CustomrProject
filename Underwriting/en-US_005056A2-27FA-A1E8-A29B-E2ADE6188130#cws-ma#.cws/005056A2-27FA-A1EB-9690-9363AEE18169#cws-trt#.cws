@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9690-9363AEE1C169">
+	<DocumentID>005056A2-27FA-A1EB-9690-9363AEE18169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9690-9363AEE18169</Name>
+	<Description>005056A2-27FA-A1EB-9690-9363AEE18169</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-01-19T12:28:48.361</CreationDate>
+	<Notes/>
+	<Text>&amp;lt;p style='color: #5e9ca0;color: #de350b;'&amp;gt;&amp;lt;span &amp;gt;&amp;lt;strong&amp;gt;ADVISORY:&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;&amp;amp;nbsp;Effective Date and Paid to Date mismatch.&amp;amp;nbsp;Cancellation request will be sent to Clerical Support for coordination with CSSC.&amp;lt;/p&amp;gt;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9690-9363AEE10169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

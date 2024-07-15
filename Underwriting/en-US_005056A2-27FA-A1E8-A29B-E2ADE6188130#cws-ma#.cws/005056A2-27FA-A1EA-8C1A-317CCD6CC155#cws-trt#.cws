@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8C1A-317CCD6D0155">
+	<DocumentID>005056A2-27FA-A1EA-8C1A-317CCD6CC155</DocumentID>
+	<Name>005056A2-27FA-A1EA-8C1A-317CCD6CC155</Name>
+	<Description>Click to view full question</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-01-06T10:24:12.007</CreationDate>
+	<Notes/>
+	<Text>Click to view full question</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8C1B-A9CA31B78155"
+		/>
+	</TextIdentifier>
+</TranslatedText>

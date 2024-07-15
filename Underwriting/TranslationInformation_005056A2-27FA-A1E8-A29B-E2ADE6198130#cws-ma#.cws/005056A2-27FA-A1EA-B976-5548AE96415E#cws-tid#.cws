@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B976-5548AE96815E">
+	<DocumentID>005056A2-27FA-A1EA-B976-5548AE96415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B976-5548AE96415E</Name>
+	<Description>Have two or more members of any proposed insured's immediate family had the same condition (cancer other than skin cancer / diabetes / heart disease or stroke) diagnosed prior to age 60?</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T07:33:27.544</CreationDate>
+	<Notes/>
+	<DefaultText>Have two or more members of any proposed insured's immediate family had the same condition (cancer other than skin cancer / diabetes / heart disease or stroke) diagnosed prior to age 60?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-B976-5548AE96C15E"
+		/>
+	</Translations>
+</TextIdentifier>

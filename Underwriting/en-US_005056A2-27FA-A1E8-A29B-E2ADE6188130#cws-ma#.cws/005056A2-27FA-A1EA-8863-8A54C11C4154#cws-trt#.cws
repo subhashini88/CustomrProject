@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8863-8A54C11C8154">
+	<DocumentID>005056A2-27FA-A1EA-8863-8A54C11C4154</DocumentID>
+	<Name>005056A2-27FA-A1EA-8863-8A54C11C4154</Name>
+	<Description>ZipCode4</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-12-18T12:04:11.65</CreationDate>
+	<Notes/>
+	<Text>ZipCode4</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8863-8A54C11BC154"
+		/>
+	</TextIdentifier>
+</TranslatedText>

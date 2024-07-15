@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9998-3129E2558146">
+	<DocumentID>005056A2-27FA-A1E9-9998-3129E2554146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9998-3129E2554146</Name>
+	<Description>Worklist Task Identifiers</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-04-24T07:31:21.16</CreationDate>
+	<Notes/>
+	<Text>Worklist Task Identifiers</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9998-3129E254C146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

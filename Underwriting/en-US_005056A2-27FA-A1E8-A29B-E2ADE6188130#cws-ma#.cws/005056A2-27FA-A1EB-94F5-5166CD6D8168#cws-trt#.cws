@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-94F5-5166CD6DC168">
+	<DocumentID>005056A2-27FA-A1EB-94F5-5166CD6D8168</DocumentID>
+	<Name>005056A2-27FA-A1EB-94F5-5166CD6D8168</Name>
+	<Description>Billing And Remittance</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-01-11T06:23:58.447</CreationDate>
+	<Notes/>
+	<Text>Billing And Remittance</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-94F5-5166CD6D0168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

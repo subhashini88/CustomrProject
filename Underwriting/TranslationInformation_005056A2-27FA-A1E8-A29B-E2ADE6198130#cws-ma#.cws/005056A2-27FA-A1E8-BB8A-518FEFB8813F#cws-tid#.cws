@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-518FEFB8C13F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-518FEFB8813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-518FEFB8813F</Name>
+	<Description>proper_taforms</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:06.614</CreationDate>
+	<Notes/>
+	<DefaultText>proper_taforms</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-518FEFB9013F"
+		/>
+	</Translations>
+</TextIdentifier>

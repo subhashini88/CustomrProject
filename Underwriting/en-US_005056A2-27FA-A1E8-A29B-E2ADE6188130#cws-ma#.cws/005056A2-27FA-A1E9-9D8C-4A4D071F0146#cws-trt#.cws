@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9D8C-4A4D071F4146">
+	<DocumentID>005056A2-27FA-A1E9-9D8C-4A4D071F0146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9D8C-4A4D071F0146</Name>
+	<Description>Closed Date</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-05-14T10:34:20.378</CreationDate>
+	<Notes/>
+	<Text>Closed Date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9D8C-4A4D071E8146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

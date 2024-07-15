@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9263-D24892F3C168">
+	<DocumentID>005056A2-27FA-A1EB-9263-D24892F38168</DocumentID>
+	<Name>005056A2-27FA-A1EB-9263-D24892F38168</Name>
+	<Description>UWCaseForm_bkp29122020</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-12-29T04:35:47.986</CreationDate>
+	<Notes/>
+	<DefaultText>UWCaseForm_bkp29122020</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9263-D24892F40168"
+		/>
+	</Translations>
+</TextIdentifier>

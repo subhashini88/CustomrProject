@@ -1,0 +1,64 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9DA1-EAFACF07816A">
+	<DocumentID>005056A2-27FA-A1EB-9DA1-EAFACF07416A</DocumentID>
+	<Name>PreprocessingETSchedule</Name>
+	<Description>PreprocessingETSchedule</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-24T10:19:21.596</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Hourly</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="PreprocessingETSchedule"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="2021-02-24T04:42:43.939"
+			msgHolderLastModified="2021-05-06T07:50:42.501">
+			<datetime>
+				<hourly>
+					<minutes>0</minutes>
+					<minutes>30</minutes>
+				</hourly>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9DA1-EAFACF05816A">
+			<DocumentID>005056A2-27FA-A1EB-9DA1-EAFACF05416A</DocumentID>
+			<Name>005056A2-27FA-A1EB-9DA1-EAFACF05416A</Name>
+			<Description>005056A2-27FA-A1EB-9DA1-EAFACF05416A</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-24T10:19:21.596</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EB-9BFF-A4FD047A816A"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

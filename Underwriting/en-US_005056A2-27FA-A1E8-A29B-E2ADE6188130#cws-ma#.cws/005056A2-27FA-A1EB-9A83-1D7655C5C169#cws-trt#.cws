@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9A83-1D7655C60169">
+	<DocumentID>005056A2-27FA-A1EB-9A83-1D7655C5C169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9A83-1D7655C5C169</Name>
+	<Description>Task In Case?</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-02-08T13:02:00.789</CreationDate>
+	<Notes/>
+	<Text>Task In Case?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9A83-58684640C169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

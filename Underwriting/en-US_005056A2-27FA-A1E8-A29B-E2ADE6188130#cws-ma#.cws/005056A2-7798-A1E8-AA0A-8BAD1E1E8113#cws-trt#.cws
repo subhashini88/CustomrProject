@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AA0A-8BAD1E1EC113">
+	<DocumentID>005056A2-7798-A1E8-AA0A-8BAD1E1E8113</DocumentID>
+	<Name>005056A2-7798-A1E8-AA0A-8BAD1E1E8113</Name>
+	<Description>UpdateTbl_underwriting</Description>
+	<CreatedBy>Ramamurthy, Abirama Sundari</CreatedBy>
+	<CreationDate>2018-08-25T05:46:17.328</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_underwriting</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AA0A-8BAD1E1E0113"
+		/>
+	</TextIdentifier>
+</TranslatedText>

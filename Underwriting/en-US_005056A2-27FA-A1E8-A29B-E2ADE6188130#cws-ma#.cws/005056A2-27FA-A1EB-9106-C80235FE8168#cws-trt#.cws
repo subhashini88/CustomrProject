@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9106-C80235FEC168">
+	<DocumentID>005056A2-27FA-A1EB-9106-C80235FE8168</DocumentID>
+	<Name>005056A2-27FA-A1EB-9106-C80235FE8168</Name>
+	<Description>ACE Group Accident</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-12-22T06:04:02.845</CreationDate>
+	<Notes/>
+	<Text>ACE Group Accident</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9106-C80235FE0168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

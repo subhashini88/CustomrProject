@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-ADF3-5C78D457811E">
+	<DocumentID>005056A2-7798-A1E8-ADF3-5C78D457411E</DocumentID>
+	<Name>005056A2-7798-A1E8-ADF3-5C78D457411E</Name>
+	<Description>HolidayCalendar</Description>
+	<CreatedBy>vidhyasri</CreatedBy>
+	<CreationDate>2018-09-14T05:47:48.93</CreationDate>
+	<Notes/>
+	<Text>HolidayCalendar</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-ADF3-5C78D456C11E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

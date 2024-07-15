@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8200-E5003927818C">
+	<DocumentID>005056A2-27FA-A1ED-8200-E5003927418C</DocumentID>
+	<Name>005056A2-27FA-A1ED-8200-E5003927418C</Name>
+	<Description>UWServicetest</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-20T08:11:55.016</CreationDate>
+	<Notes/>
+	<DefaultText>UWServicetest</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-8200-E5003927C18C"
+		/>
+	</Translations>
+</TextIdentifier>

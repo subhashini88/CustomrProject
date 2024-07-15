@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-BA8F-3DD9B4C9419D">
+	<DocumentID>005056A2-27FA-A1ED-BA8F-3DD9B4C9019D</DocumentID>
+	<Name>005056A2-27FA-A1ED-BA8F-3DD9B4C9019D</Name>
+	<Description>SendFirstBillEmail</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-05-04T05:32:00.668</CreationDate>
+	<Notes/>
+	<Text>SendFirstBillEmail</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-BA8F-3DD9B4C8819D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

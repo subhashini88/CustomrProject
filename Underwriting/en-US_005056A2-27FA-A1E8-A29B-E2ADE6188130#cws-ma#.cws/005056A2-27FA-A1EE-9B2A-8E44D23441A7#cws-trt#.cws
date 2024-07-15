@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9B2A-8E44D23481A7">
+	<DocumentID>005056A2-27FA-A1EE-9B2A-8E44D23441A7</DocumentID>
+	<Name>005056A2-27FA-A1EE-9B2A-8E44D23441A7</Name>
+	<Description>DOCID Exists</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-10-17T05:45:19.296</CreationDate>
+	<Notes/>
+	<Text>DOCID Exists</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-9B2A-8E44D233C1A7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

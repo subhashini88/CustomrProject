@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8F60-11A407DDC1A4">
+	<DocumentID>005056A2-27FA-A1EE-8F60-11A407DD81A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8F60-11A407DD81A4</Name>
+	<Description>Reassociate</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2023-08-18T04:35:08.103</CreationDate>
+	<Notes/>
+	<DefaultText>Reassociate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-8F60-11A407DE01A4"
+		/>
+	</Translations>
+</TextIdentifier>

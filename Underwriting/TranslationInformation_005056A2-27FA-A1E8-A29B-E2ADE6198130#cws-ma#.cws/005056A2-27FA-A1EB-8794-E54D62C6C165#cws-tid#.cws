@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8794-E54D62C70165">
+	<DocumentID>005056A2-27FA-A1EB-8794-E54D62C6C165</DocumentID>
+	<Name>005056A2-27FA-A1EB-8794-E54D62C6C165</Name>
+	<Description>Requestor Notes</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-11-04T05:01:27.129</CreationDate>
+	<Notes/>
+	<DefaultText>Requestor Notes</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8794-E54D62C74165"
+		/>
+	</Translations>
+</TextIdentifier>

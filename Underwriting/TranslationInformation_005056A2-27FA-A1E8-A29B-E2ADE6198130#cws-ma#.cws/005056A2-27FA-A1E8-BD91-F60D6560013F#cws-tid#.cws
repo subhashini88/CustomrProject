@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BD91-F60D6560413F">
+	<DocumentID>005056A2-27FA-A1E8-BD91-F60D6560013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BD91-F60D6560013F</Name>
+	<Description>&lt;h4&gt;&lt;SPAN style=&quot;;color: #ff4e27;&quot;&gt;Please enter your Mainframe credentials for TRAC
+processing&lt;/SPAN&gt;&lt;/h4&gt;</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-12-02T15:47:27.479</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;h4&gt;&lt;SPAN style=&quot;;color: #ff4e27;&quot;&gt;Please enter your Mainframe credentials for TRAC
+processing&lt;/SPAN&gt;&lt;/h4&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BD91-F60D6560813F"
+		/>
+	</Translations>
+</TextIdentifier>

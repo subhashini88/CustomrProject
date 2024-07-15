@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8063-E9E15BDA8160">
+	<DocumentID>005056A2-27FA-A1EB-8063-E9E15BDA4160</DocumentID>
+	<Name>005056A2-27FA-A1EB-8063-E9E15BDA4160</Name>
+	<Description>Min Hours per week: Full Time</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2020-09-28T13:45:08.129</CreationDate>
+	<Notes/>
+	<Text>Min Hours per week: Full Time</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8063-E9E15BD9C160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9887-D9DA4242C169">
+	<DocumentID>005056A2-27FA-A1EB-9887-D9DA42428169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9887-D9DA42428169</Name>
+	<Description>GetSameDataForSameDateFromWKSEnrollCase</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-01-29T10:49:46.291</CreationDate>
+	<Notes/>
+	<Text>GetSameDataForSameDateFromWKSEnrollCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9887-D9DA42420169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

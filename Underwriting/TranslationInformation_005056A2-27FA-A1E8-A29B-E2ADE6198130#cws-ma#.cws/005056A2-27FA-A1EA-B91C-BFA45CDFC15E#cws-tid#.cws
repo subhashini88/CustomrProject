@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B91C-BFA45CE0015E">
+	<DocumentID>005056A2-27FA-A1EA-B91C-BFA45CDFC15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B91C-BFA45CDFC15E</Name>
+	<Description>SSN_2</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-22T12:32:18.264</CreationDate>
+	<Notes/>
+	<DefaultText>SSN_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-B91C-BFA45CE0415E"
+		/>
+	</Translations>
+</TextIdentifier>

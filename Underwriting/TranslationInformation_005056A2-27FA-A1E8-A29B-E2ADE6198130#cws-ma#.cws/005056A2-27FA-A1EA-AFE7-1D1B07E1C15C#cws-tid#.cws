@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-AFE7-1D1B07E2015C">
+	<DocumentID>005056A2-27FA-A1EA-AFE7-1D1B07E1C15C</DocumentID>
+	<Name>005056A2-27FA-A1EA-AFE7-1D1B07E1C15C</Name>
+	<Description>Group Number</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-07-06T16:22:30.144</CreationDate>
+	<Notes/>
+	<DefaultText>Group Number</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-AFE7-1D1B07E2415C"
+		/>
+	</Translations>
+</TextIdentifier>

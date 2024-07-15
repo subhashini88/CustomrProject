@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB51-5FBDC561013F">
+	<DocumentID>005056A2-27FA-A1E8-BB51-5FBDC560C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB51-5FBDC560C13F</Name>
+	<Description>ScheduledNonVendorFollowup</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-21T04:39:47.178</CreationDate>
+	<Notes/>
+	<Text>ScheduledNonVendorFollowup</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB51-5FBDC560413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

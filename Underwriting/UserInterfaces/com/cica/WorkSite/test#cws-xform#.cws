@@ -1,0 +1,996 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BE4415E">
+	<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BE4015E</DocumentID>
+	<Name>test</Name>
+	<Description>test</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-09-09T14:33:09.505</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<script
+					src="com/cica/Worksite/scripts/SaveWSdetails.js"
+					documentID="005056A2-27FA-A1EB-8A60-B95AF3C88166"
+				/>
+				<style
+					src="com/cica/uw/styles/bootstrap.min.css"
+				/>
+				<style
+					src="com/cica/uw/styles/VendorRequirement.css"
+				/>
+				<xforms:model
+					id="Dummymodel"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:automatic="false"
+					wcpforms:businessElement="dummy"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:timeout=""
+						wcpforms:iteratorSize="50"
+					/>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						id="fileUpload">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<upload
+									xmlns="http://schemas.cordys.com/1.0/ftp">
+									<FileName>Upload:FileName1</FileName>
+									<FileContent>Upload:FileContent1</FileContent>
+									<FilePath>http://nausd-wapp0101:81/home/uw_dev/</FilePath>
+								</upload>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+					<xml
+						id="filetest">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<PreprocessingUploader
+									xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+									preserveSpace="no"
+									qAccess="0"
+									qValues="">
+									<fileId/>
+									<fileName/>
+									<fileFormat/>
+									<encodedFile>Upload:FileContent1</encodedFile>
+									<fileAction/>
+								</PreprocessingUploader>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:repeat
+						wcpforms:displayContextMenu="true"
+						wcpforms:toggleColumns="true"
+						wcpforms:movableColumns="false"
+						wcpforms:saveState="false"
+						wcpforms:autoInsert="false"
+						wcpforms:minRows="5"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+						id="table1"
+						model="Dummymodel"
+						synchronizedDialogFrame="main"
+						isNavigationEnabled="true"
+						wcpforms:gridtype="datagrid"
+						wcpforms:checkboxes="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout autoextent"
+						wcpforms:size="null auto"
+						columnSortable="false">
+						<xforms:group
+							appearance="elementbar"
+							id="_elementBar"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+							<xforms:group
+								appearance="controlbar"
+								id="_controlBar"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+								wcpforms:class="controlbar">
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navInsert1"
+									standardid="navInsert">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/add.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Insert</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navDelete1"
+									standardid="navDelete">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/delete.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Delete</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navRefresh1"
+									standardid="navRefresh">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/refresh.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Refresh</xforms:hint>
+								</xforms:trigger>
+							</xforms:group>
+							<xforms:group
+								appearance="paginationbar"
+								id="_paginationBar"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsPaginationbar"
+								wcpforms:class="paginationbar">
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navFirst1"
+									standardid="navFirst">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/pagination/first.png"
+										/>
+									</xforms:label>
+									<xforms:hint>First</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navPrevious1"
+									standardid="navPrevious">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/pagination/previous.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Previous</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navFind1"
+									standardid="navFind">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/action/find.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Find</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navNext1"
+									standardid="navNext">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/pagination/next.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Next</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navLast1"
+									standardid="navLast">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/pagination/last.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Last</xforms:hint>
+								</xforms:trigger>
+							</xforms:group>
+						</xforms:group>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="output2"
+							wcpforms:size="100px 20.6667px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-A3F9-6C52D4DF0131">Output2</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="output3"
+							wcpforms:size="100px 20.6667px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-A3F9-6C52D4DD0131">Output3</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="output4"
+							wcpforms:size="100px 20.6667px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-A3F9-6C52D4DB0131">Output4</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="output1"
+							wcpforms:size="auto 20.6667px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-A3F9-6C52D4E10131">Output1</xforms:label>
+						</xforms:output>
+					</xforms:repeat>
+					<xforms:group
+						appearance="controlbox"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+						id="controlbox1"
+						controltype="button"
+						wcpforms:layout="horizontal"
+						wcpforms:class="v_layout autoextent"
+						wcpforms:align="left_align"
+						wcpforms:size="null auto">
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="button1"
+							wcpforms:class="h_button"
+							wcpforms:size="null 22px"
+							taskPart="false">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-A427-816D6E4A4131">Button1</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:button1_Click/>
+							</xforms:action>
+						</xforms:trigger>
+					</xforms:group>
+					<xforms:div
+						xformextendedname="upload"
+						id="filenme"
+						fileCount="1"
+						visible="true"
+						encode="true"
+						multiple="single"
+						namespace="cas.xforms.runtimelibrary.Upload"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.extensions.Upload"
+						tabIndex=""
+						xql=""
+						fileContent=""
+						request=""
+						xmlcontent=""
+						showStatus="true"
+						label="Attachment1"
+						labelAlign="v_label"
+						labelWidth="77"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 38px">
+						<xforms:action
+							xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+							xmlns:ev="http://www.w3.org/2001/xml-events"
+							external="true"
+							ev:event="onUpload">
+							<xforms:filenme_onUpload/>
+						</xforms:action>
+					</xforms:div>
+					<xforms:group
+						appearance="controlbox"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+						id="controlbox2"
+						controltype="button"
+						wcpforms:layout="horizontal"
+						wcpforms:class="v_layout autoextent"
+						wcpforms:align="left_align"
+						wcpforms:size="null auto">
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="btn_upload"
+							wcpforms:class="h_button"
+							wcpforms:size="null 22px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-B641-23DEAE6D013D">Upload</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:btn_upload_Click/>
+							</xforms:action>
+						</xforms:trigger>
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="btn_submit"
+							wcpforms:class="h_button"
+							wcpforms:size="null 30px">
+							<xforms:label
+								textIdentifier="005056A2-7798-A1E8-AF5C-0A2DDA714121">Submit</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:btn_submit_Click/>
+							</xforms:action>
+						</xforms:trigger>
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="btn_discord"
+							wcpforms:class="h_button"
+							wcpforms:size="null 30px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EB-9D33-5DB95D12816A">Discard</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:btn_discord_Click/>
+							</xforms:action>
+						</xforms:trigger>
+					</xforms:group>
+					<xforms:label
+						appearance="richtext"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRichtext"
+						id="rte2"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 170px"
+					/>
+					<xforms:label
+						appearance="codesnippet"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+						id="text18"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 30px">
+						<div
+							xmlns=""
+							class="pending-button">
+							<div
+								class="dropup pull-right">
+								<button
+									class="btn btn-default dropdown-toggle"
+									type="button"
+									data-toggle="dropdown">Actions 
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									<span
+										class="caret"
+									/>
+								</button>
+								<div
+									class="dropdown-menu dropdown-menu-right"
+									style="text-align: center;">
+									<button
+										class="btn iapp-typical-btn iapp-dropdown-menu dropdown-item"
+										onclick="CreateTask_Click()">Create Task</button>
+									<button
+										class="btn iapp-typical-btn iapp-dropdown-menu dropdown-item"
+										onclick="btn_savenexit_click()">Save &amp; Exit</button>
+									<button
+										class="btn iapp-typical-btn iapp-dropdown-menu dropdown-item"
+										onclick="btn_complete_click()">Complete Task</button>
+								</div>
+							</div>
+						</div>
+					</xforms:label>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[function Form_InitDone(eventObject)
+{debugger;
+//btn_upload.hide();
+var caseTuple = '';
+/*if(!(getSavedDataforMethod("getClaimCaseActivityLogsModel_"+sessionid_g))){
+    getClaimCaseActivityLogsModel.reset();*
+    
+    //test saveseeiondata.
+    var savedata = {
+    "sessionid" : "getClaimCaseActivityLogsModel"+sessionid_g,
+	"request" : "",
+	"Response" : getClaimCaseActivityLogsModel.getData()
+    };
+    setDataformethod("getClaimCaseActivityLogsModel"+sessionid_g, savedata);
+    caseTuple = cordys.selectXMLNodes(getClaimCaseActivityLogsModel.getData(),".//*[local-name()='tuple']");
+    
+}else{
+    caseTuple =  getSavedDataforMethod("getClaimCaseActivityLogsModel_"+sessionid_g).Response;
+}
+ */   
+    
+    var temp;
+    
+     for (var i = 0; i < caseTuple.length; i++) {     
+            for (var j = i+1; j < caseTuple.length; j++) {     
+               if(caseTuple[i].children[5].innerHTML < caseTuple[j].children[5].innerHTML) {    
+                   temp = caseTuple[i];    
+                   caseTuple[i] = caseTuple[j];    
+                   caseTuple[j] = temp;    
+               }     
+            }     
+        }    
+        debugger;
+    for(var i=0;i<caseTuple.length;i++)
+    {
+        table1.create();
+        var index = table1.getIndex();
+        var activity = cordys.getNodeText(caseTuple[i],".//*[local-name()='Activity']");
+        var WorkItem = cordys.getNodeText(caseTuple[i],".//*[local-name()='WorkItem']");
+        var User = cordys.getNodeText(caseTuple[i],".//*[local-name()='User']");
+        var ActionDate = cordys.getNodeText(caseTuple[i],".//*[local-name()='ActionDate']");
+        output1[index].setValue(activity);
+        output2[index].setValue(WorkItem);
+        output3[index].setValue(User);
+        output4[index].setValue(ActionDate);
+    }
+
+
+
+}
+function button1_Click(eventObject)
+{
+    TaskActivityLogsModel.reset();
+    var taskTuple = cordys.selectXMLNodes(TaskActivityLogsModel.getData(),".//*[local-name()='tuple']");
+    for(var i=0;i<taskTuple.length;i++)
+    {
+        table1.create();
+        var index = table1.getIndex();
+        var activity = cordys.getNodeText(taskTuple[i],".//*[local-name()='Activity']");
+        var WorkItem = cordys.getNodeText(taskTuple[i],".//*[local-name()='WorkItem']");
+        var User = cordys.getNodeText(taskTuple[i],".//*[local-name()='User']");
+        output1[index].setValue(activity);
+        output2[index].setValue(WorkItem);
+        output3[index].setValue(User);
+    }
+    
+}
+function getClaimCaseActivityLogsModel_OnRequest(eventObject)
+{
+    cordys.setNodeText(eventObject.request,".//*[local-name()='caseInstanceId']","005056A2-27FA-A1EA-BCA5-57CFAF45415E");
+}
+function TaskActivityLogsModel_OnRequest(eventObject)
+{
+    cordys.setNodeText(eventObject.request,".//*[local-name()='taskid']","005056A2-27FA-A1EA-BCA5-57CFAF46815E");
+}
+function sortTable() { 
+var table, i, x, y; 
+				table = document.getElementById("table1"); 
+				var switching = true; debugger;
+
+				// Run loop until no switching is needed 
+				while (switching) { 
+					switching = false; 
+					var rows = table.rows; 
+
+					// Loop to go through all rows 
+					for (i = 0; i < (rows.length-1); i++) { 
+						var Switch = false; 
+
+						// Fetch 2 elements that need to be compared 
+						x = output4[i].getValue(); 
+						y = output4[i+1].getValue(); 
+
+						// Check if 2 rows need to be switched 
+						if (x > y) 
+							{ 
+
+							// If yes, mark Switch as needed and break loop 
+							Switch = true; 
+							break; 
+						} 
+					} 
+					if (Switch) { 
+						// Function to switch rows and mark switch as completed 
+						rows[i].parentNode.insertBefore(rows[i + 1], rows[i]); 
+						switching = true; 
+					} 
+				} 
+    }
+
+function filenme_onUpload(eventObject)
+{
+    debugger;
+    FileNames= filenme.getElementsByTagName('input')[1].value;
+    response = cordys.getNodeText(eventObject.response,".//*[local-name()='old']");
+}
+function btn_upload_Click(eventObject)
+{
+debugger;
+    FileNames= filenme.getElementsByTagName('input')[1].value;
+    if(FileNames!=""){
+    fullFilePath="./../webroot/shared/WorkSite/FileProcessing";
+//    var reqXML=cordys.cloneXMLDocument(fileUpload.XMLDocument); 
+    var reqXML=cordys.cloneXMLDocument(filetest.XMLDocument);
+      //cordys.setNodeText(reqXML,".//*[local-name()='FilePath']", fullFilePath); 
+     // cordys.setNodeText(reqXML,".//*[local-name()='stringParam1']", "Upload:FileContent1");
+       cordys.setNodeText(reqXML,".//*[local-name()='fileId']", "2"); 
+       cordys.setNodeText(reqXML,".//*[local-name()='fileName']", FileNames.split(".")[0]); 
+       cordys.setNodeText(reqXML,".//*[local-name()='fileFormat']", FileNames.split(".")[1]); 
+       cordys.setNodeText(reqXML,".//*[local-name()='fileAction']", "upload"); 
+       filenme.request = reqXML;
+       filenme.uploadFile();    
+       } 
+}
+function btn_discord_Click(eventObject)
+{
+    FileNames= filenme.getElementsByTagName('input')[1].value;
+
+    fullFilePath="./../webroot/shared/WorkSite/FileProcessing";
+//    var reqXML=cordys.cloneXMLDocument(fileUpload.XMLDocument); 
+    var reqXML=cordys.cloneXMLDocument(filetest.XMLDocument);
+      //cordys.setNodeText(reqXML,".//*[local-name()='FilePath']", fullFilePath); 
+     // cordys.setNodeText(reqXML,".//*[local-name()='stringParam1']", "Upload:FileContent1");
+       cordys.setNodeText(reqXML,".//*[local-name()='fileId']", "2"); 
+       cordys.setNodeText(reqXML,".//*[local-name()='fileName']", FileNames.split(".")[0]); 
+       cordys.setNodeText(reqXML,".//*[local-name()='fileFormat']", FileNames.split(".")[1]); 
+       cordys.setNodeText(reqXML,".//*[local-name()='fileAction']", "discard"); 
+       filenme.request = reqXML;
+       filenme.uploadFile(); 
+    alert("upload"+FileNames);
+}
+function btn_submit_Click(eventObject)
+{
+    FileNames= filenme.getElementsByTagName('input')[1].value;
+
+    fullFilePath="./../webroot/shared/WorkSite/FileProcessing";
+//    var reqXML=cordys.cloneXMLDocument(fileUpload.XMLDocument); 
+    var reqXML=cordys.cloneXMLDocument(filetest.XMLDocument);
+      //cordys.setNodeText(reqXML,".//*[local-name()='FilePath']", fullFilePath); 
+     // cordys.setNodeText(reqXML,".//*[local-name()='stringParam1']", "Upload:FileContent1");
+       cordys.setNodeText(reqXML,".//*[local-name()='fileId']", "2"); 
+       cordys.setNodeText(reqXML,".//*[local-name()='fileName']", FileNames.split(".")[0]); 
+       cordys.setNodeText(reqXML,".//*[local-name()='fileFormat']", FileNames.split(".")[1]); 
+       cordys.setNodeText(reqXML,".//*[local-name()='fileAction']", "submit"); 
+       filenme.request = reqXML;
+       filenme.uploadFile(); 
+    alert("upload"+FileNames);
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>test</taskDescription>
+	<taskName>test</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FAD8E88"
+			path="Underwriting/Web/com/cica/Worksite/scripts/SaveWSdetails.js"
+			type="com.cordys.cws.documenttypes.javascript.Javascript"
+		/>
+	</Javascripts>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BD9015E">
+			<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BD8C15E</DocumentID>
+			<Name>005056A2-27FA-A1EA-BCA6-08FD5BD8C15E</Name>
+			<Description>005056A2-27FA-A1EA-BCA6-08FD5BD8C15E</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-09-09T14:33:09.51</CreationDate>
+			<Notes/>
+			<DeveloperText>test</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1E8-A500-ABEDEBF2C131"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BE2C15E">
+			<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BE2815E</DocumentID>
+			<Name>005056A2-27FA-A1EA-BCA6-08FD5BE2815E</Name>
+			<Description>005056A2-27FA-A1EA-BCA6-08FD5BE2815E</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-09-09T14:33:09.508</CreationDate>
+			<Notes/>
+			<UIRef>output1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BE3415E">
+					<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BE3015E</DocumentID>
+					<Name>005056A2-27FA-A1EA-BCA6-08FD5BE3015E</Name>
+					<Description>005056A2-27FA-A1EA-BCA6-08FD5BE3015E</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-09-09T14:33:09.507</CreationDate>
+					<Notes/>
+					<DeveloperText>Output1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E8-A3F9-6C52D4E10131"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BCA6-08FD5BE4015E"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BE1C15E">
+			<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BE1815E</DocumentID>
+			<Name>005056A2-27FA-A1EA-BCA6-08FD5BE1815E</Name>
+			<Description>005056A2-27FA-A1EA-BCA6-08FD5BE1815E</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-09-09T14:33:09.507</CreationDate>
+			<Notes/>
+			<UIRef>output2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BE2415E">
+					<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BE2015E</DocumentID>
+					<Name>005056A2-27FA-A1EA-BCA6-08FD5BE2015E</Name>
+					<Description>005056A2-27FA-A1EA-BCA6-08FD5BE2015E</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-09-09T14:33:09.508</CreationDate>
+					<Notes/>
+					<DeveloperText>Output2</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E8-A3F9-6C52D4DF0131"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BCA6-08FD5BE4015E"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BE0C15E">
+			<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BE0815E</DocumentID>
+			<Name>005056A2-27FA-A1EA-BCA6-08FD5BE0815E</Name>
+			<Description>005056A2-27FA-A1EA-BCA6-08FD5BE0815E</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-09-09T14:33:09.505</CreationDate>
+			<Notes/>
+			<UIRef>output3</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BE1415E">
+					<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BE1015E</DocumentID>
+					<Name>005056A2-27FA-A1EA-BCA6-08FD5BE1015E</Name>
+					<Description>005056A2-27FA-A1EA-BCA6-08FD5BE1015E</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-09-09T14:33:09.508</CreationDate>
+					<Notes/>
+					<DeveloperText>Output3</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E8-A3F9-6C52D4DD0131"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BCA6-08FD5BE4015E"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BDFC15E">
+			<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BDF815E</DocumentID>
+			<Name>005056A2-27FA-A1EA-BCA6-08FD5BDF815E</Name>
+			<Description>005056A2-27FA-A1EA-BCA6-08FD5BDF815E</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-09-09T14:33:09.509</CreationDate>
+			<Notes/>
+			<UIRef>output4</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BE0415E">
+					<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BE0015E</DocumentID>
+					<Name>005056A2-27FA-A1EA-BCA6-08FD5BE0015E</Name>
+					<Description>005056A2-27FA-A1EA-BCA6-08FD5BE0015E</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-09-09T14:33:09.509</CreationDate>
+					<Notes/>
+					<DeveloperText>Output4</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E8-A3F9-6C52D4DB0131"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BCA6-08FD5BE4015E"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BDD015E">
+			<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BDCC15E</DocumentID>
+			<Name>005056A2-27FA-A1EA-BCA6-08FD5BDCC15E</Name>
+			<Description>005056A2-27FA-A1EA-BCA6-08FD5BDCC15E</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-09-09T14:33:09.507</CreationDate>
+			<Notes/>
+			<UIRef>button1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BDD815E">
+					<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BDD415E</DocumentID>
+					<Name>005056A2-27FA-A1EA-BCA6-08FD5BDD415E</Name>
+					<Description>005056A2-27FA-A1EA-BCA6-08FD5BDD415E</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-09-09T14:33:09.51</CreationDate>
+					<Notes/>
+					<DeveloperText>Button1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E8-A427-816D6E4A4131"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BCA6-08FD5BE4015E"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9AD7-43F245CD8169">
+			<DocumentID>005056A2-27FA-A1EB-9AD7-43F245CD4169</DocumentID>
+			<Name>005056A2-27FA-A1EB-9AD7-43F245CD4169</Name>
+			<Description>005056A2-27FA-A1EB-9AD7-43F245CD4169</Description>
+			<CreatedBy>rudresh</CreatedBy>
+			<CreationDate>2021-02-10T06:06:17.848</CreationDate>
+			<Notes/>
+			<UIRef>filenme</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9AD7-43F245CE0169">
+					<DocumentID>005056A2-27FA-A1EB-9AD7-43F245CDC169</DocumentID>
+					<Name>005056A2-27FA-A1EB-9AD7-43F245CDC169</Name>
+					<Description>005056A2-27FA-A1EB-9AD7-43F245CDC169</Description>
+					<CreatedBy>rudresh</CreatedBy>
+					<CreationDate>2021-02-10T06:06:17.846</CreationDate>
+					<Notes/>
+					<DeveloperText>Attachment1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-9AD7-43F245CE4169"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BCA6-08FD5BE4015E"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9AD7-43F245C68169">
+			<DocumentID>005056A2-27FA-A1EB-9AD7-43F245C64169</DocumentID>
+			<Name>005056A2-27FA-A1EB-9AD7-43F245C64169</Name>
+			<Description>005056A2-27FA-A1EB-9AD7-43F245C64169</Description>
+			<CreatedBy>rudresh</CreatedBy>
+			<CreationDate>2021-02-10T07:54:09.695</CreationDate>
+			<Notes/>
+			<UIRef>btn_upload</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9AD7-43F245C60169">
+					<DocumentID>005056A2-27FA-A1EB-9AD7-43F245C5C169</DocumentID>
+					<Name>005056A2-27FA-A1EB-9AD7-43F245C5C169</Name>
+					<Description>005056A2-27FA-A1EB-9AD7-43F245C5C169</Description>
+					<CreatedBy>rudresh</CreatedBy>
+					<CreationDate>2021-02-10T07:54:09.695</CreationDate>
+					<Notes/>
+					<DeveloperText>Upload</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E8-B641-23DEAE6D013D"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BCA6-08FD5BE4015E"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9D33-5DB95D15C16A">
+			<DocumentID>005056A2-27FA-A1EB-9D33-5DB95D15816A</DocumentID>
+			<Name>005056A2-27FA-A1EB-9D33-5DB95D15816A</Name>
+			<Description>005056A2-27FA-A1EB-9D33-5DB95D15816A</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-22T05:36:09.919</CreationDate>
+			<Notes/>
+			<UIRef>btn_submit</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9D33-5DB95D14416A">
+					<DocumentID>005056A2-27FA-A1EB-9D33-5DB95D14016A</DocumentID>
+					<Name>005056A2-27FA-A1EB-9D33-5DB95D14016A</Name>
+					<Description>005056A2-27FA-A1EB-9D33-5DB95D14016A</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2021-02-22T05:36:09.919</CreationDate>
+					<Notes/>
+					<DeveloperText>Submit</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-7798-A1E8-AF5C-0A2DDA714121"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BCA6-08FD5BE4015E"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9D33-5DB95D14C16A">
+			<DocumentID>005056A2-27FA-A1EB-9D33-5DB95D14816A</DocumentID>
+			<Name>005056A2-27FA-A1EB-9D33-5DB95D14816A</Name>
+			<Description>005056A2-27FA-A1EB-9D33-5DB95D14816A</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-22T05:36:09.919</CreationDate>
+			<Notes/>
+			<UIRef>btn_discord</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9D33-5DB95D12416A">
+					<DocumentID>005056A2-27FA-A1EB-9D33-5DB95D12016A</DocumentID>
+					<Name>005056A2-27FA-A1EB-9D33-5DB95D12016A</Name>
+					<Description>005056A2-27FA-A1EB-9D33-5DB95D12016A</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2021-02-22T05:36:09.919</CreationDate>
+					<Notes/>
+					<DeveloperText>Discard</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-9D33-5DB95D12816A"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EA-BCA6-08FD5BE4015E"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices/>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BDB015E">
+			<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BDAC15E</DocumentID>
+			<Name>Dummymodel</Name>
+			<Description>Dummymodel</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-09-09T14:33:09.509</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName></operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-BCA6-08FD5BD9815E">
+			<DocumentID>005056A2-27FA-A1EA-BCA6-08FD5BD9415E</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-09-09T14:33:09.505</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

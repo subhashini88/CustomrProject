@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-ACAD-AB849A62C14C">
+	<DocumentID>005056A2-27FA-A1E9-ACAD-AB849A62814C</DocumentID>
+	<Name>005056A2-27FA-A1E9-ACAD-AB849A62814C</Name>
+	<Description>Delete Case Instance</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-07-30T10:43:08.604</CreationDate>
+	<Notes/>
+	<Text>Delete Case Instance</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-ACAD-AB849A62014C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

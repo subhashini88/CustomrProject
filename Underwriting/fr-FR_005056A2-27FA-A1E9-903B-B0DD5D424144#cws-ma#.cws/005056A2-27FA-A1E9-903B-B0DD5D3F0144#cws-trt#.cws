@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-903B-B0DD5D3F4144">
+	<DocumentID>005056A2-27FA-A1E9-903B-B0DD5D3F0144</DocumentID>
+	<Name>005056A2-27FA-A1E9-903B-B0DD5D3F0144</Name>
+	<Description>FR22</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-03-07T15:40:05.58</CreationDate>
+	<Notes/>
+	<Text>FR22</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E9-903B-B0DD5D42C144"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B08A-E31607B1013B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

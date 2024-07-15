@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-59146526413F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-59146526013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-59146526013F</Name>
+	<Description>uw_pend_cpe_rev_dt</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:06.645</CreationDate>
+	<Notes/>
+	<DefaultText>uw_pend_cpe_rev_dt</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-59146526813F"
+		/>
+	</Translations>
+</TextIdentifier>

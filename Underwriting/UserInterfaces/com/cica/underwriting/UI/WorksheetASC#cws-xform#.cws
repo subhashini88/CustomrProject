@@ -1,0 +1,406 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B350-2EA33A84C13B">
+	<DocumentID>005056A2-27FA-A1E8-B350-2EA33A84813B</DocumentID>
+	<Name>WorksheetASC</Name>
+	<Description>WorksheetASC</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-11T10:36:08.374</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<style
+					src="com/cica/uw/styles/UW_Demo_CaseScreen.css"
+					documentID="005056A2-27FA-A1E8-B5B4-E2EFB109813D"
+				/>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetUnderwritingCaseIDForPolicyNoModel"
+					wcpforms:businessElement="ns1:tbl_underwriting"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/uw/dataservices/1.0/GetUnderwritingCaseIDForPolicyNo"
+							operationName="GetUnderwritingCaseIDForPolicyNo"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1E8-B50D-F9BB9F00413D">
+							<policyNo
+								xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="ns1">http://schemas.cordys.com/dataservices/uw/1.0</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						id="UnderwriterWorksheet">
+						<Application>
+							<id>UnderwriterWorksheet</id>
+							<description>Worksheet</description>
+							<caption>Worksheet</caption>
+							<url>/com/cica/underwriting/UI/Worksheet.caf</url>        
+	
+							
+      
+      
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							<frame>main</frame>
+						</Application>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:input
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+						id="input_policy"
+						doEBIValidate="false"
+						wcpforms:class="v_layout"
+						wcpforms:size="null auto">
+						<xforms:label
+							textIdentifier="005056A2-7798-A1E8-AC0B-4EE87503011C"
+							wcpforms:class="v_label">Policy Number:</xforms:label>
+					</xforms:input>
+					<xforms:group
+						appearance="controlbox"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+						id="controlbox1"
+						controltype="button"
+						wcpforms:layout="horizontal"
+						wcpforms:class="v_layout autoextent"
+						wcpforms:align="left_align"
+						wcpforms:size="null auto">
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="btnLoad"
+							wcpforms:class="h_button"
+							wcpforms:size="null 22px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-B350-2EA33A81813B">Load</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:btnLoad_Click/>
+							</xforms:action>
+						</xforms:trigger>
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="btn_exit"
+							wcpforms:class="h_button"
+							wcpforms:size="null 22px">
+							<xforms:label
+								textIdentifier="005056A2-7798-A1E8-A6E8-17691E2CC112">Exit</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:btn_exit_Click/>
+							</xforms:action>
+						</xforms:trigger>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var caseinstanceid;
+function btnLoad_Click(eventObject)
+{
+
+input_policy_number =input_policy.getValue();
+worksheet_populate();
+ /*  if we do this , we send case id to worksheet , but the problem is log note button has to be disabled when worksheet screen is loaded from ASC worksheet screen
+  getcaseID();
+  if (caseinstanceid) 
+  {
+     worksheet_populate();   
+ 
+ } 
+ else 
+ {
+  application.showError("Error while retrieval of  Case ID -Check with IT");
+ 
+ } */
+}
+
+function worksheet_populate()
+{        
+         var data = new Object();
+         data.policynumber = input_policy_number ;
+        // data.CaseId = caseinstanceid;
+        application.select(UnderwriterWorksheet.XMLDocument.documentElement, data, null);
+}
+function Form_InitDone(eventObject)
+{
+    application.container.maximize();
+}
+function btn_exit_Click(eventObject)
+{
+    application.container.close();
+}
+
+function getcaseID()
+{
+    
+    var request = GetUnderwritingCaseIDForPolicyNoModel.getMethodRequest();
+    cordys.setNodeText(request,".//*[local-name()='policyNo']",input_policy_number );
+    GetUnderwritingCaseIDForPolicyNoModel.setMethodRequest(request);
+    GetUnderwritingCaseIDForPolicyNoModel.reset();
+     var z = GetUnderwritingCaseIDForPolicyNoModel.getData();
+  caseinstanceid = cordys.getNodeText(z,".//*[local-name()='task_id']","");
+}
+
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>true</showOnStartPage>
+	<taskDescription>ASCWorksheet</taskDescription>
+	<taskName>ASCWorksheet</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FB30E88"
+			path="Underwriting/Web/com/cica/uw/styles/UW_Demo_CaseScreen.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+	</StyleSheets>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B350-2EA33A7D413B">
+			<DocumentID>005056A2-27FA-A1E8-B350-2EA33A7D013B</DocumentID>
+			<Name>005056A2-27FA-A1E8-B350-2EA33A7D013B</Name>
+			<Description>005056A2-27FA-A1E8-B350-2EA33A7D013B</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-10-11T10:36:08.375</CreationDate>
+			<Notes/>
+			<DeveloperText>WorksheetASC</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1E8-B350-2EA33A7D813B"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B350-2EA33A83413B">
+			<DocumentID>005056A2-27FA-A1E8-B350-2EA33A83013B</DocumentID>
+			<Name>005056A2-27FA-A1E8-B350-2EA33A83013B</Name>
+			<Description>005056A2-27FA-A1E8-B350-2EA33A83013B</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-10-11T10:36:08.375</CreationDate>
+			<Notes/>
+			<UIRef>btnLoad</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E8-B350-2EA33A81413B">
+					<DocumentID>005056A2-27FA-A1E8-B350-2EA33A81013B</DocumentID>
+					<Name>005056A2-27FA-A1E8-B350-2EA33A81013B</Name>
+					<Description>005056A2-27FA-A1E8-B350-2EA33A81013B</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2018-10-11T10:36:08.371</CreationDate>
+					<Notes/>
+					<DeveloperText>Load</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E8-B350-2EA33A81813B"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-B350-2EA33A84813B"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B350-2EA33A80413B">
+			<DocumentID>005056A2-27FA-A1E8-B350-2EA33A80013B</DocumentID>
+			<Name>005056A2-27FA-A1E8-B350-2EA33A80013B</Name>
+			<Description>005056A2-27FA-A1E8-B350-2EA33A80013B</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-10-11T10:36:08.372</CreationDate>
+			<Notes/>
+			<UIRef>input_policy</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E8-B350-2EA33A7FC13B">
+					<DocumentID>005056A2-27FA-A1E8-B350-2EA33A7F813B</DocumentID>
+					<Name>005056A2-27FA-A1E8-B350-2EA33A7F813B</Name>
+					<Description>005056A2-27FA-A1E8-B350-2EA33A7F813B</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2018-10-11T10:36:08.372</CreationDate>
+					<Notes/>
+					<DeveloperText>Policy Number:</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-7798-A1E8-AC0B-4EE87503011C"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-B350-2EA33A84813B"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B417-985A3F7A413C">
+			<DocumentID>005056A2-27FA-A1E8-B417-985A3F7A013C</DocumentID>
+			<Name>005056A2-27FA-A1E8-B417-985A3F7A013C</Name>
+			<Description>005056A2-27FA-A1E8-B417-985A3F7A013C</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-10-15T09:42:20.754</CreationDate>
+			<Notes/>
+			<UIRef>btn_exit</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E8-B417-985A3F79C13C">
+					<DocumentID>005056A2-27FA-A1E8-B417-985A3F79813C</DocumentID>
+					<Name>005056A2-27FA-A1E8-B417-985A3F79813C</Name>
+					<Description>005056A2-27FA-A1E8-B417-985A3F79813C</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2018-10-15T09:42:20.754</CreationDate>
+					<Notes/>
+					<DeveloperText>Exit</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-7798-A1E8-A6E8-17691E2CC112"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-B350-2EA33A84813B"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1E8-B50D-F9BB9F00413D"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B350-2EA33A7EC13B">
+			<DocumentID>005056A2-27FA-A1E8-B350-2EA33A7E813B</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-10-11T10:36:08.376</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1E8-BC35-8F4C5AD8013F">
+			<DocumentID>005056A2-27FA-A1E8-BC35-8F4C5AD7C13F</DocumentID>
+			<Name>GetUnderwritingCaseIDForPolicyNoModel</Name>
+			<Description>GetUnderwritingCaseIDForPolicyNoModel</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-11-25T17:39:52.176</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/uw/dataservices/1.0</namespace>
+			<operationName>GetUnderwritingCaseIDForPolicyNo</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

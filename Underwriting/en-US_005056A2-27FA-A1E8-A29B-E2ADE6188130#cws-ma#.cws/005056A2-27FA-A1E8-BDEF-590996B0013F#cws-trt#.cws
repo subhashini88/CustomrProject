@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEF-590996B0413F">
+	<DocumentID>005056A2-27FA-A1E8-BDEF-590996B0013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEF-590996B0013F</Name>
+	<Description>Have you had coverage under any other health insurance (non-Medicare) within the past 63 days?(For example, an employer, union, individual plan)</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T12:13:10.425</CreationDate>
+	<Notes/>
+	<Text>Have you had coverage under any other health insurance (non-Medicare) within the past 63 days?(For example, an employer, union, individual plan)</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEF-590996AF813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

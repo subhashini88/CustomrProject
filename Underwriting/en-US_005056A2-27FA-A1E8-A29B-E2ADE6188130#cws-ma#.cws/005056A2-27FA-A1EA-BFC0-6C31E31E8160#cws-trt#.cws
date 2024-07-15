@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BFC0-6C31E31EC160">
+	<DocumentID>005056A2-27FA-A1EA-BFC0-6C31E31E8160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BFC0-6C31E31E8160</Name>
+	<Description>UpdateTbl_Worksite_VendorOrderRequirementTask</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-09-25T07:37:06.138</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_Worksite_VendorOrderRequirementTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BFC0-6C31E31E0160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

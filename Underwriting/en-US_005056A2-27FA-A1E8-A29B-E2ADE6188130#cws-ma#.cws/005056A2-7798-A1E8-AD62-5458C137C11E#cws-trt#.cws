@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AD62-5458C138011E">
+	<DocumentID>005056A2-7798-A1E8-AD62-5458C137C11E</DocumentID>
+	<Name>005056A2-7798-A1E8-AD62-5458C137C11E</Name>
+	<Description>vor_IssueState</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-09-11T06:12:06.222</CreationDate>
+	<Notes/>
+	<Text>vor_IssueState</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AD62-5458C137411E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

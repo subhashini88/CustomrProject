@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BB36-41C563F1815E">
+	<DocumentID>005056A2-27FA-A1EA-BB36-41C563F1415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BB36-41C563F1415E</Name>
+	<Description>Revoke Action</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-09-02T04:59:08.247</CreationDate>
+	<Notes/>
+	<Text>Revoke Action</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BB36-41C563F0C15E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

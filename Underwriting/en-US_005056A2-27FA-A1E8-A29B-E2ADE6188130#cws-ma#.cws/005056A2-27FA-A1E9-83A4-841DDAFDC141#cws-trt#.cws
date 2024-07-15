@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-83A4-841DDAFE0141">
+	<DocumentID>005056A2-27FA-A1E9-83A4-841DDAFDC141</DocumentID>
+	<Name>005056A2-27FA-A1E9-83A4-841DDAFDC141</Name>
+	<Description>Medical Director Consultation</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-02T13:32:36.688</CreationDate>
+	<Notes/>
+	<Text>Medical Director Consultation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-83A4-841DDAFD4141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDE9-3849846C013F">
+	<DocumentID>005056A2-27FA-A1E8-BDE9-3849846BC13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDE9-3849846BC13F</Name>
+	<Description>High Blood Pressure / Hypertension</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T09:19:12.399</CreationDate>
+	<Notes/>
+	<DefaultText>High Blood Pressure / Hypertension</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BDE9-3849846C413F"
+		/>
+	</Translations>
+</TextIdentifier>

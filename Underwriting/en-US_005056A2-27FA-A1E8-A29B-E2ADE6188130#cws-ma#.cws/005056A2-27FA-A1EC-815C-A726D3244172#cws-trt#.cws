@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-815C-A726D3248172">
+	<DocumentID>005056A2-27FA-A1EC-815C-A726D3244172</DocumentID>
+	<Name>005056A2-27FA-A1EC-815C-A726D3244172</Name>
+	<Description>Initialize values</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-25T07:11:03.77</CreationDate>
+	<Notes/>
+	<Text>Initialize values</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-815C-A726D323C172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

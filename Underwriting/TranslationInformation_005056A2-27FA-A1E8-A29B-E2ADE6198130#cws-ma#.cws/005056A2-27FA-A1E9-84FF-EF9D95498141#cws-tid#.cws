@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-84FF-EF9D9549C141">
+	<DocumentID>005056A2-27FA-A1E9-84FF-EF9D95498141</DocumentID>
+	<Name>005056A2-27FA-A1E9-84FF-EF9D95498141</Name>
+	<Description>UnderwritingPlanActivity</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-09T11:40:39.63</CreationDate>
+	<Notes/>
+	<DefaultText>UnderwritingPlanActivity</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-84FF-EF9D954A0141"
+		/>
+	</Translations>
+</TextIdentifier>

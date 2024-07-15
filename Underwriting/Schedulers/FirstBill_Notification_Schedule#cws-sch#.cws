@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1ED-BB88-8435ADF6819D">
+	<DocumentID>005056A2-27FA-A1ED-BB88-8435ADF6419D</DocumentID>
+	<Name>FirstBill_Notification_Schedule</Name>
+	<Description>FirstBill_Notification_Schedule</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-05-09T16:18:36.517</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Monthly</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="FirstBill_Notification_Schedule"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="undefined"
+			msgHolderLastModified="2023-05-03T10:31:43.32">
+			<datetime>
+				<monthly>
+					<time>26 10:0</time>
+				</monthly>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1ED-BB88-8435ADF2419D">
+			<DocumentID>005056A2-27FA-A1ED-BB88-8435ADF2019D</DocumentID>
+			<Name>005056A2-27FA-A1ED-BB88-8435ADF2019D</Name>
+			<Description>005056A2-27FA-A1ED-BB88-8435ADF2019D</Description>
+			<CreatedBy>Geetha Valaja</CreatedBy>
+			<CreationDate>2023-05-09T16:18:36.517</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1ED-BA5A-C507654E019D"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

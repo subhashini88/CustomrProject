@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8401-75F57F290141">
+	<DocumentID>005056A2-27FA-A1E9-8401-75F57F28C141</DocumentID>
+	<Name>005056A2-27FA-A1E9-8401-75F57F28C141</Name>
+	<Description>dft_Status</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2019-01-04T09:52:55.459</CreationDate>
+	<Notes/>
+	<DefaultText>dft_Status</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-8401-75F57F294141"
+		/>
+	</Translations>
+</TextIdentifier>

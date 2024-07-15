@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B979-ABD78100015E">
+	<DocumentID>005056A2-27FA-A1EA-B979-ABD780FFC15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B979-ABD780FFC15E</Name>
+	<Description>ORDER 4</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T08:50:13.001</CreationDate>
+	<Notes/>
+	<Text>ORDER 4</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B979-ABD780FF415E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

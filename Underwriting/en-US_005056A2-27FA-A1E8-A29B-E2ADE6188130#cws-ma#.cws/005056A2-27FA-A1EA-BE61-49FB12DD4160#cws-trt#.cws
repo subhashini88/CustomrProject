@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE61-49FB12DD8160">
+	<DocumentID>005056A2-27FA-A1EA-BE61-49FB12DD4160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE61-49FB12DD4160</Name>
+	<Description>Evidence of
+  Insurability</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-18T12:53:43.319</CreationDate>
+	<Notes/>
+	<Text>Evidence of
+  Insurability</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BE61-49FB12DCC160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B8D0-2873732AC13D">
+	<DocumentID>005056A2-27FA-A1E8-B8D0-2873732A813D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B8D0-2873732A813D</Name>
+	<Description>strSuppPhase2</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-08T10:28:27.63</CreationDate>
+	<Notes/>
+	<Text>strSuppPhase2</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B8D0-2873732A013D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

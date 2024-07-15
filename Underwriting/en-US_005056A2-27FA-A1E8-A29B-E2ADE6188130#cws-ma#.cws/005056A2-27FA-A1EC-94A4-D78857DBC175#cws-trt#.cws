@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-94A4-D78857DC0175">
+	<DocumentID>005056A2-27FA-A1EC-94A4-D78857DBC175</DocumentID>
+	<Name>005056A2-27FA-A1EC-94A4-D78857DBC175</Name>
+	<Description>EnrollEndDate is reached?</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-12-01T10:44:48.157</CreationDate>
+	<Notes/>
+	<Text>EnrollEndDate is reached?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-94A4-D78857DB4175"
+		/>
+	</TextIdentifier>
+</TranslatedText>

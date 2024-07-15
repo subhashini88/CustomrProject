@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB65-C4F2C1CB813F">
+	<DocumentID>005056A2-27FA-A1E8-BB65-C4F2C1CB413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB65-C4F2C1CB413F</Name>
+	<Description>NonVendorOrderRequirementTaskCreationFlow</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-21T14:46:03.695</CreationDate>
+	<Notes/>
+	<Text>NonVendorOrderRequirementTaskCreationFlow</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB65-C4F2C1CAC13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

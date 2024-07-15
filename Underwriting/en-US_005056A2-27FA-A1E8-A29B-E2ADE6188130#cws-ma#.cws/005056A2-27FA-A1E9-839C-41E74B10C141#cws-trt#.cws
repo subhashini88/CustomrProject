@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-839C-41E74B110141">
+	<DocumentID>005056A2-27FA-A1E9-839C-41E74B10C141</DocumentID>
+	<Name>005056A2-27FA-A1E9-839C-41E74B10C141</Name>
+	<Description>CanadaNonVendorOrderRequirement</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-02T09:30:45.816</CreationDate>
+	<Notes/>
+	<Text>CanadaNonVendorOrderRequirement</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-839C-41E74B104141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

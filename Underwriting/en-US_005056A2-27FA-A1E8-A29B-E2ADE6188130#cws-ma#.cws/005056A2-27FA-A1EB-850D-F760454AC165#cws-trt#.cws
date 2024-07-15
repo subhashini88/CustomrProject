@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-850D-F760454B0165">
+	<DocumentID>005056A2-27FA-A1EB-850D-F760454AC165</DocumentID>
+	<Name>005056A2-27FA-A1EB-850D-F760454AC165</Name>
+	<Description>KeyMasterApp</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-22T07:32:17.92</CreationDate>
+	<Notes/>
+	<Text>KeyMasterApp</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-850D-F760454A4165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

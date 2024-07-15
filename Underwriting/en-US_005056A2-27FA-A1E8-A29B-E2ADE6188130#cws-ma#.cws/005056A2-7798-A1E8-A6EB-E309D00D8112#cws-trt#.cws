@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-A6EB-E309D00DC112">
+	<DocumentID>005056A2-7798-A1E8-A6EB-E309D00D8112</DocumentID>
+	<Name>005056A2-7798-A1E8-A6EB-E309D00D8112</Name>
+	<Description>Refresh Audit Messages</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-08-09T08:55:31.576</CreationDate>
+	<Notes/>
+	<Text>Refresh Audit Messages</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-A6EB-E309D00D0112"
+		/>
+	</TextIdentifier>
+</TranslatedText>

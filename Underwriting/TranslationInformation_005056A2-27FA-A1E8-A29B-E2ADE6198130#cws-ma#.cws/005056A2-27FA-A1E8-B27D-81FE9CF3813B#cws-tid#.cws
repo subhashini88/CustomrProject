@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B27D-81FE9CF3C13B">
+	<DocumentID>005056A2-27FA-A1E8-B27D-81FE9CF3813B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B27D-81FE9CF3813B</Name>
+	<Description>Non Vendor Requirement Type</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-07T06:23:07.541</CreationDate>
+	<Notes/>
+	<DefaultText>Non Vendor Requirement Type</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B27D-81FE9CF4013B"
+		/>
+	</Translations>
+</TextIdentifier>

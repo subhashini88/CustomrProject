@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8254-05B0ADE7C161">
+	<DocumentID>005056A2-27FA-A1EB-8254-05B0ADE78161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8254-05B0ADE78161</Name>
+	<Description>Case No</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-10-08T10:29:26.107</CreationDate>
+	<Notes/>
+	<Text>Case No</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8254-05B0ADE70161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

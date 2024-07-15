@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-970B-6361F7EA4145">
+	<DocumentID>005056A2-27FA-A1E9-970B-6361F7EA0145</DocumentID>
+	<Name>005056A2-27FA-A1E9-970B-6361F7EA0145</Name>
+	<Description>(447)Combined Insurance TELE-INTERVIEW- Short Form</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-11T07:45:24.078</CreationDate>
+	<Notes/>
+	<Text>(447)Combined Insurance TELE-INTERVIEW- Short Form</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-970B-6361F7E98145"
+		/>
+	</TextIdentifier>
+</TranslatedText>

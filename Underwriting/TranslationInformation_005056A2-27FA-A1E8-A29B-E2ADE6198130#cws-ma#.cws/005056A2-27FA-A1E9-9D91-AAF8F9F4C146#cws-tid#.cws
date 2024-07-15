@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9D91-AAF8F9F50146">
+	<DocumentID>005056A2-27FA-A1E9-9D91-AAF8F9F4C146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9D91-AAF8F9F4C146</Name>
+	<Description>PolicyNumber_19</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-05-14T12:57:07.182</CreationDate>
+	<Notes/>
+	<DefaultText>PolicyNumber_19</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-9D91-AAF8F9F54146"
+		/>
+	</Translations>
+</TextIdentifier>

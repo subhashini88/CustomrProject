@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-94FB-4B393C71C168">
+	<DocumentID>005056A2-27FA-A1EB-94FB-4B393C718168</DocumentID>
+	<Name>005056A2-27FA-A1EB-94FB-4B393C718168</Name>
+	<Description>UW Support</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-01-11T09:18:01.168</CreationDate>
+	<Notes/>
+	<DefaultText>UW Support</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-94FB-4B393C720168"
+		/>
+	</Translations>
+</TextIdentifier>

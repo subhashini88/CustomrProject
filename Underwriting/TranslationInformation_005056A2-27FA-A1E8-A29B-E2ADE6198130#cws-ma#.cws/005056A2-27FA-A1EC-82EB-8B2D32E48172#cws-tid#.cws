@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-82EB-8B2D32E4C172">
+	<DocumentID>005056A2-27FA-A1EC-82EB-8B2D32E48172</DocumentID>
+	<Name>005056A2-27FA-A1EC-82EB-8B2D32E48172</Name>
+	<Description>UpdateTaskData</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-02T05:30:24.559</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateTaskData</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-82EB-8B2D32E50172"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8C02-B2388F71C174">
+	<DocumentID>005056A2-27FA-A1EC-8C02-B2388F718174</DocumentID>
+	<Name>005056A2-27FA-A1EC-8C02-B2388F718174</Name>
+	<Description>EnrollmentFPCaseModel_Dup</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-18T11:59:10.549</CreationDate>
+	<Notes/>
+	<Text>EnrollmentFPCaseModel_Dup</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-8C02-B2388F710174"
+		/>
+	</TextIdentifier>
+</TranslatedText>

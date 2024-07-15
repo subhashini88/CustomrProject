@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B34F-A2DFB8E5419B">
+	<DocumentID>005056A2-27FA-A1ED-B34F-A2DFB8E5019B</DocumentID>
+	<Name>005056A2-27FA-A1ED-B34F-A2DFB8E5019B</Name>
+	<Description>ErrorTask 
+ValidationsCheck</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-28T08:00:17.405</CreationDate>
+	<Notes/>
+	<DefaultText>ErrorTask 
+ValidationsCheck</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-B34F-A2DFB8E5819B"
+		/>
+	</Translations>
+</TextIdentifier>

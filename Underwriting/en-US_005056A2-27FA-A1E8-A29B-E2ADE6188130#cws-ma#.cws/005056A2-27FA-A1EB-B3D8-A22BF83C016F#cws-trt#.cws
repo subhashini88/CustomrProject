@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B3D8-A22BF83C416F">
+	<DocumentID>005056A2-27FA-A1EB-B3D8-A22BF83C016F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B3D8-A22BF83C016F</Name>
+	<Description>UpdateWIMSOpsFollowUps</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-17T11:52:50.296</CreationDate>
+	<Notes/>
+	<Text>UpdateWIMSOpsFollowUps</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B3D8-A22BF83B816F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

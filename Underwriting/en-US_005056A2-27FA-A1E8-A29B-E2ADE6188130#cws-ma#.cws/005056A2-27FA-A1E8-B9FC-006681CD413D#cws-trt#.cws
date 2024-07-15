@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9FC-006681CD813D">
+	<DocumentID>005056A2-27FA-A1E8-B9FC-006681CD413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9FC-006681CD413D</Name>
+	<Description>Non Vendor BPM New Flow</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-14T09:33:18.217</CreationDate>
+	<Notes/>
+	<Text>Non Vendor BPM New Flow</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B9FC-006681CCC13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

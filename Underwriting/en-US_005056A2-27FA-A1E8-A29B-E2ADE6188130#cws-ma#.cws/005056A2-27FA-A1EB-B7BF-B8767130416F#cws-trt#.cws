@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B7BF-B8767130816F">
+	<DocumentID>005056A2-27FA-A1EB-B7BF-B8767130416F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B7BF-B8767130416F</Name>
+	<Description>GetNonNBADLDataUsingFileID</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-07-07T08:39:48.948</CreationDate>
+	<Notes/>
+	<Text>GetNonNBADLDataUsingFileID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B7BF-B876712FC16F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

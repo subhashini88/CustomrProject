@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8505-81B7BC7F8141">
+	<DocumentID>005056A2-27FA-A1E9-8505-81B7BC7F4141</DocumentID>
+	<Name>005056A2-27FA-A1E9-8505-81B7BC7F4141</Name>
+	<Description>CanadaProcessChangesScreen</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-11T06:49:01.263</CreationDate>
+	<Notes/>
+	<Text>CanadaProcessChangesScreen</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8505-81B7BC7EC141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

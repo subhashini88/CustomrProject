@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A031-E6669335016A">
+	<DocumentID>005056A2-27FA-A1EB-A031-E6669334C16A</DocumentID>
+	<Name>005056A2-27FA-A1EB-A031-E6669334C16A</Name>
+	<Description>Unprocessed Data For Each</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-03-09T11:12:36.823</CreationDate>
+	<Notes/>
+	<Text>Unprocessed Data For Each</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A031-E6669334416A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

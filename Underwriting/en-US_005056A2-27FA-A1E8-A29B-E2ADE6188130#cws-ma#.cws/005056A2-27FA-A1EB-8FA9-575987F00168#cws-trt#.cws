@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8FA9-575987F04168">
+	<DocumentID>005056A2-27FA-A1EB-8FA9-575987F00168</DocumentID>
+	<Name>005056A2-27FA-A1EB-8FA9-575987F00168</Name>
+	<Description>Enrollment Platform setup</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-12-15T07:15:57.221</CreationDate>
+	<Notes/>
+	<Text>Enrollment Platform setup</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8FA9-575987EF8168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

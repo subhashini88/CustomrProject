@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BC9F-BBC13691015E">
+	<DocumentID>005056A2-27FA-A1EA-BC9F-BBC13690C15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BC9F-BBC13690C15E</Name>
+	<Description>Groupbox5</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-09-09T11:21:58.301</CreationDate>
+	<Notes/>
+	<DefaultText>Groupbox5</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BC9F-BBC13691415E"
+		/>
+	</Translations>
+</TextIdentifier>

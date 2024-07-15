@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9105-B68853E78168">
+	<DocumentID>005056A2-27FA-A1EB-9105-B68853E74168</DocumentID>
+	<Name>005056A2-27FA-A1EB-9105-B68853E74168</Name>
+	<Description>ACE High Deductible Buffer</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-12-22T06:00:58.382</CreationDate>
+	<Notes/>
+	<Text>ACE High Deductible Buffer</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9105-B68853E6C168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BE48-AE011B8C813F">
+	<DocumentID>005056A2-27FA-A1E8-BE48-AE011B8C413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BE48-AE011B8C413F</Name>
+	<Description>Alcoholism, Drug Addiction, Cirrhosis of the Liver, Kidney Failure or Insulin Dependent Diabetes?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-06T06:55:49.652</CreationDate>
+	<Notes/>
+	<DefaultText>Alcoholism, Drug Addiction, Cirrhosis of the Liver, Kidney Failure or Insulin Dependent Diabetes?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BE48-AE011B8CC13F"
+		/>
+	</Translations>
+</TextIdentifier>

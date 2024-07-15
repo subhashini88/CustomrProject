@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-83A1-B8DBB1924141">
+	<DocumentID>005056A2-27FA-A1E9-83A1-B8DBB1920141</DocumentID>
+	<Name>005056A2-27FA-A1E9-83A1-B8DBB1920141</Name>
+	<Description>Needs Analysis Form</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-02T13:32:36.692</CreationDate>
+	<Notes/>
+	<Text>Needs Analysis Form</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-83A1-B8DBB1918141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

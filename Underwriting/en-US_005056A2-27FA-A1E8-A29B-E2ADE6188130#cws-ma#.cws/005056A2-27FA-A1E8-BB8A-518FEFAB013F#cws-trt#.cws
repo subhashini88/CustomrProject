@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-518FEFAB413F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-518FEFAB013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-518FEFAB013F</Name>
+	<Description>issued_spousal_discount</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.141</CreationDate>
+	<Notes/>
+	<Text>issued_spousal_discount</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-518FEFAA813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

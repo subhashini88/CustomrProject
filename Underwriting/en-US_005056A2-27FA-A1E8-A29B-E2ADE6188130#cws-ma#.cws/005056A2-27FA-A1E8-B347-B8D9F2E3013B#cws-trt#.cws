@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B347-B8D9F2E3413B">
+	<DocumentID>005056A2-27FA-A1E8-B347-B8D9F2E3013B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B347-B8D9F2E3013B</Name>
+	<Description>Premium Method</Description>
+	<CreatedBy>vidhyasri</CreatedBy>
+	<CreationDate>2018-10-11T08:15:46.17</CreationDate>
+	<Notes/>
+	<Text>Premium Method</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B347-B8D9F2E2813B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B613-3129CA5EC13D">
+	<DocumentID>005056A2-27FA-A1E8-B613-3129CA5E813D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B613-3129CA5E813D</Name>
+	<Description>Has Combined Insurance asked that we obtain the Medical advice or Treatment for: Cancer (except basal cell carcinoma or squamous cell carcinoma), leukemia, or brain tumor?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-25T12:15:40.068</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we obtain the Medical advice or Treatment for: Cancer (except basal cell carcinoma or squamous cell carcinoma), leukemia, or brain tumor?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B613-3129CA5E013D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

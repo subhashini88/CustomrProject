@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8E77-1BCCEC8A4144">
+	<DocumentID>005056A2-27FA-A1E9-8E77-1BCCEC8A0144</DocumentID>
+	<Name>005056A2-27FA-A1E9-8E77-1BCCEC8A0144</Name>
+	<Description>&lt;h4&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;This State requires Approval of any Exclusion Riders prior to the Issuance of the policy.&lt;/span&gt;&lt;/h4&gt;</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-02-26T16:13:37.207</CreationDate>
+	<Notes/>
+	<Text>&lt;h4&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;This State requires Approval of any Exclusion Riders prior to the Issuance of the policy.&lt;/span&gt;&lt;/h4&gt;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8E77-1BCCEC898144"
+		/>
+	</TextIdentifier>
+</TranslatedText>

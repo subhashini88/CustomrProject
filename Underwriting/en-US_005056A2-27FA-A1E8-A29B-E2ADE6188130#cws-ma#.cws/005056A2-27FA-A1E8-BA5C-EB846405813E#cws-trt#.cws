@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA5C-EB846405C13E">
+	<DocumentID>005056A2-27FA-A1E8-BA5C-EB846405813E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA5C-EB846405813E</Name>
+	<Description>Receive Message</Description>
+	<CreatedBy>PRTIWA1</CreatedBy>
+	<CreationDate>2018-11-16T07:54:23.652</CreationDate>
+	<Notes/>
+	<Text>Receive Message</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BA5C-EB846405013E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

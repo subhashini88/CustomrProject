@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BD94-964BF0C3C160">
+	<DocumentID>005056A2-27FA-A1EA-BD94-964BF0C38160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BD94-964BF0C38160</Name>
+	<Description>Policy Desc</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-09-14T06:20:57.766</CreationDate>
+	<Notes/>
+	<DefaultText>Policy Desc</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BD94-964BF0C40160"
+		/>
+	</Translations>
+</TextIdentifier>

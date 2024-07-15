@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8ED0-5D0E1AD30194">
+	<DocumentID>005056A2-27FA-A1ED-8ED0-5D0E1AD2C194</DocumentID>
+	<Name>005056A2-27FA-A1ED-8ED0-5D0E1AD2C194</Name>
+	<Description>Compensation Review2</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-09-23T13:15:13.754</CreationDate>
+	<Notes/>
+	<Text>Compensation Review2</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-8ED0-5D0E1AD24194"
+		/>
+	</TextIdentifier>
+</TranslatedText>

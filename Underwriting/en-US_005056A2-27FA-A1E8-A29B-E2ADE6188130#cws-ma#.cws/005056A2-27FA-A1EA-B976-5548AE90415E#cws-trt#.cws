@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B976-5548AE90815E">
+	<DocumentID>005056A2-27FA-A1EA-B976-5548AE90415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B976-5548AE90415E</Name>
+	<Description>Cancer / Tumour</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T07:33:27.619</CreationDate>
+	<Notes/>
+	<Text>Cancer / Tumour</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B976-5548AE8FC15E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

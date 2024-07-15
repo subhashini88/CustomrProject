@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A18B-63D7B4E0016B">
+	<DocumentID>005056A2-27FA-A1EB-A18B-63D7B4DFC16B</DocumentID>
+	<Name>005056A2-27FA-A1EB-A18B-63D7B4DFC16B</Name>
+	<Description>ACTIVITY_2</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-03-16T08:00:14.479</CreationDate>
+	<Notes/>
+	<DefaultText>ACTIVITY_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-A18B-63D7B4E0416B"
+		/>
+	</Translations>
+</TextIdentifier>

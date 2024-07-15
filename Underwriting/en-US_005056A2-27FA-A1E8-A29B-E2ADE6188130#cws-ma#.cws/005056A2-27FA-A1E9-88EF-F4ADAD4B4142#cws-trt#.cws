@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-88EF-F4ADAD4B8142">
+	<DocumentID>005056A2-27FA-A1E9-88EF-F4ADAD4B4142</DocumentID>
+	<Name>005056A2-27FA-A1E9-88EF-F4ADAD4B4142</Name>
+	<Description>PHI 1</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-29T12:46:39.079</CreationDate>
+	<Notes/>
+	<Text>PHI 1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-88EF-F4ADAD4AC142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

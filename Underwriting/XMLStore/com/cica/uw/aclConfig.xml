@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <role name="Manager">
+      <enableActions>
+         <action />
+         <action />
+         <action />
+         <action />
+      </enableActions>
+      <disableActions>
+      </disableActions>
+      <disableFields>
+         <field />
+         <field />
+         <field />
+      </disableFields>
+      <disableGroup />
+   </role>
+   <role name="Underwriter">
+      <enableActions>
+         <action />
+         <action />
+         <action />
+         <action />
+      </enableActions>
+      <disableActions>
+         <action>btnReassign</action>
+      </disableActions>
+      <disableFields>
+         <field />
+         <field />
+         <field />
+      </disableFields>
+      <disableGroup />
+   </role>
+   <role name="Support Analyst">
+      <enableActions>
+         <action />
+         <action />
+         <action />
+         <action />
+      </enableActions>
+      <disableActions>
+        <action>btnReassign</action>
+        <action>btnSave</action>
+         <action>btn_close</action>
+<action>grpCaseData</action>
+      </disableActions>
+      <disableFields>
+         <field />
+         <field />
+         <field />
+      </disableFields>
+      <disableGroup />
+   </role>
+   <role name="User">
+      <enableActions>
+         <action />
+         <action />
+         <action />
+         <action />
+      </enableActions>
+      <disableActions>
+         <action>btnReassign</action>
+        <action>btnSave</action>
+         <action>btn_close</action>
+<action>grpCaseData</action>
+      </disableActions>
+      <disableFields>
+         <field />
+         <field />
+         <field />
+      </disableFields>
+      <disableGroup />
+   </role>
+</config>

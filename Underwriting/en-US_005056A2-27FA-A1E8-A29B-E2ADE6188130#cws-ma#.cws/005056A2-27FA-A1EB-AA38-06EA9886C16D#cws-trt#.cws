@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-AA38-06EA9887016D">
+	<DocumentID>005056A2-27FA-A1EB-AA38-06EA9886C16D</DocumentID>
+	<Name>005056A2-27FA-A1EB-AA38-06EA9886C16D</Name>
+	<Description>Case Exists?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-29T11:49:04.222</CreationDate>
+	<Notes/>
+	<Text>Case Exists?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-AA38-06EA9886416D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

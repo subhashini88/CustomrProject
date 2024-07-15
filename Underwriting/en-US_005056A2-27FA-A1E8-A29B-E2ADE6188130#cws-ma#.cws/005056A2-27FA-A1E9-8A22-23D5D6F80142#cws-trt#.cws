@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8A22-23D5D6F84142">
+	<DocumentID>005056A2-27FA-A1E9-8A22-23D5D6F80142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8A22-23D5D6F80142</Name>
+	<Description>BenefitUpdates</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-02-04T14:33:15.673</CreationDate>
+	<Notes/>
+	<Text>BenefitUpdates</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8A22-23D5D6F78142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

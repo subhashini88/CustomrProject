@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B700-C0F8BEA8013D">
+	<DocumentID>005056A2-27FA-A1E8-B700-C0F8BEA7C13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B700-C0F8BEA7C13D</Name>
+	<Description>Has Combined Insurance asked that we obtain information on cancer, diabetes,stroke,heart attack, or other heart condition?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-30T06:12:58.441</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we obtain information on cancer, diabetes,stroke,heart attack, or other heart condition?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B700-C0F8BEA7413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

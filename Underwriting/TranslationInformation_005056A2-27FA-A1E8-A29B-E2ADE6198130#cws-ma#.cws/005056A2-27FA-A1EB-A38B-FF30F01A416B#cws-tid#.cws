@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A38B-FF30F01A816B">
+	<DocumentID>005056A2-27FA-A1EB-A38B-FF30F01A416B</DocumentID>
+	<Name>005056A2-27FA-A1EB-A38B-FF30F01A416B</Name>
+	<Description>Transfer File from LSP To OT</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2021-03-29T07:14:06.456</CreationDate>
+	<Notes/>
+	<DefaultText>Transfer File from LSP To OT</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-A38B-FF30F01AC16B"
+		/>
+	</Translations>
+</TextIdentifier>

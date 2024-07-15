@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-80C5-27D83C024161">
+	<DocumentID>005056A2-27FA-A1EB-80C5-27D83C020161</DocumentID>
+	<Name>005056A2-27FA-A1EB-80C5-27D83C020161</Name>
+	<Description>Exception WKSOPS Case Creation</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-09-30T12:07:07.621</CreationDate>
+	<Notes/>
+	<Text>Exception WKSOPS Case Creation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-80C5-27D83C018161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

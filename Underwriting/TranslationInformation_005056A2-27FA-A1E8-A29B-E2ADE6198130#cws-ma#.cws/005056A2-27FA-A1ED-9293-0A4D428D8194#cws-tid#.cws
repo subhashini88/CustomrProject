@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-9293-0A4D428DC194">
+	<DocumentID>005056A2-27FA-A1ED-9293-0A4D428D8194</DocumentID>
+	<Name>005056A2-27FA-A1ED-9293-0A4D428D8194</Name>
+	<Description>CCA Process?</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-10-12T16:49:40.957</CreationDate>
+	<Notes/>
+	<DefaultText>CCA Process?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-9293-0A4D428E0194"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-88F1-146BF49C8142">
+	<DocumentID>005056A2-27FA-A1E9-88F1-146BF49C4142</DocumentID>
+	<Name>005056A2-27FA-A1E9-88F1-146BF49C4142</Name>
+	<Description>APS 2 Ordered</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-29T12:51:27.39</CreationDate>
+	<Notes/>
+	<Text>APS 2 Ordered</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-88F1-146BF49BC142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

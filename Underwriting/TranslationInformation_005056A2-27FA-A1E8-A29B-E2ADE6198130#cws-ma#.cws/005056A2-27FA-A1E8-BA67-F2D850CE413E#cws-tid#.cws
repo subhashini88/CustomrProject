@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA67-F2D850CE813E">
+	<DocumentID>005056A2-27FA-A1E8-BA67-F2D850CE413E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA67-F2D850CE413E</Name>
+	<Description>DOB_2</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-16T13:09:03.825</CreationDate>
+	<Notes/>
+	<DefaultText>DOB_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BA67-F2D850CEC13E"
+		/>
+	</Translations>
+</TextIdentifier>

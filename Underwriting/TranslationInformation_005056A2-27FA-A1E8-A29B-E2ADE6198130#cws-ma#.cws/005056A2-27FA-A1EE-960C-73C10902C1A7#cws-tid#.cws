@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-960C-73C1090301A7">
+	<DocumentID>005056A2-27FA-A1EE-960C-73C10902C1A7</DocumentID>
+	<Name>005056A2-27FA-A1EE-960C-73C10902C1A7</Name>
+	<Description>Reindex_Share</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-09-21T03:55:34.673</CreationDate>
+	<Notes/>
+	<DefaultText>Reindex_Share</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-960C-73C1090341A7"
+		/>
+	</Translations>
+</TextIdentifier>

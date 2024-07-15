@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8150-0F255E04418C">
+	<DocumentID>005056A2-27FA-A1ED-8150-0F255E04018C</DocumentID>
+	<Name>005056A2-27FA-A1ED-8150-0F255E04018C</Name>
+	<Description>Follow-UP</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-16T20:39:50.234</CreationDate>
+	<Notes/>
+	<Text>Follow-UP</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-8150-0F255E03818C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

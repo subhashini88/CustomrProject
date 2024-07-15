@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-AC5E-A363B2D5C17C">
+	<DocumentID>005056A2-27FA-A1EC-AC5E-FFFCA5A1C17C</DocumentID>
+	<Name>005056A2-27FA-A1EC-AC5E-FFFCA5A1C17C</Name>
+	<Description>Check Active case</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2022-04-01T05:24:49.321</CreationDate>
+	<Notes/>
+	<Text>Check Active case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-AC5E-FFFCA5A1417C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

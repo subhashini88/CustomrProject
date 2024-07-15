@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A45F-6D0A49418131">
+	<DocumentID>005056A2-27FA-A1E8-A45F-6D0A49414131</DocumentID>
+	<Name>005056A2-27FA-A1E8-A45F-6D0A49414131</Name>
+	<Description>&amp;lt;h4&amp;gt;Policyholder details &amp;lt;/h4&amp;gt;</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-27T09:17:51.584</CreationDate>
+	<Notes/>
+	<DefaultText>&amp;lt;h4&amp;gt;Policyholder details &amp;lt;/h4&amp;gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-A45F-6D0A4941C131"
+		/>
+	</Translations>
+</TextIdentifier>

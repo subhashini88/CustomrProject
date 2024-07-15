@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B8B9-DC5D6FAAC15E">
+	<DocumentID>005056A2-27FA-A1EA-B8B9-DC5D6FAA815E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B8B9-DC5D6FAA815E</Name>
+	<Description>Tab3</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-08-20T15:00:41.323</CreationDate>
+	<Notes/>
+	<Text>Tab3</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B8B9-DC5D6FAA015E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

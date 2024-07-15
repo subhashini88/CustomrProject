@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-7798-A1E8-AA0D-247B41C60113">
+	<DocumentID>005056A2-7798-A1E8-AA0D-247B41C5C113</DocumentID>
+	<Name>005056A2-7798-A1E8-AA0D-247B41C5C113</Name>
+	<Description>&amp;lt;h4&amp;gt;Task and History&amp;lt;/h4&amp;gt;</Description>
+	<CreatedBy>Ramanujam.Dhanalakshmi@combined.com</CreatedBy>
+	<CreationDate>2018-08-25T07:04:45.802</CreationDate>
+	<Notes/>
+	<DefaultText>&amp;lt;h4&amp;gt;Task and History&amp;lt;/h4&amp;gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-7798-A1E8-AA0D-247B41C64113"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9A33-530D0DACC1A7">
+	<DocumentID>005056A2-27FA-A1EE-9A33-530D0DAC81A7</DocumentID>
+	<Name>005056A2-27FA-A1EE-9A33-530D0DAC81A7</Name>
+	<Description>Mode</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-10-12T07:41:40.683</CreationDate>
+	<Notes/>
+	<Text>Mode</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-9A33-530D0DAC01A7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

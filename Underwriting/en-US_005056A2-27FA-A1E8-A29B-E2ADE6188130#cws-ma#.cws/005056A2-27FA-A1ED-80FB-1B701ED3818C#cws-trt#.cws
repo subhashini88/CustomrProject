@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-80FB-1B701ED3C18C">
+	<DocumentID>005056A2-27FA-A1ED-80FB-1B701ED3818C</DocumentID>
+	<Name>005056A2-27FA-A1ED-80FB-1B701ED3818C</Name>
+	<Description>Time-Out</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-07-15T03:20:51.009</CreationDate>
+	<Notes/>
+	<Text>Time-Out</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-80FB-1B701ED3018C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

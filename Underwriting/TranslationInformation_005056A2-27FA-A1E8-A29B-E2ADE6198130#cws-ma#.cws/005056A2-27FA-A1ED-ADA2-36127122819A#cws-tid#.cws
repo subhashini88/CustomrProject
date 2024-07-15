@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-ADA2-36127122C19A">
+	<DocumentID>005056A2-27FA-A1ED-ADA2-36127122819A</DocumentID>
+	<Name>005056A2-27FA-A1ED-ADA2-36127122819A</Name>
+	<Description>ChecKGroupStatusCloseCase</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-02-27T10:24:17.915</CreationDate>
+	<Notes/>
+	<DefaultText>ChecKGroupStatusCloseCase</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-ADA2-36127123019A"
+		/>
+	</Translations>
+</TextIdentifier>

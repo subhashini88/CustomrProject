@@ -1,0 +1,34 @@
+
+<BusinessIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.businessidentifier.BusinessIdentifier"
+	RuntimeDocumentID="005056A2-27FA-A1ED-BD21-1E10D87C819E">
+	<DocumentID>005056A2-27FA-A1ED-BD21-1E10D87C419E</DocumentID>
+	<Name>AEBOT_Batch</Name>
+	<Description>AEBOT_Batch</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-05-17T12:38:44.493</CreationDate>
+	<Notes/>
+	<DataType>1</DataType>
+	<Precision>0</Precision>
+	<TranslatableDescription/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1ED-BD21-1E10D879819E">
+			<DocumentID>005056A2-27FA-A1ED-BD21-1E10D879419E</DocumentID>
+			<Name>005056A2-27FA-A1ED-BD21-1E10D879419E</Name>
+			<Description>005056A2-27FA-A1ED-BD21-1E10D879419E</Description>
+			<CreatedBy>Geetha Valaja</CreatedBy>
+			<CreationDate>2023-05-17T12:38:44.493</CreationDate>
+			<Notes/>
+			<DeveloperText>AEBOT_Batch</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1ED-BD21-1E10D87A419E"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+</BusinessIdentifier>

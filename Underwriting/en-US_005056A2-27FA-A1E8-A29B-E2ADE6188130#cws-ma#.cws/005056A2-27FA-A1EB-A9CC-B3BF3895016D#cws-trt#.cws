@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A9CC-B3BF3895416D">
+	<DocumentID>005056A2-27FA-A1EB-A9CC-B3BF3895016D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A9CC-B3BF3895016D</Name>
+	<Description>UpdateCaseData</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-27T08:30:32.915</CreationDate>
+	<Notes/>
+	<Text>UpdateCaseData</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A9CC-B3BF3894816D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

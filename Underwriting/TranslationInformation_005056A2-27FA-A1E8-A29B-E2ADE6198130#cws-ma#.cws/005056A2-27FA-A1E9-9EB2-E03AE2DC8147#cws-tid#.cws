@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9EB2-E03AE2DCC147">
+	<DocumentID>005056A2-27FA-A1E9-9EB2-E03AE2DC8147</DocumentID>
+	<Name>005056A2-27FA-A1E9-9EB2-E03AE2DC8147</Name>
+	<Description>GetCaseActivity Vendor</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-05-20T07:03:38.327</CreationDate>
+	<Notes/>
+	<DefaultText>GetCaseActivity Vendor</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-9EB2-E03AE2DD0147"
+		/>
+	</Translations>
+</TextIdentifier>

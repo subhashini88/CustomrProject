@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A045-92E91501816A">
+	<DocumentID>005056A2-27FA-A1EB-A045-92E91501416A</DocumentID>
+	<Name>005056A2-27FA-A1EB-A045-92E91501416A</Name>
+	<Description>Update Batch ID</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2021-03-09T20:38:27.353</CreationDate>
+	<Notes/>
+	<Text>Update Batch ID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A045-92E91500C16A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

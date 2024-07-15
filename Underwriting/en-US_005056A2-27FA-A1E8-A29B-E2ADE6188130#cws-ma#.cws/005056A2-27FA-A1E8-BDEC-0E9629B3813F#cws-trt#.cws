@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEC-0E9629B3C13F">
+	<DocumentID>005056A2-27FA-A1E8-BDEC-0E9629B3813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEC-0E9629B3813F</Name>
+	<Description>Thyroid</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T10:36:54.57</CreationDate>
+	<Notes/>
+	<Text>Thyroid</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEC-0E9629B3013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-B428-155BE152414E">
+	<DocumentID>005056A2-27FA-A1E9-B428-155BE152014E</DocumentID>
+	<Name>005056A2-27FA-A1E9-B428-155BE152014E</Name>
+	<Description>UnderwritingPlanActivity US Non Vendor</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-09-06T12:24:17.256</CreationDate>
+	<Notes/>
+	<Text>UnderwritingPlanActivity US Non Vendor</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-B428-155BE151814E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

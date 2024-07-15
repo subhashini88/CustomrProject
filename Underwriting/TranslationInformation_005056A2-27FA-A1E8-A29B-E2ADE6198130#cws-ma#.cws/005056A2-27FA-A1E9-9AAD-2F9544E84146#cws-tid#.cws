@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9AAD-2F9544E88146">
+	<DocumentID>005056A2-27FA-A1E9-9AAD-2F9544E84146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9AAD-2F9544E84146</Name>
+	<Description>CloseOutDateClosure3</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-04-29T19:27:10.286</CreationDate>
+	<Notes/>
+	<DefaultText>CloseOutDateClosure3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-9AAD-2F9544E8C146"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC59-8EE60A18813F">
+	<DocumentID>005056A2-27FA-A1E8-BC59-8EE60A18413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC59-8EE60A18413F</Name>
+	<Description>Trac Input Fields</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-26T10:42:13.018</CreationDate>
+	<Notes/>
+	<Text>Trac Input Fields</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC59-8EE60A17C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

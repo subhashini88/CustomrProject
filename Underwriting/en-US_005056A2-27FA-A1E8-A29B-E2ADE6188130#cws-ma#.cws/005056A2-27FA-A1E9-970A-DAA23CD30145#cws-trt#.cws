@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-970A-DAA23CD34145">
+	<DocumentID>005056A2-27FA-A1E9-970A-DAA23CD30145</DocumentID>
+	<Name>005056A2-27FA-A1E9-970A-DAA23CD30145</Name>
+	<Description>Checkbox29</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-11T07:35:29.259</CreationDate>
+	<Notes/>
+	<Text>Checkbox29</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-970A-DAA23CD28145"
+		/>
+	</TextIdentifier>
+</TranslatedText>

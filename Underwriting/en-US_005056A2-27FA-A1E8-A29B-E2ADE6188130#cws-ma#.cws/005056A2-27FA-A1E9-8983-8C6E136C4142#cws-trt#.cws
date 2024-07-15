@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8983-8C6E136C8142">
+	<DocumentID>005056A2-27FA-A1E9-8983-8C6E136C4142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8983-8C6E136C4142</Name>
+	<Description>UpdateTbl_underwriting for Nonvendor total submission count</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-02-01T11:05:33.772</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_underwriting for Nonvendor total submission count</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8983-8C6E136BC142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

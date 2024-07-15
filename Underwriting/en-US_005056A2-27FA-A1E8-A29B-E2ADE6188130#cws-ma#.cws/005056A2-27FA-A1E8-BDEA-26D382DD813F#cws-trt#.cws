@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEA-26D382DDC13F">
+	<DocumentID>005056A2-27FA-A1E8-BDEA-26D382DD813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEA-26D382DD813F</Name>
+	<Description>Mental Health Questionnaire</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T09:43:57.13</CreationDate>
+	<Notes/>
+	<Text>Mental Health Questionnaire</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEA-26D382DD013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AB81-6988CF81414C">
+	<DocumentID>005056A2-27FA-A1E9-AB81-6988CF81014C</DocumentID>
+	<Name>005056A2-27FA-A1E9-AB81-6988CF81014C</Name>
+	<Description>Post Issue Review Case</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-07-24T11:25:19.694</CreationDate>
+	<Notes/>
+	<Text>Post Issue Review Case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-AB81-6988CF80814C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

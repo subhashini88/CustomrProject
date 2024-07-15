@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-AA7B-0E4B099D017C">
+	<DocumentID>005056A2-27FA-A1EC-AA7B-0E4B099CC17C</DocumentID>
+	<Name>005056A2-27FA-A1EC-AA7B-0E4B099CC17C</Name>
+	<Description>Cancel</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2022-03-22T14:27:39.971</CreationDate>
+	<Notes/>
+	<Text>Cancel</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-AA7B-0E4B099C417C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

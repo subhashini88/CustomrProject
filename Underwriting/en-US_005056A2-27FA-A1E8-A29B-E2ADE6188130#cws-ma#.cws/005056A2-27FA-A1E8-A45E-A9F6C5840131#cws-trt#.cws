@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A45E-A9F6C5844131">
+	<DocumentID>005056A2-27FA-A1E8-A45E-A9F6C5840131</DocumentID>
+	<Name>005056A2-27FA-A1E8-A45E-A9F6C5840131</Name>
+	<Description>mvr_ordered_date</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-27T08:55:53.103</CreationDate>
+	<Notes/>
+	<Text>mvr_ordered_date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-A45E-A9F6C5838131"
+		/>
+	</TextIdentifier>
+</TranslatedText>

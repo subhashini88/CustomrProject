@@ -1,0 +1,66 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EC-AB6D-6FD20248017C">
+	<DocumentID>005056A2-27FA-A1EC-AB6D-6FD20247C17C</DocumentID>
+	<Name>ManualTaskCreateForUW</Name>
+	<Description>ManualTaskCreateForUW</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2022-03-27T13:03:24.656</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="ManualTaskCreateForUW"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="2022-03-25T12:32:39.813"
+			msgHolderLastModified="2022-03-25T12:32:39.818">
+			<datetime>
+				<daily>
+					<time>22:0</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<InputMsg
+							xmlns="http://schemas.cordys.com/default">
+							<TaskStatus
+								xmlns:def="http://schemas.cordys.com/default">Back to User</TaskStatus>
+						</InputMsg>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EC-AB73-8AE50507817C">
+			<DocumentID>005056A2-27FA-A1EC-AB73-8AE50507417C</DocumentID>
+			<Name>005056A2-27FA-A1EC-AB73-8AE50507417C</Name>
+			<Description>005056A2-27FA-A1EC-AB73-8AE50507417C</Description>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2022-03-27T13:03:24.656</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EC-AA9A-FECAB099817C"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

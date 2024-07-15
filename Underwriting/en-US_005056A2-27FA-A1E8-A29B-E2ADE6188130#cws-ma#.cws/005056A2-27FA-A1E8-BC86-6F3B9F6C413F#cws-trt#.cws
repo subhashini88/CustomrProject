@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC86-6F3B9F6C813F">
+	<DocumentID>005056A2-27FA-A1E8-BC86-6F3B9F6C413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC86-6F3B9F6C413F</Name>
+	<Description>APS1</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-27T10:22:32.607</CreationDate>
+	<Notes/>
+	<Text>APS1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC86-6F3B9F6BC13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9256-295B5F20C1A4">
+	<DocumentID>005056A2-27FA-A1EE-9256-295B5F2081A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-9256-295B5F2081A4</Name>
+	<Description>UW_PolicyHistoryService</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-02T06:35:54.834</CreationDate>
+	<Notes/>
+	<Text>UW_PolicyHistoryService</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-9256-295B5F2001A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

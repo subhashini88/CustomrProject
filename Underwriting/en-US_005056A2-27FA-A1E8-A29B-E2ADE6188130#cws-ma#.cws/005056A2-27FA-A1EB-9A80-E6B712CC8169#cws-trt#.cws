@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9A80-E6B712CCC169">
+	<DocumentID>005056A2-27FA-A1EB-9A80-E6B712CC8169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9A80-E6B712CC8169</Name>
+	<Description>Insert failed case in control report.</Description>
+	<CreatedBy>Abhishek</CreatedBy>
+	<CreationDate>2021-02-08T12:09:16.881</CreationDate>
+	<Notes/>
+	<Text>Insert failed case in control report.</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9A80-E6B712CC0169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

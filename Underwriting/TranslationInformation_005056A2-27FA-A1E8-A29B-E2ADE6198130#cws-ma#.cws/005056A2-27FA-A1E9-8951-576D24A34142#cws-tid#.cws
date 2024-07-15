@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8951-576D24A38142">
+	<DocumentID>005056A2-27FA-A1E9-8951-576D24A34142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8951-576D24A34142</Name>
+	<Description>This Flow is for Pre completion from Scheduled Non Vendor Screen</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-31T10:49:59.516</CreationDate>
+	<Notes/>
+	<DefaultText>This Flow is for Pre completion from Scheduled Non Vendor Screen</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-8951-576D24A3C142"
+		/>
+	</Translations>
+</TextIdentifier>

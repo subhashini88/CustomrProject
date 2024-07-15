@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A77B-2FF3C176416C">
+	<DocumentID>005056A2-27FA-A1EB-A77B-2FF3C176016C</DocumentID>
+	<Name>005056A2-27FA-A1EB-A77B-2FF3C176016C</Name>
+	<Description>Delay</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-15T13:19:51.963</CreationDate>
+	<Notes/>
+	<Text>Delay</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A77B-2FF3C175816C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

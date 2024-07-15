@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9B57-7075FCB40146">
+	<DocumentID>005056A2-27FA-A1E9-9B57-7075FCB3C146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9B57-7075FCB3C146</Name>
+	<Description>&amp;lt;h4&amp;gt;PHI Actions&amp;lt;/h4&amp;gt;</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-05-03T12:34:09.134</CreationDate>
+	<Notes/>
+	<DefaultText>&amp;lt;h4&amp;gt;PHI Actions&amp;lt;/h4&amp;gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-9B57-7075FCB44146"
+		/>
+	</Translations>
+</TextIdentifier>

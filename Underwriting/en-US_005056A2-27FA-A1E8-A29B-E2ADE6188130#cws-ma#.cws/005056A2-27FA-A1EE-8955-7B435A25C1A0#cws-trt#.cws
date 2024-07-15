@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8955-7B435A2601A0">
+	<DocumentID>005056A2-27FA-A1EE-8955-7B435A25C1A0</DocumentID>
+	<Name>005056A2-27FA-A1EE-8955-7B435A25C1A0</Name>
+	<Description>Radio11</Description>
+	<CreatedBy>manishas</CreatedBy>
+	<CreationDate>2023-07-18T11:43:58.952</CreationDate>
+	<Notes/>
+	<Text>Radio11</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8955-7B435A2541A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

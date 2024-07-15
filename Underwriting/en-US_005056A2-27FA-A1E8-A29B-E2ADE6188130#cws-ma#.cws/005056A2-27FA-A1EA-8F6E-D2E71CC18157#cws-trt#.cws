@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8F49-78076A420157">
+	<DocumentID>005056A2-27FA-A1EA-8F6E-D2E71CC18157</DocumentID>
+	<Name>005056A2-27FA-A1EA-8F6E-D2E71CC18157</Name>
+	<Description>Has Combined Insurance asked that we question Specific medical conditions: 8 3. Alzheimer's Disease, Dementia,Parkinson's Disease, Lou Gehrig's Disease, Multiple Sclerosis or Muscular Dystrophy?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-01-23T08:35:33.77</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we question Specific medical conditions: 8 3. Alzheimer's Disease, Dementia,Parkinson's Disease, Lou Gehrig's Disease, Multiple Sclerosis or Muscular Dystrophy?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8F6E-D2E71CC10157"
+		/>
+	</TextIdentifier>
+</TranslatedText>

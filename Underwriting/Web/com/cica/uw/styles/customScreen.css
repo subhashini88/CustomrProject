@@ -1,0 +1,204 @@
+.primary-header .OuterLineHeader .xcontainerbox .groupheader {
+    background-color: #106bad;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-right: 0;
+    border-radius: 3px;
+    border: none;
+}
+.primary-header .OuterLineHeader .xcontainerbox .groupheader label {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+.primary-header .CustomTabs .tabcontent{
+    border: none;
+    box-shadow: none;
+}
+.primary-header .CustomTabs .rollercontainer{
+   width: auto !important;
+    background-color: rgb(241, 241, 241);
+    padding: 10px 20px;
+    height: auto !important;
+    padding-top: 5px !important;
+}
+.primary-header .CustomTabs .rollercontainer.vertical .rollerarea {
+    width: fit-content;
+}
+.primary-header .CustomTabs .tabcontainer {
+    margin-top: 2px;
+}
+.primary-header .CustomTabs .inactivetab{
+        text-decoration: none;
+        background-color: #ccc;
+        color: #000;
+    height: 35px !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+    }
+.primary-header .CustomTabs .activetab {
+        text-decoration: none;
+        background-color: #337ab7;
+        color: #fff;
+    height: 35px !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+    
+    }
+.primary-header .CustomTabs .activetab label, .primary-header .CustomTabs .inactivetab label {
+ font-size: 14px !important;
+}
+.primary-header .CustomTabs .search-container input {
+    min-width: 500px;
+    min-height: 32px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid #337ab7;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    box-sizing: border-box;
+}
+.primary-header .CustomTabs .search-container button{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    right: 25px;
+}
+.primary-header .blackFont span,.primary-header .blackFont label{
+    font-weight: normal !important;
+color: #333 !important;
+
+}
+.primary-header .ChoiceYN .h_choicebox {
+width: 120px !important;
+    margin-top: 10px;
+margin-left: 150px;
+}
+.primary-header .ChoiceYN .choicelabel {
+    margin-left: 2px;
+    color: #0067a2;
+    font-family: arial !important;
+    height: 20px !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.64px !important;
+}
+.primary-header .ChoiceYN input{
+margin-right: -160px;
+}
+.primary-header .ChoiceYN label {
+    cursor: pointer;
+    font-size: 16px;
+user-select: none;
+}
+.primary-header .Customtableicons ul li {
+list-style: disc outside;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.primary-header .Customtableicons ul {
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.primary-header .CustomTable .grid.data th {
+    padding: 10px 18px;
+    border-bottom: 1px solid #111;
+    background-color: #337ab7 !important;
+}
+.primary-header .CustomTable .grid.data th label {
+    color: #fff !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: bold;
+}
+.primary-header .CustomButton {
+height: 30px;
+    background-color: #337ab7;
+    color: #fff;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border-color: #ccc;
+    width: auto;
+}
+.primary-header .inputfields label{
+width: 113px !important;
+    display: inline-block !important;
+    max-width: 100%;
+    margin-bottom: 5px !important;
+    font-weight: normal;
+font-size: 12px !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143 !important;
+    color: #333 !important;
+}
+.primary-header .inputfields .selectbox,.primary-header .inputfields input.input{
+margin-left:44px !important;
+border: 1px solid #ccc !important;
+}
+.primary-header .leftpadding{
+margin-left: 80px;
+}
+.primary-header .CustomSelect{
+
+    width: 240px;
+    height: 30px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #d3deed;
+    font: normal 100% 'Lucida Grande',Tahoma,sans-serif;
+    line-height: 1.3;
+    padding: 0 .25em!important;
+}
+.primary-header .TableWOheader table thead {
+visibility: collapse !important;
+}
+.primary-header .TableWOheader table thead tr th{
+    border: 1px solid #d3deed !important;
+}
+.primary-header .CustomTable  td .fieldsbox input.input {
+    padding: 0px 18px;
+}
+.primary-header .CustomTabs .search-container i {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    right: 25px;
+}
+.primary-header .CustomTabs .search-container input {
+    min-width: 350px;
+    min-height: 32px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid #337ab7;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: inherit;
+    box-sizing: border-box;
+    margin-top: 5px;
+}

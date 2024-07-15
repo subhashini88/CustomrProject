@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-7798-A1E8-AB12-29B2C6740114">
+	<DocumentID>005056A2-7798-A1E8-AB12-29B2C673C114</DocumentID>
+	<Name>005056A2-7798-A1E8-AB12-29B2C673C114</Name>
+	<Description>Input3</Description>
+	<CreatedBy>Ramamurthy, Abirama Sundari</CreatedBy>
+	<CreationDate>2018-08-30T11:36:20.292</CreationDate>
+	<Notes/>
+	<DefaultText>Input3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-7798-A1E8-AB10-FB3183CAC114"
+		/>
+	</Translations>
+</TextIdentifier>

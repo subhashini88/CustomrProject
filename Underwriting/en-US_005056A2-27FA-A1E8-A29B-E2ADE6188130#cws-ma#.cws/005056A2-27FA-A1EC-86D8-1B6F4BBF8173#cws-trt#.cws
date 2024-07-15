@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-86D8-1B6F4BBFC173">
+	<DocumentID>005056A2-27FA-A1EC-86D8-1B6F4BBF8173</DocumentID>
+	<Name>005056A2-27FA-A1EC-86D8-1B6F4BBF8173</Name>
+	<Description>FPCanccellationTaskSendMail</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-22T04:49:18.906</CreationDate>
+	<Notes/>
+	<Text>FPCanccellationTaskSendMail</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-86D8-1B6F4BBF0173"
+		/>
+	</TextIdentifier>
+</TranslatedText>

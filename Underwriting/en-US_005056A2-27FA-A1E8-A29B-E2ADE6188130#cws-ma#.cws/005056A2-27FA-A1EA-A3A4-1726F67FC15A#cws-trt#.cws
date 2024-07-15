@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-A3A4-1726F680015A">
+	<DocumentID>005056A2-27FA-A1EA-A3A4-1726F67FC15A</DocumentID>
+	<Name>005056A2-27FA-A1EA-A3A4-1726F67FC15A</Name>
+	<Description>DeleteRecsFromSearchWorklsits</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-05-05T05:48:27.874</CreationDate>
+	<Notes/>
+	<Text>DeleteRecsFromSearchWorklsits</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-A3A4-1726F67F415A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

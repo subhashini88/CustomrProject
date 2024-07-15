@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA5C-BA4348A5413E">
+	<DocumentID>005056A2-27FA-A1E8-BA5C-BA4348A5013E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA5C-BA4348A5013E</Name>
+	<Description>GetStatus of row in table by process instance id</Description>
+	<CreatedBy>PRTIWA1</CreatedBy>
+	<CreationDate>2018-11-16T07:54:23.649</CreationDate>
+	<Notes/>
+	<DefaultText>GetStatus of row in table by process instance id</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BA5C-BA4348A5813E"
+		/>
+	</Translations>
+</TextIdentifier>

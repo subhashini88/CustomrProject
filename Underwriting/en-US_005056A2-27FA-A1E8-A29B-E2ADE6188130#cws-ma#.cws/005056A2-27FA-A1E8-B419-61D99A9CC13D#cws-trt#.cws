@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B419-61D99A9D013D">
+	<DocumentID>005056A2-27FA-A1E8-B419-61D99A9CC13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B419-61D99A9CC13D</Name>
+	<Description>Button5</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-10-15T10:38:41.697</CreationDate>
+	<Notes/>
+	<Text>Button5</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B419-61D99A9C413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

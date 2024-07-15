@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9DA5-2A8DA5E8416A">
+	<DocumentID>005056A2-27FA-A1EB-9DA5-2A8DA5E8016A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9DA5-2A8DA5E8016A</Name>
+	<Description>BOT file transfer</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2021-02-24T12:01:05.481</CreationDate>
+	<Notes/>
+	<Text>BOT file transfer</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9DA5-2A8DA5E7816A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

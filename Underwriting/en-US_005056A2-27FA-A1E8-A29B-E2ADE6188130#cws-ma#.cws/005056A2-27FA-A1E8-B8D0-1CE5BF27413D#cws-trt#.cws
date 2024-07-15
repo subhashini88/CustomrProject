@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B8D0-1CE5BF27813D">
+	<DocumentID>005056A2-27FA-A1E8-B8D0-1CE5BF27413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B8D0-1CE5BF27413D</Name>
+	<Description>delspousePhase</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-08T10:28:24.929</CreationDate>
+	<Notes/>
+	<Text>delspousePhase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B8D0-1CE5BF26C13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

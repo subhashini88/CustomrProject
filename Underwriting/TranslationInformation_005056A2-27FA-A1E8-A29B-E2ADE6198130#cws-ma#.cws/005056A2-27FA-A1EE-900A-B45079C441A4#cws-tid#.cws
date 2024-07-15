@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-900A-B45079C481A4">
+	<DocumentID>005056A2-27FA-A1EE-900A-B45079C441A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-900A-B45079C441A4</Name>
+	<Description>check Canada</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-21T14:19:40.849</CreationDate>
+	<Notes/>
+	<DefaultText>check Canada</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-900A-B45079C4C1A4"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8F49-78076A558157">
+	<DocumentID>005056A2-27FA-A1EA-8F49-78076A554157</DocumentID>
+	<Name>005056A2-27FA-A1EA-8F49-78076A554157</Name>
+	<Description>All States: Has Combined Insurance asked us to obtain primary physician's information?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-01-23T07:45:32.547</CreationDate>
+	<Notes/>
+	<Text>All States: Has Combined Insurance asked us to obtain primary physician's information?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8F49-78076A54C157"
+		/>
+	</TextIdentifier>
+</TranslatedText>

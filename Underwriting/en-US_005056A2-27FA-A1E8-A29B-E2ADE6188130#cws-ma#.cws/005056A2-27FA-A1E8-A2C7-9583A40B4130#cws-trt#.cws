@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A2C7-9583A40B8130">
+	<DocumentID>005056A2-27FA-A1E8-A2C7-9583A40B4130</DocumentID>
+	<Name>005056A2-27FA-A1E8-A2C7-9583A40B4130</Name>
+	<Description>Get unprocessed Underwriting Cases</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-19T06:39:41.717</CreationDate>
+	<Notes/>
+	<Text>Get unprocessed Underwriting Cases</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-A2C7-9583A40AC130"
+		/>
+	</TextIdentifier>
+</TranslatedText>

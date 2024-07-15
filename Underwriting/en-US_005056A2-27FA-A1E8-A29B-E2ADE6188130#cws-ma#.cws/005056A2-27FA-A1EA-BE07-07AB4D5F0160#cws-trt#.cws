@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE07-07AB4D5F4160">
+	<DocumentID>005056A2-27FA-A1EA-BE07-07AB4D5F0160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE07-07AB4D5F0160</Name>
+	<Description>Vertigo</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T13:00:56.768</CreationDate>
+	<Notes/>
+	<Text>Vertigo</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BE07-07AB4D5E8160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

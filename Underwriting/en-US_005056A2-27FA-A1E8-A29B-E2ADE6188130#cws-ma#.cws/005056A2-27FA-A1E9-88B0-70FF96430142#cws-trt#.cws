@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-88B0-70FF96434142">
+	<DocumentID>005056A2-27FA-A1E9-88B0-70FF96430142</DocumentID>
+	<Name>005056A2-27FA-A1E9-88B0-70FF96430142</Name>
+	<Description>Level 2/3 Severity</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2019-01-28T06:16:53.415</CreationDate>
+	<Notes/>
+	<Text>Level 2/3 Severity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-88B0-70FF96428142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

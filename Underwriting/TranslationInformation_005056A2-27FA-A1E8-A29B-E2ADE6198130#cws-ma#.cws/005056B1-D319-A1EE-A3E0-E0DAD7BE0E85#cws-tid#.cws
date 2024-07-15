@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056B1-D319-A1EE-A3E0-E0DAD7BE4E85">
+	<DocumentID>005056B1-D319-A1EE-A3E0-E0DAD7BE0E85</DocumentID>
+	<Name>005056B1-D319-A1EE-A3E0-E0DAD7BE0E85</Name>
+	<Description>Getdropdownbyidentifier</Description>
+	<CreatedBy>SaradaPrasad.Nayak@combined.com</CreatedBy>
+	<CreationDate>2023-11-30T13:27:49.261</CreationDate>
+	<Notes/>
+	<DefaultText>Getdropdownbyidentifier</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056B1-D319-A1EE-A3E0-E0DAD7BE8E85"
+		/>
+	</Translations>
+</TextIdentifier>

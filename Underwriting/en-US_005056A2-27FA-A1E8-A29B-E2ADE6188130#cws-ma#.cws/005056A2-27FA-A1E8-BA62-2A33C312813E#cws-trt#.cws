@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA62-2A33C312C13E">
+	<DocumentID>005056A2-27FA-A1E8-BA62-2A33C312813E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA62-2A33C312813E</Name>
+	<Description>role_bene_eff_date</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-16T10:23:00.373</CreationDate>
+	<Notes/>
+	<Text>role_bene_eff_date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BA62-2A33C312013E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

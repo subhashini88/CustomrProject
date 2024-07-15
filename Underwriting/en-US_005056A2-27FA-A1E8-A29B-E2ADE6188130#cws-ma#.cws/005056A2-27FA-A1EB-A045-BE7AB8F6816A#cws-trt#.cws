@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A045-BE7AB8F6C16A">
+	<DocumentID>005056A2-27FA-A1EB-A045-BE7AB8F6816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-A045-BE7AB8F6816A</Name>
+	<Description>Fetch Batch ID of BOT</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2021-03-09T20:38:27.353</CreationDate>
+	<Notes/>
+	<Text>Fetch Batch ID of BOT</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A045-BE7AB8F6016A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

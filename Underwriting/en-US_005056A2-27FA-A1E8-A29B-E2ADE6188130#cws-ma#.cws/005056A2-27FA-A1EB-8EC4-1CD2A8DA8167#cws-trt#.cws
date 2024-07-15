@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8EC4-1CD2A8DAC167">
+	<DocumentID>005056A2-27FA-A1EB-8EC4-1CD2A8DA8167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8EC4-1CD2A8DA8167</Name>
+	<Description>WimsPlanActivity</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-12-10T18:20:59.97</CreationDate>
+	<Notes/>
+	<Text>WimsPlanActivity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8EC4-1CD2A8DA0167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

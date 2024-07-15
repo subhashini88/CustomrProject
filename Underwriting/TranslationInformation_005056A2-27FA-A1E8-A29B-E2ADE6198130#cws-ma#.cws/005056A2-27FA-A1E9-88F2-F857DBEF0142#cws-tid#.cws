@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-88F2-F857DBEF4142">
+	<DocumentID>005056A2-27FA-A1E9-88F2-F857DBEF0142</DocumentID>
+	<Name>005056A2-27FA-A1E9-88F2-F857DBEF0142</Name>
+	<Description>VendorAPSCount</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-30T05:39:48.741</CreationDate>
+	<Notes/>
+	<DefaultText>VendorAPSCount</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-88F2-F857DBEF8142"
+		/>
+	</Translations>
+</TextIdentifier>

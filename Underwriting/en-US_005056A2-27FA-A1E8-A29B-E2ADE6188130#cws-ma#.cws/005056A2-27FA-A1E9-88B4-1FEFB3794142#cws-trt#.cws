@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-88B4-1FEFB3798142">
+	<DocumentID>005056A2-27FA-A1E9-88B4-1FEFB3794142</DocumentID>
+	<Name>005056A2-27FA-A1E9-88B4-1FEFB3794142</Name>
+	<Description>UpdateTbl_underwriting APS1</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-28T07:48:33.095</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_underwriting APS1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-88B4-1FEFB378C142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

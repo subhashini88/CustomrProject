@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B0C5-9878240FC19A">
+	<DocumentID>005056A2-27FA-A1ED-B0C5-9878240F819A</DocumentID>
+	<Name>005056A2-27FA-A1ED-B0C5-9878240F819A</Name>
+	<Description>Selected Notes</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-15T10:13:57.782</CreationDate>
+	<Notes/>
+	<Text>Selected Notes</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B0C5-9878240F019A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

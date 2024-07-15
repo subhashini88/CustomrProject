@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-AA03-B44E498C416D">
+	<DocumentID>005056A2-27FA-A1EB-AA03-B44E498C016D</DocumentID>
+	<Name>005056A2-27FA-A1EB-AA03-B44E498C016D</Name>
+	<Description>UpdateClaimsRescissionTask</Description>
+	<CreatedBy>ramya</CreatedBy>
+	<CreationDate>2021-04-28T11:44:42.589</CreationDate>
+	<Notes/>
+	<Text>UpdateClaimsRescissionTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-AA03-B44E498B816D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

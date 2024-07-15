@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AA4D-20AEA517C199">
+	<DocumentID>005056A2-27FA-A1ED-AA4D-20AEA5178199</DocumentID>
+	<Name>005056A2-27FA-A1ED-AA4D-20AEA5178199</Name>
+	<Description>PreProcessingUploadFileBpm</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-02-10T11:38:52.297</CreationDate>
+	<Notes/>
+	<DefaultText>PreProcessingUploadFileBpm</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-AA4D-20AEA5180199"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A9D0-AEDBC0A0416D">
+	<DocumentID>005056A2-27FA-A1EB-A9D0-AEDBC0A0016D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A9D0-AEDBC0A0016D</Name>
+	<Description>TransferTask</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-27T10:24:32.364</CreationDate>
+	<Notes/>
+	<Text>TransferTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A9D0-AEDBC09F816D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

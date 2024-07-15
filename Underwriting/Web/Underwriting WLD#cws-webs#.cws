@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A29B-E2ADE605C130">
+	<DocumentID>005056A2-27FA-A1E8-A29B-E2ADE6058130</DocumentID>
+	<Name>Underwriting WLD</Name>
+	<Description>Underwriting WLD</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-18T09:53:24.903</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FA38E88"
+			path="Underwriting/Web"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>

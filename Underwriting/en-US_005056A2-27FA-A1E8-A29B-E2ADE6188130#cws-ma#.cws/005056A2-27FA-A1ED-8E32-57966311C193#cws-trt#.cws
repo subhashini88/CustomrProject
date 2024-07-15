@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8E32-579663120193">
+	<DocumentID>005056A2-27FA-A1ED-8E32-57966311C193</DocumentID>
+	<Name>005056A2-27FA-A1ED-8E32-57966311C193</Name>
+	<Description>CICA Code</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-09-20T09:59:21.175</CreationDate>
+	<Notes/>
+	<Text>CICA Code</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-8E32-579663114193"
+		/>
+	</TextIdentifier>
+</TranslatedText>

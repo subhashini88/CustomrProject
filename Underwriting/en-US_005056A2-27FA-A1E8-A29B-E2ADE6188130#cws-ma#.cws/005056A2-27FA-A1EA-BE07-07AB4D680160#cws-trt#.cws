@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE07-07AB4D684160">
+	<DocumentID>005056A2-27FA-A1EA-BE07-07AB4D680160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE07-07AB4D680160</Name>
+	<Description>Skin Disorder</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T13:00:56.761</CreationDate>
+	<Notes/>
+	<Text>Skin Disorder</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BE07-07AB4D678160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

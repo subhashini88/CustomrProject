@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B0C1-7445C239419A">
+	<DocumentID>005056A2-27FA-A1ED-B0C1-7445C239019A</DocumentID>
+	<Name>005056A2-27FA-A1ED-B0C1-7445C239019A</Name>
+	<Description>FetchGroupNameforAEBOT</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-15T12:18:53.792</CreationDate>
+	<Notes/>
+	<Text>FetchGroupNameforAEBOT</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B0C1-7445C238819A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8920-B21FEDBCC142">
+	<DocumentID>005056A2-27FA-A1E9-8920-D6264372C142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8920-D6264372C142</Name>
+	<Description>APS 2 Complete</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-30T11:37:06.939</CreationDate>
+	<Notes/>
+	<Text>APS 2 Complete</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8920-D62643724142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

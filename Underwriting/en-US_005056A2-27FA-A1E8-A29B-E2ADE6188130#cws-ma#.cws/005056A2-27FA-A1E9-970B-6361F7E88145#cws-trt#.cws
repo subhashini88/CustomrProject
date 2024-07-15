@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-970B-6361F7E8C145">
+	<DocumentID>005056A2-27FA-A1E9-970B-6361F7E88145</DocumentID>
+	<Name>005056A2-27FA-A1E9-970B-6361F7E88145</Name>
+	<Description>(448)Combined Insurance TELE-INTERVIEW- Life</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-11T07:45:24.06</CreationDate>
+	<Notes/>
+	<Text>(448)Combined Insurance TELE-INTERVIEW- Life</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-970B-6361F7E80145"
+		/>
+	</TextIdentifier>
+</TranslatedText>

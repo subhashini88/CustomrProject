@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-518FEFBF413F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-518FEFBF013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-518FEFBF013F</Name>
+	<Description>requested_medical_condition</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.077</CreationDate>
+	<Notes/>
+	<Text>requested_medical_condition</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-518FEFBE813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

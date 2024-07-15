@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9AAC-5C35A1830146">
+	<DocumentID>005056A2-27FA-A1E9-9AAC-5C35A182C146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9AAC-5C35A182C146</Name>
+	<Description>new Case - US</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-04-29T19:18:58.206</CreationDate>
+	<Notes/>
+	<Text>new Case - US</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9AAC-5C35A1824146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

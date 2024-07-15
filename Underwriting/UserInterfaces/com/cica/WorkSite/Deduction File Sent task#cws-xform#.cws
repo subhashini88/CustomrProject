@@ -1,0 +1,91 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EC-9018-B7C1E3354174">
+	<DocumentID>005056A2-27FA-A1EC-9018-B7C1E3350174</DocumentID>
+	<Name>Deduction File Sent task</Name>
+	<Description>Deduction File Sent task</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-11-08T08:02:15.022</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			enabledom="false">
+			<xhead/>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+				/>
+			</xbody>
+			<xformsscript/>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>Deduction File Sent task</taskDescription>
+	<taskName>Deduction File Sent task</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EC-9018-B7C1E3344174">
+			<DocumentID>005056A2-27FA-A1EC-9018-B7C1E3340174</DocumentID>
+			<Name>005056A2-27FA-A1EC-9018-B7C1E3340174</Name>
+			<Description>005056A2-27FA-A1EC-9018-B7C1E3340174</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-11-08T08:02:15.037</CreationDate>
+			<Notes/>
+			<DeveloperText>Deduction File Sent</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EB-8314-739512D0C161"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts/>
+	<Webservices/>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts/>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

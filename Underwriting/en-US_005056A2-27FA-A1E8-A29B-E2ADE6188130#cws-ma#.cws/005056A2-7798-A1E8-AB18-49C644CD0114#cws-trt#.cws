@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AB18-49C644CD4114">
+	<DocumentID>005056A2-7798-A1E8-AB18-49C644CD0114</DocumentID>
+	<Name>005056A2-7798-A1E8-AB18-49C644CD0114</Name>
+	<Description>CaseProcessDecisionTable</Description>
+	<CreatedBy>Sankar, Harshet</CreatedBy>
+	<CreationDate>2018-08-30T15:00:51.022</CreationDate>
+	<Notes/>
+	<Text>CaseProcessDecisionTable</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AB18-49C644CC8114"
+		/>
+	</TextIdentifier>
+</TranslatedText>

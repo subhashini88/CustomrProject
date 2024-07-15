@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-82ED-B2E65EA9818D">
+	<DocumentID>005056A2-27FA-A1ED-82ED-B2E65EA9418D</DocumentID>
+	<Name>005056A2-27FA-A1ED-82ED-B2E65EA9418D</Name>
+	<Description>UW CCA Task</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-25T04:18:13.171</CreationDate>
+	<Notes/>
+	<Text>UW CCA Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-82F4-304E7BB0418D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

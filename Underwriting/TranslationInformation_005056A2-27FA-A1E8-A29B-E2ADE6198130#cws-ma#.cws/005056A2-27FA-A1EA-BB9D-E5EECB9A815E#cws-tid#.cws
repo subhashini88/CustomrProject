@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BB9D-E5EECB9AC15E">
+	<DocumentID>005056A2-27FA-A1EA-BB9D-E5EECB9A815E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BB9D-E5EECB9A815E</Name>
+	<Description>OTHER_1</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-09-04T06:27:19.202</CreationDate>
+	<Notes/>
+	<DefaultText>OTHER_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BB9D-E5EECB9B015E"
+		/>
+	</Translations>
+</TextIdentifier>

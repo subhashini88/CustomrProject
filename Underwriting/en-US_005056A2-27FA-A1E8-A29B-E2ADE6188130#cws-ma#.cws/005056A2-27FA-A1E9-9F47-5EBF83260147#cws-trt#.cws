@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9F47-5EBF83264147">
+	<DocumentID>005056A2-27FA-A1E9-9F47-5EBF83260147</DocumentID>
+	<Name>005056A2-27FA-A1E9-9F47-5EBF83260147</Name>
+	<Description>Followup60DayPendingTask</Description>
+	<CreatedBy>ramya</CreatedBy>
+	<CreationDate>2019-05-23T05:42:10.478</CreationDate>
+	<Notes/>
+	<Text>Followup60DayPendingTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9F47-5EBF83258147"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,64 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1E9-ACA8-2C0F6D7A414C">
+	<DocumentID>005056A2-27FA-A1E9-ACA8-2C0F6D7A014C</DocumentID>
+	<Name>Post Issue Review Scheduler</Name>
+	<Description>Post Issue Review Scheduler</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-07-30T10:36:53.786</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="Post Issue Review Scheduler"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="2019-07-29T12:26:10.962"
+			msgHolderLastModified="2019-08-14T07:11:50.854">
+			<datetime>
+				<daily>
+					<time>7:10</time>
+					<time>2:0</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1E9-ACA8-2C0F6D78014C">
+			<DocumentID>005056A2-27FA-A1E9-ACA8-2C0F6D77C14C</DocumentID>
+			<Name>005056A2-27FA-A1E9-ACA8-2C0F6D77C14C</Name>
+			<Description>005056A2-27FA-A1E9-ACA8-2C0F6D77C14C</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-07-30T10:36:53.787</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1E9-AC7D-831B8DBE014C"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

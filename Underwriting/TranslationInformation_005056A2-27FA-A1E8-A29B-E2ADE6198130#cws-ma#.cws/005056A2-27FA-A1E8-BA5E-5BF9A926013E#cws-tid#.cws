@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA5E-5BF9A926413E">
+	<DocumentID>005056A2-27FA-A1E8-BA5E-5BF9A926013E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA5E-5BF9A926013E</Name>
+	<Description>&lt;span style=&quot;font-weight:bold;color: #7f7f7f;;font-family: arial black, gadget, sans-serif ;&quot;&gt;NEW YORK&lt;/span&gt;</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-16T08:27:35.376</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;span style=&quot;font-weight:bold;color: #7f7f7f;;font-family: arial black, gadget, sans-serif ;&quot;&gt;NEW YORK&lt;/span&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BA5E-5BF9A926813E"
+		/>
+	</Translations>
+</TextIdentifier>

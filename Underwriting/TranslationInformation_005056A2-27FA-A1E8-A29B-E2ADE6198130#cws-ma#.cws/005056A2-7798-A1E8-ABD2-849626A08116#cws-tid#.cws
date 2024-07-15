@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-7798-A1E8-ABD2-849626A0C116">
+	<DocumentID>005056A2-7798-A1E8-ABD2-849626A08116</DocumentID>
+	<Name>005056A2-7798-A1E8-ABD2-849626A08116</Name>
+	<Description>comment</Description>
+	<CreatedBy>Damodharan, Ramya</CreatedBy>
+	<CreationDate>2018-09-03T09:40:19.884</CreationDate>
+	<Notes/>
+	<DefaultText>comment</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-7798-A1E8-ABD2-849626A10116"
+		/>
+	</Translations>
+</TextIdentifier>

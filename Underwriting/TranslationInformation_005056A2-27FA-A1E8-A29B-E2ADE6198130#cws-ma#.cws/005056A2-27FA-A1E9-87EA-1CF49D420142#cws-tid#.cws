@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-87EA-1CF49D424142">
+	<DocumentID>005056A2-27FA-A1E9-87EA-1CF49D420142</DocumentID>
+	<Name>005056A2-27FA-A1E9-87EA-1CF49D420142</Name>
+	<Description>BusinessDaysCalculation</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-24T07:20:43.403</CreationDate>
+	<Notes/>
+	<DefaultText>BusinessDaysCalculation</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-87EA-1CF49D428142"
+		/>
+	</Translations>
+</TextIdentifier>

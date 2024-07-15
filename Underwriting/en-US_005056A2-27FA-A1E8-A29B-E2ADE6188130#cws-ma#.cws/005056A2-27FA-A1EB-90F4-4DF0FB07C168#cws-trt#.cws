@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-90F4-4DF0FB080168">
+	<DocumentID>005056A2-27FA-A1EB-90F4-4DF0FB07C168</DocumentID>
+	<Name>005056A2-27FA-A1EB-90F4-4DF0FB07C168</Name>
+	<Description>UW Plan Activity</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-12-21T21:15:23.861</CreationDate>
+	<Notes/>
+	<Text>UW Plan Activity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-90F4-4DF0FB074168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

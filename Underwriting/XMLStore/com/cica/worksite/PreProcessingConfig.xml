@@ -1,0 +1,25 @@
+<Root xmlns="http://schemas.cordys.com/1.0/xmlstore">
+  <ORIGINAL_PATH>http://nausd-wapp0101:81\home\shared\WorkSite\FileProcessing\Original\</ORIGINAL_PATH>
+  <REGULAR_PATH>http://nausd-wapp0101:81\home\shared\WorkSite\FileProcessing\Regular\</REGULAR_PATH>
+  <BACKUP_PATH>http://nausd-wapp0101:81\home\shared\WorkSite\FileProcessing\Backup\</BACKUP_PATH>
+  <ADL_REGULAR_PATH>\\NAUSD-WAPP0101\\OpenText Dev\\AppWorksPlatform\\awDev101\\webroot\\shared\\WorkSite\\FileProcessing\\Regular\\</ADL_REGULAR_PATH>
+  <ADL_REGULAR_TEMP_PATH>\\NAUSD-WAPP0101\\OpenText Dev\\AppWorksPlatform\\awDev101\\webroot\\shared\\WorkSite\\FileProcessing\\Regular\\temp\\</ADL_REGULAR_TEMP_PATH>
+  <ADL_REGULARNB_PATH>\\NAUSD-WAPP0101\\OpenText Dev\\AppWorksPlatform\\awDev101\\webroot\\shared\\WorkSite\\FileProcessing\\NewBusiness\\Regular\\</ADL_REGULARNB_PATH>
+  <ADL_FTP_SOURCE_PATH>C:\Program Files\OpenText\AppWorksPlatform\awDev101\webroot\shared\WorkSite\FileProcessing\NewBusiness\Regular\</ADL_FTP_SOURCE_PATH>
+  <ADL_FTP_TARGET_PATH>C:\Program Files\OpenText\AppWorksPlatform\AppPlatform\webroot\shared\WorkSite\FileProcessing\NewBusiness\Regular\</ADL_FTP_TARGET_PATH>
+   <ADL_LSPFTP_SOURCE_PATH>C:\Program Files\OpenText\AppWorksPlatform\awDev101\webroot\shared\WorkSite\FileProcessing\NewBusiness\Regular\</ADL_LSPFTP_SOURCE_PATH>
+  <ADL_FTP_LSP_PATH>/Reports/LSPADL/</ADL_FTP_LSP_PATH>
+  <ADL_FTP_LSP_AEBOT_PATH>/Reports/WIMSBOT/WIMS_AE/</ADL_FTP_LSP_AEBOT_PATH>
+  <ADL_FTP_LSPEAPP_AEBOT_PATH>\QDLS/EAPP\</ADL_FTP_LSPEAPP_AEBOT_PATH>
+  <ADL_FTP_LSP_BROBOT_PATH>/Reports/WIMSBOT/WIMS_BKR/</ADL_FTP_LSP_BROBOT_PATH>
+  <ADL_FTP_LSP_ACEBOT_PATH>/Reports/WIMSBOT/WIMS_ACE/</ADL_FTP_LSP_ACEBOT_PATH>
+  <ADL_FTP_OUTPUT_PATH>/Reports/LSPADL/OUT/</ADL_FTP_OUTPUT_PATH>
+  <FTP_BOT_CONFIG>LSP_test</FTP_BOT_CONFIG>
+  <FTP_AEBOT_CONFIG>LSP_EAPPBOT</FTP_AEBOT_CONFIG>
+  <ADL_TERM_PATH>\\NAUSD-WAPP0101\\OpenText Dev\\AppWorksPlatform\\awDev101\\webroot\\shared\\WorkSite\\FileProcessing\\TermFiles\\</ADL_TERM_PATH>
+  <FILE_FORMAT>txt,xlsx,csv,xlx,zip,pdf,xlsb,xls,21,xml</FILE_FORMAT>
+  <FTP_RETRY_DURATION_1>P0DT0H5M0S</FTP_RETRY_DURATION_1>
+  <FTP_RETRY_DURATION_2>P0DT1H0M0S</FTP_RETRY_DURATION_2>
+  <DELAY_FOR_CORRECT_BATCHQUEUE>P0DT0H0M3S</DELAY_FOR_CORRECT_BATCHQUEUE>
+<DELAY_FOR_Status_Change>P0DT0H3M0S</DELAY_FOR_Status_Change>
+</Root>

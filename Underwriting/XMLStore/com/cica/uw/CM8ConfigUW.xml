@@ -1,0 +1,21 @@
+<xml xmlns="http://schemas.cordys.com/1.0/xmlstore">
+  
+    <database>ICMNLSDB</database>
+    <userid>ICMADMIN</userid>
+    <password>CKZnMD7j</password>
+    <sqldatabase>jdbc:sqlserver://nausd-wsql0445\\sql16a:1433;DatabaseName=SOP</sqldatabase>
+    <sqluser>captiva</sqluser>
+    <sqlpassword>captiva</sqlpassword>
+    <cm8docid />
+    <targetindexclass>ALUUWMK</targetindexclass>
+    <keyvalue1 />
+    <keyvalue2 />
+    <keyvalue3 />
+    <keyvalue4 />
+    <keyvalue5 />
+    <keyvalue6 />
+    <keyvalue7 />
+    <keyvalue8 />
+
+  
+</xml>

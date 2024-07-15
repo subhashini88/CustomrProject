@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9D6F-468336B0816A">
+	<DocumentID>005056A2-27FA-A1EB-9D6F-468336B0416A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9D6F-468336B0416A</Name>
+	<Description>GetWKSEnrollmentTaskObjectsForFileId</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-23T10:19:03.884</CreationDate>
+	<Notes/>
+	<Text>GetWKSEnrollmentTaskObjectsForFileId</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9D6F-468336AFC16A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

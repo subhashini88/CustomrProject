@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B6DC-0DF2B855C17E">
+	<DocumentID>005056A2-27FA-A1EC-B6DC-0DF2B855817E</DocumentID>
+	<Name>InsertUWCaseActivityLogSchedule</Name>
+	<Description>InsertUWCaseActivityLogSchedule</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-05-24T16:17:50.809</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="InsertUWCaseActivityLogSchedule"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="2022-05-24T12:28:09.346"
+			msgHolderLastModified="2022-05-17T16:44:22.308">
+			<datetime>
+				<daily>
+					<time>23:0</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EC-B6DC-0DF2B854017E">
+			<DocumentID>005056A2-27FA-A1EC-B6DC-0DF2B853C17E</DocumentID>
+			<Name>005056A2-27FA-A1EC-B6DC-0DF2B853C17E</Name>
+			<Description>005056A2-27FA-A1EC-B6DC-0DF2B853C17E</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2022-05-24T16:17:50.809</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EC-B57E-57962757817E"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

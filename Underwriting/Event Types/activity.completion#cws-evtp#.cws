@@ -1,0 +1,15 @@
+
+<CMEventType
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.casemgmt.event.CMEventType"
+	RuntimeDocumentID="005056A2-27FA-A1E8-935A-C25CE737411F">
+	<DocumentID>{A013F932-48C4-4698-AA74-1C7D20BE31EA}</DocumentID>
+	<Name>activity.completion</Name>
+	<Description>activity.completion</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-05-01T18:11:19.51</CreationDate>
+	<Notes/>
+	<Custom>false</Custom>
+	<FormAssociation/>
+	<TranslatableName/>
+</CMEventType>

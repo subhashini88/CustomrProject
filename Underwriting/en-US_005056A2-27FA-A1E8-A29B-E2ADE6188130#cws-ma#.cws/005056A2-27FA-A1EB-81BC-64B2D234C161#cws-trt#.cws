@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-81BC-64B2D2350161">
+	<DocumentID>005056A2-27FA-A1EB-81BC-64B2D234C161</DocumentID>
+	<Name>005056A2-27FA-A1EB-81BC-64B2D234C161</Name>
+	<Description>Call Complete</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-05T10:55:06.986</CreationDate>
+	<Notes/>
+	<Text>Call Complete</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-81BC-64B2D2344161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

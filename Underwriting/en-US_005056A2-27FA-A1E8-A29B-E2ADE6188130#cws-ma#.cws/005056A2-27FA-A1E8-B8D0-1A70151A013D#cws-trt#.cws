@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B8D0-1A70151A413D">
+	<DocumentID>005056A2-27FA-A1E8-B8D0-1A70151A013D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B8D0-1A70151A013D</Name>
+	<Description>delchild4</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-08T10:28:27.492</CreationDate>
+	<Notes/>
+	<Text>delchild4</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B8D0-1A701519813D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

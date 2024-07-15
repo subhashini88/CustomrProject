@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B3AA-6D2AF8EFC16F">
+	<DocumentID>005056A2-27FA-A1EB-B3AA-6D2AF8EF816F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B3AA-6D2AF8EF816F</Name>
+	<Description>GetRecipientsToList</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-16T13:49:46.429</CreationDate>
+	<Notes/>
+	<Text>GetRecipientsToList</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B3AA-6D2AF8EF016F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

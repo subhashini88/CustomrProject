@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9269-066591A041A4">
+	<DocumentID>005056A2-27FA-A1EE-9269-066591A001A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-9269-066591A001A4</Name>
+	<Description>Adjuster</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-09-02T15:29:51.744</CreationDate>
+	<Notes/>
+	<Text>Adjuster</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-9269-0665919F81A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

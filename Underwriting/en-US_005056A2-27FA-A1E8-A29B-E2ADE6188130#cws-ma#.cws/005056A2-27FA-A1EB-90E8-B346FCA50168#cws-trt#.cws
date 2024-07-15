@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-90E8-B346FCA54168">
+	<DocumentID>005056A2-27FA-A1EB-90E8-B346FCA50168</DocumentID>
+	<Name>005056A2-27FA-A1EB-90E8-B346FCA50168</Name>
+	<Description>Group Accident Champion</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-12-21T15:47:04.138</CreationDate>
+	<Notes/>
+	<Text>Group Accident Champion</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-90E8-B346FCA48168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

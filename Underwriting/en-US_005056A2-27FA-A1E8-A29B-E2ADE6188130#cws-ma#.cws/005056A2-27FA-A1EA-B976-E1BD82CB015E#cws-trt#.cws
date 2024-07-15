@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B976-E1BD82CB415E">
+	<DocumentID>005056A2-27FA-A1EA-B976-E1BD82CB015E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B976-E1BD82CB015E</Name>
+	<Description>Missing Information</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T07:33:27.545</CreationDate>
+	<Notes/>
+	<Text>Missing Information</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B976-E1BD82CA815E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

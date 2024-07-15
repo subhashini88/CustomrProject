@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BD0B-AF613F4E415E">
+	<DocumentID>005056A2-27FA-A1EA-BD0B-AF613F4E015E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BD0B-AF613F4E015E</Name>
+	<Description>States Enrolling:</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-09-14T05:25:01.292</CreationDate>
+	<Notes/>
+	<DefaultText>States Enrolling:</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BD0B-AF613F4E815E"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B979-ABD780FC815E">
+	<DocumentID>005056A2-27FA-A1EA-B979-ABD780FC415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B979-ABD780FC415E</Name>
+	<Description>ORDER 5</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T08:50:13.01</CreationDate>
+	<Notes/>
+	<Text>ORDER 5</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B979-ABD780FBC15E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

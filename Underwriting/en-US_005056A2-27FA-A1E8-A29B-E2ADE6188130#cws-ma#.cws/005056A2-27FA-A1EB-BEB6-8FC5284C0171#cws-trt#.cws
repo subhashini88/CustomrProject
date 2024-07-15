@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-BEB6-8FC5284C4171">
+	<DocumentID>005056A2-27FA-A1EB-BEB6-8FC5284C0171</DocumentID>
+	<Name>005056A2-27FA-A1EB-BEB6-8FC5284C0171</Name>
+	<Description>Reindexing</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2021-08-11T19:44:44.383</CreationDate>
+	<Notes/>
+	<Text>Reindexing</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-BEB6-8FC5284B8171"
+		/>
+	</TextIdentifier>
+</TranslatedText>

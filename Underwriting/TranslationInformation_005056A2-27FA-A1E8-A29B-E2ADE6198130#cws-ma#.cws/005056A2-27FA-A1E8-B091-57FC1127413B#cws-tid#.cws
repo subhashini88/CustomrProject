@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B091-57FC1127813B">
+	<DocumentID>005056A2-27FA-A1E8-B091-57FC1127413B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B091-57FC1127413B</Name>
+	<Description>rc_hch</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-27T11:55:01.985</CreationDate>
+	<Notes/>
+	<DefaultText>rc_hch</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B091-57FC1127C13B"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB34-F81DFB60813F">
+	<DocumentID>005056A2-27FA-A1E8-BB34-F81DFB60413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB34-F81DFB60413F</Name>
+	<Description>Checkbox4</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-20T15:03:30.121</CreationDate>
+	<Notes/>
+	<DefaultText>Checkbox4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BB34-F81DFB60C13F"
+		/>
+	</Translations>
+</TextIdentifier>

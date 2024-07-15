@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8E46-7051967B4167">
+	<DocumentID>005056A2-27FA-A1EB-8E46-7051967B0167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8E46-7051967B0167</Name>
+	<Description>UpdateDataToSalesforce</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-12-08T11:46:54.569</CreationDate>
+	<Notes/>
+	<Text>UpdateDataToSalesforce</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8E4F-D617FAD3C167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

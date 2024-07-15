@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099B34144">
+	<DocumentID>005056A2-27FA-A1E9-9124-BDF099B30144</DocumentID>
+	<Name>005056A2-27FA-A1E9-9124-BDF099B30144</Name>
+	<Description>&lt;h1&gt;&lt;span  style='font-weight:bold;font-size: medium;;color: #ff320f;;font-family: arial black, gadget, sans-serif ;'  &gt;The Closeout date was reached for this policy and hence process the decision as closed incomplete.&lt;/span&gt;&lt;/h1&gt;</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-03-12T06:58:19.188</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;h1&gt;&lt;span  style='font-weight:bold;font-size: medium;;color: #ff320f;;font-family: arial black, gadget, sans-serif ;'  &gt;The Closeout date was reached for this policy and hence process the decision as closed incomplete.&lt;/span&gt;&lt;/h1&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-9124-BDF099B38144"
+		/>
+	</Translations>
+</TextIdentifier>

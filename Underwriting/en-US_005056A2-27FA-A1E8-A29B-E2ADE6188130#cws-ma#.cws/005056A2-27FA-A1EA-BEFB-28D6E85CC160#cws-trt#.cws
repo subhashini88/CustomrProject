@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BEFB-28D6E85D0160">
+	<DocumentID>005056A2-27FA-A1EA-BEFB-28D6E85CC160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BEFB-28D6E85CC160</Name>
+	<Description>Call Sales Force API</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-09-21T09:31:10.743</CreationDate>
+	<Notes/>
+	<Text>Call Sales Force API</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BEFB-28D6E85C4160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

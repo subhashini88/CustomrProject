@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9F7-1FA67A8EC13D">
+	<DocumentID>005056A2-27FA-A1E8-B9F7-1FA67A8E813D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9F7-1FA67A8E813D</Name>
+	<Description>MFCICA ID</Description>
+	<CreatedBy>PRTIWA1</CreatedBy>
+	<CreationDate>2018-11-14T07:16:52.742</CreationDate>
+	<Notes/>
+	<Text>MFCICA ID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B9F7-1FA67A8E013D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

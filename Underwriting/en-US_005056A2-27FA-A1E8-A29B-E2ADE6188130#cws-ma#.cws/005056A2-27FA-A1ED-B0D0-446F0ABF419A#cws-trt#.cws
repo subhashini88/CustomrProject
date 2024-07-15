@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B0D0-446F0ABF819A">
+	<DocumentID>005056A2-27FA-A1ED-B0D0-446F0ABF419A</DocumentID>
+	<Name>005056A2-27FA-A1ED-B0D0-446F0ABF419A</Name>
+	<Description>After 3  Retry Attempts failed due to API/Timeout Failures</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-15T15:02:28.492</CreationDate>
+	<Notes/>
+	<Text>After 3  Retry Attempts failed due to API/Timeout Failures</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B0D0-446F0ABEC19A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

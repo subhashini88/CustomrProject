@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-560D897C013F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-560D897BC13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-560D897BC13F</Name>
+	<Description>uw_pend_req_other_flag</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:06.626</CreationDate>
+	<Notes/>
+	<Text>uw_pend_req_other_flag</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-560D897B413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

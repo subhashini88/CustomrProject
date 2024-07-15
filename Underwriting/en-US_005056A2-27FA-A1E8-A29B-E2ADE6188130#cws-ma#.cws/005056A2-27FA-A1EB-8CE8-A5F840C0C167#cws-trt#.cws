@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8CE8-A5F840C10167">
+	<DocumentID>005056A2-27FA-A1EB-8CE8-A5F840C0C167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8CE8-A5F840C0C167</Name>
+	<Description>ReadMailTempletWelcome</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-12-01T07:09:07.167</CreationDate>
+	<Notes/>
+	<Text>ReadMailTempletWelcome</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8CE8-A5F840C04167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

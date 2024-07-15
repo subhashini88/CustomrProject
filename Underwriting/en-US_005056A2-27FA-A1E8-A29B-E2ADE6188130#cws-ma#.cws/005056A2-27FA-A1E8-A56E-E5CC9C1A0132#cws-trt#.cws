@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A56E-E5CC9C1A4132">
+	<DocumentID>005056A2-27FA-A1E8-A56E-E5CC9C1A0132</DocumentID>
+	<Name>005056A2-27FA-A1E8-A56E-E5CC9C1A0132</Name>
+	<Description>Access Case</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-08-01T19:03:24.8</CreationDate>
+	<Notes/>
+	<Text>Access Case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-A56E-E5CC9C198132"
+		/>
+	</TextIdentifier>
+</TranslatedText>

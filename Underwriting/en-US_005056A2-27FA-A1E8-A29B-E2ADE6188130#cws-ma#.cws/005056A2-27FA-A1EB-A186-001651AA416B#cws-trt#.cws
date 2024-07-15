@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A186-001651AA816B">
+	<DocumentID>005056A2-27FA-A1EB-A186-001651AA416B</DocumentID>
+	<Name>005056A2-27FA-A1EB-A186-001651AA416B</Name>
+	<Description>Policy Change Case</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-03-16T05:54:59.397</CreationDate>
+	<Notes/>
+	<Text>Policy Change Case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A186-001651A9C16B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

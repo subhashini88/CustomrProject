@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-94D3-A77B6D390175">
+	<DocumentID>005056A2-27FA-A1EC-94D3-A77B6D38C175</DocumentID>
+	<Name>005056A2-27FA-A1EC-94D3-A77B6D38C175</Name>
+	<Description>Policy Effective Date</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2021-12-02T09:29:37.686</CreationDate>
+	<Notes/>
+	<Text>Policy Effective Date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-94D3-A77B6D384175"
+		/>
+	</TextIdentifier>
+</TranslatedText>

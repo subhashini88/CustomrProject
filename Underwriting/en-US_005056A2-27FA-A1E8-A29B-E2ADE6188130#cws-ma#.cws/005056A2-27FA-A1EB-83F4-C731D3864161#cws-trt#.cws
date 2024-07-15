@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-83F4-C731D3868161">
+	<DocumentID>005056A2-27FA-A1EB-83F4-C731D3864161</DocumentID>
+	<Name>005056A2-27FA-A1EB-83F4-C731D3864161</Name>
+	<Description>Get Role DN</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-10-16T17:27:02.203</CreationDate>
+	<Notes/>
+	<Text>Get Role DN</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-83F4-C731D385C161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

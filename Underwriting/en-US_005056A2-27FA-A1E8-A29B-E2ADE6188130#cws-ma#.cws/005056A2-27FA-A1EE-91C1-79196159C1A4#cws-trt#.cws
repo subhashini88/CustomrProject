@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-91C1-7919615A01A4">
+	<DocumentID>005056A2-27FA-A1EE-91C1-79196159C1A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-91C1-79196159C1A4</Name>
+	<Description>case 404</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-30T07:34:08.278</CreationDate>
+	<Notes/>
+	<Text>case 404</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-91C1-7919615941A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B085-D99A9155019A">
+	<DocumentID>005056A2-27FA-A1ED-B085-D99A9154C19A</DocumentID>
+	<Name>005056A2-27FA-A1ED-B085-D99A9154C19A</Name>
+	<Description>UpdateTaskDataforAEBOT</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-14T06:57:38.572</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateTaskDataforAEBOT</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-B085-D99A9155419A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-BF9F-D93DD64C4172">
+	<DocumentID>005056A2-27FA-A1EB-BF9F-D93DD64C0172</DocumentID>
+	<Name>005056A2-27FA-A1EB-BF9F-D93DD64C0172</Name>
+	<Description>Capture CWB</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-08-16T10:48:31.582</CreationDate>
+	<Notes/>
+	<Text>Capture CWB</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-BF9F-D93DD64B8172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

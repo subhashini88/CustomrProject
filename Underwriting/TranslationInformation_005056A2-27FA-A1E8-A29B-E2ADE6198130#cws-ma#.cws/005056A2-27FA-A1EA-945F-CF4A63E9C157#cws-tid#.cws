@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-945F-CF4A63EA0157">
+	<DocumentID>005056A2-27FA-A1EA-945F-CF4A63E9C157</DocumentID>
+	<Name>005056A2-27FA-A1EA-945F-CF4A63E9C157</Name>
+	<Description>MRSCaseDetails</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-02-17T12:24:12.169</CreationDate>
+	<Notes/>
+	<DefaultText>MRSCaseDetails</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-945F-CF4A63EA4157"
+		/>
+	</Translations>
+</TextIdentifier>

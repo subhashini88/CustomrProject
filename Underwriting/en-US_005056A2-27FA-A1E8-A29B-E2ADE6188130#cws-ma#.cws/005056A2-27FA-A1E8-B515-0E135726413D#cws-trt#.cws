@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B515-0E135726813D">
+	<DocumentID>005056A2-27FA-A1E8-B515-0E135726413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B515-0E135726413D</Name>
+	<Description>005056A2-27FA-A1E8-B515-0E135726413D</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-20T11:02:29.128</CreationDate>
+	<Notes/>
+	<Text>US #370 - The Task was first created as decision was null and taskid was null , now L70 approved the policy in daily night cycle when underwriter review was in progress , - The SSIS Package will check if task_id is not null and if previous decision was 'None' and in current feed the decision is 'approve' then it sets the flag as 'Approved' in Autodecision column of underwriting table - Our Webservice pics up those records and then since underwriter review was in progress and no decision was already applied , the case is supposed to be in Underwriter Queue only and we move it to closed cases</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B515-0E135725C13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

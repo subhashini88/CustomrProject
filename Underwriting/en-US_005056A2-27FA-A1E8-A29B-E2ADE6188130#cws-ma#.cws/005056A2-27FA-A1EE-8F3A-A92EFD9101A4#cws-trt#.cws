@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8F3A-A92EFD9141A4">
+	<DocumentID>005056A2-27FA-A1EE-8F3A-A92EFD9101A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8F3A-A92EFD9101A4</Name>
+	<Description>GetPFP_TaskDetailsObject</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2023-08-17T17:13:53.209</CreationDate>
+	<Notes/>
+	<Text>GetPFP_TaskDetailsObject</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8F3A-A92EFD9081A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

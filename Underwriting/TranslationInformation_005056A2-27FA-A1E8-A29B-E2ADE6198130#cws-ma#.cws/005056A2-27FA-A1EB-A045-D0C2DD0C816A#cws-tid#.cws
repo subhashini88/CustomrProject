@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A045-D0C2DD0CC16A">
+	<DocumentID>005056A2-27FA-A1EB-A045-D0C2DD0C816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-A045-D0C2DD0C816A</Name>
+	<Description>WKSFPBOTbatchfinder</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2021-03-09T20:38:27.348</CreationDate>
+	<Notes/>
+	<DefaultText>WKSFPBOTbatchfinder</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-A045-D0C2DD0D016A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,587 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1E8-8F82-EA67C7A1011C">
+	<DocumentID>005056A2-27FA-A1E8-8F82-EA67C7A0C11C</DocumentID>
+	<Name>OrderRequirementScreenSelection</Name>
+	<Description>OrderRequirementScreenSelection</Description>
+	<CreatedBy>Vidhya Sri</CreatedBy>
+	<CreationDate>2018-04-12T05:30:37.332</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<style
+					src="com/cica/uw/styles/UW_Demo_CaseScreen.css"
+					documentID="005056A2-27FA-A1E8-B5B4-E2EFB109813D"
+				/>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="PlanActivitiesOperationModel"
+					wcpforms:businessElement="tns:activestates"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:nontransactional="true"
+					singleTransaction="false"
+					promptToSave="true"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/casemanagement/execution/1.0/PlanActivities"
+							operationName="PlanActivities"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1E8-A2D2-381741FEC130">
+							<caseinstanceid
+								xmlns="http://schemas.cordys.com/casemanagement/execution/1.0"
+							/>
+							<planactivities
+								xmlns="http://schemas.cordys.com/casemanagement/execution/1.0"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/casemanagement/execution/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/casemanagement/execution/1.0</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						id="vendor">
+						<Application
+							display="maximized">
+							<id>vendor</id>
+							<description>Vendor Order Requirement</description>
+							<caption>Vendor Order Requirement</caption>
+							<url>com/cica/underwriting/UI/VendorOrderRequirement.caf</url>
+							<frame>main</frame>
+						</Application>
+					</xml>
+					<xml
+						id="nonvendor">
+						<Application
+							display="maximized">
+							<id>nonvendor</id>
+							<description>Non Vendor Order Requirement</description>
+							<caption>Non Vendor Order Requirement</caption>
+							<url>com/cica/underwriting/UI/NonVendorOrderRequirement.caf</url>
+							<frame>main</frame>
+						</Application>
+					</xml>
+					<xml
+						id="canadanonvendor">
+						<Application
+							display="maximized">
+							<id>canadanonvendor</id>
+							<description>Canada Non Vendor Order Requirement</description>
+							<caption>Canada Non Vendor Order Requirement</caption>
+							<url>com/cica/underwriting/UI/CanadaNonVendorOrderRequirement.caf</url>
+							<frame>main</frame>
+						</Application>
+					</xml>
+					<xml
+						id="canadavendor">
+						<Application
+							display="maximized">
+							<id>canadavendor</id>
+							<description>Canada Vendor Order Requirement</description>
+							<caption>Canada Vendor Order Requirement</caption>
+							<url>com/cica/underwriting/UI/CanadaVendorOrderReq.caf</url>
+							<frame>main</frame>
+						</Application>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="horizontal"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+						appearance="box"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+						id="gb_Order"
+						isNavigationEnabled="true"
+						resizable="false"
+						wcpforms:layout="horizontal"
+						wcpforms:class="h_layout"
+						wcpforms:size="70.485% 16px"
+						wcpforms:labelalign="ontop"
+						wcpforms:customclass="autoextent">
+						<xforms:label
+							textIdentifier="005056A2-7798-A1E8-AD31-262D3374411E"
+							wcpforms:class="groupheader">Order Requirement Screen Selection:</xforms:label>
+						<xforms:group
+							appearance="choicebox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsChoicebox"
+							id="choicebox5"
+							controltype="radio"
+							wcpforms:layout="horizontal"
+							wcpforms:class="h_layout autoextent"
+							wcpforms:size="222px auto">
+							<xforms:select1
+								appearance="full"
+								unique-id="5"
+								id="radio_vendor"
+								radioLabelId="radio5">
+								<xforms:label
+									wcpforms:class="v_label"
+								/>
+								<xforms:item
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRadio"
+									id="radio4_1"
+									wcpforms:class="h_choicebox"
+									wcpforms:size="73px auto">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1E8-9055-4348157D411E">Vendor</xforms:label>
+									<xforms:value>Vendor</xforms:value>
+								</xforms:item>
+								<xforms:item
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRadio"
+									id="radio4_2"
+									wcpforms:class="h_choicebox"
+									wcpforms:size="125px auto">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1E8-9055-4348157BC11E">Non - Vendor</xforms:label>
+									<xforms:value>Non-Vendor</xforms:value>
+								</xforms:item>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:radio_vendor_Change/>
+								</xforms:action>
+							</xforms:select1>
+						</xforms:group>
+						<xforms:group
+							appearance="controlbox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+							id="controlbox1"
+							controltype="button"
+							wcpforms:layout="horizontal"
+							wcpforms:class="h_layout"
+							wcpforms:align="left_align"
+							wcpforms:size="229px 31.01px">
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="button_ok"
+								wcpforms:class="h_button"
+								wcpforms:size="null 22px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1E8-8F85-2D86D18A411C">OK</xforms:label>
+								<xforms:action
+									ev:event="xforms-activate">
+									<xforms:button_ok_Click/>
+								</xforms:action>
+							</xforms:trigger>
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="button_cancel"
+								wcpforms:class="h_button"
+								wcpforms:size="null 22px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1E8-8D99-884503A38116">Cancel</xforms:label>
+								<xforms:action
+									ev:event="xforms-activate">
+									<xforms:button_cancel_Click/>
+								</xforms:action>
+							</xforms:trigger>
+						</xforms:group>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="OriginalCaseId"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="null 30.3906px">
+							<xforms:label
+								textIdentifier="005056A2-7798-A1E8-AD31-262D3375C11E"
+								wcpforms:class="v_label">CaseId</xforms:label>
+						</xforms:output>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[function button_cancel_Click(eventObject)
+{
+    application.container.close();
+  
+}
+var CompanyCodeValue,CaseStatus,CurrentassigneeDN;
+function button_ok_Click(eventObject)
+{
+
+    var val = radio_vendor.getValue();
+    var CaseInstanceId =  OriginalCaseId.getValue();
+    var data = new Object();
+    data.caseId= CaseInstanceId ;
+    data.CaseStatus=CaseStatus;
+    data.CurrentassigneeDN=CurrentassigneeDN;
+        
+    if (val == "Vendor")
+    {
+        if(CompanyCodeValue!= "WS" && CompanyCodeValue!= "WL") {
+            application.select(vendor.XMLDocument.documentElement, data, null ,null, false); 
+        }
+        else {        
+            application.select(canadavendor.XMLDocument.documentElement, data, null ,null, false);
+        }
+    }
+    else if (val == "Non-Vendor")
+    {
+        if(CompanyCodeValue!= "WS" && CompanyCodeValue!= "WL") {
+            application.select(nonvendor.XMLDocument.documentElement, data, null ,null, false); 
+        }
+        else {
+            application.select(canadanonvendor.XMLDocument.documentElement, data, null ,null, false); 
+        }
+    }
+    else
+    {}
+    application.container.close ();
+}
+
+function Form_InitDone(eventObject)
+{
+    button_ok.disable();
+    OriginalCaseId.hide();
+    OriginalCaseId.setValue(application.event.data.Caseid);
+    CompanyCodeValue=application.event.data.CompanyCodeValue;
+    CaseStatus=application.event.data.CaseStatus;
+    CurrentassigneeDN=application.event.data.CurrentassigneeDN;
+    application.setDialogSize(314,170);
+   
+}
+function radio_vendor_Change(eventObject)
+{
+    var val = radio_vendor.getValue();
+    if ((val == "Vendor")||(val == "Non-Vendor"))
+    {
+        button_ok.enable();
+    }
+    else
+    {
+        button_ok.disable();
+    }
+}]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left>0</left>
+	<mode>plain</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>OrderRequirementScreenSelection</taskDescription>
+	<taskName>OrderRequirementScreenSelection</taskName>
+	<title>false</title>
+	<top>0</top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FB30E88"
+			path="Underwriting/Web/com/cica/uw/styles/UW_Demo_CaseScreen.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+	</StyleSheets>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1E8-8F84-8D1CB28EC11C">
+			<DocumentID>005056A2-27FA-A1E8-8F84-8D1CB28E811C</DocumentID>
+			<Name>005056A2-27FA-A1E8-8F84-8D1CB28E811C</Name>
+			<Description>005056A2-27FA-A1E8-8F84-8D1CB28E811C</Description>
+			<CreatedBy>Vidhya Sri</CreatedBy>
+			<CreationDate>2018-04-12T05:30:37.334</CreationDate>
+			<Notes/>
+			<DeveloperText></DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E8-8F84-8D1CB288C11C">
+			<DocumentID>005056A2-27FA-A1E8-8F84-8D1CB288811C</DocumentID>
+			<Name>005056A2-27FA-A1E8-8F84-8D1CB288811C</Name>
+			<Description>005056A2-27FA-A1E8-8F84-8D1CB288811C</Description>
+			<CreatedBy>Vidhya Sri</CreatedBy>
+			<CreationDate>2018-04-12T05:49:49.148</CreationDate>
+			<Notes/>
+			<UIRef>gb_Order</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-7798-A1E8-AD31-262D3374011E">
+					<DocumentID>005056A2-7798-A1E8-AD31-262D3373C11E</DocumentID>
+					<Name>005056A2-7798-A1E8-AD31-262D3373C11E</Name>
+					<Description>005056A2-7798-A1E8-AD31-262D3373C11E</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2018-09-10T06:46:52.471</CreationDate>
+					<Notes/>
+					<DeveloperText>Order Requirement Screen Selection:</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-7798-A1E8-AD31-262D3374411E"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-8F82-EA67C7A0C11C"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E8-8F84-8D1CB283411C">
+			<DocumentID>005056A2-27FA-A1E8-8F84-8D1CB283011C</DocumentID>
+			<Name>005056A2-27FA-A1E8-8F84-8D1CB283011C</Name>
+			<Description>005056A2-27FA-A1E8-8F84-8D1CB283011C</Description>
+			<CreatedBy>Vidhya Sri</CreatedBy>
+			<CreationDate>2018-04-12T05:49:49.136</CreationDate>
+			<Notes/>
+			<UIRef>button_ok</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E8-8F85-2D86D18A011C">
+					<DocumentID>005056A2-27FA-A1E8-8F85-2D86D189C11C</DocumentID>
+					<Name>005056A2-27FA-A1E8-8F85-2D86D189C11C</Name>
+					<Description>005056A2-27FA-A1E8-8F85-2D86D189C11C</Description>
+					<CreatedBy>Vidhya Sri</CreatedBy>
+					<CreationDate>2018-04-12T05:49:49.145</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-8F82-EA67C7A0C11C"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E8-8F85-2D86D188811C">
+			<DocumentID>005056A2-27FA-A1E8-8F85-2D86D188411C</DocumentID>
+			<Name>005056A2-27FA-A1E8-8F85-2D86D188411C</Name>
+			<Description>005056A2-27FA-A1E8-8F85-2D86D188411C</Description>
+			<CreatedBy>Vidhya Sri</CreatedBy>
+			<CreationDate>2018-04-12T05:49:49.136</CreationDate>
+			<Notes/>
+			<UIRef>button_cancel</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E8-8F85-2D86D189011C">
+					<DocumentID>005056A2-27FA-A1E8-8F85-2D86D188C11C</DocumentID>
+					<Name>005056A2-27FA-A1E8-8F85-2D86D188C11C</Name>
+					<Description>005056A2-27FA-A1E8-8F85-2D86D188C11C</Description>
+					<CreatedBy>Vidhya Sri</CreatedBy>
+					<CreationDate>2018-04-12T05:49:49.134</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-8F82-EA67C7A0C11C"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E8-8F85-2D86D181C11C">
+			<DocumentID>005056A2-27FA-A1E8-8F85-2D86D181811C</DocumentID>
+			<Name>005056A2-27FA-A1E8-8F85-2D86D181811C</Name>
+			<Description>005056A2-27FA-A1E8-8F85-2D86D181811C</Description>
+			<CreatedBy>Vidhya Sri</CreatedBy>
+			<CreationDate>2018-04-12T06:35:06.561</CreationDate>
+			<Notes/>
+			<UIRef>radio4_1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E8-9055-4348157D011E">
+					<DocumentID>005056A2-27FA-A1E8-9055-4348157CC11E</DocumentID>
+					<Name>005056A2-27FA-A1E8-9055-4348157CC11E</Name>
+					<Description>005056A2-27FA-A1E8-9055-4348157CC11E</Description>
+					<CreatedBy>PRTIWA1</CreatedBy>
+					<CreationDate>2018-04-16T09:23:12.341</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-8F82-EA67C7A0C11C"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E8-8F85-2D86D17BC11C">
+			<DocumentID>005056A2-27FA-A1E8-8F85-2D86D17B811C</DocumentID>
+			<Name>005056A2-27FA-A1E8-8F85-2D86D17B811C</Name>
+			<Description>005056A2-27FA-A1E8-8F85-2D86D17B811C</Description>
+			<CreatedBy>Vidhya Sri</CreatedBy>
+			<CreationDate>2018-04-12T06:37:59.805</CreationDate>
+			<Notes/>
+			<UIRef>radio4_2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E8-9055-4348157B811E">
+					<DocumentID>005056A2-27FA-A1E8-9055-4348157B411E</DocumentID>
+					<Name>005056A2-27FA-A1E8-9055-4348157B411E</Name>
+					<Description>005056A2-27FA-A1E8-9055-4348157B411E</Description>
+					<CreatedBy>PRTIWA1</CreatedBy>
+					<CreationDate>2018-04-16T09:23:12.339</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-8F82-EA67C7A0C11C"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-7798-A1E8-AD2F-A8FB8C70811E">
+			<DocumentID>005056A2-7798-A1E8-AD2F-A8FB8C70411E</DocumentID>
+			<Name>005056A2-7798-A1E8-AD2F-A8FB8C70411E</Name>
+			<Description>005056A2-7798-A1E8-AD2F-A8FB8C70411E</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-09-10T06:46:52.47</CreationDate>
+			<Notes/>
+			<UIRef>OriginalCaseId</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-7798-A1E8-AD31-262D3375811E">
+					<DocumentID>005056A2-7798-A1E8-AD31-262D3375411E</DocumentID>
+					<Name>005056A2-7798-A1E8-AD31-262D3375411E</Name>
+					<Description>005056A2-7798-A1E8-AD31-262D3375411E</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2018-09-10T06:46:52.469</CreationDate>
+					<Notes/>
+					<DeveloperText>CaseId_1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-7798-A1E8-AD31-262D3375C11E"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E8-8F82-EA67C7A0C11C"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1E8-A2D2-381741FEC130"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1E8-8F84-8D1CB290411C">
+			<DocumentID>005056A2-27FA-A1E8-8F84-8D1CB290011C</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>Vidhya Sri</CreatedBy>
+			<CreationDate>2018-04-12T05:30:37.336</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-7798-A1E8-AD37-1856D11AC11E">
+			<DocumentID>005056A2-7798-A1E8-AD37-1856D11A811E</DocumentID>
+			<Name>PlanActivitiesOperationModel</Name>
+			<Description>PlanActivitiesOperationModel</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-09-10T09:39:59.893</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/casemanagement/execution/1.0</namespace>
+			<operationName>PlanActivities</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

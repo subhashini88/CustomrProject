@@ -1,0 +1,18 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AC7A-64F50C55414C">
+	<DocumentID>005056A2-27FA-A1E9-AC7A-64F50C55014C</DocumentID>
+	<Name>Post Issue Review Closed Case</Name>
+	<Description>Post Issue Review Closed Case</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-07-29T10:21:00.379</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

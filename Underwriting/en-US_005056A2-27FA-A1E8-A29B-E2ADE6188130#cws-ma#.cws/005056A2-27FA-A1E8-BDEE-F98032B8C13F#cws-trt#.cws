@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEE-F98032B9013F">
+	<DocumentID>005056A2-27FA-A1E8-BDEE-F98032B8C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEE-F98032B8C13F</Name>
+	<Description>Do you have disability income replacement coverage with another company/employer?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T12:05:30.952</CreationDate>
+	<Notes/>
+	<Text>Do you have disability income replacement coverage with another company/employer?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEE-F98032B8413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

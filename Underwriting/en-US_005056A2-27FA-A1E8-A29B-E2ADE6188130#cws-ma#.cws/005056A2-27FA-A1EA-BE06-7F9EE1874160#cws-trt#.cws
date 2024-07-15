@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE00-0B81F8FD0160">
+	<DocumentID>005056A2-27FA-A1EA-BE06-7F9EE1874160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE06-7F9EE1874160</Name>
+	<Description>Female Reproductive Disorder</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T12:43:50.496</CreationDate>
+	<Notes/>
+	<Text>Female Reproductive Disorder</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BE06-7F9EE186C160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

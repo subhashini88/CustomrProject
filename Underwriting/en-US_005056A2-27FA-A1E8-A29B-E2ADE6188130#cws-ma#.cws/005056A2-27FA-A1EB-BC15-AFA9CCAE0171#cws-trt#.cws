@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-BC15-AFA9CCAE4171">
+	<DocumentID>005056A2-27FA-A1EB-BC15-AFA9CCAE0171</DocumentID>
+	<Name>005056A2-27FA-A1EB-BC15-AFA9CCAE0171</Name>
+	<Description>CanadaVendorResponseSAT</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2021-07-29T10:28:20.91</CreationDate>
+	<Notes/>
+	<Text>CanadaVendorResponseSAT</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-BC15-AFA9CCAD8171"
+		/>
+	</TextIdentifier>
+</TranslatedText>

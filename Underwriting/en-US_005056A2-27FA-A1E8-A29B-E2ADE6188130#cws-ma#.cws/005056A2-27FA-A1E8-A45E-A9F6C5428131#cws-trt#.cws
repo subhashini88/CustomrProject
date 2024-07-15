@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A45E-A9F6C542C131">
+	<DocumentID>005056A2-27FA-A1E8-A45E-A9F6C5428131</DocumentID>
+	<Name>005056A2-27FA-A1E8-A45E-A9F6C5428131</Name>
+	<Description>annual_income</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-27T08:55:56.511</CreationDate>
+	<Notes/>
+	<Text>annual_income</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-A45E-A9F6C5420131"
+		/>
+	</TextIdentifier>
+</TranslatedText>

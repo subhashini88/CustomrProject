@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-97A2-C8A088BB01A7">
+	<DocumentID>005056A2-27FA-A1EE-97A2-C8A088BAC1A7</DocumentID>
+	<Name>005056A2-27FA-A1EE-97A2-C8A088BAC1A7</Name>
+	<Description>Ready for Production?</Description>
+	<CreatedBy>dharini</CreatedBy>
+	<CreationDate>2023-09-29T05:45:03.349</CreationDate>
+	<Notes/>
+	<Text>Ready for Production?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-97A2-C8A088BA41A7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

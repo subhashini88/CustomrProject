@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8FD4-E522F5C701A4">
+	<DocumentID>005056A2-27FA-A1EE-8FD4-E522F5C6C1A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8FD4-E522F5C6C1A4</Name>
+	<Description>For CSSC</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-20T12:58:18.636</CreationDate>
+	<Notes/>
+	<Text>For CSSC</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8FD4-E522F5C641A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

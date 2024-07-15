@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1ED-9293-BF2106D08194">
+	<DocumentID>005056A2-27FA-A1ED-9293-BF2106D04194</DocumentID>
+	<Name>CompReviewTaskCreationScheduler</Name>
+	<Description>CompReviewTaskCreationScheduler</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-10-12T17:53:37.15</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="CompReviewTaskCreationScheduler"
+			count="-1"
+			autodeploy="true"
+			targetLastModified="2022-10-12T17:26:39.377"
+			msgHolderLastModified="2022-10-17T15:37:34.516">
+			<datetime>
+				<daily>
+					<time>0:5</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1ED-9295-AE58C8FA4194">
+			<DocumentID>005056A2-27FA-A1ED-9295-AE58C8FA0194</DocumentID>
+			<Name>005056A2-27FA-A1ED-9295-AE58C8FA0194</Name>
+			<Description>005056A2-27FA-A1ED-9295-AE58C8FA0194</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2022-10-12T17:53:37.145</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1ED-8F66-7C677FE54194"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B580-0B797204417E">
+	<DocumentID>005056A2-27FA-A1EC-B580-0B797204017E</DocumentID>
+	<Name>005056A2-27FA-A1EC-B580-0B797204017E</Name>
+	<Description>InsertUWCaseActivityLog</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-05-17T16:42:29.139</CreationDate>
+	<Notes/>
+	<DefaultText>InsertUWCaseActivityLog</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-B580-0B797204817E"
+		/>
+	</Translations>
+</TextIdentifier>

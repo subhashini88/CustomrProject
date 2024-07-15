@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BE17-D085333F413F">
+	<DocumentID>005056A2-27FA-A1E8-BE17-D085333F013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BE17-D085333F013F</Name>
+	<Description>Decision is not none</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-12-05T07:55:19.805</CreationDate>
+	<Notes/>
+	<Text>Decision is not none</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BE17-D085333E813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A187-CA338840416B">
+	<DocumentID>005056A2-27FA-A1EB-A187-CA338840016B</DocumentID>
+	<Name>005056A2-27FA-A1EB-A187-CA338840016B</Name>
+	<Description>Change Records</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-03-16T07:59:59.124</CreationDate>
+	<Notes/>
+	<Text>Change Records</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A18B-63D7B4E2416B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

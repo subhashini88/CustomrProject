@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BDFE-5E765A608160">
+	<DocumentID>005056A2-27FA-A1EA-BDFE-5E765A604160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BDFE-5E765A604160</Name>
+	<Description>Alcohol Use</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T08:52:09.884</CreationDate>
+	<Notes/>
+	<DefaultText>Alcohol Use</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BDFE-5E765A60C160"
+		/>
+	</Translations>
+</TextIdentifier>

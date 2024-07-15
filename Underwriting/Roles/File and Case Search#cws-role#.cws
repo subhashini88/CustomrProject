@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1EC-A106-095525B6817A">
+	<DocumentID>005056A2-27FA-A1EC-A106-095525B6417A</DocumentID>
+	<Name>File and Case Search</Name>
+	<Description>File and Case Search</Description>
+	<CreatedBy>Abhishek</CreatedBy>
+	<CreationDate>2022-02-02T13:58:00.716</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1EC-A106-095525B4817A">
+			<DocumentID>005056A2-27FA-A1EC-A106-095525B4417A</DocumentID>
+			<Name>WIMS_LSP Sync details_005056A2-27FA-A1EC-A106-095525B4417A</Name>
+			<Description>WIMS_LSP Sync details_005056A2-27FA-A1EC-A106-095525B4417A</Description>
+			<CreatedBy>Abhishek</CreatedBy>
+			<CreationDate>2022-02-02T13:58:00.716</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1EC-9B85-856F1E234176"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+</RoleDesignTime>

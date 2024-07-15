@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B8D0-0B5D047D013D">
+	<DocumentID>005056A2-27FA-A1E8-B8D0-0B5D047CC13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B8D0-0B5D047CC13D</Name>
+	<Description>benefit_health_mePhase6</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-08T10:28:24.98</CreationDate>
+	<Notes/>
+	<Text>benefit_health_mePhase6</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B8D0-0B5D047C413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

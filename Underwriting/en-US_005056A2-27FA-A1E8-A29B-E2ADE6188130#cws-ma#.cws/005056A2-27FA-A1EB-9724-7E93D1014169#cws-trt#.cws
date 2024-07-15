@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9724-7E93D1018169">
+	<DocumentID>005056A2-27FA-A1EB-9724-7E93D1014169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9724-7E93D1014169</Name>
+	<Description>UpdateWKSEnrollmentCase</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-01-22T09:15:41.302</CreationDate>
+	<Notes/>
+	<Text>UpdateWKSEnrollmentCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9724-7E93D100C169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

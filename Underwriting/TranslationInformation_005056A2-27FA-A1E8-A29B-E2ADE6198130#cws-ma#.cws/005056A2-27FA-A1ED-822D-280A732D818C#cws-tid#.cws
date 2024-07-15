@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-822D-280A732DC18C">
+	<DocumentID>005056A2-27FA-A1ED-822D-280A732D818C</DocumentID>
+	<Name>005056A2-27FA-A1ED-822D-280A732D818C</Name>
+	<Description>ReopenProcessBPM</Description>
+	<CreatedBy>prakash</CreatedBy>
+	<CreationDate>2022-07-21T05:20:02.572</CreationDate>
+	<Notes/>
+	<DefaultText>ReopenProcessBPM</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-822D-280A732E018C"
+		/>
+	</Translations>
+</TextIdentifier>

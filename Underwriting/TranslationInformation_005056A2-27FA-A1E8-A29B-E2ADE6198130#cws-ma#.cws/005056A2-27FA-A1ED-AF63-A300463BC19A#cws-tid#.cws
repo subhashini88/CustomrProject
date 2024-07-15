@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AF63-A300463C019A">
+	<DocumentID>005056A2-27FA-A1ED-AF63-A300463BC19A</DocumentID>
+	<Name>005056A2-27FA-A1ED-AF63-A300463BC19A</Name>
+	<Description>SLNO</Description>
+	<CreatedBy>Karthikeyan</CreatedBy>
+	<CreationDate>2023-03-08T11:06:37.336</CreationDate>
+	<Notes/>
+	<DefaultText>SLNO</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-AF63-A300463C419A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-87BA-111696D7C19F">
+	<DocumentID>005056A2-27FA-A1EE-87BA-111696D7819F</DocumentID>
+	<Name>005056A2-27FA-A1EE-87BA-111696D7819F</Name>
+	<Description>SLA</Description>
+	<CreatedBy>chandrasekarpradeep</CreatedBy>
+	<CreationDate>2023-07-10T07:20:09.374</CreationDate>
+	<Notes/>
+	<Text>SLA</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-87BA-111696D7019F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

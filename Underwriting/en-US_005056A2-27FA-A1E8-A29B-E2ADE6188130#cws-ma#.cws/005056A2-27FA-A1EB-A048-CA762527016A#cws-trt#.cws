@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A048-CA762527416A">
+	<DocumentID>005056A2-27FA-A1EB-A048-CA762527016A</DocumentID>
+	<Name>005056A2-27FA-A1EB-A048-CA762527016A</Name>
+	<Description>Decision</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2021-03-09T22:48:23.189</CreationDate>
+	<Notes/>
+	<Text>Decision</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A048-CA762526816A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

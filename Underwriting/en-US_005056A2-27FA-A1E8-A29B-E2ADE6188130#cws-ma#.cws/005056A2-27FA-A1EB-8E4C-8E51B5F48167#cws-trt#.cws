@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8E4C-8E51B5F4C167">
+	<DocumentID>005056A2-27FA-A1EB-8E4C-8E51B5F48167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8E4C-8E51B5F48167</Name>
+	<Description>&lt;h4&gt;Conduct &quot;Ending Script&quot;?&lt;/h4&gt;&lt;p&gt;&lt;span style=&quot;font-size: small;&quot;&gt;Within the last 5 years...&lt;/span&gt;&lt;/p&gt;</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-12-08T08:53:19.216</CreationDate>
+	<Notes/>
+	<Text>&lt;h4&gt;Conduct &quot;Ending Script&quot;?&lt;/h4&gt;&lt;p&gt;&lt;span style=&quot;font-size: small;&quot;&gt;Within the last 5 years...&lt;/span&gt;&lt;/p&gt;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8E4C-8E51B5F40167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

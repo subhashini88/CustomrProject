@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-94D5-D6EED9BE4175">
+	<DocumentID>005056A2-27FA-A1EC-94D5-D6EED9BE0175</DocumentID>
+	<Name>005056A2-27FA-A1EC-94D5-D6EED9BE0175</Name>
+	<Description>AddBuisnessDays</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-12-02T10:13:17.053</CreationDate>
+	<Notes/>
+	<Text>AddBuisnessDays</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-94D5-D6EED9BD8175"
+		/>
+	</TextIdentifier>
+</TranslatedText>

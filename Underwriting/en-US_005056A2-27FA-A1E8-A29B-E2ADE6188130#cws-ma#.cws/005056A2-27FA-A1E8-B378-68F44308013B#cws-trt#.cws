@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B378-68F44308413B">
+	<DocumentID>005056A2-27FA-A1E8-B378-68F44308013B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B378-68F44308013B</Name>
+	<Description>Jet Issued Criteria</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-12T05:44:18.611</CreationDate>
+	<Notes/>
+	<Text>Jet Issued Criteria</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B378-68F44307813B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

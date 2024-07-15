@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B5E4-CC2BA0B4C17E">
+	<DocumentID>005056A2-27FA-A1EC-B5E4-CC2BA0B4817E</DocumentID>
+	<Name>005056A2-27FA-A1EC-B5E4-CC2BA0B4817E</Name>
+	<Description>UW Error Handling/UW Support</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-05-19T17:05:31.191</CreationDate>
+	<Notes/>
+	<Text>UW Error Handling/UW Support</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-B5E4-CC2BA0B4017E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

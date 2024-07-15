@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-BA67-64BE3355419D">
+	<DocumentID>005056A2-27FA-A1ED-BA67-64BE3355019D</DocumentID>
+	<Name>005056A2-27FA-A1ED-BA67-64BE3355019D</Name>
+	<Description>FirstBillNotification</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-05-03T10:31:49.43</CreationDate>
+	<Notes/>
+	<DefaultText>FirstBillNotification</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-BA67-64BE3355819D"
+		/>
+	</Translations>
+</TextIdentifier>

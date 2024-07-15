@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8FA6-5C51CF238168">
+	<DocumentID>005056A2-27FA-A1EB-8FA6-5C51CF234168</DocumentID>
+	<Name>005056A2-27FA-A1EB-8FA6-5C51CF234168</Name>
+	<Description>Plan ID Setup</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-12-15T05:56:02.429</CreationDate>
+	<Notes/>
+	<Text>Plan ID Setup</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8FA6-5C51CF22C168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

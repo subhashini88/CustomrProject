@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9886-8755D5D54169">
+	<DocumentID>005056A2-27FA-A1EB-9886-8755D5D50169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9886-8755D5D50169</Name>
+	<Description>Pre-UW
+  errors:</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-01-29T10:11:25.67</CreationDate>
+	<Notes/>
+	<Text>Pre-UW
+  errors:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9886-8755D5D48169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

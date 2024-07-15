@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-BD21-1E10D87A819E">
+	<DocumentID>005056A2-27FA-A1ED-BD21-1E10D87A419E</DocumentID>
+	<Name>005056A2-27FA-A1ED-BD21-1E10D87A419E</Name>
+	<Description>AEBOT_Batch</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-05-17T12:38:44.488</CreationDate>
+	<Notes/>
+	<DefaultText>AEBOT_Batch</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-BD21-1E10D87AC19E"
+		/>
+	</Translations>
+</TextIdentifier>

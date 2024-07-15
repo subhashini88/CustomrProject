@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-83EB-F114FB010172">
+	<DocumentID>005056A2-27FA-A1EC-83EB-F114FB00C172</DocumentID>
+	<Name>005056A2-27FA-A1EC-83EB-F114FB00C172</Name>
+	<Description>&lt;span style=&quot;color: rgb(255, 0, 0); font-weight: 700;&quot;&gt;ATTENTION: LETTER WILL NOT BE GENERATED, MANUAL LETTER WILL NEED TO BE PRODUCED, PLEASE VERIFY!&lt;/span&gt;</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2021-09-07T09:13:01.531</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;span style=&quot;color: rgb(255, 0, 0); font-weight: 700;&quot;&gt;ATTENTION: LETTER WILL NOT BE GENERATED, MANUAL LETTER WILL NEED TO BE PRODUCED, PLEASE VERIFY!&lt;/span&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-83EB-F114FB014172"
+		/>
+	</Translations>
+</TextIdentifier>

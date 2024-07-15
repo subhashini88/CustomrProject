@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9FB-DBE1008C413D">
+	<DocumentID>005056A2-27FA-A1E8-B9FB-DBE1008C013D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9FB-DBE1008C013D</Name>
+	<Description>Follow Up TImer Calculation</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-14T09:33:18.206</CreationDate>
+	<Notes/>
+	<Text>Follow Up TImer Calculation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B9FB-DBE1008B813D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

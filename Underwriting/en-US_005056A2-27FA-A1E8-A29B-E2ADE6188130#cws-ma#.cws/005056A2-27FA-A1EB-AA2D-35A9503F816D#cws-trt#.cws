@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-AA2D-35A9503FC16D">
+	<DocumentID>005056A2-27FA-A1EB-AA2D-35A9503F816D</DocumentID>
+	<Name>005056A2-27FA-A1EB-AA2D-35A9503F816D</Name>
+	<Description>Adjustor ID</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-04-29T06:59:25.494</CreationDate>
+	<Notes/>
+	<Text>Adjustor ID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-AA2D-35A9503F016D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

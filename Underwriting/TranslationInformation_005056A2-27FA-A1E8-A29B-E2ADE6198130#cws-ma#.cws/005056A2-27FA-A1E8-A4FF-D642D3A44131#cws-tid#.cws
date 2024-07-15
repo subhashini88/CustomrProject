@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A4FF-D642D3A48131">
+	<DocumentID>005056A2-27FA-A1E8-A4FF-D642D3A44131</DocumentID>
+	<Name>005056A2-27FA-A1E8-A4FF-D642D3A44131</Name>
+	<Description>Pending Requirement Hidden Fields</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-30T13:53:13.551</CreationDate>
+	<Notes/>
+	<DefaultText>Pending Requirement Hidden Fields</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-A4FF-D642D3A4C131"
+		/>
+	</Translations>
+</TextIdentifier>

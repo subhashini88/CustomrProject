@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BBC6-3FA1C013413F">
+	<DocumentID>005056A2-27FA-A1E8-BBC6-3FA1C013013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BBC6-3FA1C013013F</Name>
+	<Description>radio1_3</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-23T13:07:19.455</CreationDate>
+	<Notes/>
+	<Text>radio1_3</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BBC6-3FA1C012813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

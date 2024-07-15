@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8951-C20C802FC142">
+	<DocumentID>005056A2-27FA-A1E9-8951-C20C802F8142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8951-C20C802F8142</Name>
+	<Description>Receive Message - Precomplete</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-31T11:00:01.924</CreationDate>
+	<Notes/>
+	<Text>Receive Message - Precomplete</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8951-C20C802F0142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-82A7-CA808827818D">
+	<DocumentID>005056A2-27FA-A1ED-82A7-CA808827418D</DocumentID>
+	<Name>005056A2-27FA-A1ED-82A7-CA808827418D</Name>
+	<Description>Independent Sub-Process</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-23T15:56:56.596</CreationDate>
+	<Notes/>
+	<Text>Independent Sub-Process</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-82A7-CA808826C18D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

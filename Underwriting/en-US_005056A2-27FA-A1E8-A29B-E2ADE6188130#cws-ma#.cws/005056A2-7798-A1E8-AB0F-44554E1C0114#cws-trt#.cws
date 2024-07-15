@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AB0F-44554E1C4114">
+	<DocumentID>005056A2-7798-A1E8-AB0F-44554E1C0114</DocumentID>
+	<Name>005056A2-7798-A1E8-AB0F-44554E1C0114</Name>
+	<Description>Decisions:</Description>
+	<CreatedBy>Damodharan, Ramya</CreatedBy>
+	<CreationDate>2018-08-30T11:03:41.808</CreationDate>
+	<Notes/>
+	<Text>Decisions:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AB0F-44554E1B8114"
+		/>
+	</TextIdentifier>
+</TranslatedText>

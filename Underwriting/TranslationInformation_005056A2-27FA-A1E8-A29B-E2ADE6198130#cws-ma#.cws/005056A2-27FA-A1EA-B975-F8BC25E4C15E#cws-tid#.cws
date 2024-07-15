@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B975-F8BC25E5015E">
+	<DocumentID>005056A2-27FA-A1EA-B975-F8BC25E4C15E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B975-F8BC25E4C15E</Name>
+	<Description>Has any proposed insured ever been treated for or diagnosed with Acquired Immune Deficiency Syndrome or &quot;AIDS&quot; Related complex or ever tested positive for antigens or antibodies to an &quot;AIDS&quot; virus?</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T07:33:27.591</CreationDate>
+	<Notes/>
+	<DefaultText>Has any proposed insured ever been treated for or diagnosed with Acquired Immune Deficiency Syndrome or &quot;AIDS&quot; Related complex or ever tested positive for antigens or antibodies to an &quot;AIDS&quot; virus?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-B975-F8BC25E5415E"
+		/>
+	</Translations>
+</TextIdentifier>

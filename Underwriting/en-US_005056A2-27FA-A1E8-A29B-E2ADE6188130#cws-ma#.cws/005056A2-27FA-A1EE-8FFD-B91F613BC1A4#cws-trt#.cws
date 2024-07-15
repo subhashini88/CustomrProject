@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8FFD-B91F613C01A4">
+	<DocumentID>005056A2-27FA-A1EE-8FFD-B91F613BC1A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8FFD-B91F613BC1A4</Name>
+	<Description>CheckUSCanadaPolicy</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-21T11:56:43.986</CreationDate>
+	<Notes/>
+	<Text>CheckUSCanadaPolicy</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8FFD-B91F613B41A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB8A-4E918274813F">
+	<DocumentID>005056A2-27FA-A1E8-BB8A-4E918274413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB8A-4E918274413F</Name>
+	<Description>refund_check_mail_date</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T07:41:05.159</CreationDate>
+	<Notes/>
+	<Text>refund_check_mail_date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB8A-4E918273C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

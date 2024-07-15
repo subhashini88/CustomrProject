@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B08F-BA09B342013B">
+	<DocumentID>005056A2-27FA-A1E8-B08F-BA09B341C13B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B08F-BA09B341C13B</Name>
+	<Description>vor_MultipleLapse</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-27T10:22:37.865</CreationDate>
+	<Notes/>
+	<Text>vor_MultipleLapse</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B08F-BA09B341413B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

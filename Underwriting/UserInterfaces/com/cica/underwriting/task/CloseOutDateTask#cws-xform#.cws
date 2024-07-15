@@ -1,0 +1,1537 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1E9-90FB-5A8EBF2B0144">
+	<DocumentID>005056A2-27FA-A1E9-90FB-5A8EBF2AC144</DocumentID>
+	<Name>CloseOutDateTask</Name>
+	<Description>CloseOutDateTask</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-03-12T06:49:31.74</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<style
+					src="com/cica/uw/styles/UW_Demo_CaseScreen.css"
+					documentID="005056B1-D319-A1EE-9E13-477DCEEF4E82"
+				/>
+				<script
+					src="com/cica/uw/scripts/TimeManagement.js"
+					documentID="005056B1-D319-A1EE-9E13-477DCF2ACE82"
+				/>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetUnderwritingObjectForTaskIdModel"
+					wcpforms:businessElement="ns1:tbl_underwriting"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/uw/dataservices/1.0/GetUnderwritingObjectForTaskId"
+							operationName="GetUnderwritingObjectForTaskId"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1E8-A56E-6449450B4132">
+							<TaskId
+								xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="ns1">http://schemas.cordys.com/dataservices/uw/1.0</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="getAuditDetailsforTaskbyUserIDModel"
+					wcpforms:businessElement="tns:TIMER"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/uw/dataservices/1.0/getAuditDetailsforTaskbyUserID"
+							operationName="getAuditDetailsforTaskbyUserID"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EA-B2C6-CB6AD626015D">
+							<USER_ID
+								xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+							/>
+							<CaseInstId
+								xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="UpdateTimerModel"
+					wcpforms:businessElement="tns:TIMER"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/uw/dataservices/1.0/UpdateTimer"
+							operationName="UpdateTimer"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EA-B2C6-7C84C588015D">
+							<tuple
+								xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						id="insertTaskTimer">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<UpdateTimer
+									xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+									reply="yes"
+									commandUpdate="no"
+									preserveSpace="no"
+									batchUpdate="no">
+									<tuple>
+										<new>
+											<TIMER
+												qAccess="0"
+												qConstraint="0"
+												qInit="0"
+												qValues="">
+												<TASK_ID/>
+												<SESSION_ID/>
+												<ACTION/>
+												<USER_ID/>
+												<TASK_NAME/>
+												<PROCESS_NAME/>
+												<START_TIME/>
+												<END_TIME/>
+												<CASE_INST_ID/>
+												<ASSIGNEE/>
+												<WINDOW_ID/>
+											</TIMER>
+										</new>
+									</tuple>
+								</UpdateTimer>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+					<xml
+						id="updateTaskTimer">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<UpdateTimer
+									xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+									reply="yes"
+									commandUpdate="no"
+									preserveSpace="no"
+									batchUpdate="no">
+									<tuple>
+										<old>
+											<TIMER
+												qConstraint="0">
+												<TASK_ID/>
+												<SESSION_ID/>
+											</TIMER>
+										</old>
+										<new>
+											<TIMER
+												qAccess="0"
+												qConstraint="0"
+												qInit="0"
+												qValues="">
+												<ACTION/>
+												<END_TIME/>
+											</TIMER>
+										</new>
+									</tuple>
+								</UpdateTimer>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:output
+						xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+						id="appNumber"
+						doEBIValidate="false"
+						wcpforms:class="v_layout"
+						wcpforms:size="20% 30.3516px"
+						ref="ns1:policy_number"
+						model="GetUnderwritingObjectForTaskIdModel"
+						wcpforms:dataType="string"
+						wcpforms:textalign="left_align">
+						<xforms:label
+							textIdentifier="005056A2-27FA-A1E8-A500-2B3006F04131"
+							wcpforms:class="v_label">Application Number</xforms:label>
+					</xforms:output>
+					<xforms:output
+						xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+						id="closeOutDate"
+						doEBIValidate="false"
+						wcpforms:class="v_layout"
+						wcpforms:size="20% 30.3516px"
+						wcpforms:hasNoTime="true"
+						ref="ns1:CloseOutDate"
+						model="GetUnderwritingObjectForTaskIdModel"
+						wcpforms:dataType="date"
+						wcpforms:textalign="right_align"
+						wcpforms:displayformat="MM/DD/YYYY"
+						wcpforms:required="false">
+						<xforms:label
+							textIdentifier="005056A2-27FA-A1E9-9124-BDF099B84144"
+							wcpforms:class="v_label">Close Out Date:</xforms:label>
+					</xforms:output>
+					<xforms:label
+						appearance="richtext"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRichtext"
+						id="richTextBox"
+						textIdentifier="005056A2-27FA-A1E9-9124-BDF099B30144"
+						wcpforms:class="v_layout"
+						wcpforms:size="null auto">
+						<![CDATA[<h1><span  style='font-weight:bold;font-size: medium;;color: #ff320f;;font-family: arial black, gadget, sans-serif ;'  >The Closeout date was reached for this policy and hence process the decision as closed incomplete.</span></h1>]]>
+					</xforms:label>
+					<xforms:group
+						appearance="box"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+						id="worklist_details"
+						isNavigationEnabled="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="828px 450px"
+						wcpforms:labelalign="ontop">
+						<xforms:label
+							textIdentifier="005056A2-27FA-A1E8-9B5A-96760F984124"
+							wcpforms:class="groupheader">Worklist Details</xforms:label>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="ApplicationNumber"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-A500-2B3006F04131"
+								wcpforms:class="v_label">Application Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="ApplicantName"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-7798-A1E8-AC42-2C3B7612811E"
+								wcpforms:class="v_label">Applicant Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="PolicySeverity"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E9-88B0-70FF96428142"
+								wcpforms:class="v_label">Level 2/3 Severity</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="IssueState"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E9-88AD-B266168A4142"
+								wcpforms:class="v_label">Issue State</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="ProductType"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-7798-A1E8-AC42-2C3B760D811E"
+								wcpforms:class="v_label">Product Type</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="CreationDate"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-7798-A1E8-ABDE-32192D750117"
+								wcpforms:class="v_label">Creation Date</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="PreferredLanguage"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-A45F-6D0A493AC131"
+								wcpforms:class="v_label">Preferred Language</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="MultipleLapser"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E8-B08A-E31607AA413B"
+								wcpforms:class="v_label">Multiple Lapser</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="AssignedDate"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E9-8BAA-8D0914C88142"
+								wcpforms:class="v_label">Assigned Date</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="HCH"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E9-88B0-B383C594C142"
+								wcpforms:class="v_label">HCH</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="PriorityOrPreference"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1E9-8E6F-D889C680C144"
+								wcpforms:class="v_label">Priority / Preference</xforms:label>
+						</xforms:output>
+					</xforms:group>
+					<xforms:group
+						appearance="box"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+						id="hidden_values_groupbox"
+						isNavigationEnabled="true"
+						wcpforms:customclass="autoextent"
+						model="GetCaseDataForCaseIDModel"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="1234px 465px"
+						wcpforms:labelalign="ontop">
+						<xforms:label
+							textIdentifier="005056A2-7798-A1E8-A943-E6990B0D4113"
+							wcpforms:class="groupheader">Hidden Values Groupbox</xforms:label>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opAgentCode"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B838E83"
+								wcpforms:class="v_label">
+  Agent
+  Code</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opBatchNumber"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B818E83"
+								wcpforms:class="v_label">
+  Batch
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseClosedBy"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B7F8E83"
+								wcpforms:class="v_label">
+  Case
+  Closed By</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseHandlingType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B7D8E83"
+								wcpforms:class="v_label">
+  Case
+  Handling Type</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseId"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px"
+							model="GetCaseDataForCaseIDModel"
+							wcpforms:textalign="left_align">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B7C0E83"
+								wcpforms:class="v_label">
+  Case ID</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseTitle"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B7A0E83"
+								wcpforms:class="v_label">
+  Case
+  Title</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseStatus"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B788E83"
+								wcpforms:class="v_label">
+  Case
+  Status</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opApplicationNumber"
+							doEBIValidate="false"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B768E83"
+								wcpforms:class="v_label">
+  Application
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opChubbEmployee"
+							doEBIValidate="false"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B748E83"
+								wcpforms:class="v_label">
+  Chubb
+  Employee</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opClaimNumber"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30.92% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B730E83"
+								wcpforms:class="v_label">
+  Claim
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:input
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="opClaimType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B710E83"
+								wcpforms:class="v_label">
+  Claim
+  Type</xforms:label>
+						</xforms:input>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opClosedDate"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCACDCE83"
+								wcpforms:class="v_label">
+  Closed
+  Date</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCompanyCodeOrLob"
+							doEBIValidate="false"
+							model="GetCaseDataForCaseIDModel"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCACBCE83"
+								wcpforms:class="v_label">
+  Company  Code/LOB</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opComplexity"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC9CE83"
+								wcpforms:class="v_label">
+  Complexity</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCustomerId"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC7CE83"
+								wcpforms:class="v_label">
+  Customer
+  ID</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCustomerName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC5CE83"
+								wcpforms:class="v_label">
+  Customer
+  Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opFormInputData"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC3CE83"
+								wcpforms:class="v_label">
+  Form
+  Input Data</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opFreeFormControls"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC1CE83"
+								wcpforms:class="v_label">
+  Free
+  Form Controls</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opFullName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCABFCE83"
+								wcpforms:class="v_label">
+  Full
+  Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opGroupName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCABDCE83"
+								wcpforms:class="v_label">
+  Group
+  Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opGroupNumber"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCABBCE83"
+								wcpforms:class="v_label">
+  Group
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opLanguagePreference"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAB9CE83"
+								wcpforms:class="v_label">
+  Language
+  Preference</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opLastNameOrFirstName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAB7CE83"
+								wcpforms:class="v_label">
+  Last
+  Name/First Name</xforms:label>
+						</xforms:output>
+						<xforms:input
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="opManagerCode"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB002B8E83"
+								wcpforms:class="v_label">
+  Manager
+  Code</xforms:label>
+						</xforms:input>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opMasterAppID"
+							doEBIValidate="false"
+							wcpforms:required="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00298E83"
+								wcpforms:class="v_label">
+  Master
+  App ID</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opPolicyNo"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00278E83"
+								wcpforms:class="v_label">
+  Policy
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opProduct"
+							doEBIValidate="false"
+							wcpforms:required="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00258E83"
+								wcpforms:class="v_label">
+  Product</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opSource"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00238E83"
+								wcpforms:class="v_label">
+  Source</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opSpecialHandlingCode"
+							doEBIValidate="false"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00218E83"
+								wcpforms:class="v_label">
+  Special
+  Handling Code</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opStateName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB001E8E83"
+								wcpforms:class="v_label">
+  State
+  Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opStateOrProvince"
+							doEBIValidate="false"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB001C8E83"
+								wcpforms:class="v_label">
+  State/Province</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opSubActivity"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB001A8E83"
+								wcpforms:class="v_label">
+  Sub
+  Activity</xforms:label>
+						</xforms:output>
+						<xforms:input
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="opTaskType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00188E83"
+								wcpforms:class="v_label">
+  Task
+  Type</xforms:label>
+						</xforms:input>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opTemporaryClaimNumber"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00170E83"
+								wcpforms:class="v_label">
+  Temporary
+  Claim Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opServiceType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00150E83"
+								wcpforms:class="v_label">
+  Service
+  Type</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opStatus"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00138E83"
+								wcpforms:class="v_label">
+  Status</xforms:label>
+						</xforms:output>
+						<xforms:input
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="opSubType"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-B12F7E4C8E83"
+								wcpforms:class="v_label">
+  Sub Type</xforms:label>
+						</xforms:input>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opInsuredName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-B12F7E4A8E83"
+								wcpforms:class="v_label">
+  
+  
+   
+    Insured
+    Name
+   
+  
+  </xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opActivityType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="null 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-B12F7E490E83"
+								wcpforms:class="v_label">
+  Activity
+  Type</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opDueDate"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 30.3516px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-B12F7E478E83"
+								wcpforms:class="v_label">
+  Due Date</xforms:label>
+						</xforms:output>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[// sprint 4.2 - UWOT -2168 - This is a new screen designed for this user story
+
+var caseinstanceId;
+var TaskTimer = "N";	
+function Form_InitDone(eventObject)
+{
+if (Workflow.isActionPossible("START")) {
+            Workflow.startTask()
+        }
+    worklist_details.hide();
+    worklistTaskIdentifiersGroupbox.hide();
+    caseinstanceId = Workflow.getCaseInstanceId();
+    getUnderwritingData();
+}
+
+
+function getUnderwritingData()
+{
+    var request = GetUnderwritingObjectForTaskIdModel.getMethodRequest();
+    cordys.setNodeText(request,".//*[local-name()='TaskId']",caseinstanceId);
+    GetUnderwritingObjectForTaskIdModel.setMethodRequest(request);
+    GetUnderwritingObjectForTaskIdModel.reset();
+    GetUnderwritingObjectForTaskIdModel.refreshAllViews();
+}    
+function Form_BeforeClose(eventObject)
+{
+if (TaskTimer == "N") {
+    if (Workflow.isActionPossible("STOP")) {
+            Workflow.stopTask();
+        }
+    }	
+    if(window.parent.taskModel!=undefined)
+        unloadFunction_TM();
+}
+function Form_Init(eventObject)
+{
+    if(window.parent.taskModel!=undefined)
+        Init_TM();
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+			<xforms:action
+				ev:event="xforms-before-close">
+				<xforms:Form_BeforeClose/>
+			</xforms:action>
+			<xforms:action
+				ev:event="xforms-init">
+				<xforms:Form_Init/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>CloseOutDateTask</taskDescription>
+	<taskName>CloseOutDateTask</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FE40E88"
+			path="Underwriting/Web/com/cica/uw/scripts/TimeManagement.js"
+			type="com.cordys.cws.documenttypes.javascript.Javascript"
+		/>
+	</Javascripts>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FB30E88"
+			path="Underwriting/Web/com/cica/uw/styles/UW_Demo_CaseScreen.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+	</StyleSheets>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099BD8144">
+			<DocumentID>005056A2-27FA-A1E9-9124-BDF099BD4144</DocumentID>
+			<Name>005056A2-27FA-A1E9-9124-BDF099BD4144</Name>
+			<Description>005056A2-27FA-A1E9-9124-BDF099BD4144</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-03-12T06:49:31.74</CreationDate>
+			<Notes/>
+			<DeveloperText>CloseOutDateTask</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1E9-9124-BDF099BDC144"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099B78144">
+			<DocumentID>005056A2-27FA-A1E9-9124-BDF099B74144</DocumentID>
+			<Name>005056A2-27FA-A1E9-9124-BDF099B74144</Name>
+			<Description>005056A2-27FA-A1E9-9124-BDF099B74144</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-03-12T06:56:17.013</CreationDate>
+			<Notes/>
+			<UIRef>closeOutDate</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099B80144">
+					<DocumentID>005056A2-27FA-A1E9-9124-BDF099B7C144</DocumentID>
+					<Name>005056A2-27FA-A1E9-9124-BDF099B7C144</Name>
+					<Description>005056A2-27FA-A1E9-9124-BDF099B7C144</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2019-03-12T06:56:17.014</CreationDate>
+					<Notes/>
+					<DeveloperText>Close Out Date:</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E9-9124-BDF099B84144"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E9-90FB-5A8EBF2AC144"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099B24144">
+			<DocumentID>005056A2-27FA-A1E9-9124-BDF099B20144</DocumentID>
+			<Name>005056A2-27FA-A1E9-9124-BDF099B20144</Name>
+			<Description>005056A2-27FA-A1E9-9124-BDF099B20144</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-03-12T06:58:19.189</CreationDate>
+			<Notes/>
+			<UIRef>richTextBox</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099B2C144">
+					<DocumentID>005056A2-27FA-A1E9-9124-BDF099B28144</DocumentID>
+					<Name>005056A2-27FA-A1E9-9124-BDF099B28144</Name>
+					<Description>005056A2-27FA-A1E9-9124-BDF099B28144</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2019-03-12T06:58:19.188</CreationDate>
+					<Notes/>
+					<DeveloperText>&lt;h1&gt;&lt;span  style='font-weight:bold;font-size: medium;;color: #ff320f;;font-family: arial black, gadget, sans-serif ;'  &gt;The Closeout date was reached for this policy and hence process the decision as closed incomplete.&lt;/span&gt;&lt;/h1&gt;</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E9-9124-BDF099B30144"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1E9-90FB-5A8EBF2AC144"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1E8-A56E-6449450B4132"
+		/>
+		<uri
+			id="005056A2-27FA-A1EA-B2C6-CB6AD626015D"
+		/>
+		<uri
+			id="005056A2-27FA-A1EA-B2C6-7C84C588015D"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels>
+		<WorkFlowDeliveryModel
+			type="com.cordys.workflow.modeler.WorkFlowDeliveryModel"
+			typeVersion="00215A63-1E4E-11E1-E0AC-59F75AE29B35"
+			RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099AE8144">
+			<DocumentID>005056A2-27FA-A1E9-9124-BDF099AE4144</DocumentID>
+			<Name>CloseOutDateDefaultDeliveryModel</Name>
+			<Description>CloseOutDateDefaultDeliveryModel</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-03-12T07:07:33.3</CreationDate>
+			<Notes/>
+			<IsLegacy>false</IsLegacy>
+			<OperationName></OperationName>
+			<Task_Identifiers/>
+			<messagePartDetails>
+				<MessagePartDetails
+					type="com.cordys.task.MessagePartDetails"
+					RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099AD4144">
+					<DocumentID>005056A2-27FA-A1E9-9124-BDF099AD0144</DocumentID>
+					<Name>005056A2-27FA-A1E9-9124-BDF099AD0144</Name>
+					<Description>CloseOutDate</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2019-03-12T07:07:33.301</CreationDate>
+					<Notes/>
+					<byRef>false</byRef>
+					<messagePart>
+						<uri
+							id="005056A2-27FA-A1E9-9124-BDF099BBC144"
+						/>
+					</messagePart>
+				</MessagePartDetails>
+			</messagePartDetails>
+			<notfBackwardCompatibility/>
+			<taskAbstract>
+				<InboxModel
+					type="com.cordys.notification.inbox.InboxModel"
+					RuntimeDocumentID="005056A2-27FA-A1E9-999D-A64769394146">
+					<DocumentID>005056A2-27FA-A1E9-999D-A64769390146</DocumentID>
+					<Name>Inbox Model</Name>
+					<Description>Inbox Model</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2019-04-24T09:53:43.407</CreationDate>
+					<Notes/>
+					<ModelContent>
+						<InboxModel
+							xmlns="http://schemas.cordys.com/1.0/notification"
+							name="Inbox Model"
+							subject=""
+							description="Inbox Model"
+							messagemetadata="false"
+							flowmetadata="false">
+							<grid>
+								<columns>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification"
+										_xgrid_rowDataId="1">
+										<state/>
+										<title>Full Name</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opFullName</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification"
+										_xgrid_rowDataId="2">
+										<state/>
+										<title>Language Preference</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opLanguagePreference</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification"
+										_xgrid_rowDataId="7">
+										<state/>
+										<title>Case Title</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opCaseTitle</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Policy Number</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opPolicyNo</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Complexity</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opComplexity</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Claim Number</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opClaimNumber</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>State Name</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opStateName</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Special Handling Code</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opSpecialHandlingCode</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Group Name</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opGroupName</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Case ID</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opCaseId</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Product</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opProduct</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Company Code/LOB</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opCompanyCodeOrLob</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Group Number</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opGroupNumber</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Batch Number</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opBatchNumber</xpath>
+										<dataType>STRING</dataType>
+									</column>
+								</columns>
+							</grid>
+							<namespace_xml>
+								<namespaces>
+									<namespace>
+										<namespaceprefix>proc</namespaceprefix>
+										<namespaceurl>http://schemas.cordys.com/1.0/xforms/processapi</namespaceurl>
+									</namespace>
+								</namespaces>
+							</namespace_xml>
+							<proc:forminputdata
+								xmlns:proc="http://schemas.cordys.com/1.0/xforms/processapi">
+								<proc:freeformcontrols>
+									<proc:richTextBox/>
+									<proc:ApplicationNumber
+										display_name="Application Number"
+									/>
+									<proc:ApplicantName
+										display_name="Applicant Name"
+									/>
+									<proc:PolicySeverity
+										display_name="Level 2/3 Severity"
+									/>
+									<proc:IssueState
+										display_name="Issue State"
+									/>
+									<proc:ProductType
+										display_name="Product Type"
+									/>
+									<proc:CreationDate
+										display_name="Creation Date"
+									/>
+									<proc:PreferredLanguage
+										display_name="Preferred Language"
+									/>
+									<proc:MultipleLapser
+										display_name="Multiple Lapser"
+									/>
+									<proc:AssignedDate
+										display_name="Assigned Date"
+									/>
+									<proc:HCH
+										display_name="HCH"
+									/>
+									<proc:PriorityOrPreference
+										display_name="Priority / Preference"
+									/>
+									<proc:opAgentCode
+										display_name="   Agent   Code"
+									/>
+									<proc:opBatchNumber
+										display_name="   Batch   Number"
+									/>
+									<proc:opCaseClosedBy
+										display_name="   Case   Closed By"
+									/>
+									<proc:opCaseHandlingType
+										display_name="   Case   Handling Type"
+									/>
+									<proc:opCaseId
+										display_name="   Case ID"
+									/>
+									<proc:opCaseTitle
+										display_name="   Case   Title"
+									/>
+									<proc:opCaseStatus
+										display_name="   Case   Status"
+									/>
+									<proc:opApplicationNumber
+										display_name="   Application   Number"
+									/>
+									<proc:opChubbEmployee
+										display_name="   Chubb   Employee"
+									/>
+									<proc:opClaimNumber
+										display_name="   Claim   Number"
+									/>
+									<proc:opClaimType
+										display_name="   Claim   Type"
+									/>
+									<proc:opClosedDate
+										display_name="   Closed   Date"
+									/>
+									<proc:opCompanyCodeOrLob
+										display_name="   Company  Code/LOB"
+									/>
+									<proc:opComplexity
+										display_name="   Complexity"
+									/>
+									<proc:opCustomerId
+										display_name="   Customer   ID"
+									/>
+									<proc:opCustomerName
+										display_name="   Customer   Name"
+									/>
+									<proc:opFormInputData
+										display_name="   Form   Input Data"
+									/>
+									<proc:opFreeFormControls
+										display_name="   Free   Form Controls"
+									/>
+									<proc:opFullName
+										display_name="   Full   Name"
+									/>
+									<proc:opGroupName
+										display_name="   Group   Name"
+									/>
+									<proc:opGroupNumber
+										display_name="   Group   Number"
+									/>
+									<proc:opLanguagePreference
+										display_name="   Language   Preference"
+									/>
+									<proc:opLastNameOrFirstName
+										display_name="   Last   Name/First Name"
+									/>
+									<proc:opManagerCode
+										display_name="   Manager   Code"
+									/>
+									<proc:opMasterAppID
+										display_name="   Master   App ID"
+									/>
+									<proc:opPolicyNo
+										display_name="   Policy   Number"
+									/>
+									<proc:opProduct
+										display_name="   Product"
+									/>
+									<proc:opSource
+										display_name="   Source"
+									/>
+									<proc:opSpecialHandlingCode
+										display_name="   Special   Handling Code"
+									/>
+									<proc:opStateName
+										display_name="   State   Name"
+									/>
+									<proc:opStateOrProvince
+										display_name="   State/Province"
+									/>
+									<proc:opSubActivity
+										display_name="   Sub   Activity"
+									/>
+									<proc:opTaskType
+										display_name="   Task   Type"
+									/>
+									<proc:opTemporaryClaimNumber
+										display_name="   Temporary   Claim Number"
+									/>
+									<proc:opServiceType
+										display_name="   Service   Type"
+									/>
+									<proc:opStatus
+										display_name="   Status"
+									/>
+									<proc:opSubType
+										display_name="   Sub Type"
+									/>
+									<proc:opInsuredName
+										display_name="               Insured     Name          "
+									/>
+									<proc:opActivityType
+										display_name="   Activity   Type"
+									/>
+									<proc:opDueDate
+										display_name="   Due Date"
+									/>
+								</proc:freeformcontrols>
+							</proc:forminputdata>
+						</InboxModel>
+					</ModelContent>
+					<workflowDeliveryModel>
+						<uri
+							id="005056A2-27FA-A1E9-9124-BDF099AE4144"
+						/>
+					</workflowDeliveryModel>
+				</InboxModel>
+			</taskAbstract>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1E9-90FB-5A8EBF2AC144"
+				/>
+			</uiTask>
+		</WorkFlowDeliveryModel>
+	</deliveryModels>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099BC0144">
+			<DocumentID>005056A2-27FA-A1E9-9124-BDF099BBC144</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-03-12T06:51:07.408</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1E9-9124-BDF099B04144">
+			<DocumentID>005056A2-27FA-A1E9-9124-BDF099B00144</DocumentID>
+			<Name>GetUnderwritingObjectForTaskIdModel</Name>
+			<Description>GetUnderwritingObjectForTaskIdModel</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-03-12T07:02:57.571</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/uw/dataservices/1.0</namespace>
+			<operationName>GetUnderwritingObjectForTaskId</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-B6E5-E6FEDC09415D">
+			<DocumentID>005056A2-27FA-A1EA-B6E5-E6FEDC09015D</DocumentID>
+			<Name>getAuditDetailsforTaskbyUserIDModel</Name>
+			<Description>getAuditDetailsforTaskbyUserIDModel</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-08-11T06:10:12.614</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/uw/dataservices/1.0</namespace>
+			<operationName>getAuditDetailsforTaskbyUserID</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EA-B6E5-E6FEDC08C15D">
+			<DocumentID>005056A2-27FA-A1EA-B6E5-E6FEDC08815D</DocumentID>
+			<Name>UpdateTimerModel</Name>
+			<Description>UpdateTimerModel</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-08-11T06:10:12.614</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/uw/dataservices/1.0</namespace>
+			<operationName>UpdateTimer</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

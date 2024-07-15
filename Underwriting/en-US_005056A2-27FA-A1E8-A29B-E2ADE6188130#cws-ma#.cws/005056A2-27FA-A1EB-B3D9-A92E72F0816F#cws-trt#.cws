@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B3D9-A92E72F0C16F">
+	<DocumentID>005056A2-27FA-A1EB-B3D9-A92E72F0816F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B3D9-A92E72F0816F</Name>
+	<Description>UnderwritingPlanActivity US Non Vendor</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-17T12:22:14.845</CreationDate>
+	<Notes/>
+	<Text>UnderwritingPlanActivity US Non Vendor</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B3D9-A92E72F0016F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

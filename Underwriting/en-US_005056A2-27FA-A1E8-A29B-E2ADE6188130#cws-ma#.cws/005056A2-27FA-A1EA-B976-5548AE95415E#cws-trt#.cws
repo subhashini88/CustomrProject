@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B976-5548AE95815E">
+	<DocumentID>005056A2-27FA-A1EA-B976-5548AE95415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B976-5548AE95415E</Name>
+	<Description>Has any proposed insured been hospitalized or treated in the emergency room for a sickness in the past six months?</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T07:33:27.62</CreationDate>
+	<Notes/>
+	<Text>Has any proposed insured been hospitalized or treated in the emergency room for a sickness in the past six months?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B976-5548AE94C15E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

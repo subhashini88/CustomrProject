@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA62-26AA0EA7813E">
+	<DocumentID>005056A2-27FA-A1E8-BA62-26AA0EA7413E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA62-26AA0EA7413E</Name>
+	<Description>mail_addr_flag</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-16T10:23:00.367</CreationDate>
+	<Notes/>
+	<Text>mail_addr_flag</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BA62-26AA0EA6C13E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

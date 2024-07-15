@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8E32-5796631CC193">
+	<DocumentID>005056A2-27FA-A1ED-8E32-5796631C8193</DocumentID>
+	<Name>005056A2-27FA-A1ED-8E32-5796631C8193</Name>
+	<Description>Agent Code 1</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-09-20T09:51:25.182</CreationDate>
+	<Notes/>
+	<DefaultText>Agent Code 1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-8E32-5796631D0193"
+		/>
+	</Translations>
+</TextIdentifier>

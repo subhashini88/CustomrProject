@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-96EF-B4BD5FB3C169">
+	<DocumentID>005056A2-27FA-A1EB-96EF-B4BD5FB38169</DocumentID>
+	<Name>005056A2-27FA-A1EB-96EF-B4BD5FB38169</Name>
+	<Description>Spl. Handling</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2021-01-21T08:07:47.003</CreationDate>
+	<Notes/>
+	<Text>Spl. Handling</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-96EF-B4BD5FB30169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

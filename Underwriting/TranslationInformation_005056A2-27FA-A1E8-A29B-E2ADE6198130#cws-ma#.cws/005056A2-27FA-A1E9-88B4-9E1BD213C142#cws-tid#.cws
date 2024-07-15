@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-88B4-9E1BD2140142">
+	<DocumentID>005056A2-27FA-A1E9-88B4-9E1BD213C142</DocumentID>
+	<Name>005056A2-27FA-A1E9-88B4-9E1BD213C142</Name>
+	<Description>UpdateTbl_underwriting RAPS2</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-28T08:17:35.598</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateTbl_underwriting RAPS2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-88B4-9E1BD2144142"
+		/>
+	</Translations>
+</TextIdentifier>

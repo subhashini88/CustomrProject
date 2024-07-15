@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A2DF-3EC3811D0147">
+	<DocumentID>005056A2-27FA-A1E9-A2DF-3EC3811CC147</DocumentID>
+	<Name>005056A2-27FA-A1E9-A2DF-3EC3811CC147</Name>
+	<Description>Application Completion Errors/Agent Memos/Other/Endorsement</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-11T08:26:30.508</CreationDate>
+	<Notes/>
+	<DefaultText>Application Completion Errors/Agent Memos/Other/Endorsement</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-A2DF-3EC3811D4147"
+		/>
+	</Translations>
+</TextIdentifier>

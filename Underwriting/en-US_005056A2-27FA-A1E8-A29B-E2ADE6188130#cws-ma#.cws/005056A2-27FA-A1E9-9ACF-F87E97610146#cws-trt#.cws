@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9ACF-F87E97614146">
+	<DocumentID>005056A2-27FA-A1E9-9ACF-F87E97610146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9ACF-F87E97610146</Name>
+	<Description>US/CAN</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2019-04-30T12:04:30.47</CreationDate>
+	<Notes/>
+	<Text>US/CAN</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9ACF-F87E97608146"
+		/>
+	</TextIdentifier>
+</TranslatedText>

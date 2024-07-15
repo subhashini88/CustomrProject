@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-ABD8-E35ACB768117">
+	<DocumentID>005056A2-7798-A1E8-ABD8-E35ACB764117</DocumentID>
+	<Name>005056A2-7798-A1E8-ABD8-E35ACB764117</Name>
+	<Description>Annual Premium</Description>
+	<CreatedBy>Ramamurthy, Abirama Sundari</CreatedBy>
+	<CreationDate>2018-09-03T12:55:26.12</CreationDate>
+	<Notes/>
+	<Text>Annual Premium</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-ABD8-E35ACB75C117"
+		/>
+	</TextIdentifier>
+</TranslatedText>

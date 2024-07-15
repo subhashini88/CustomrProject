@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-839C-F8E2C65EC141">
+	<DocumentID>005056A2-27FA-A1E9-839C-F8E2C65E8141</DocumentID>
+	<Name>005056A2-27FA-A1E9-839C-F8E2C65E8141</Name>
+	<Description>cdt_TaskType</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2019-01-02T10:10:50.217</CreationDate>
+	<Notes/>
+	<DefaultText>cdt_TaskType</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-839C-F8E2C65F0141"
+		/>
+	</Translations>
+</TextIdentifier>

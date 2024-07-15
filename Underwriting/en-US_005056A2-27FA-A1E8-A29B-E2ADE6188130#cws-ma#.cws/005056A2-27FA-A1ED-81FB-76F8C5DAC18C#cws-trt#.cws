@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-81FB-76F8C5DB018C">
+	<DocumentID>005056A2-27FA-A1ED-81FB-76F8C5DAC18C</DocumentID>
+	<Name>005056A2-27FA-A1ED-81FB-76F8C5DAC18C</Name>
+	<Description>GetLSPAlpha</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2022-07-20T05:42:16.491</CreationDate>
+	<Notes/>
+	<Text>GetLSPAlpha</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-81FB-76F8C5DA418C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B44F-A7E8DA3BC13D">
+	<DocumentID>005056A2-27FA-A1E8-B44F-A7E8DA3B813D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B44F-A7E8DA3B813D</Name>
+	<Description>Worksheet:</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-16T12:31:09.423</CreationDate>
+	<Notes/>
+	<Text>Worksheet:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B44F-A7E8DA3B013D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

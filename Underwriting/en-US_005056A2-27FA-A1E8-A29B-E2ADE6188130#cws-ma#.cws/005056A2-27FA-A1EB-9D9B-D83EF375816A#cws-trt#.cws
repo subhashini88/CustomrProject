@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9D9B-D83EF375C16A">
+	<DocumentID>005056A2-27FA-A1EB-9D9B-D83EF375816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9D9B-D83EF375816A</Name>
+	<Description>usp_WIMS_FP_UniversalDataExtract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-24T07:16:23.504</CreationDate>
+	<Notes/>
+	<Text>usp_WIMS_FP_UniversalDataExtract</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9D9B-D83EF375016A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

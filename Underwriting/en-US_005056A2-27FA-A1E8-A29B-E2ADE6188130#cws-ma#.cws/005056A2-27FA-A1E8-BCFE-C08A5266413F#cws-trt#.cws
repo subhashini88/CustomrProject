@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCFE-C08A5266813F">
+	<DocumentID>005056A2-27FA-A1E8-BCFE-C08A5266413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCFE-C08A5266413F</Name>
+	<Description>Irrespective of decision was successful or not we will submit letter to mainframe</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T17:39:56.435</CreationDate>
+	<Notes/>
+	<Text>Irrespective of decision was successful or not we will submit letter to mainframe</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BCFE-C08A5265C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

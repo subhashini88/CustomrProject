@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AF38-2BBD077A014C">
+	<DocumentID>005056A2-27FA-A1E9-AF38-2BBD0779C14C</DocumentID>
+	<Name>005056A2-27FA-A1E9-AF38-2BBD0779C14C</Name>
+	<Description>PostIssuePlanActivity</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-08-12T09:09:19.195</CreationDate>
+	<Notes/>
+	<Text>PostIssuePlanActivity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-AF38-2BBD0779414C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDAE-A513B4F6C13F">
+	<DocumentID>005056A2-27FA-A1E8-BDAE-A513B4F6813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDAE-A513B4F6813F</Name>
+	<Description>Spouse Rx Milliman Details</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-03T07:01:42.968</CreationDate>
+	<Notes/>
+	<DefaultText>Spouse Rx Milliman Details</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BDAE-A513B4F7013F"
+		/>
+	</Translations>
+</TextIdentifier>

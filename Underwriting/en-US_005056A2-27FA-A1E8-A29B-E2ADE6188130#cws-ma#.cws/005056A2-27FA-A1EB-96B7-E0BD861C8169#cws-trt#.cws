@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-96B7-E0BD861CC169">
+	<DocumentID>005056A2-27FA-A1EB-96B7-E0BD861C8169</DocumentID>
+	<Name>005056A2-27FA-A1EB-96B7-E0BD861C8169</Name>
+	<Description>LSP API</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-01-20T07:04:38.967</CreationDate>
+	<Notes/>
+	<Text>LSP API</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-96B7-E0BD861C0169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

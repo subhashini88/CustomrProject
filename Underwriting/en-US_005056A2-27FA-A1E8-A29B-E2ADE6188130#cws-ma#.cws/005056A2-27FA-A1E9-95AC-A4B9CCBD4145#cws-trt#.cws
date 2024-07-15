@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-95AC-A4B9CCBD8145">
+	<DocumentID>005056A2-27FA-A1E9-95AC-A4B9CCBD4145</DocumentID>
+	<Name>005056A2-27FA-A1E9-95AC-A4B9CCBD4145</Name>
+	<Description>radio4_1</Description>
+	<CreatedBy>ramya</CreatedBy>
+	<CreationDate>2019-04-04T08:21:26.818</CreationDate>
+	<Notes/>
+	<Text>radio4_1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-95AC-A4B9CCBCC145"
+		/>
+	</TextIdentifier>
+</TranslatedText>

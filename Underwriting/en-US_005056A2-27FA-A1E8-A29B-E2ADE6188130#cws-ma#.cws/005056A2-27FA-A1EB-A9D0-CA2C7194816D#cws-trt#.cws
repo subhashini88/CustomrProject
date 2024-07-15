@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A9D0-CA2C7194C16D">
+	<DocumentID>005056A2-27FA-A1EB-A9D0-CA2C7194816D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A9D0-CA2C7194816D</Name>
+	<Description>WKSFPCasecreation</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-27T10:27:30.605</CreationDate>
+	<Notes/>
+	<Text>WKSFPCasecreation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A9D0-CA2C7194016D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

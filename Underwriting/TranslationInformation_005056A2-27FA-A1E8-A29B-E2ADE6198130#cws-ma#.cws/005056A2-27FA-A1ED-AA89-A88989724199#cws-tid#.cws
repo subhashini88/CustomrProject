@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AA89-A88989728199">
+	<DocumentID>005056A2-27FA-A1ED-AA89-A88989724199</DocumentID>
+	<Name>005056A2-27FA-A1ED-AA89-A88989724199</Name>
+	<Description>Decision_65</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-11T16:28:27.681</CreationDate>
+	<Notes/>
+	<DefaultText>Decision_65</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-AA89-A8898972C199"
+		/>
+	</Translations>
+</TextIdentifier>

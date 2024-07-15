@@ -1,0 +1,24 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BBC2-9A7B0F1A413F">
+	<DocumentID>005056A2-27FA-A1E8-BBC2-9A7B0F1A013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BBC2-9A7B0F1A013F</Name>
+	<Description>005056A2-27FA-A1E8-BBC2-9A7B0F1A013F</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-23T10:34:14.167</CreationDate>
+	<Notes/>
+	<Text>From the FollowUp Non Vendor Task  ,if they select complete , the receive message will have those details and complete flow is triggered.
+if &quot;incopmlete&quot; was chosen , then we update the follow up counter / follow up date and go through multiple followup flow</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BBC2-9A7B0F19813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

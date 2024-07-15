@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B256-04798341413B">
+	<DocumentID>005056A2-27FA-A1E8-B256-04798341013B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B256-04798341013B</Name>
+	<Description>Follow Up Due Date:</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-10-06T11:28:27.841</CreationDate>
+	<Notes/>
+	<Text>Follow Up Due Date:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B256-04798340813B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

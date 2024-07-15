@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A835-C1D059A5816D">
+	<DocumentID>005056A2-27FA-A1EB-A835-C1D059A5416D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A835-C1D059A5416D</Name>
+	<Description>NB_SP_SSIS</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-19T06:22:37.48</CreationDate>
+	<Notes/>
+	<Text>NB_SP_SSIS</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A835-C1D059A4C16D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

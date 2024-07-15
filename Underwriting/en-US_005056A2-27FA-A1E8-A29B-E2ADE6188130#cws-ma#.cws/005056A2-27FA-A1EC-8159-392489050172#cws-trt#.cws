@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8159-392489054172">
+	<DocumentID>005056A2-27FA-A1EC-8159-392489050172</DocumentID>
+	<Name>005056A2-27FA-A1EC-8159-392489050172</Name>
+	<Description>policy change record count</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-25T06:20:41.492</CreationDate>
+	<Notes/>
+	<Text>policy change record count</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-8159-392489048172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

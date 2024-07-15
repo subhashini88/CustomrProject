@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEB-890756DD413F">
+	<DocumentID>005056A2-27FA-A1E8-BDEB-890756DD013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEB-890756DD013F</Name>
+	<Description>Ohio STOLI Questionnaire</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T10:33:19.577</CreationDate>
+	<Notes/>
+	<Text>Ohio STOLI Questionnaire</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEB-890756DC813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

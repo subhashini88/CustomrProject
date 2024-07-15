@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8A8E-6F2D5A7EC1A0">
+	<DocumentID>005056A2-27FA-A1EE-8A8E-6F2D5A7E81A0</DocumentID>
+	<Name>005056A2-27FA-A1EE-8A8E-6F2D5A7E81A0</Name>
+	<Description>Embedded Review Sub-Process</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2023-07-24T15:51:49.959</CreationDate>
+	<Notes/>
+	<Text>Embedded Review Sub-Process</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8A8E-6F2D5A7E01A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

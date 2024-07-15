@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC80-DC11705AC13F">
+	<DocumentID>005056A2-27FA-A1E8-BC80-DC11705A813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC80-DC11705A813F</Name>
+	<Description>Is Case Status New?</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-27T05:16:30.064</CreationDate>
+	<Notes/>
+	<Text>Is Case Status New?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC80-DC11705A013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-80F5-7FD3D89D0161">
+	<DocumentID>005056A2-27FA-A1EB-80F5-7FD3D89CC161</DocumentID>
+	<Name>005056A2-27FA-A1EB-80F5-7FD3D89CC161</Name>
+	<Description>Decision_24</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-10-01T11:21:27.65</CreationDate>
+	<Notes/>
+	<DefaultText>Decision_24</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-80F5-7FD3D89D4161"
+		/>
+	</Translations>
+</TextIdentifier>

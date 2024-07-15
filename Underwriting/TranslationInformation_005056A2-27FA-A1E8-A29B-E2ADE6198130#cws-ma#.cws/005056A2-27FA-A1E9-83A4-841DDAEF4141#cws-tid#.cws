@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-83A4-841DDAEF8141">
+	<DocumentID>005056A2-27FA-A1E9-83A4-841DDAEF4141</DocumentID>
+	<Name>005056A2-27FA-A1E9-83A4-841DDAEF4141</Name>
+	<Description>CARS / Warehouse App / Fiche/ Order claim docs</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-02T13:32:36.673</CreationDate>
+	<Notes/>
+	<DefaultText>CARS / Warehouse App / Fiche/ Order claim docs</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-83A4-841DDAEFC141"
+		/>
+	</Translations>
+</TextIdentifier>

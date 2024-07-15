@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-87E3-0C15403F8192">
+	<DocumentID>005056A2-27FA-A1ED-87E3-0C15403F4192</DocumentID>
+	<Name>005056A2-27FA-A1ED-87E3-0C15403F4192</Name>
+	<Description>GETPOLICYHISTORY</Description>
+	<CreatedBy>keerthi9999</CreatedBy>
+	<CreationDate>2022-08-20T11:45:10.998</CreationDate>
+	<Notes/>
+	<Text>GETPOLICYHISTORY</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-87E3-0C15403EC192"
+		/>
+	</TextIdentifier>
+</TranslatedText>

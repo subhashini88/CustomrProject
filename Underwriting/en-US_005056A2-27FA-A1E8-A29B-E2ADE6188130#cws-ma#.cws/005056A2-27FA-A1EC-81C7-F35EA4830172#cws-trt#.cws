@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-81C7-F35EA4834172">
+	<DocumentID>005056A2-27FA-A1EC-81C7-F35EA4830172</DocumentID>
+	<Name>005056A2-27FA-A1EC-81C7-F35EA4830172</Name>
+	<Description>Terminate task creation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-27T10:16:14.535</CreationDate>
+	<Notes/>
+	<Text>Terminate task creation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-81C7-F35EA4828172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

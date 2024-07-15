@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BF17-3F6A5D25C18C">
+	<DocumentID>005056A2-27FA-A1EC-BF17-3F6A5D25818C</DocumentID>
+	<Name>005056A2-27FA-A1EC-BF17-3F6A5D25818C</Name>
+	<Description>GetPolicyInsureds0355</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-05T12:22:48.032</CreationDate>
+	<Notes/>
+	<Text>GetPolicyInsureds0355</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BF17-3F6A5D25018C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

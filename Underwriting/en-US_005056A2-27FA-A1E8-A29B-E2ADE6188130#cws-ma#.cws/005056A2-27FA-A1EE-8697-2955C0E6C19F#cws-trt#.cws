@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8697-2955C0E7019F">
+	<DocumentID>005056A2-27FA-A1EE-8697-2955C0E6C19F</DocumentID>
+	<Name>005056A2-27FA-A1EE-8697-2955C0E6C19F</Name>
+	<Description>SLAtable</Description>
+	<CreatedBy>chandrasekarpradeep</CreatedBy>
+	<CreationDate>2023-07-04T12:30:12.804</CreationDate>
+	<Notes/>
+	<Text>SLAtable</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8697-2955C0E6419F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

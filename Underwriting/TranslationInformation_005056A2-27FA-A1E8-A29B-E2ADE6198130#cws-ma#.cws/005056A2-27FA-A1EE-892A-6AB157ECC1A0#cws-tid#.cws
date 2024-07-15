@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-892A-6AB157ED01A0">
+	<DocumentID>005056A2-27FA-A1EE-892A-6AB157ECC1A0</DocumentID>
+	<Name>005056A2-27FA-A1EE-892A-6AB157ECC1A0</Name>
+	<Description>Health Questionnaire Required?</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2023-07-17T14:28:26.693</CreationDate>
+	<Notes/>
+	<DefaultText>Health Questionnaire Required?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-892A-6AB157ED41A0"
+		/>
+	</Translations>
+</TextIdentifier>

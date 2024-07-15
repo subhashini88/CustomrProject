@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8EE1-3B3271CC0167">
+	<DocumentID>005056A2-27FA-A1EB-8EE1-3B3271CBC167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8EE1-3B3271CBC167</Name>
+	<Description>&lt;h5&gt;&amp;lt;a xmlns=&quot;&quot; href=&quot;javascript:void(0);&quot; onclick=&quot;openVendorTask()&quot; style=&quot;font-size: 15px !important;&quot;&amp;gt;&amp;lt;span&amp;gt;View Order Details&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&lt;/h5&gt;</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-12-11T07:50:51.035</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;h5&gt;&amp;lt;a xmlns=&quot;&quot; href=&quot;javascript:void(0);&quot; onclick=&quot;openVendorTask()&quot; style=&quot;font-size: 15px !important;&quot;&amp;gt;&amp;lt;span&amp;gt;View Order Details&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&lt;/h5&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8EE1-3B3271CC4167"
+		/>
+	</Translations>
+</TextIdentifier>

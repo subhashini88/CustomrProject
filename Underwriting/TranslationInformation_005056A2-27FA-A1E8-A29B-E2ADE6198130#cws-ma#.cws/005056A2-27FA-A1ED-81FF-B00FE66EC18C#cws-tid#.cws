@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-81FF-B00FE66F018C">
+	<DocumentID>005056A2-27FA-A1ED-81FF-B00FE66EC18C</DocumentID>
+	<Name>005056A2-27FA-A1ED-81FF-B00FE66EC18C</Name>
+	<Description>Email Reply</Description>
+	<CreatedBy>Karthikeyan</CreatedBy>
+	<CreationDate>2022-07-20T09:43:41.59</CreationDate>
+	<Notes/>
+	<DefaultText>Email Reply</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-81FF-B00FE66F418C"
+		/>
+	</Translations>
+</TextIdentifier>

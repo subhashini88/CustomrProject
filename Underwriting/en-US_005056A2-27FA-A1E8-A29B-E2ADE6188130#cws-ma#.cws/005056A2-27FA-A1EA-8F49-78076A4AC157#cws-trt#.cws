@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8F49-78076A4B0157">
+	<DocumentID>005056A2-27FA-A1EA-8F49-78076A4AC157</DocumentID>
+	<Name>005056A2-27FA-A1EA-8F49-78076A4AC157</Name>
+	<Description>Has Combined Insurance asked that we question Other Health insurance (non-Medicare)?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-01-23T08:28:50.828</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we question Other Health insurance (non-Medicare)?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8F49-78076A4A4157"
+		/>
+	</TextIdentifier>
+</TranslatedText>

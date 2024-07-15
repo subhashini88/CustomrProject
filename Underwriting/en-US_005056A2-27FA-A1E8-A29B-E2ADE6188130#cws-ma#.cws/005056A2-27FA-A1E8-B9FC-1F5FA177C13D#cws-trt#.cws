@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9FC-1F5FA178013D">
+	<DocumentID>005056A2-27FA-A1E8-B9FC-1F5FA177C13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9FC-1F5FA177C13D</Name>
+	<Description>1. To Get Task ID of Latest created TaskID</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-14T09:36:00.925</CreationDate>
+	<Notes/>
+	<Text>1. To Get Task ID of Latest created TaskID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B9FC-1F5FA177413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-7798-A1E8-AEFB-755A2952011E">
+	<DocumentID>005056A2-7798-A1E8-AEFB-755A2951C11E</DocumentID>
+	<Name>005056A2-7798-A1E8-AEFB-755A2951C11E</Name>
+	<Description>SendEvent-For Jet Issued Policies</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-09-19T09:29:43.741</CreationDate>
+	<Notes/>
+	<DefaultText>SendEvent-For Jet Issued Policies</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-7798-A1E8-AEFB-755A2952411E"
+		/>
+	</Translations>
+</TextIdentifier>

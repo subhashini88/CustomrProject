@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BE87-4B95E479813F">
+	<DocumentID>005056A2-27FA-A1E8-BE87-4B95E479413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BE87-4B95E479413F</Name>
+	<Description>pce_policy_severity</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-07T12:45:47.598</CreationDate>
+	<Notes/>
+	<Text>pce_policy_severity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BE87-4B95E478C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

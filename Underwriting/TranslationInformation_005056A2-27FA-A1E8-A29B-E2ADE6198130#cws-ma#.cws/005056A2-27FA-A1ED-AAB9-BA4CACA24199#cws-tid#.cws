@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AAB9-BA4CACA28199">
+	<DocumentID>005056A2-27FA-A1ED-AAB9-BA4CACA24199</DocumentID>
+	<Name>005056A2-27FA-A1ED-AAB9-BA4CACA24199</Name>
+	<Description>UnSuccessful withErrors</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-12T15:13:26.421</CreationDate>
+	<Notes/>
+	<DefaultText>UnSuccessful withErrors</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-AAB9-BA4CACA2C199"
+		/>
+	</Translations>
+</TextIdentifier>

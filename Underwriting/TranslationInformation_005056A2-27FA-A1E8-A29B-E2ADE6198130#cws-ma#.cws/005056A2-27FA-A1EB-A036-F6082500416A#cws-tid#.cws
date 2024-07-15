@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A036-F6082500816A">
+	<DocumentID>005056A2-27FA-A1EB-A036-F6082500416A</DocumentID>
+	<Name>005056A2-27FA-A1EB-A036-F6082500416A</Name>
+	<Description>NewBusiness?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-03-09T13:48:56.808</CreationDate>
+	<Notes/>
+	<DefaultText>NewBusiness?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-A036-F6082500C16A"
+		/>
+	</Translations>
+</TextIdentifier>

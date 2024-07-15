@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-92C9-EE1D4B63C168">
+	<DocumentID>005056A2-27FA-A1EB-92C9-EE1D4B638168</DocumentID>
+	<Name>005056A2-27FA-A1EB-92C9-EE1D4B638168</Name>
+	<Description>EPR</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-12-31T08:21:47.715</CreationDate>
+	<Notes/>
+	<Text>EPR</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-92C9-EE1D4B630168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

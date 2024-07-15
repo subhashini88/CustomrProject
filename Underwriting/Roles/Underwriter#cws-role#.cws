@@ -1,0 +1,51 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A29C-DF0960F68130">
+	<DocumentID>005056A2-27FA-A1E8-A29C-DF0960F64130</DocumentID>
+	<Name>Underwriter</Name>
+	<Description>Underwriter</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-18T10:17:19.62</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1E8-BA5E-B683B7DC813E">
+			<DocumentID>005056A2-27FA-A1E8-BA5E-B683B7DC413E</DocumentID>
+			<Name>UserCredential_005056A2-27FA-A1E8-BA5E-B683B7DC413E</Name>
+			<Description>UserCredential_005056A2-27FA-A1E8-BA5E-B683B7DC413E</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-11-16T08:46:42.153</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1E8-B9D2-984D3EA3013D"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1E9-891D-26A88F76C142">
+			<DocumentID>005056A2-27FA-A1E9-891D-26A88F768142</DocumentID>
+			<Name>PolicySearch_005056A2-27FA-A1E9-891D-26A88F768142</Name>
+			<Description>PolicySearch_005056A2-27FA-A1E9-891D-26A88F768142</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-01-30T09:56:54.806</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1E9-8781-13B5682E0142"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+</RoleDesignTime>

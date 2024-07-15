@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B975-F8BC25D0815E">
+	<DocumentID>005056A2-27FA-A1EA-B975-F8BC25D0415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B975-F8BC25D0415E</Name>
+	<Description>Stroke or transient ischemic attack; heart attack / or any abnormality of the hear or circulatory system; diabetes except gestational diabetes or any disease of the pancreas; Emphysema..</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T07:33:27.589</CreationDate>
+	<Notes/>
+	<Text>Stroke or transient ischemic attack; heart attack / or any abnormality of the hear or circulatory system; diabetes except gestational diabetes or any disease of the pancreas; Emphysema..</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B975-F8BC25CFC15E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

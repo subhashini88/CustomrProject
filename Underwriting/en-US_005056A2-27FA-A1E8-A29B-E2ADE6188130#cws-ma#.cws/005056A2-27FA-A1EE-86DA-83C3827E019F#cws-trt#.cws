@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-86DA-83C3827E419F">
+	<DocumentID>005056A2-27FA-A1EE-86DA-83C3827E019F</DocumentID>
+	<Name>005056A2-27FA-A1EE-86DA-83C3827E019F</Name>
+	<Description>CaseCreator_JetCase</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-05T19:28:15.635</CreationDate>
+	<Notes/>
+	<Text>CaseCreator_JetCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-86DA-83C3827D819F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

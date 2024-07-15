@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8F37-58777BD581A4">
+	<DocumentID>005056A2-27FA-A1EE-8F37-58777BD541A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8F37-58777BD541A4</Name>
+	<Description>Manager Approval Name</Description>
+	<CreatedBy>manishas</CreatedBy>
+	<CreationDate>2023-08-17T09:17:34.98</CreationDate>
+	<Notes/>
+	<DefaultText>Manager Approval Name</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-8F37-58777BD5C1A4"
+		/>
+	</Translations>
+</TextIdentifier>

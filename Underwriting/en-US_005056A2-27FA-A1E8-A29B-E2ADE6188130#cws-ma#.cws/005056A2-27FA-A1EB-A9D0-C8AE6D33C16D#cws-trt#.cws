@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A9D0-C8AE6D34016D">
+	<DocumentID>005056A2-27FA-A1EB-A9D0-C8AE6D33C16D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A9D0-C8AE6D33C16D</Name>
+	<Description>UpdateWKSOpsCase</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-27T10:27:24.294</CreationDate>
+	<Notes/>
+	<Text>UpdateWKSOpsCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A9D0-C8AE6D33416D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

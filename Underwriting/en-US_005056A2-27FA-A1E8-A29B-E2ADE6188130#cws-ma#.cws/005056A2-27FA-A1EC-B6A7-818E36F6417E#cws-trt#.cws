@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B6A7-818E36F6817E">
+	<DocumentID>005056A2-27FA-A1EC-B6A7-818E36F6417E</DocumentID>
+	<Name>005056A2-27FA-A1EC-B6A7-818E36F6417E</Name>
+	<Description>UpdateUWActivityLogSubProcess</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-05-23T13:47:19.281</CreationDate>
+	<Notes/>
+	<Text>UpdateUWActivityLogSubProcess</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-B6A7-818E36F5C17E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

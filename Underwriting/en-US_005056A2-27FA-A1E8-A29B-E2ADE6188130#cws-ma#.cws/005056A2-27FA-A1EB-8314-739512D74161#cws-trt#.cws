@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8314-739512D78161">
+	<DocumentID>005056A2-27FA-A1EB-8314-739512D74161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8314-739512D74161</Name>
+	<Description>Expiration Date</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-12T06:13:06.174</CreationDate>
+	<Notes/>
+	<Text>Expiration Date</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8314-739512D6C161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

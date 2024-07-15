@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-84C2-8BF411B0418E">
+	<DocumentID>005056A2-27FA-A1ED-84C2-8BF411B0018E</DocumentID>
+	<Name>005056A2-27FA-A1ED-84C2-8BF411B0018E</Name>
+	<Description>is Worksite Policy ?</Description>
+	<CreatedBy>Prashant Chauhan</CreatedBy>
+	<CreationDate>2022-08-03T09:01:40.912</CreationDate>
+	<Notes/>
+	<DefaultText>is Worksite Policy ?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-84C2-8BF411B0818E"
+		/>
+	</Translations>
+</TextIdentifier>

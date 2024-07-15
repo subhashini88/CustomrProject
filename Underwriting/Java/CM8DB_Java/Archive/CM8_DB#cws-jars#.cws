@@ -1,0 +1,22 @@
+
+<JavaArchiveSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveSource"
+	RuntimeDocumentID="005056A2-27FA-A1EC-AE6F-FE134653C17C">
+	<DocumentID>005056A2-27FA-A1EC-AE6F-FE134653817C</DocumentID>
+	<Name>CM8_DB</Name>
+	<Description>CM8_DB</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2022-04-11T17:56:35.464</CreationDate>
+	<Notes/>
+	<JarFileName>CM8_DB</JarFileName>
+	<NamespacePrefix></NamespacePrefix>
+	<Dependencies/>
+	<SourceFolder>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-C41C03CB4E88"
+			path="Underwriting/Java/CM8DB_Java/Archive"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</JavaArchiveSource>

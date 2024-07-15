@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AB81-CF6BAE77414C">
+	<DocumentID>005056A2-27FA-A1E9-AB81-CF6BAE77014C</DocumentID>
+	<Name>005056A2-27FA-A1E9-AB81-CF6BAE77014C</Name>
+	<Description>Post Issue Review Case Model</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-07-24T11:37:55.619</CreationDate>
+	<Notes/>
+	<DefaultText>Post Issue Review Case Model</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-AB81-CF6BAE77814C"
+		/>
+	</Translations>
+</TextIdentifier>

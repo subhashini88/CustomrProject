@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BE48-AE011B8E813F">
+	<DocumentID>005056A2-27FA-A1E8-BE48-AE011B8E413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BE48-AE011B8E413F</Name>
+	<Description>Manic Depression, Bipolar Disorder or Mental or Nervous Disorder requiring psychiatric care?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-06T06:55:49.647</CreationDate>
+	<Notes/>
+	<Text>Manic Depression, Bipolar Disorder or Mental or Nervous Disorder requiring psychiatric care?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BE48-AE011B8DC13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

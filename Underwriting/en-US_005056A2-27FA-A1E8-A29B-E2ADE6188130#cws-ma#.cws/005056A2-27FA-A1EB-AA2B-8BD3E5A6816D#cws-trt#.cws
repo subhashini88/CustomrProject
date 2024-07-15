@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-AA2B-8BD3E5A6C16D">
+	<DocumentID>005056A2-27FA-A1EB-AA2B-8BD3E5A6816D</DocumentID>
+	<Name>005056A2-27FA-A1EB-AA2B-8BD3E5A6816D</Name>
+	<Description>CICA_AD_OT_Claims2</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-04-29T05:46:26.871</CreationDate>
+	<Notes/>
+	<Text>CICA_AD_OT_Claims2</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-AA2B-8BD3E5A6016D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

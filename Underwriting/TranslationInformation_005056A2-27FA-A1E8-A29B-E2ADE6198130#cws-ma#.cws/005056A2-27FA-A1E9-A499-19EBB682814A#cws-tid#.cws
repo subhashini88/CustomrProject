@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A499-19EBB682C14A">
+	<DocumentID>005056A2-27FA-A1E9-A499-19EBB682814A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A499-19EBB682814A</Name>
+	<Description>&amp;lt;h4&amp;gt;Paramendical Exam or Lab request &amp;lt;/h4&amp;gt;</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T07:33:04.843</CreationDate>
+	<Notes/>
+	<DefaultText>&amp;lt;h4&amp;gt;Paramendical Exam or Lab request &amp;lt;/h4&amp;gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-A499-19EBB683014A"
+		/>
+	</Translations>
+</TextIdentifier>

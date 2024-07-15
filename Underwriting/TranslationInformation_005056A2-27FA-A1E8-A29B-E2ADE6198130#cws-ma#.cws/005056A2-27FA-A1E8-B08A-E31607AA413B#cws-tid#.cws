@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B08A-E31607AA813B">
+	<DocumentID>005056A2-27FA-A1E8-B08A-E31607AA413B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B08A-E31607AA413B</Name>
+	<Description>Multiple Lapser</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-27T08:07:58.496</CreationDate>
+	<Notes/>
+	<DefaultText>Multiple Lapser</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B08A-E31607AAC13B"
+		/>
+	</Translations>
+</TextIdentifier>

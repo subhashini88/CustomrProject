@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A496-57DA36C5C14A">
+	<DocumentID>005056A2-27FA-A1E9-A496-57DA36C5814A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A496-57DA36C5814A</Name>
+	<Description>(152)VITAL STATISTICS COMPL. ON VITALS FORM</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T06:18:54.932</CreationDate>
+	<Notes/>
+	<Text>(152)VITAL STATISTICS COMPL. ON VITALS FORM</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A496-57DA36C5014A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

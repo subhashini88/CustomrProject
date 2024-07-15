@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B027-203FEC2D413A">
+	<DocumentID>005056A2-27FA-A1E8-B027-203FEC2D013A</DocumentID>
+	<Name>005056A2-27FA-A1E8-B027-203FEC2D013A</Name>
+	<Description>updateInboxColumnData</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-09-25T10:04:58.11</CreationDate>
+	<Notes/>
+	<Text>updateInboxColumnData</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B027-203FEC2C813A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

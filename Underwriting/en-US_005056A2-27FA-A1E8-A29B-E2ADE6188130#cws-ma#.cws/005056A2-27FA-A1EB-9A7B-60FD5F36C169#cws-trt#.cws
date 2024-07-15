@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9A7B-60FD5F370169">
+	<DocumentID>005056A2-27FA-A1EB-9A7B-60FD5F36C169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9A7B-60FD5F36C169</Name>
+	<Description>LBT Riders:</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-02-08T11:37:07.777</CreationDate>
+	<Notes/>
+	<Text>LBT Riders:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9A7B-60FD5F364169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

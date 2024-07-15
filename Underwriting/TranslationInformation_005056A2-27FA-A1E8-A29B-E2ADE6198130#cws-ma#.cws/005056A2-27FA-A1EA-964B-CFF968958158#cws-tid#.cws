@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-964B-CFF96895C158">
+	<DocumentID>005056A2-27FA-A1EA-964B-CFF968958158</DocumentID>
+	<Name>005056A2-27FA-A1EA-964B-CFF968958158</Name>
+	<Description>Has Combined Insurance asked that we inquire about HIV?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-02-27T07:18:47.152</CreationDate>
+	<Notes/>
+	<DefaultText>Has Combined Insurance asked that we inquire about HIV?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-964B-CFF968960158"
+		/>
+	</Translations>
+</TextIdentifier>

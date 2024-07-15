@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-982A-4651E4188169">
+	<DocumentID>005056A2-27FA-A1EB-982A-4651E4184169</DocumentID>
+	<Name>005056A2-27FA-A1EB-982A-4651E4184169</Name>
+	<Description>append_group_data</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-01-27T14:11:30.262</CreationDate>
+	<Notes/>
+	<DefaultText>append_group_data</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-982A-4651E418C169"
+		/>
+	</Translations>
+</TextIdentifier>

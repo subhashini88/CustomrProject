@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B640-E8D2A73A813D">
+	<DocumentID>005056A2-27FA-A1E8-B640-E8D2A73A413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B640-E8D2A73A413D</Name>
+	<Description>Select file to upload</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-10-26T09:49:18.014</CreationDate>
+	<Notes/>
+	<Text>Select file to upload</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B640-E8D2A739C13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8929-8473BD7981A0">
+	<DocumentID>005056A2-27FA-A1EE-8929-8473BD7941A0</DocumentID>
+	<Name>005056A2-27FA-A1EE-8929-8473BD7941A0</Name>
+	<Description>Coverage &amp; Claims</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2023-07-17T13:35:29.081</CreationDate>
+	<Notes/>
+	<Text>Coverage &amp; Claims</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8929-8473BD78C1A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

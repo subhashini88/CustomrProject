@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC90-25FAE18B813F">
+	<DocumentID>005056A2-27FA-A1E8-BC90-25FAE18B413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC90-25FAE18B413F</Name>
+	<Description>Continued company policy</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-27T12:47:32.572</CreationDate>
+	<Notes/>
+	<Text>Continued company policy</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC90-25FAE18AC13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

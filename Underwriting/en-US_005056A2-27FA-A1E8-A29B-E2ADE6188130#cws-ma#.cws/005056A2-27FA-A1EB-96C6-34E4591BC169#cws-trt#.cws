@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-96C6-34E4591C0169">
+	<DocumentID>005056A2-27FA-A1EB-96C6-34E4591BC169</DocumentID>
+	<Name>005056A2-27FA-A1EB-96C6-34E4591BC169</Name>
+	<Description>UpdateADLDataUsingGroupNumber</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-01-20T12:15:08.624</CreationDate>
+	<Notes/>
+	<Text>UpdateADLDataUsingGroupNumber</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-96C6-34E4591B4169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

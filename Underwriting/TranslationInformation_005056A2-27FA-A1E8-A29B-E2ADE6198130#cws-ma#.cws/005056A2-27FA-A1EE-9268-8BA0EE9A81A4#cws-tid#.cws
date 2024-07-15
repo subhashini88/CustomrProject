@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9268-8BA0EE9AC1A4">
+	<DocumentID>005056A2-27FA-A1EE-9268-8BA0EE9A81A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-9268-8BA0EE9A81A4</Name>
+	<Description>System Of Record</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-02T15:33:39.932</CreationDate>
+	<Notes/>
+	<DefaultText>System Of Record</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-9268-8BA0EE9B01A4"
+		/>
+	</Translations>
+</TextIdentifier>

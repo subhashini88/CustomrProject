@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8E1A-4A7147390167">
+	<DocumentID>005056A2-27FA-A1EB-8E1A-4A714738C167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8E1A-4A714738C167</Name>
+	<Description>CustomPlanActivity_wims</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-12-07T08:50:13.802</CreationDate>
+	<Notes/>
+	<Text>CustomPlanActivity_wims</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8E1A-4A7147384167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

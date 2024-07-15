@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9112-F611A8D34168">
+	<DocumentID>005056A2-27FA-A1EB-9112-F611A8D30168</DocumentID>
+	<Name>005056A2-27FA-A1EB-9112-F611A8D30168</Name>
+	<Description>Radio15</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-12-22T12:11:00.676</CreationDate>
+	<Notes/>
+	<Text>Radio15</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9112-F611A8D28168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

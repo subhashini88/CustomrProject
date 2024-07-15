@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AB12-29B2C6680114">
+	<DocumentID>005056A2-7798-A1E8-AB12-29B2C667C114</DocumentID>
+	<Name>005056A2-7798-A1E8-AB12-29B2C667C114</Name>
+	<Description>Input6</Description>
+	<CreatedBy>Ramamurthy, Abirama Sundari</CreatedBy>
+	<CreationDate>2018-08-30T12:16:45.035</CreationDate>
+	<Notes/>
+	<Text>Input6</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AB12-29B2C6674114"
+		/>
+	</TextIdentifier>
+</TranslatedText>

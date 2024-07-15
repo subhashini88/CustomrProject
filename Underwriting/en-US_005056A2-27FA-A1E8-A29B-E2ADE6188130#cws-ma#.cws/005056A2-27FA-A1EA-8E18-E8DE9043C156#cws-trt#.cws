@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8E18-E8DE90440156">
+	<DocumentID>005056A2-27FA-A1EA-8E18-E8DE9043C156</DocumentID>
+	<Name>005056A2-27FA-A1EA-8E18-E8DE9043C156</Name>
+	<Description>Medium RxCount</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-01-16T13:45:49.092</CreationDate>
+	<Notes/>
+	<Text>Medium RxCount</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8E18-E8DE90434156"
+		/>
+	</TextIdentifier>
+</TranslatedText>

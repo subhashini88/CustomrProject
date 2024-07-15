@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-BA9F-340D2916019D">
+	<DocumentID>005056A2-27FA-A1ED-BA9F-340D2915C19D</DocumentID>
+	<Name>005056A2-27FA-A1ED-BA9F-340D2915C19D</Name>
+	<Description>UpdateFirstBill_Notification_Details</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-05-04T13:16:06.889</CreationDate>
+	<Notes/>
+	<Text>UpdateFirstBill_Notification_Details</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-BA9F-340D2915419D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

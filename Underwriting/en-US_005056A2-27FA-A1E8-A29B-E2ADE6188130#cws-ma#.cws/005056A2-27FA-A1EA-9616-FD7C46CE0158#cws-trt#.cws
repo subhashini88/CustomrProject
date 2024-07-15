@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-9616-FD7C46CE4158">
+	<DocumentID>005056A2-27FA-A1EA-9616-FD7C46CE0158</DocumentID>
+	<Name>005056A2-27FA-A1EA-9616-FD7C46CE0158</Name>
+	<Description>Has Combined Insurance asked that we obtain the Missed work from Accident?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-02-26T11:10:56.049</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we obtain the Missed work from Accident?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-9616-FD7C46CD8158"
+		/>
+	</TextIdentifier>
+</TranslatedText>

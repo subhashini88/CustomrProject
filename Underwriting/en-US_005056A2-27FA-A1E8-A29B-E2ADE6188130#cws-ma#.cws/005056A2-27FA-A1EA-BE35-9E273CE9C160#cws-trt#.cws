@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE35-9E273CEA0160">
+	<DocumentID>005056A2-27FA-A1EA-BE35-9E273CE9C160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE35-9E273CE9C160</Name>
+	<Description>getInsSpsDetailsByPolicyNumber</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-17T11:11:18.026</CreationDate>
+	<Notes/>
+	<Text>getInsSpsDetailsByPolicyNumber</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BE35-9FABDF130160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

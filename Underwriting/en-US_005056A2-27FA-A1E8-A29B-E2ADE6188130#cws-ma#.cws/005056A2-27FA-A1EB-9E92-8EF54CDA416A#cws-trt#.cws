@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9E92-8EF54CDA816A">
+	<DocumentID>005056A2-27FA-A1EB-9E92-8EF54CDA416A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9E92-8EF54CDA416A</Name>
+	<Description>getWKSEnrollmentCaseAssignment</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-03-01T13:38:18.831</CreationDate>
+	<Notes/>
+	<Text>getWKSEnrollmentCaseAssignment</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9E92-8EF54CD9C16A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

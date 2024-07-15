@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BE78-9D3305FC813F">
+	<DocumentID>005056A2-27FA-A1E8-BE78-9D3305FC413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BE78-9D3305FC413F</Name>
+	<Description>vor_policy_severity</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-07T11:39:59.148</CreationDate>
+	<Notes/>
+	<Text>vor_policy_severity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BE78-9D3305FBC13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

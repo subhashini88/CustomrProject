@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9F41-7E965FF4816A">
+	<DocumentID>005056A2-27FA-A1EB-9F41-7E965FF4416A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9F41-7E965FF4416A</Name>
+	<Description>bpmSendMonitoringMail</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-03-04T16:36:47.505</CreationDate>
+	<Notes/>
+	<DefaultText>bpmSendMonitoringMail</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9F41-7E965FF4C16A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB2D-D04A0EBD413F">
+	<DocumentID>005056A2-27FA-A1E8-BB2D-D04A0EBD013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB2D-D04A0EBD013F</Name>
+	<Description>FollowUpCounter</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-20T13:21:30.478</CreationDate>
+	<Notes/>
+	<Text>FollowUpCounter</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB2D-D04A0EBC813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

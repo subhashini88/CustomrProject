@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A222-386AE1FD016B">
+	<DocumentID>005056A2-27FA-A1EB-A222-386AE1FCC16B</DocumentID>
+	<Name>005056A2-27FA-A1EB-A222-386AE1FCC16B</Name>
+	<Description>SendPolicyCreationFailureMail</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-03-19T07:58:39.888</CreationDate>
+	<Notes/>
+	<Text>SendPolicyCreationFailureMail</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A222-386AE1FC416B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B8D0-0D6FD4B3013D">
+	<DocumentID>005056A2-27FA-A1E8-B8D0-0D6FD4B2C13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B8D0-0D6FD4B2C13D</Name>
+	<Description>benefit_health_phase2</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-08T10:28:27.481</CreationDate>
+	<Notes/>
+	<DefaultText>benefit_health_phase2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-B8D0-0D6FD4B3413D"
+		/>
+	</Translations>
+</TextIdentifier>

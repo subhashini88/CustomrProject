@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-AA9C-EEA2ECE5017C">
+	<DocumentID>005056A2-27FA-A1EC-AA9C-EEA2ECE4C17C</DocumentID>
+	<Name>005056A2-27FA-A1EC-AA9C-EEA2ECE4C17C</Name>
+	<Description>Agent Code</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2022-03-23T06:37:41.898</CreationDate>
+	<Notes/>
+	<Text>Agent Code</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-AA9C-EEA2ECE4417C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

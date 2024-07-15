@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEF-590996A9C13F">
+	<DocumentID>005056A2-27FA-A1E8-BDEF-590996A9813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEF-590996A9813F</Name>
+	<Description>If applicant does not have a Medicare card yet, ask (a)When do you intend to enroll in Medicare Part A and B?  (b)Do you intend to enroll in Medicare Part B when you turn age 65?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T12:13:10.429</CreationDate>
+	<Notes/>
+	<DefaultText>If applicant does not have a Medicare card yet, ask (a)When do you intend to enroll in Medicare Part A and B?  (b)Do you intend to enroll in Medicare Part B when you turn age 65?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BDEF-590996AA013F"
+		/>
+	</Translations>
+</TextIdentifier>

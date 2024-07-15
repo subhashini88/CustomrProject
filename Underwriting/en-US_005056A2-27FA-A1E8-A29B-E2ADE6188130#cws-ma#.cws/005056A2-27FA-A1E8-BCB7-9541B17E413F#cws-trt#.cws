@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCB7-9541B17E813F">
+	<DocumentID>005056A2-27FA-A1E8-BCB7-9541B17E413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCB7-9541B17E413F</Name>
+	<Description>Child 2 Company Policy</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-28T07:48:14.838</CreationDate>
+	<Notes/>
+	<Text>Child 2 Company Policy</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BCB7-9541B17DC13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

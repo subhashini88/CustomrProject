@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AA0C-5C74891DC113">
+	<DocumentID>005056A2-7798-A1E8-AA0C-5C74891D8113</DocumentID>
+	<Name>005056A2-7798-A1E8-AA0C-5C74891D8113</Name>
+	<Description>Followup owner?</Description>
+	<CreatedBy>Ramanujam.Dhanalakshmi@combined.com</CreatedBy>
+	<CreationDate>2018-08-25T06:38:20.896</CreationDate>
+	<Notes/>
+	<Text>Followup owner?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AA0C-5C74891D0113"
+		/>
+	</TextIdentifier>
+</TranslatedText>

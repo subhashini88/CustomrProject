@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-84CA-5DEB5908C141">
+	<DocumentID>005056A2-27FA-A1E9-84CA-5DEB59088141</DocumentID>
+	<Name>005056A2-27FA-A1E9-84CA-5DEB59088141</Name>
+	<Description>Gender</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-08T09:48:43.885</CreationDate>
+	<Notes/>
+	<Text>Gender</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-84CA-5DEB59080141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

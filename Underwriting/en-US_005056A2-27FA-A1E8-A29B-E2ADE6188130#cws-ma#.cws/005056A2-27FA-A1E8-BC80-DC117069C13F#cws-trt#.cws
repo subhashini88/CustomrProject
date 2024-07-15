@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC80-DC11706A013F">
+	<DocumentID>005056A2-27FA-A1E8-BC80-DC117069C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC80-DC117069C13F</Name>
+	<Description>Dummy Activity</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-27T05:16:30.065</CreationDate>
+	<Notes/>
+	<Text>Dummy Activity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC80-DC117069413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

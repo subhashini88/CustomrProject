@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8D72-B855D566C156">
+	<DocumentID>005056A2-27FA-A1EA-8D72-B855D5668156</DocumentID>
+	<Name>005056A2-27FA-A1EA-8D72-B855D5668156</Name>
+	<Description>Total Fills</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-01-13T07:43:24.948</CreationDate>
+	<Notes/>
+	<Text>Total Fills</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8D72-B855D5660156"
+		/>
+	</TextIdentifier>
+</TranslatedText>

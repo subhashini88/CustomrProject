@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1EE-891B-32056BDA41A0">
+	<DocumentID>005056A2-27FA-A1EE-891B-32056BDA01A0</DocumentID>
+	<Name>SLA Table</Name>
+	<Description>SLA Table</Description>
+	<CreatedBy>chandrasekarpradeep</CreatedBy>
+	<CreationDate>2023-07-17T10:03:34.111</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1EE-891B-32056BD801A0">
+			<DocumentID>005056A2-27FA-A1EE-891B-32056BD7C1A0</DocumentID>
+			<Name>SLAtable_005056A2-27FA-A1EE-891B-32056BD7C1A0</Name>
+			<Description>SLAtable_005056A2-27FA-A1EE-891B-32056BD7C1A0</Description>
+			<CreatedBy>chandrasekarpradeep</CreatedBy>
+			<CreationDate>2023-07-17T10:03:34.107</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1EE-8697-2955C0EA419F"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+</RoleDesignTime>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-970A-DAA23CC7C145">
+	<DocumentID>005056A2-27FA-A1E9-970A-DAA23CC78145</DocumentID>
+	<Name>005056A2-27FA-A1E9-970A-DAA23CC78145</Name>
+	<Description>(327)Combined TELE-INTERVIEW- Carpal Tunnel</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-11T07:41:19.654</CreationDate>
+	<Notes/>
+	<DefaultText>(327)Combined TELE-INTERVIEW- Carpal Tunnel</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-970A-DAA23CC80145"
+		/>
+	</Translations>
+</TextIdentifier>

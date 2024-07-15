@@ -1,0 +1,1865 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8ECF-C9EBBBDC0194">
+	<DocumentID>005056A2-27FA-A1ED-8ECF-C9EBBBDBC194</DocumentID>
+	<Name>Compensation Review1</Name>
+	<Description>Compensation Review1</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-09-23T13:10:15.444</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<style
+					src="com/cica/uw/styles/bootstrap.min.css"
+					documentID="005056B1-D319-A1EE-9E13-477DCF1F4E82"
+				/>
+				<style
+					src="com/cica/uw/styles/CaseTask.css"
+					documentID="005056B1-D319-A1EE-9E13-477DCF174E82"
+				/>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop"
+					wcpforms:customclass="primary-header create-task">
+					<xforms:group
+						appearance="group"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+						id="group35"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 118px"
+						wcpforms:labelalign="ontop"
+						model="GetMasterAppObjectByIdModel">
+						<xforms:group
+							appearance="group"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+							id="group34"
+							model="GetMasterAppObjectByIdModel"
+							wcpforms:customclass="alignHeader"
+							wcpforms:layout="vertical"
+							wcpforms:class="v_layout_i"
+							wcpforms:size="null 43px"
+							wcpforms:labelalign="ontop">
+							<xforms:group
+								appearance="group"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+								id="group41"
+								wcpforms:layout="vertical"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="null 35%"
+								wcpforms:labelalign="ontop">
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group17"
+									wcpforms:layout="vertical"
+									wcpforms:class="h_layout"
+									wcpforms:size="69.9039% 100%"
+									wcpforms:labelalign="ontop">
+									<xforms:label
+										appearance="codesnippet"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+										id="text4"
+										wcpforms:customclass="refreshBtn"
+										wcpforms:class="h_layout"
+										wcpforms:size="10% 100%">
+										<link
+											xmlns=""
+											rel="stylesheet"
+											href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+										/>
+										<button
+											xmlns=""
+											class="refreshBtn"
+											onclick="refreshBtn_Click()">
+											<i
+												class="fa fa-refresh"
+											/> Refresh</button>
+									</xforms:label>
+									<xforms:group
+										appearance="group"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+										id="group1"
+										wcpforms:layout="vertical"
+										wcpforms:class="h_layout"
+										wcpforms:size="15% 100%"
+										wcpforms:labelalign="ontop">
+										<xforms:label
+											appearance="codesnippet"
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+											id="text7"
+											wcpforms:class="v_layout_i"
+											wcpforms:size="100% 100%">
+											<link
+												xmlns=""
+												rel="stylesheet"
+												href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+											/>
+											<label
+												xmlns=""
+												class="btnCss">
+												<i
+													class="fa fa-edit"
+												/> Edit</label>
+										</xforms:label>
+										<xforms:label
+											appearance="codesnippet"
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+											id="text6"
+											wcpforms:class="h_layout"
+											wcpforms:size="100% 20px">
+											<link
+												xmlns=""
+												rel="stylesheet"
+												href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+											/>
+											<label
+												xmlns=""
+												class="btnCss">
+												<i
+													class="fa fa-view"
+												/> View</label>
+										</xforms:label>
+									</xforms:group>
+								</xforms:group>
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group39"
+									wcpforms:customclass="paddingScrollField1 pull-right"
+									wcpforms:layout="vertical"
+									wcpforms:class="h_layout"
+									wcpforms:size="18% 100%"
+									wcpforms:labelalign="ontop">
+									<xforms:label
+										appearance="codesnippet"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+										id="text8"
+										wcpforms:customclass="viewAttachments"
+										wcpforms:class="h_layout"
+										wcpforms:size="100% 100%">
+										<a
+											xmlns=""
+											href="javascript:void(0);"
+											onclick="showAttachment()">View MA Attachments</a>
+									</xforms:label>
+								</xforms:group>
+							</xforms:group>
+							<xforms:output
+								xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="applicationType"
+								doEBIValidate="false"
+								taskPart="false"
+								ref=".//*[local-name()='Application_Type__c']"
+								wcpforms:class="h_layout"
+								wcpforms:size="12% 63.9974px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-830E-C4368ED74161"
+									wcpforms:class="v_label">Application Type</xforms:label>
+							</xforms:output>
+							<xforms:output
+								xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="masterAppNo"
+								doEBIValidate="false"
+								ref=".//*[local-name()='Name']"
+								wcpforms:class="h_layout"
+								wcpforms:size="12% 63.9974px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EA-AFE6-9BD8986AC15C"
+									wcpforms:class="v_label">Master App Number</xforms:label>
+							</xforms:output>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="accountName"
+								doEBIValidate="false"
+								resizable="false"
+								ref=".//*[local-name()='AccountName']"
+								wcpforms:customclass="inputTextHeader"
+								wcpforms:class="h_layout"
+								wcpforms:size="15% 116px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-830E-C4368ED44161"
+									wcpforms:class="v_label">Account Name</xforms:label>
+							</xforms:textarea>
+							<xforms:output
+								xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="groupNumber"
+								doEBIValidate="false"
+								ref=".//*[local-name()='Group__c']"
+								wcpforms:class="h_layout"
+								wcpforms:size="13% 63.9974px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EA-AFE7-1D1B07E1C15C"
+									wcpforms:class="v_label">Group Number</xforms:label>
+							</xforms:output>
+							<xforms:output
+								xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="effDate"
+								doEBIValidate="false"
+								ref=".//*[local-name()='Policy_Effective_Date__c']"
+								wcpforms:hasNoTime="true"
+								wcpforms:class="h_layout"
+								wcpforms:size="13.7216% 63.9974px"
+								wcpforms:displayformat="shortdate"
+								wcpforms:dataType="date"
+								wcpforms:required="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EC-917E-276761638175"
+									wcpforms:class="v_label">Policy Effective Date</xforms:label>
+							</xforms:output>
+							<xforms:group
+								appearance="group"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+								id="group40"
+								wcpforms:customclass="paddingScrollCase1"
+								wcpforms:layout="vertical"
+								wcpforms:class="h_layout"
+								wcpforms:size="15% 92.01px"
+								wcpforms:labelalign="ontop">
+								<xforms:output
+									xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+									id="caseHandlingType"
+									doEBIValidate="false"
+									wcpforms:class="h_layout"
+									wcpforms:size="100% 63.9974px">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1EB-830E-C4368ECF4161"
+										wcpforms:class="v_label">Case Handling Type</xforms:label>
+								</xforms:output>
+							</xforms:group>
+						</xforms:group>
+					</xforms:group>
+					<xforms:group
+						appearance="tabgroup"
+						wcpforms:orientation="top"
+						wcpforms:textDirection="horizontal"
+						wcpforms:scrollBy="roller"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabGroup"
+						id="tabgroup1"
+						isNavigationEnabled="true"
+						resizable="true"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 102.279%"
+						wcpforms:customclass="parentTab">
+						<xforms:group
+							appearance="tabpage"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabPage"
+							id="groupInfoTab"
+							model="GetMasterAppObjectByIdModel"
+							wcpforms:layout="vertical"
+							wcpforms:class="simplecontainer"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1ED-8E31-9E4B6070C193">Task Details</xforms:label>
+							<xforms:label
+								appearance="codesnippet"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+								id="text2"
+								wcpforms:class="v_layout"
+								wcpforms:size="null 40px">
+								<span
+									xmlns="">Agent Details</span>
+							</xforms:label>
+							<xforms:group
+								appearance="group"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+								id="group2"
+								wcpforms:layout="vertical"
+								wcpforms:class="v_layout"
+								wcpforms:size="null 517px"
+								wcpforms:labelalign="ontop">
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group7"
+									wcpforms:layout="vertical"
+									wcpforms:class="v_layout"
+									wcpforms:size="null 90px"
+									wcpforms:labelalign="ontop">
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="AccOwner"
+										doEBIValidate="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="17% 63.9974px">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E31-9E4B606EC193"
+											wcpforms:class="v_label">Account Owner</xforms:label>
+									</xforms:output>
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="WritingAgent1"
+										doEBIValidate="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="17% 63.9974px">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E31-9E4B606CC193"
+											wcpforms:class="v_label">Writing Agent 1</xforms:label>
+									</xforms:output>
+									<xforms:textarea
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+										id="WritingAgent2"
+										doEBIValidate="false"
+										resizable="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="17% 72px">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E31-9E4B606AC193"
+											wcpforms:class="v_label">Writing Agent 2</xforms:label>
+									</xforms:textarea>
+								</xforms:group>
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group16"
+									wcpforms:layout="vertical"
+									wcpforms:class="v_layout_i"
+									wcpforms:size="null 73px"
+									wcpforms:labelalign="ontop">
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="CommType"
+										doEBIValidate="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="17% 63.9974px">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E31-9E4B6066C193"
+											wcpforms:class="v_label">Commission Type</xforms:label>
+									</xforms:output>
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="AgntCode1"
+										doEBIValidate="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="17% 63.9974px">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E32-5796631C8193"
+											wcpforms:class="v_label">Agent Code 1</xforms:label>
+									</xforms:output>
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="AgntCode2"
+										doEBIValidate="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="17% 63.9974px">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E32-5796631A8193"
+											wcpforms:class="v_label">Agent Code 2</xforms:label>
+									</xforms:output>
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="SplitStructure"
+										doEBIValidate="false"
+										wcpforms:size="17% 63.9974px"
+										wcpforms:class="h_layout">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E31-9E4B6068C193"
+											wcpforms:class="v_label">Split Structure</xforms:label>
+									</xforms:output>
+								</xforms:group>
+								<xforms:label
+									appearance="codesnippet"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+									id="text1"
+									wcpforms:class="v_layout_i"
+									wcpforms:size="null 40px">
+									<span
+										xmlns="">Broker Details</span>
+								</xforms:label>
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group6"
+									wcpforms:layout="vertical"
+									wcpforms:class="v_layout"
+									wcpforms:size="null 73px"
+									wcpforms:labelalign="ontop">
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="BrokerInvolved"
+										doEBIValidate="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="17% 63.9974px">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E32-579663188193"
+											wcpforms:class="v_label">Broker Involved?</xforms:label>
+									</xforms:output>
+								</xforms:group>
+								<xforms:label
+									appearance="codesnippet"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+									id="text3"
+									wcpforms:class="v_layout_i"
+									wcpforms:size="null 40px">
+									<span
+										xmlns="">Automation Results</span>
+								</xforms:label>
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group55"
+									wcpforms:layout="vertical"
+									wcpforms:class="v_layout_i"
+									wcpforms:size="null 73px"
+									wcpforms:labelalign="ontop"
+									model="GetCompReviewTaskDetailsByMAModel">
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="Status"
+										doEBIValidate="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="17% 63.9974px"
+										ref="tns:Status"
+										wcpforms:dataType="string"
+										wcpforms:textalign="left_align">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1E8-A2FF-A13F0AAB4130"
+											wcpforms:class="v_label">Status</xforms:label>
+									</xforms:output>
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="Reason"
+										doEBIValidate="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="17% 63.9974px"
+										ref="tns:Reason"
+										wcpforms:dataType="string"
+										wcpforms:textalign="left_align">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E32-579663134193"
+											wcpforms:class="v_label">Reason</xforms:label>
+									</xforms:output>
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="CICACode"
+										doEBIValidate="false"
+										wcpforms:size="17% 63.9974px"
+										wcpforms:class="h_layout"
+										ref="tns:CICACode"
+										wcpforms:dataType="string"
+										wcpforms:textalign="left_align">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E32-579663114193"
+											wcpforms:class="v_label">CICA Code</xforms:label>
+									</xforms:output>
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="NonCICACode"
+										doEBIValidate="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="16% 63.9974px"
+										ref="tns:NonCICACode"
+										wcpforms:dataType="string"
+										wcpforms:textalign="left_align">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E32-57966308C193"
+											wcpforms:class="v_label">Non-CICA Code</xforms:label>
+									</xforms:output>
+									<xforms:output
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+										id="codeType"
+										doEBIValidate="false"
+										wcpforms:size="17% 63.9974px"
+										wcpforms:class="h_layout"
+										ref="tns:CodeType"
+										wcpforms:dataType="string"
+										wcpforms:textalign="left_align">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1ED-8E32-5796630AC193"
+											wcpforms:class="v_label">Code Type</xforms:label>
+									</xforms:output>
+								</xforms:group>
+							</xforms:group>
+						</xforms:group>
+						<xforms:group
+							appearance="tabpage"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabPage"
+							id="notesTab"
+							wcpforms:layout="vertical"
+							wcpforms:class="simplecontainer"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EB-94F5-76F14B080168">Notes</xforms:label>
+							<xforms:group
+								appearance="group"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+								id="group14"
+								wcpforms:customclass="Notes"
+								wcpforms:layout="vertical"
+								wcpforms:class="h_layout"
+								wcpforms:size="46% 280px"
+								wcpforms:labelalign="ontop">
+								<xforms:textarea
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+									id="textarea4"
+									doEBIValidate="false"
+									wcpforms:customclass="Notes"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto auto"
+									wcpforms:anchors="0px 60px 0px 40.01px"
+									wcpforms:position="0px 60px">
+									<xforms:label
+										textIdentifier=""
+										wcpforms:class="v_label removed"
+									/>
+								</xforms:textarea>
+								<xforms:group
+									appearance="choicebox"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsChoicebox"
+									id="choicebox1"
+									controltype="radio"
+									wcpforms:customclass="NotesType"
+									wcpforms:layout="horizontal"
+									wcpforms:class="v_layout"
+									wcpforms:size="95.74% 30.01px">
+									<xforms:select1
+										xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+										appearance="full"
+										unique-id="1"
+										id="radio2"
+										radioLabelId="radio1">
+										<xforms:label
+											wcpforms:class="v_label"
+										/>
+										<xforms:item
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRadio"
+											id="radio1_3"
+											wcpforms:customclass=""
+											wcpforms:class="h_choicebox"
+											wcpforms:size="187px auto">
+											<xforms:label
+												textIdentifier="005056A2-27FA-A1EA-B4BF-BCCCE3B7015D">Private</xforms:label>
+											<xforms:value>0</xforms:value>
+										</xforms:item>
+										<xforms:item
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRadio"
+											id="radio1_1"
+											wcpforms:customclass=""
+											wcpforms:class="h_choicebox"
+											wcpforms:size="90px auto">
+											<xforms:label
+												textIdentifier="005056A2-27FA-A1EA-B4BF-BCCCE3B5815D">Public</xforms:label>
+											<xforms:value>1</xforms:value>
+										</xforms:item>
+									</xforms:select1>
+								</xforms:group>
+								<xforms:group
+									appearance="controlbox"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+									id="controlbox1"
+									controltype="button"
+									wcpforms:layout="horizontal"
+									wcpforms:class="f_layout"
+									wcpforms:align="left_align"
+									wcpforms:size="100px 30px"
+									wcpforms:anchors="null null 88.01px 8.01px"
+									wcpforms:position="auto auto">
+									<xforms:trigger
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+										id="NotesSubmit"
+										wcpforms:class="h_button"
+										wcpforms:size="null auto">
+										<xforms:label
+											textIdentifier="005056A2-7798-A1E8-AF5C-0A2DDA714121">Submit</xforms:label>
+										<xforms:action
+											xmlns:ev="http://www.w3.org/2001/xml-events"
+											ev:event="xforms-activate">
+											<xforms:NotesSubmit_Click/>
+										</xforms:action>
+									</xforms:trigger>
+								</xforms:group>
+							</xforms:group>
+							<xforms:group
+								appearance="group"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+								id="group33"
+								wcpforms:customclass="notesHistory"
+								wcpforms:layout="vertical"
+								wcpforms:class="h_layout"
+								wcpforms:size="47% 248px"
+								wcpforms:labelalign="ontop">
+								<xforms:label
+									appearance="codesnippet"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+									id="text16"
+									wcpforms:class="v_layout_i"
+									wcpforms:size="100% 20px">
+									<span
+										xmlns="">Notes History</span>
+								</xforms:label>
+								<xforms:label
+									appearance="codesnippet"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+									id="text24"
+									wcpforms:class="v_layout_i"
+									wcpforms:size="100% 70%">
+									<div
+										xmlns=""
+										id="notesHistoryDiv"
+										class="notesHistoryDivclass"
+									/>
+								</xforms:label>
+							</xforms:group>
+						</xforms:group>
+						<xforms:action
+							xmlns:ev="http://www.w3.org/2001/xml-events"
+							external="true"
+							ev:event="ontabfocus">
+							<xforms:tabgroup1_ontabfocus/>
+						</xforms:action>
+					</xforms:group>
+					<xforms:group
+						appearance="group"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+						id="group5"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 128px"
+						wcpforms:labelalign="ontop">
+						<xforms:group
+							appearance="choicebox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsChoicebox"
+							id="choicebox4"
+							wcpforms:customclass="ChoiceYN"
+							controltype="radio"
+							wcpforms:layout="horizontal"
+							wcpforms:class="f_layout"
+							wcpforms:size="230px 20px"
+							wcpforms:position="0px 0px">
+							<xforms:select1
+								appearance="full"
+								unique-id="4"
+								id="radio4"
+								radioLabelId="radio4">
+								<xforms:label
+									wcpforms:class="v_label">  Task Follow-Up</xforms:label>
+								<xforms:item
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRadio"
+									id="radio4_1"
+									wcpforms:class="h_choicebox"
+									wcpforms:size="90px 51px">
+									<xforms:label
+										textIdentifier="005056A2-7798-A1E8-A658-5B877A4E8111">Date</xforms:label>
+									<xforms:value>0</xforms:value>
+								</xforms:item>
+								<xforms:item
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRadio"
+									id="radio4_2"
+									wcpforms:class="h_choicebox"
+									wcpforms:size="90px 51px">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1EC-B897-CE24B7ED017E">Daily</xforms:label>
+									<xforms:value>1</xforms:value>
+								</xforms:item>
+							</xforms:select1>
+						</xforms:group>
+						<xforms:group
+							appearance="choicebox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsChoicebox"
+							id="choicebox2"
+							wcpforms:class="f_layout"
+							wcpforms:size="150px 64px"
+							wcpforms:position="260px 0px"
+							controltype="radio"
+							wcpforms:layout="horizontal">
+							<xforms:select1
+								appearance="full"
+								unique-id="2"
+								id="ExternalReply"
+								radioLabelId="radio2"
+								wcpforms:customclass="inputborderselect"
+								model="GetdatabyTaskDetailsModel">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EC-BAB6-B8C554A4017E"
+									wcpforms:class="v_label"> </xforms:label>
+								<xforms:item
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRadio"
+									id="radio2_1"
+									wcpforms:class="h_choicebox"
+									wcpforms:size="90px 35px">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1ED-8E32-EB3089414193">External Reply</xforms:label>
+									<xforms:value>1</xforms:value>
+								</xforms:item>
+							</xforms:select1>
+						</xforms:group>
+						<xforms:input
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="taskFollowUpDt"
+							doEBIValidate="false"
+							wcpforms:hasNoTime="true"
+							wcpforms:customclass="InputBorderDate blackFont"
+							model="GetFollowUp2byPolicyNoModel"
+							ref="tns:FollowupDate"
+							wcpforms:dataType="date"
+							wcpforms:textalign="right_align"
+							wcpforms:class="f_layout"
+							wcpforms:size="150px 63.9974px"
+							wcpforms:position="10px 90px">
+							<xforms:label
+								textIdentifier=""
+								wcpforms:class="v_label"
+							/>
+						</xforms:input>
+					</xforms:group>
+					<xforms:label
+						appearance="codesnippet"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+						id="text5"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 120px">
+						<div
+							xmlns=""
+							class="pending-button">
+							<div
+								class="dropup pull-right">
+								<button
+									class="btn iapp-typical-btn iapp-dropdown-menu dropdown-item"
+									stylr="width:50%"
+									Id="save_id"
+									onclick="Save_click()">Save &amp; Exit</button>
+								<button
+									class="btn btn-default dropdown-toggle"
+									type="button"
+									data-toggle="dropdown">Actions 
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									<span
+										class="caret"
+									/>
+								</button>
+								<div
+									class="dropdown-menu dropdown-menu-right"
+									style="text-align: center;">
+									<button
+										class="btn iapp-typical-btn iapp-dropdown-menu dropdown-item"
+										onclick="CompleteTask()">Complete Task</button>
+									<button
+										class="btn iapp-typical-btn iapp-dropdown-menu dropdown-item"
+										onclick="Resubmit_Click()">Re-Submit</button>
+								</div>
+							</div>
+						</div>
+					</xforms:label>
+					<xforms:group
+						appearance="box"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+						id="hidden_values_groupbox"
+						isNavigationEnabled="true"
+						wcpforms:customclass="autoextent"
+						model="GetCaseDataForCaseIDModel"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="1234px 465px"
+						wcpforms:labelalign="ontop">
+						<xforms:label
+							textIdentifier="005056A2-7798-A1E8-A943-E6990B0D4113"
+							wcpforms:class="groupheader">Hidden Values Groupbox</xforms:label>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opAgentCode"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B838E83"
+								wcpforms:class="v_label">
+  Agent
+  Code</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opBatchNumber"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B818E83"
+								wcpforms:class="v_label">
+  Batch
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseClosedBy"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B7F8E83"
+								wcpforms:class="v_label">
+  Case
+  Closed By</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseHandlingType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B7D8E83"
+								wcpforms:class="v_label">
+  Case
+  Handling Type</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseId"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px"
+							model="GetCaseDataForCaseIDModel"
+							wcpforms:textalign="left_align">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B7C0E83"
+								wcpforms:class="v_label">
+  Case ID</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseTitle"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B7A0E83"
+								wcpforms:class="v_label">
+  Case
+  Title</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCaseStatus"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B788E83"
+								wcpforms:class="v_label">
+  Case
+  Status</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opApplicationNumber"
+							doEBIValidate="false"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B768E83"
+								wcpforms:class="v_label">
+  Application
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opChubbEmployee"
+							doEBIValidate="false"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B748E83"
+								wcpforms:class="v_label">
+  Chubb
+  Employee</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opClaimNumber"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30.92% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B730E83"
+								wcpforms:class="v_label">
+  Claim
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:input
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="opClaimType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4D-ED8E5B710E83"
+								wcpforms:class="v_label">
+  Claim
+  Type</xforms:label>
+						</xforms:input>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opClosedDate"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCACDCE83"
+								wcpforms:class="v_label">
+  Closed
+  Date</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCompanyCodeOrLob"
+							doEBIValidate="false"
+							model="GetCaseDataForCaseIDModel"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCACBCE83"
+								wcpforms:class="v_label">
+  Company  Code/LOB</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opComplexity"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC9CE83"
+								wcpforms:class="v_label">
+  Complexity</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCustomerId"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC7CE83"
+								wcpforms:class="v_label">
+  Customer
+  ID</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opCustomerName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC5CE83"
+								wcpforms:class="v_label">
+  Customer
+  Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opFormInputData"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC3CE83"
+								wcpforms:class="v_label">
+  Form
+  Input Data</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opFreeFormControls"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAC1CE83"
+								wcpforms:class="v_label">
+  Free
+  Form Controls</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opFullName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCABFCE83"
+								wcpforms:class="v_label">
+  Full
+  Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opGroupName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCABDCE83"
+								wcpforms:class="v_label">
+  Group
+  Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opGroupNumber"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCABBCE83"
+								wcpforms:class="v_label">
+  Group
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opLanguagePreference"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAB9CE83"
+								wcpforms:class="v_label">
+  Language
+  Preference</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opLastNameOrFirstName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-86CCCAB7CE83"
+								wcpforms:class="v_label">
+  Last
+  Name/First Name</xforms:label>
+						</xforms:output>
+						<xforms:input
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="opManagerCode"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB002B8E83"
+								wcpforms:class="v_label">
+  Manager
+  Code</xforms:label>
+						</xforms:input>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opMasterAppID"
+							doEBIValidate="false"
+							wcpforms:required="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00298E83"
+								wcpforms:class="v_label">
+  Master
+  App ID</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opPolicyNo"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00278E83"
+								wcpforms:class="v_label">
+  Policy
+  Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opProduct"
+							doEBIValidate="false"
+							wcpforms:required="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00258E83"
+								wcpforms:class="v_label">
+  Product</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opSource"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00238E83"
+								wcpforms:class="v_label">
+  Source</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opSpecialHandlingCode"
+							doEBIValidate="false"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00218E83"
+								wcpforms:class="v_label">
+  Special
+  Handling Code</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opStateName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB001E8E83"
+								wcpforms:class="v_label">
+  State
+  Name</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opStateOrProvince"
+							doEBIValidate="false"
+							wcpforms:textalign="left_align"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB001C8E83"
+								wcpforms:class="v_label">
+  State/Province</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opSubActivity"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB001A8E83"
+								wcpforms:class="v_label">
+  Sub
+  Activity</xforms:label>
+						</xforms:output>
+						<xforms:input
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="opTaskType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00188E83"
+								wcpforms:class="v_label">
+  Task
+  Type</xforms:label>
+						</xforms:input>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opTemporaryClaimNumber"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00170E83"
+								wcpforms:class="v_label">
+  Temporary
+  Claim Number</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opServiceType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00150E83"
+								wcpforms:class="v_label">
+  Service
+  Type</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opStatus"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-9BAB00138E83"
+								wcpforms:class="v_label">
+  Status</xforms:label>
+						</xforms:output>
+						<xforms:input
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="opSubType"
+							doEBIValidate="false"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 53.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-B12F7E4C8E83"
+								wcpforms:class="v_label">
+  Sub Type</xforms:label>
+						</xforms:input>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opInsuredName"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-B12F7E4A8E83"
+								wcpforms:class="v_label">
+  
+  
+   
+    Insured
+    Name
+   
+  
+  </xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opActivityType"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="null 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-B12F7E490E83"
+								wcpforms:class="v_label">
+  Activity
+  Type</xforms:label>
+						</xforms:output>
+						<xforms:output
+							xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opDueDate"
+							doEBIValidate="false"
+							wcpforms:class="h_layout"
+							wcpforms:size="30% 63.9974px">
+							<xforms:label
+								textIdentifier="005056B1-D319-A1EE-9F4E-B12F7E478E83"
+								wcpforms:class="v_label">
+  Due Date</xforms:label>
+						</xforms:output>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[function NotesSubmit_Click(eventObject)
+{
+    
+
+}
+
+function tabgroup1_ontabfocus(eventObject)
+{
+    
+
+}
+]]>
+			</xformsscript>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>Compensation Review1</taskDescription>
+	<taskName>Compensation Review1</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FDE8E88"
+			path="Underwriting/Web/com/cica/uw/styles/bootstrap.min.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FDA8E88"
+			path="Underwriting/Web/com/cica/uw/styles/CaseTask.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+	</StyleSheets>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1ED-8F61-22BD1D4C8194">
+			<DocumentID>005056A2-27FA-A1ED-8F61-22BD1D4C4194</DocumentID>
+			<Name>005056A2-27FA-A1ED-8F61-22BD1D4C4194</Name>
+			<Description>005056A2-27FA-A1ED-8F61-22BD1D4C4194</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2022-09-26T10:19:02.669</CreationDate>
+			<Notes/>
+			<DeveloperText>Compensation Review1</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1ED-8ECF-C9EBBBD78194"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts/>
+	<Webservices/>
+	<aclFragments/>
+	<deliveryModels>
+		<WorkFlowDeliveryModel
+			type="com.cordys.workflow.modeler.WorkFlowDeliveryModel"
+			typeVersion="00215A63-1E4E-11E1-E0AC-59F75AE29B35"
+			RuntimeDocumentID="005056A2-27FA-A1ED-8ECF-C9EBBBD50194">
+			<DocumentID>005056A2-27FA-A1ED-8ECF-C9EBBBD4C194</DocumentID>
+			<Name>Compensation Review DeliveryModel</Name>
+			<Description>Compensation Review DeliveryModel</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2022-09-23T13:13:40.245</CreationDate>
+			<Notes/>
+			<IsLegacy>false</IsLegacy>
+			<OperationName></OperationName>
+			<Task_Identifiers/>
+			<messagePartDetails>
+				<MessagePartDetails
+					type="com.cordys.task.MessagePartDetails"
+					RuntimeDocumentID="005056A2-27FA-A1ED-8ECF-C9EBBBD3C194">
+					<DocumentID>005056A2-27FA-A1ED-8ECF-C9EBBBD38194</DocumentID>
+					<Name>005056A2-27FA-A1ED-8ECF-C9EBBBD38194</Name>
+					<Description>Compensation Review DeliveryModel</Description>
+					<CreatedBy>sanjana</CreatedBy>
+					<CreationDate>2022-09-23T13:13:40.245</CreationDate>
+					<Notes/>
+					<byRef>false</byRef>
+					<messagePart>
+						<uri
+							id="005056A2-27FA-A1ED-8ECF-C9EBBBD90194"
+						/>
+					</messagePart>
+				</MessagePartDetails>
+			</messagePartDetails>
+			<notfBackwardCompatibility/>
+			<taskAbstract>
+				<InboxModel
+					type="com.cordys.notification.inbox.InboxModel"
+					RuntimeDocumentID="005056A2-27FA-A1ED-8ECF-C9EBBBD34194">
+					<DocumentID>005056A2-27FA-A1ED-8ECF-C9EBBBD30194</DocumentID>
+					<Name>Inbox Model</Name>
+					<Description>Inbox Model</Description>
+					<CreatedBy>sanjana</CreatedBy>
+					<CreationDate>2022-09-23T13:13:40.245</CreationDate>
+					<Notes/>
+					<ModelContent>
+						<InboxModel
+							xmlns="http://schemas.cordys.com/1.0/notification"
+							name="Inbox Model"
+							subject=""
+							description="Inbox Model"
+							messagemetadata="false"
+							flowmetadata="false">
+							<grid>
+								<columns>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification"
+										_xgrid_rowDataId="1">
+										<state/>
+										<title>Case Title</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opCaseTitle</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification"
+										_xgrid_rowDataId="3">
+										<state/>
+										<title>Full Name</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opFullName</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification"
+										_xgrid_rowDataId="5">
+										<state/>
+										<title>Language Preference</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opLanguagePreference</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification"
+										_xgrid_rowDataId="7">
+										<state/>
+										<title>Case Status</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opCaseStatus</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Case ID</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opCaseId</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Product</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opProduct</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Company Code/LOB</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opCompanyCodeOrLob</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Policy Number</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opPolicyNo</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Source</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opSource</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Complexity</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opComplexity</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Special Handling Code</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opSpecialHandlingCode</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>State Name</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opStateName</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Chubb Employee</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opChubbEmployee</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Group Number</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opGroupNumber</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Group Name</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opGroupName</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Sub Activity</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opSubActivity</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Batch Number</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opBatchNumber</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Closed Date</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opClosedDate</xpath>
+										<dataType>STRING</dataType>
+									</column>
+									<column
+										xmlns="http://schemas.cordys.com/1.0/notification">
+										<state/>
+										<title>Master App ID</title>
+										<xpath>//proc:forminputdata/proc:freeformcontrols/proc:opMasterAppID</xpath>
+										<dataType>STRING</dataType>
+									</column>
+								</columns>
+							</grid>
+							<namespace_xml>
+								<namespaces>
+									<namespace>
+										<namespaceprefix>proc</namespaceprefix>
+										<namespaceurl>http://schemas.cordys.com/1.0/xforms/processapi</namespaceurl>
+									</namespace>
+								</namespaces>
+							</namespace_xml>
+							<proc:forminputdata
+								xmlns:proc="http://schemas.cordys.com/1.0/xforms/processapi">
+								<proc:freeformcontrols>
+									<proc:text4/>
+									<proc:text7
+										display_name=" Edit"
+									/>
+									<proc:text6
+										display_name=" View"
+									/>
+									<proc:text8/>
+									<proc:caseHandlingType
+										display_name="Case Handling Type"
+									/>
+									<proc:text2/>
+									<proc:AccOwner
+										display_name="Account Owner"
+									/>
+									<proc:WritingAgent1
+										display_name="Writing Agent 1"
+									/>
+									<proc:WritingAgent2
+										display_name="Writing Agent 2"
+									/>
+									<proc:CommType
+										display_name="Commission Type"
+									/>
+									<proc:AgntCode1
+										display_name="Agent Code 1"
+									/>
+									<proc:AgntCode2
+										display_name="Agent Code 2"
+									/>
+									<proc:SplitStructure
+										display_name="Split Structure"
+									/>
+									<proc:text1/>
+									<proc:BrokerInvolved
+										display_name="Broker Involved?"
+									/>
+									<proc:text3/>
+									<proc:textarea4
+										display_name=""
+									/>
+									<proc:radio2
+										display_name=""
+									/>
+									<proc:NotesSubmit
+										display_name="Submit"
+									/>
+									<proc:text16/>
+									<proc:text24/>
+									<proc:radio4
+										display_name="  Task Follow-Up"
+									/>
+									<proc:ExternalReply
+										display_name=" "
+									/>
+									<proc:text5/>
+									<proc:opAgentCode
+										display_name="   Agent   Code"
+									/>
+									<proc:opBatchNumber
+										display_name="   Batch   Number"
+									/>
+									<proc:opCaseClosedBy
+										display_name="   Case   Closed By"
+									/>
+									<proc:opCaseHandlingType
+										display_name="   Case   Handling Type"
+									/>
+									<proc:opCaseId
+										display_name="   Case ID"
+									/>
+									<proc:opCaseTitle
+										display_name="   Case   Title"
+									/>
+									<proc:opCaseStatus
+										display_name="   Case   Status"
+									/>
+									<proc:opApplicationNumber
+										display_name="   Application   Number"
+									/>
+									<proc:opChubbEmployee
+										display_name="   Chubb   Employee"
+									/>
+									<proc:opClaimNumber
+										display_name="   Claim   Number"
+									/>
+									<proc:opClaimType
+										display_name="   Claim   Type"
+									/>
+									<proc:opClosedDate
+										display_name="   Closed   Date"
+									/>
+									<proc:opCompanyCodeOrLob
+										display_name="   Company  Code/LOB"
+									/>
+									<proc:opComplexity
+										display_name="   Complexity"
+									/>
+									<proc:opCustomerId
+										display_name="   Customer   ID"
+									/>
+									<proc:opCustomerName
+										display_name="   Customer   Name"
+									/>
+									<proc:opFormInputData
+										display_name="   Form   Input Data"
+									/>
+									<proc:opFreeFormControls
+										display_name="   Free   Form Controls"
+									/>
+									<proc:opFullName
+										display_name="   Full   Name"
+									/>
+									<proc:opGroupName
+										display_name="   Group   Name"
+									/>
+									<proc:opGroupNumber
+										display_name="   Group   Number"
+									/>
+									<proc:opLanguagePreference
+										display_name="   Language   Preference"
+									/>
+									<proc:opLastNameOrFirstName
+										display_name="   Last   Name/First Name"
+									/>
+									<proc:opManagerCode
+										display_name="   Manager   Code"
+									/>
+									<proc:opMasterAppID
+										display_name="   Master   App ID"
+									/>
+									<proc:opPolicyNo
+										display_name="   Policy   Number"
+									/>
+									<proc:opProduct
+										display_name="   Product"
+									/>
+									<proc:opSource
+										display_name="   Source"
+									/>
+									<proc:opSpecialHandlingCode
+										display_name="   Special   Handling Code"
+									/>
+									<proc:opStateName
+										display_name="   State   Name"
+									/>
+									<proc:opStateOrProvince
+										display_name="   State/Province"
+									/>
+									<proc:opSubActivity
+										display_name="   Sub   Activity"
+									/>
+									<proc:opTaskType
+										display_name="   Task   Type"
+									/>
+									<proc:opTemporaryClaimNumber
+										display_name="   Temporary   Claim Number"
+									/>
+									<proc:opServiceType
+										display_name="   Service   Type"
+									/>
+									<proc:opStatus
+										display_name="   Status"
+									/>
+									<proc:opSubType
+										display_name="   Sub Type"
+									/>
+									<proc:opInsuredName
+										display_name="               Insured     Name          "
+									/>
+									<proc:opActivityType
+										display_name="   Activity   Type"
+									/>
+									<proc:opDueDate
+										display_name="   Due Date"
+									/>
+								</proc:freeformcontrols>
+							</proc:forminputdata>
+						</InboxModel>
+					</ModelContent>
+					<workflowDeliveryModel>
+						<uri
+							id="005056A2-27FA-A1ED-8ECF-C9EBBBD4C194"
+						/>
+					</workflowDeliveryModel>
+				</InboxModel>
+			</taskAbstract>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1ED-8ECF-C9EBBBDBC194"
+				/>
+			</uiTask>
+		</WorkFlowDeliveryModel>
+	</deliveryModels>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1ED-8ECF-C9EBBBD94194">
+			<DocumentID>005056A2-27FA-A1ED-8ECF-C9EBBBD90194</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2022-09-23T13:10:15.444</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BDFE-5E765A5A0160">
+	<DocumentID>005056A2-27FA-A1EA-BDFE-5E765A59C160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BDFE-5E765A59C160</Name>
+	<Description>Back Pain and Spine</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T08:52:09.879</CreationDate>
+	<Notes/>
+	<Text>Back Pain and Spine</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BDFE-5E765A594160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

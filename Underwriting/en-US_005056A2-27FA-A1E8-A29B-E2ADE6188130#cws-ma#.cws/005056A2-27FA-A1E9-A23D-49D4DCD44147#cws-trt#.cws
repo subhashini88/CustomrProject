@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A23D-49D4DCD48147">
+	<DocumentID>005056A2-27FA-A1E9-A23D-49D4DCD44147</DocumentID>
+	<Name>005056A2-27FA-A1E9-A23D-49D4DCD44147</Name>
+	<Description>Delete Condition</Description>
+	<CreatedBy>Kani</CreatedBy>
+	<CreationDate>2019-06-07T07:32:03.773</CreationDate>
+	<Notes/>
+	<Text>Delete Condition</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A23D-49D4DCD3C147"
+		/>
+	</TextIdentifier>
+</TranslatedText>

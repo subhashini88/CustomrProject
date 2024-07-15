@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9BE3-4360EC49016A">
+	<DocumentID>005056A2-27FA-A1EB-9BE3-4360EC48C16A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9BE3-4360EC48C16A</Name>
+	<Description>EnrollmentProcessing_DataPreparationNew</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-02-15T12:55:38.961</CreationDate>
+	<Notes/>
+	<Text>EnrollmentProcessing_DataPreparationNew</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9BE3-4360EC48416A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

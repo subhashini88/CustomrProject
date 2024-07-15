@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8167-00D30FCE018C">
+	<DocumentID>005056A2-27FA-A1ED-8167-00D30FCDC18C</DocumentID>
+	<Name>005056A2-27FA-A1ED-8167-00D30FCDC18C</Name>
+	<Description>Follow-up_3</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-17T06:46:19.534</CreationDate>
+	<Notes/>
+	<DefaultText>Follow-up_3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-8167-00D30FCE418C"
+		/>
+	</Translations>
+</TextIdentifier>

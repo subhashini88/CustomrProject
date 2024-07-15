@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A496-614AC045414A">
+	<DocumentID>005056A2-27FA-A1E9-A496-614AC045014A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A496-614AC045014A</Name>
+	<Description>(560)FASTING BLOOD PROFILE(INCLUDING URINE)</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T06:18:54.901</CreationDate>
+	<Notes/>
+	<Text>(560)FASTING BLOOD PROFILE(INCLUDING URINE)</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A496-614AC044814A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-88FB-5B26391C4165">
+	<DocumentID>005056A2-27FA-A1EB-88FB-5B26391C0165</DocumentID>
+	<Name>005056A2-27FA-A1EB-88FB-5B26391C0165</Name>
+	<Description>Gender*:</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-11-11T07:14:39.002</CreationDate>
+	<Notes/>
+	<DefaultText>Gender*:</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-88FB-5B26391C8165"
+		/>
+	</Translations>
+</TextIdentifier>

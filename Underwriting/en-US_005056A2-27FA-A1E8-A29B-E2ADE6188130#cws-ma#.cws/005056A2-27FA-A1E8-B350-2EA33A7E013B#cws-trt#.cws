@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B350-2EA33A7E413B">
+	<DocumentID>005056A2-27FA-A1E8-B350-2EA33A7E013B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B350-2EA33A7E013B</Name>
+	<Description>WorksheetASC</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-11T10:36:08.373</CreationDate>
+	<Notes/>
+	<Text>WorksheetASC</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B350-2EA33A7D813B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9F0A-41514B90C16A">
+	<DocumentID>005056A2-27FA-A1EB-9F0A-41514B90816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9F0A-41514B90816A</Name>
+	<Description>Select Payment Method</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-03-03T14:09:22.343</CreationDate>
+	<Notes/>
+	<DefaultText>Select Payment Method</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9F0A-41514B91016A"
+		/>
+	</Translations>
+</TextIdentifier>

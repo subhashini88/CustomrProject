@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-82C9-BC292570018D">
+	<DocumentID>005056A2-27FA-A1ED-82C9-BC29256FC18D</DocumentID>
+	<Name>005056A2-27FA-A1ED-82C9-BC29256FC18D</Name>
+	<Description>UW Review Task</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-24T08:02:41.075</CreationDate>
+	<Notes/>
+	<DefaultText>UW Review Task</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-82C9-BC292570418D"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-97AC-C36917A741A7">
+	<DocumentID>005056A2-27FA-A1EE-97AC-C36917A701A7</DocumentID>
+	<Name>005056A2-27FA-A1EE-97AC-C36917A701A7</Name>
+	<Description>Not Ready for Production?</Description>
+	<CreatedBy>dharini</CreatedBy>
+	<CreationDate>2023-09-29T10:31:35.938</CreationDate>
+	<Notes/>
+	<DefaultText>Not Ready for Production?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-97AC-C36917A781A7"
+		/>
+	</Translations>
+</TextIdentifier>

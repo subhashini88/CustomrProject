@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-837F-3C2F59FF0161">
+	<DocumentID>005056A2-27FA-A1EB-837F-3C2F59FEC161</DocumentID>
+	<Name>005056A2-27FA-A1EB-837F-3C2F59FEC161</Name>
+	<Description>diffFont</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-14T09:19:21.488</CreationDate>
+	<Notes/>
+	<Text>diffFont</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-837F-3C2F59FE4161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

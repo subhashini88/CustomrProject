@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEB-890756E5C13F">
+	<DocumentID>005056A2-27FA-A1E8-BDEB-890756E5813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEB-890756E5813F</Name>
+	<Description>NY CAP Questionnaire</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T10:27:45.746</CreationDate>
+	<Notes/>
+	<Text>NY CAP Questionnaire</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEB-890756E5013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

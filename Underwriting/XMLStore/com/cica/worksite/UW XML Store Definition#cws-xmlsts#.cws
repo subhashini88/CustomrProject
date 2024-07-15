@@ -1,0 +1,44 @@
+
+<XMLStoreSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xmlstore.sourceroot.XMLStoreSource"
+	RuntimeDocumentID="005056A2-7798-A1E8-A97E-28B47238C113">
+	<DocumentID>005056A2-7798-A1E8-A97E-28B472388113</DocumentID>
+	<Name>UW XML Store Definition</Name>
+	<Description>UW XML Store Definition</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-08-22T11:18:57.474</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SecurityDescriptor>
+		<XMLStoreSecurityDescriptor
+			type="com.cordys.xmlstore.sourceroot.XMLStoreSecurityDescriptor"
+			typeVersion="FFB228E4-5344-4FC9-893D-77229FA7C061"
+			RuntimeDocumentID="005056A2-7798-A1E8-A97E-28B472384113">
+			<DocumentID>005056A2-7798-A1E8-A97E-28B472380113</DocumentID>
+			<Name>Untitled XML Store Definition</Name>
+			<Description>Untitled XML Store Definition</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-08-22T11:18:57.474</CreationDate>
+			<Notes/>
+			<inherit>true</inherit>
+			<accesscontrolentries/>
+			<accesscontrollists/>
+			<conditions/>
+			<instanceConditions/>
+			<securedObject>
+				<uri
+					id="005056A2-7798-A1E8-A97E-28B472388113"
+				/>
+			</securedObject>
+			<staticConditions/>
+		</XMLStoreSecurityDescriptor>
+	</SecurityDescriptor>
+	<SourceFolder>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-B82B6C908E88"
+			path="Underwriting/XMLStore"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</XMLStoreSource>

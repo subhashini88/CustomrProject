@@ -1,0 +1,13 @@
+
+<QualifiedNameRoot
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.namespace.qualifiedname.QualifiedNameRoot"
+	typeVersion="9bd1dc20-2f5e-11e3-aa6e-0800200c9a66"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B118-756B735E417D">
+	<DocumentID>005056A2-27FA-A1EC-B118-756B735E017D</DocumentID>
+	<Name>runtimeQNR for folder</Name>
+	<Description>runtimeQNR for folder</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2022-04-27T04:57:50.036</CreationDate>
+	<Notes/>
+</QualifiedNameRoot>

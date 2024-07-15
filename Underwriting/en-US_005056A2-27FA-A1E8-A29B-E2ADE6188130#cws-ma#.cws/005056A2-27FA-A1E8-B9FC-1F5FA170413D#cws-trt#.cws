@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9FC-1F5FA170813D">
+	<DocumentID>005056A2-27FA-A1E8-B9FC-1F5FA170413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9FC-1F5FA170413D</Name>
+	<Description>Update SQL Table with Task ID of Submitted Task</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-14T09:37:07.541</CreationDate>
+	<Notes/>
+	<Text>Update SQL Table with Task ID of Submitted Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B9FC-1F5FA16FC13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

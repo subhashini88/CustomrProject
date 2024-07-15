@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-9B86-01679B018176">
+	<DocumentID>005056A2-27FA-A1EC-9B86-01679B014176</DocumentID>
+	<Name>005056A2-27FA-A1EC-9B86-01679B014176</Name>
+	<Description>NB Error
+  Timestamp</Description>
+	<CreatedBy>Abhishek</CreatedBy>
+	<CreationDate>2022-01-05T11:14:32.376</CreationDate>
+	<Notes/>
+	<Text>NB Error
+  Timestamp</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-9B86-01679B00C176"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEA-26D382DFC13F">
+	<DocumentID>005056A2-27FA-A1E8-BDEA-26D382DF813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEA-26D382DF813F</Name>
+	<Description>Heart Murmur Questionnaire</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T09:42:00.352</CreationDate>
+	<Notes/>
+	<DefaultText>Heart Murmur Questionnaire</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BDE9-C5161354413F"
+		/>
+	</Translations>
+</TextIdentifier>

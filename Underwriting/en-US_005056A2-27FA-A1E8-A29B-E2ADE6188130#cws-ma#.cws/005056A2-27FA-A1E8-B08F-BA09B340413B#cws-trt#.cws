@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B08F-BA09B340813B">
+	<DocumentID>005056A2-27FA-A1E8-B08F-BA09B340413B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B08F-BA09B340413B</Name>
+	<Description>vor_hch</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-27T10:22:37.865</CreationDate>
+	<Notes/>
+	<Text>vor_hch</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B08F-BA09B33FC13B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

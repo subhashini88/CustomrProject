@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B09A-9C818605019A">
+	<DocumentID>005056A2-27FA-A1ED-B0BC-52A42ED8819A</DocumentID>
+	<Name>005056A2-27FA-A1ED-B0BC-52A42ED8819A</Name>
+	<Description>Get the Retry Duration</Description>
+	<CreatedBy>Prashant Chauhan</CreatedBy>
+	<CreationDate>2023-03-15T05:27:55.924</CreationDate>
+	<Notes/>
+	<Text>Get the Retry Duration</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B0BC-52A42ED8019A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

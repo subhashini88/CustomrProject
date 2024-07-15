@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-92D8-00190BA94168">
+	<DocumentID>005056A2-27FA-A1EB-92D8-00190BA90168</DocumentID>
+	<Name>005056A2-27FA-A1EB-92D8-00190BA90168</Name>
+	<Description>Change O/P Status</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-12-31T12:03:17.339</CreationDate>
+	<Notes/>
+	<Text>Change O/P Status</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-92D8-00190BA88168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

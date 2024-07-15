@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8F97-7A45471F81A4">
+	<DocumentID>005056A2-27FA-A1EE-8F97-7A45471F41A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8F97-7A45471F41A4</Name>
+	<Description>radio6_3</Description>
+	<CreatedBy>manishas</CreatedBy>
+	<CreationDate>2023-08-19T07:42:03.014</CreationDate>
+	<Notes/>
+	<Text>radio6_3</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8F97-7A45471EC1A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BCBA-8E1D542EC183">
+	<DocumentID>005056A2-27FA-A1EC-BCBA-8E1D542E8183</DocumentID>
+	<Name>005056A2-27FA-A1EC-BCBA-8E1D542E8183</Name>
+	<Description>Decision_50</Description>
+	<CreatedBy>prakash</CreatedBy>
+	<CreationDate>2022-06-23T11:49:23.334</CreationDate>
+	<Notes/>
+	<DefaultText>Decision_50</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-BCBA-8E1D542F0183"
+		/>
+	</Translations>
+</TextIdentifier>

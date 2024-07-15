@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-83A4-841DDAF48141">
+	<DocumentID>005056A2-27FA-A1E9-83A4-841DDAF44141</DocumentID>
+	<Name>005056A2-27FA-A1E9-83A4-841DDAF44141</Name>
+	<Description>Benefit Reduction / Modification/Counteroffer</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-02T13:32:36.678</CreationDate>
+	<Notes/>
+	<Text>Benefit Reduction / Modification/Counteroffer</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-83A4-841DDAF3C141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

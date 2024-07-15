@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B7C1-C6523D91416F">
+	<DocumentID>005056A2-27FA-A1EB-B7C1-C6523D91016F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B7C1-C6523D91016F</Name>
+	<Description>End85</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-07-07T09:38:38.617</CreationDate>
+	<Notes/>
+	<DefaultText>End85</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-B7C1-C6523D91816F"
+		/>
+	</Translations>
+</TextIdentifier>

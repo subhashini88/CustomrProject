@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B976-5548AE8D815E">
+	<DocumentID>005056A2-27FA-A1EA-B976-5548AE8D415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B976-5548AE8D415E</Name>
+	<Description>Cardiac Conditions</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T07:33:27.569</CreationDate>
+	<Notes/>
+	<Text>Cardiac Conditions</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B976-5548AE8CC15E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

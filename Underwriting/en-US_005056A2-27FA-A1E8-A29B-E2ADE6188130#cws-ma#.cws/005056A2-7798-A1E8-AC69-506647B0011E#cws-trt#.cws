@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AC69-506647B0411E">
+	<DocumentID>005056A2-7798-A1E8-AC69-506647B0011E</DocumentID>
+	<Name>005056A2-7798-A1E8-AC69-506647B0011E</Name>
+	<Description>nv_process_instance_id</Description>
+	<CreatedBy>vidhyasri</CreatedBy>
+	<CreationDate>2018-09-06T08:09:43.65</CreationDate>
+	<Notes/>
+	<Text>nv_process_instance_id</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AC69-506647AF811E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9316-93B0B73E01A4">
+	<DocumentID>005056A2-27FA-A1EE-931C-A37C27BC41A4</DocumentID>
+	<Name>MoveToUWService</Name>
+	<Description>MoveToUWService</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-09-06T05:04:21.118</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Hourly</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="MoveToUWService"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="2023-09-04T01:15:35.756"
+			msgHolderLastModified="2023-09-02T19:42:46.793">
+			<datetime>
+				<hourly>
+					<minutes>0</minutes>
+				</hourly>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EE-931C-A37C27B7C1A4">
+			<DocumentID>005056A2-27FA-A1EE-931C-A37C27B781A4</DocumentID>
+			<Name>005056A2-27FA-A1EE-931C-A37C27B781A4</Name>
+			<Description>005056A2-27FA-A1EE-931C-A37C27B781A4</Description>
+			<CreatedBy>Sarada</CreatedBy>
+			<CreationDate>2023-09-06T05:04:21.118</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EE-9271-7BE2F2C341A4"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

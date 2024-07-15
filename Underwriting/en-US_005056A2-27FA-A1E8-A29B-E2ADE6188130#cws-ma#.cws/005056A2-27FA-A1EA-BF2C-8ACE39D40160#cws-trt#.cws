@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BF2C-8ACE39D44160">
+	<DocumentID>005056A2-27FA-A1EA-BF2C-8ACE39D40160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BF2C-8ACE39D40160</Name>
+	<Description>Deduction Frequency Confirmed</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-09-22T09:58:08.721</CreationDate>
+	<Notes/>
+	<Text>Deduction Frequency Confirmed</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BF2C-8ACE39D38160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

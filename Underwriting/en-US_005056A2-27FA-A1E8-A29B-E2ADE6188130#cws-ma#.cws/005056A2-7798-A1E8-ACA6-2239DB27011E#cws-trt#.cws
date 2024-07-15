@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-ACA6-2239DB27411E">
+	<DocumentID>005056A2-7798-A1E8-ACA6-2239DB27011E</DocumentID>
+	<Name>005056A2-7798-A1E8-ACA6-2239DB27011E</Name>
+	<Description>*Agent Error:</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-07T12:22:12.571</CreationDate>
+	<Notes/>
+	<Text>*Agent Error:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-ACA6-2239DB26811E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

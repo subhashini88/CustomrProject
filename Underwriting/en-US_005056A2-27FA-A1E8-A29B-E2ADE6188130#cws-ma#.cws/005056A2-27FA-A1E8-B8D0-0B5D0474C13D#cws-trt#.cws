@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B8D0-0B5D0475013D">
+	<DocumentID>005056A2-27FA-A1E8-B8D0-0B5D0474C13D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B8D0-0B5D0474C13D</Name>
+	<Description>benefit_health_meSubtype4</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-08T10:28:27.649</CreationDate>
+	<Notes/>
+	<Text>benefit_health_meSubtype4</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B8D0-0B5D0474413D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

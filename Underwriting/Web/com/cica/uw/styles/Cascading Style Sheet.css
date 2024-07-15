@@ -1,0 +1,1066 @@
+.primary-header .groupheader {
+    background-color: #337ab7;
+    font-size: 12px;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 30px;
+    /* font-size: 13px; */
+  }
+  .primary-header .groupheader label {
+    color:#fff;
+    /* padding: 16px; */
+  }
+  .primary-header .xcontainerbox {
+        margin: 5px 5px;
+  }
+  .primary-header .xcontainerbox .groupheader {
+    
+    text-align: left;
+    
+    /* position: relative; */
+   
+   padding: 5px 10px 24px 10px;
+  }
+  .primary-header .xcontainerbox .groupheader label{
+    color: #ffffff !important;
+   /* font-size: 12px !important;*/
+    margin: 5px; 
+    position: relative;
+    top: 0;
+  }
+  
+  .primary-header.v_layout , .primary-header .h_layout{
+    /* margin: 0 10px; */
+    font-size: 10px;
+    color: #106bad;
+    font-weight: bold;
+    /* margin: 1em 3.4em 0 10px; */
+    position: relative;
+    /*width:auto;*/
+  }
+  .primary-header .h_button {
+    /* background-color: #337ab7; */
+    color: #fff;
+    border-radius: 4px;
+    border-color: transparent;
+    border-color: #98012e;
+    background-color: #98012e;
+  }
+  .primary-header .h_button.sec-btn{
+     border-color: #98012e;
+    background-color: transparent;
+    color: #98012e;
+  }
+  .primary-header .v_label {
+  font-family: arial !important;
+    /* z-index: 9 !important; */
+    color: #0067a7 !important;
+    padding-bottom: 4px !important;
+    height: 15px !important;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.46px !important;
+margin-bottom:10px;
+  }
+  
+  .primary-header .fieldsbox {
+    height: 30px;
+    margin-bottom:10px;
+  }
+  .primary-header .fieldsbox input {
+    color: #555;
+cursor: default;font-size: 13px;border: groove;/* border-radius: 4px; */height: 25px;
+/*background-color: white;*/
+    /* width: 200px; */
+    /* margin-top: 0px; */
+font: -webkit-small-control;
+  }
+  .primary-header .selectbox,.left_align, .primary-header .fieldsbox input.input, .primary-header .inputFieldLeftAlign {
+height: 30px;
+color: #555!important;
+/*background-color: #fff;*/
+background-image: none;
+ border: 0px solid #ccc; 
+/*border-radius: 4px;*/
+/* margin: 0 0 0 0; */
+font-size:15px !important;
+font: -webkit-small-control;
+/*width:100%;*/
+}
+  .primary-header .autoextent .left_align {
+  border-color: transparent;
+  }
+  
+  .primary-header .input#input8, .primary-header .input#input7  {
+    height: 30px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  
+  .primary-header button.item.small.lookup_button {
+    position: relative;
+   left:  84px!important;
+    top: -22px;
+  }
+  .primary-header .listbox{
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   
+  }
+  .primary-header .selectfield button.closed {
+  background-color:transparent;
+  }
+  
+  .primary-header .h_layout.field_col{
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .primary-header .choicegroup .h_label {
+   border-color: transparent;
+  }
+  .primary-header .lookup.fieldsbox {
+    margin-right: 0;
+  }
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+  width: 1em;
+  height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #c3c8ce;
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-color: #2196F3;
+  outline: 0.1em solid #2196F3;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  /*background: #0271fd;*/
+  }
+  .primary-header button, .primary-header .h_button, .primary-header .v_button {
+      background-image: none;
+      height: 30px;
+  }
+  .h_layout{
+  margin: 1em 3.4em 5px 0;
+  }
+  .primary-header.v_layout, .primary-header .h_layout .choicebox {
+  position:relative;
+  top:20px;
+  }
+  /*.primary-header.v_layout, .primary-header .h_layout .simplecontainer.right_align{
+  position:relative;
+  top:40px;
+  }*/
+  
+  .primary-header .choicebox label, .h_choicebox label, .v_choicebox label
+  {
+	  width:100% !important;font-size: 14px;padding-top: 10px;font-weight: normal;color: black;
+  }
+  
+  .primary-header .grid.data th,.grid.navigational th {
+    background-color: #f0f0f5;
+    background-image: none;
+    border-color: transparent;
+    height: 30px;
+    border:1px solid #ddd;
+    text-align: center;
+    padding-left: 0;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    width: auto;
+  }
+  .primary-header .grid.data th label,.primary-header .grid.navigational th label {
+    /*color: #080808;*/
+  color:#4874ad;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .primary-header td .fieldsbox input.input {
+   border:none;
+   font-size: 12px !important;
+   /*color: #000;*/
+  }
+
+  .primary-header .grid.data tbody td,.grid.navigational tbody td{
+    border:1px solid #ddd;
+    padding-left: 12px !important;
+    /* height: 31px; */
+  }
+  .primary-header .f_layout .left_align {
+    border:none;
+  }
+  
+  .primary-header .h_layout.field_input label{
+      font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top: 0;
+      left: -3px;
+  }
+  .primary-header .f_layout .simplecontainer.left_align img {/* padding-right: 3px; */padding-left: 5px;}
+  .primary-header .look_right button.item.small.lookup_button{
+    left:170px;
+  }
+  .primary-header .look_right{
+    position:relative;
+  }
+  .primary-header .look_right.topview .v_label{
+    top:0;
+    margin: 1px 0;
+  }
+  .primary-header .floating_coln{
+    position:relative;
+  }
+  .primary-header .floating_coln.topview .v_label{
+    top:0;
+    margin: 1px 0;
+  }
+  .primary-header td .fieldsbox{
+    padding: 0px;
+    margin-bottom: 0;
+  }
+  .primary-header .h_layout.autoextent .simplecontainer.left_align img {
+    padding: 5px 15px 0 0;
+  }
+  .primary-header #TskResId{
+    margin: 1px 0 0;
+    padding: 3px;
+  }
+.primary-header .dropDown_colm {
+    margin-top:24px;
+font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top:0px;
+  }
+
+.primary-header .dropDown_Operator {
+    margin-top:-2px;
+font-size: 10px;
+      color: #106bad;
+      font-weight: bold;
+      position:relative;
+      top:0px;
+  }
+.primary-header .dropDown_Operator label  {
+    margin-top: 11px;
+     font-size: 10px;
+    color: #106bad;
+    
+  }
+.primary-header .dropDown_colm  label  {
+    margin-top: 11px;
+     font-size: 10px;
+    color: #106bad;
+    
+  }
+ .primary-header.v_layout, .primary-header .h_layout.saved_search{
+    position:relative;
+    left: 470px;
+  }
+
+ .primary-header .tabcontainer
+{
+    background:#ffffff !important;
+}
+
+
+
+.primary-header span
+{
+/*    color: #106bad;
+    font-size: 15px;*/
+    margin-left: -2px; 
+color: #0067a2 !important;
+    font-family: arial !important;
+    height: 20px !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.64px !important;
+}
+
+
+.primary-header p
+{
+ 
+    font-size: 13px;
+    color: black;
+
+}
+
+.primary-header .h_choicebox
+{
+ width:100% !important;font-size: 14px;padding-top: 10px;font-weight: normal;
+}
+
+.primary-header .activetab
+{
+
+    background: #106bad !important;
+   /* display: -webkit-inline-box  !important;
+           height: 35px;
+    padding: 10%;*/
+/*font-size: x-large;*/
+margin-left: 20px !important;
+    height: 50px;
+    object-fit: contain;
+    border: 0px none;
+font-size:xx-large;
+}
+
+.primary-header .activetab label
+{
+
+    font-size: 18px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial !important;
+    font-weight: normal !important;
+    color: #ffffff !important;
+    /* font-family: sans-serif !important; */
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 1.03px;
+
+}
+
+
+ .primary-header .inactivetab
+{
+   
+    /*background: transparent !important;
+    display: -webkit-inline-box !important;
+    height: 35px;
+    padding: 10%;*/
+    margin-left: 20px !important;
+    height: 50px;
+    object-fit: contain;
+    border: 1px solid;
+    border-color: #d3d3d373;
+    background-color: #eee;
+font-size:xx-large;
+}
+
+.primary-header .notesInactive{
+	    margin-left: 20px !important;
+    height: 50px;
+    object-fit: contain;
+    border-color: #ffff;
+    background-color: transparent;
+font-size:xx-large;
+}
+
+ .primary-header .inactivetab label
+{
+
+   font-size: 18px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial !important;
+    font-weight: normal !important;
+    color: #00629b !important;
+    /* font-family: sans-serif !important; */
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 1.03px;
+
+}
+ .primary-header .tabcontent
+{
+  margin-top: 2.8% !important;
+    margin-left: 0.5%;
+    border-radius: 0px;
+    border-color: #d3d3d338;
+    object-fit: contain;
+    box-shadow: 0 1px 3px 1px rgba(205,205,205,0.5);
+}
+
+ .primary-header .v_layout .simplecontainer
+{
+   /* margin-left:10px !important;*/
+}
+
+.primary-header .NotesType  .h_choicebox{
+width:125px !important;
+}
+.primary-header .Notes  .fieldsbox{
+height:auto !important;
+margin-top: -15px;
+}
+.primary-header .Notes  button{
+    font-size: 14px;
+    width: auto;
+    background-color: #D3D3D3;
+    color: #000000;
+   padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+border-color: transparent;
+}
+.primary-header .notesHistory  .fieldsbox{
+padding-top: 10px;
+height:204px;
+font-size:14px;
+ font-family: Arial !important;
+ font-weight: normal !important;
+}
+.primary-header .notesHistoryDivclass {
+
+height:180px;
+color:#555;
+overflow-x:hidden;
+white-space:pre-wrap !important;
+}
+
+
+.primary-header .Notes  textarea
+{
+font: -webkit-control;
+}
+
+.primary-header .notesHistory  .fieldsbox textarea{
+border: 0px solid #ffff;
+color:#555;
+top: -20px !important;
+}
+.primary-header .UwTab .h_choicebox{
+width:155px !important;
+}
+.primary-header .pending-button .btn-default.active,
+.primary-header .pending-button button,
+.primary-header .pending-button button:hover,
+.primary-header .pending-button .btn-default:active,
+.primary-header .pending-button .open>.dropdown-toggle.btn-default {
+    background-color: #98012e;
+    color: #fff;
+    margin: 0 10px;
+height:auto !important;
+}
+
+.primary-header .pending-button .dropdown-menu>li>a {
+    color: #98012e;
+}
+.primary-header .pending-button button.iapp-typical-btn {
+    margin: 2px 0 0;
+    background-color: transparent;
+    color: #98012e;
+    border: 1px solid #98012e;
+    padding: 5px 20px;
+    width:160px;
+}
+.primary-header .pending-button .dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+.primary-header .pending-button .caret{
+    height: auto !important;
+    color: #fff !important;
+}
+.primary-header  input[type=radio] {
+    margin: 0 .5em 0 0;
+}
+.primary-header .AppQues .grid.data th,.primary-header .AppQues .grid.navigational th{
+    background-color: #ffffff;
+    background-image: none;
+    border-color: transparent;
+    height: 30px;
+    border: hidden;
+    text-align: left;
+    padding-left: 0;
+}
+
+.primary-header input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: #D3D3D3;
+  color: #000000;
+}
+.primary-header .AppQues  .grid.data th label,.primary-header .AppQues .grid.navigational th label {
+    color: #0067a2 !important;
+    font-family: arial !important;
+    height: 20px !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.64px !important;
+}
+.primary-header .AppQues  .grid.data tbody,.grid.navigational tbody{
+    border: hidden;
+}
+  .primary-header .AppQues   td .fieldsbox input.input {
+  color: #555;
+font-size: 13px
+  }
+.primary-header .AppQues .grid.data .oddrow{
+background-color:white;
+}
+.primary-header .AppQues .appQuestions  .grid.data tbody{
+    pointer-events:none;
+}
+
+ .primary-header .rollercontainer 
+{
+left: -10px !important;
+top: 6px !important;
+}
+
+.primary-header .Header{
+left:10px;
+}
+.primary-header .MasterApplication span
+{
+font-size:15px !important;
+font-style: italic !important;
+}
+.data input.output.ifocus, .data .input[class~=output]:focus {
+font-size: 10px !important;
+}
+.primary-header .InputBorder .selectbox  input.output.ifocus, .primary-header .InputBorder .selectbox .input[class~=output]:focus {
+font-size: 13px !important;
+background-color:white !important;
+}
+.primary-header .tableReadable {
+   pointer-events: none; 
+    margin-left: -39px;
+    margin-right: -39px;
+}
+.primary-header .tableReadable table{
+   overflow:hidden;
+}
+.primary-header .tableReadable td .fieldsbox{
+   height:auto;
+}
+.primary-header .tableReadable td .fieldsbox input.input{
+  text-align:left !important;
+font-size:13px !important;
+}
+
+.primary-header .tableReadable th {
+text-align:left !important;
+}
+.primary-header .tableReadable th label{
+    font-size: 11px !important;
+    font-family: arial !important;
+}
+.primary-header .tableReadable td .fieldsbox textarea{
+      height: 45px !important;
+ overflow:hidden;
+    border: none;
+    font-size: 13px;
+    color: #555;
+background-color:white;
+text-align:left;
+}
+
+/*.primary-header .tableClickable {
+cursor: pointer;
+    margin-left: -39px
+    margin-right: -39px;
+ height:auto;
+}
+
+.primary-header .tableClickable td .fieldsbox{
+   height:auto;
+/*background-color:white !important;*/
+}
+.primary-header .tableClickable td .fieldsbox input.input{
+  text-align:left !important;
+font-size:13px !important;
+/*background-color:white !important;*/
+}
+.primary-header .tableClickable th {
+text-align:left !important;
+}
+
+.primary-header .tableClickable th label{
+    font-size: 12px !important;
+    font-family: arial !important;
+ height: 45px !important;
+}
+.primary-header .tableClickable td .fieldsbox textarea{
+      height: 45px !important;
+    border: none;
+    font-size: 13px;
+   overflow:hidden;
+/*background-color:white !important;*/
+text-align:left;
+}
+
+.primary-header .tableClickable td{
+/*background-color:white !important;*/
+}
+
+.primary-header .tableClickable tr{
+/*background-color:white !important;*/
+}
+.primary-header .tableClickable tr.nth-child(odd){
+background-color:#f0f0f5;
+}*/
+
+.primary-header .tableGroup {
+ height:auto;
+    margin-left: -26px;
+    margin-right: -26px;
+}
+
+.primary-header .tableGroup  .groupcontent {
+ height:auto;
+    overflow-x: hidden;
+}
+.primary-header .bottomTabs .simplecontainer {
+    overflow-x: hidden !important;
+}
+  .primary-header  .bottomTabs .xcontainerbox .groupheader label{
+    color: #ffffff !important;
+    font-size: 18px !important;
+    /* margin: 10px; */
+    position: relative;
+    top: 0;
+padding-left:0px ;
+  }
+.primary-header .tableGroup .xcontainerbox .groupheader {
+    
+    text-align: left;
+    
+    /* position: relative; */
+   top:-7px;
+  /* padding: 5px 10px 24px 10px;*/
+ padding: 3px 15px 35px 10px;
+  }
+
+.primary-header .tableReadable  .grid.data .oddrow{
+    background-color: white;
+}
+.primary-header .GroupSetup label{
+    font-family: arial !important;
+    /* z-index: 9 !important; */
+    color: #0067a7 !important;
+    padding-bottom: 4px !important;
+    height: 15px !important;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.46px !important;
+    padding-left: 0px;
+}
+.primary-header .GroupSetup output,.primary-header .GroupSetup input,.primary-header .GroupSetup select{
+    margin-left: 15px;
+}
+
+  .primary-header .GroupSetup output{
+display: initial !important;
+height: 30px;
+color: #555;
+background-color: #fff;
+background-image: none;
+ border: 0px solid #ccc; 
+/*border-radius: 4px;*/
+/* margin: 0 0 0 0; */
+font-size:15px !important;
+font: -webkit-small-control;
+/*width:100%;*/
+}
+  .primary-header .GroupSetup input,.primary-header .GroupSetup select{
+    color: #555 ;
+    cursor: default;
+    font-size: 13px ;
+    height: 22px;
+    background-color: rgb(211 211 211) ;
+    border: 1px solid #D5D5D5 ;
+    border-color: #D5D5D5 ;
+    border-radius: 0px ;
+    font: -webkit-small-control ;
+    width: auto ;
+}
+.primary-header .errorDetails textarea{
+height: 100px;
+    overflow: auto;
+
+    resize: none;
+}
+
+.primary-header .GroupSetup progress {
+  border-radius: 1px; 
+  width: 80%;
+  height: 22px;
+ border:solid;
+
+}
+.primary-header .GroupSetup progress::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 1px;
+
+}
+.primary-header .GroupSetup progress::-webkit-progress-value {
+  background-color: #106bad;
+  border-radius: 1px;
+
+}
+.primary-header .GroupSetup .progressSnippet{
+margin-left:50px;
+
+}
+.primary-header .GroupSetup span{
+font-style: italic !important;
+
+}
+.primary-header .InputBorder .selectbox     ,.primary-header .InputBorder .input{
+
+    height: 30px !important;
+  color: #555 !important;
+  background-color: #fff !important;
+  background-image: none !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+}
+.primary-header .InputBorder .lookup{
+margin-left: 65px;
+}
+.primary-header .InputBorder .left_align{
+width:auto !important;
+    left: 10px;
+}
+.primary-header .InputBorder .lookup_button{
+    top: 5px !important;
+    left: 80px !important;
+}
+.primary-header .InputBorder .selectbox input {
+    
+    padding-top: 4px;
+    padding-left: 7px;
+}
+.primary-header .RefAttachHeader .refreshBtn {
+  background-color: white;
+  border-color: white;
+  border: 0px solid #FFFFFF; 
+  color: #0067a7;
+  /*padding-left: 10px;*/
+  font-size: 15px;
+  cursor: pointer;
+  height: 0px;
+    width: 100px;
+    font-weight: normal;
+	margin-left: -4px;
+	margin-top: 1px;
+}
+.primary-header .RefAttachHeader  .viewAttachments {
+    height: 30px;
+    margin-bottom:10px;
+padding-left: 22px;
+	/*padding-left: 290px;*/
+	color: #0067a7 !important;
+	font-size:15px !important;
+	font: -webkit-small-control;
+/*width: 230px !important;*/
+  }
+ .primary-header .RefAttachHeader a:link, a:visited {
+  color: #0067a7;
+  text-decoration: none;
+  cursor: auto;
+}
+.primary-header .RefAttachHeader  .viewAttachments a{
+  text-decoration: underline !important;
+  }
+
+.primary-header .RefAttachHeader a:link:active, a:visited:active {
+  color: #0067a7;
+text-decoration: none;
+}
+
+.create-task .feedbackbox #fb_titlebar {
+
+    background-color: #337ab7;
+      padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: none;
+top:0px;
+left: -1px;
+right: -1px;
+}
+.create-task .feedbackbox #fb_titlebar h1 {
+    
+    font-size: 18px;
+   font-family: arial;
+font-weight: normal;
+}
+.primary-header .UWMessageTable th {
+      background-color: #337ab7 !important;
+      text-align:left !important;
+}
+.primary-header .UWMessageTable th label{
+      color: white !important;
+
+}
+.primary-header .UWMessageTable{
+     pointer-events:none;
+
+}
+  .primary-header .paddingScrollField1 .PaddingScroll .fieldsbox{
+	padding-left: 110px;
+    width: 256px !important;
+  }
+
+.primary-header .shiftRight .fieldsbox{
+float:right !important;
+margin-left:700px !important;
+}
+
+.primary-header .moveRight .fieldsbox{
+margin-left:1000px !important;
+}
+
+.primary-header .inputborderselect .selectbox input{
+margin-bottom:10px;
+}
+
+.primary-header .tablenew {
+cursor: pointer;
+    margin-left: -39px;
+    margin-right: -39px;
+}
+
+.primary-header .tablenew td .fieldsbox{
+   height:auto;
+/*background-color:white !important;*/
+}
+.primary-header .tablenew td .fieldsbox input.input{
+  text-align:left !important;
+font-size:13px !important;
+/*background-color:white !important;*/
+}
+.primary-header .tablenew th {
+text-align:left !important;
+}
+
+.primary-header .tablenew th label{
+    font-size: 12px !important;
+    font-family: arial !important;
+ height: 45px !important;
+font-weight:bold;
+background-color:#f0f0f5;
+}
+.primary-header .tablenew td .fieldsbox textarea{
+      height: 45px !important;
+    border: none;
+    font-size: 13px;
+   overflow:hidden;
+/*background-color:white !important;*/
+text-align:left;
+}
+
+.primary-header .tablenew td{
+/*background-color:white !important;*/
+}
+
+.primary-header .tablenew tr.nth-child(odd){
+background-color:#f0f0f5;
+}
+.primary-header .tablenew tr:nth-child(even){
+/*background-color:#f0f0f5;*/
+}
+/*.primary-header .tablenew tr:hover
+{
+background-color: #FCF;
+}*/
+primary-header .tablenew  tr.selectedRow
+{
+background-color: #FCF;
+}
+.primary-header .tablesummary {
+cursor: pointer;
+    margin-left: -39px;
+    margin-right: -39px;
+}
+
+.primary-header .tablesummary td .fieldsbox{
+   height:auto;
+/*background-color:white !important;*/
+}
+.primary-header .tablesummary td .fieldsbox input.input{
+  text-align:left !important;
+font-size:13px !important;
+/*background-color:white !important;*/
+}
+.primary-header .tablesummary th {
+text-align:left !important;
+}
+
+.primary-header .tablesummary th label{
+    font-size: 14px !important;
+    font-family: arial !important;
+ height: 45px !important;
+font-weight:bold;
+background-color:#f0f0f5;
+}
+.primary-header .tablesummary td .fieldsbox textarea{
+      height: 25px !important;
+    border: none;
+    font-size: 13px;
+   overflow:hidden;
+/*background-color:white !important;*/
+text-align:left;
+padding-bottom:29px;
+}
+
+.primary-header .tablesummary td{
+/*background-color:white !important;*/
+}
+
+.primary-header .tablesummary tr.nth-child(odd){
+background-color:#f0f0f5;
+/*background-color:#eee;*/
+}
+.primary-header .tablesummary tr:nth-child(even){
+/*background-color:#f0f0f5;*/
+}
+primary-header .tablesummary tr.selectedRow
+{
+background-color: #FCF;
+}
+
+
+
+#recordsCount{
+left:-23px;
+padding-bottom:5px;
+color :  red !important;
+border: none;
+}
+
+#CRecordsCount{
+left:-15px;
+padding-bottom:5px;
+color :  red !important;
+border: none;
+}
+
+.primary-header .btnGroupRightAllign{
+text-align: right !important;
+margin-top: -3%
+}
+
+
+.primary-header .tableClickable  {
+cursor: pointer;
+    margin-left: 0px;
+    margin-right: -10px;
+}
+
+.primary-header .tableClickable  td .fieldsbox{
+   height:auto;
+/*background-color:white !important;*/
+}
+.primary-header .tableClickable  td .fieldsbox input.input{
+  text-align:left !important;
+font-size:13px !important;
+/*background-color:white !important;*/
+}
+.primary-header .tableClickable  th {
+text-align:left !important;
+}
+
+.primary-header .tableClickable  th label{
+    font-size: 13px !important;
+    font-family: arial !important;
+ height: 45px !important;
+font-weight:bold;
+background-color:#f0f0f5;
+}
+.primary-header .tableClickable  td .fieldsbox textarea{
+      height: 45px !important;
+    border: none;
+    font-size: 13px;
+   overflow:hidden;
+/*background-color:white !important;*/
+text-align:left;
+}
+
+.primary-header .tableClickable  td{
+/*background-color:white !important;*/
+}
+
+.primary-header .tableClickable  tr.nth-child(odd){
+background-color:#f0f0f5;
+}
+.primary-header .tableClickable  tr:nth-child(even){
+/*background-color:#f0f0f5;*/
+}
+/*.primary-header .tableClickable  tr:hover
+{
+background-color: #FCF;
+}*/
+primary-header .tableClickable  tr.selectedRow
+{
+background-color: #FCF;
+}
+#tblPolicyNo
+{
+text-decoration:underline;
+}
+#tblCustomer th:first-child {
+ width: 30px;
+}
+#txt{
+min-width:50px!important;
+ // max-width:99.99%!important;
+ // transition: width 0.25s;
+  //text-align:center;
+}
+#txt1{
+min-width:50px!important;
+max-width:99.99%!important;
+transition: width 0.25s;
+text-align:center;
+}
+#inpBirthDate
+{
+    background-color:white !important;
+    border: 1px solid #ccc;
+}
+#xfe12 div button
+{
+    margin-left: -35px !important;
+}
+#RejectID
+{
+margin-left:50px;
+}
+#opPolicyNumber
+{
+color:blue!important;
+}
+#ClaimNo
+{
+color:blue!important;
+}

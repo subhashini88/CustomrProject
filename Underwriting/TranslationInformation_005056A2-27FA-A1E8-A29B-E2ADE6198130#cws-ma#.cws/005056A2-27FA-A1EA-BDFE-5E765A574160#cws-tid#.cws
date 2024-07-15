@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BDFE-5E765A578160">
+	<DocumentID>005056A2-27FA-A1EA-BDFE-5E765A574160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BDFE-5E765A574160</Name>
+	<Description>Bladder Disorders</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T08:52:09.886</CreationDate>
+	<Notes/>
+	<DefaultText>Bladder Disorders</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BDFE-5E765A57C160"
+		/>
+	</Translations>
+</TextIdentifier>

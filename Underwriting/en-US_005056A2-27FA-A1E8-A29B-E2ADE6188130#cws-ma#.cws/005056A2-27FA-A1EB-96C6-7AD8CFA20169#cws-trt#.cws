@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-96C6-7AD8CFA24169">
+	<DocumentID>005056A2-27FA-A1EB-96C6-7AD8CFA20169</DocumentID>
+	<Name>005056A2-27FA-A1EB-96C6-7AD8CFA20169</Name>
+	<Description>Enrollment End
+ Date Past ?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-01-20T12:31:47.709</CreationDate>
+	<Notes/>
+	<Text>Enrollment End
+ Date Past ?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-96C6-7AD8CFA18169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

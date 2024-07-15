@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B218-D9B3C6CB013B">
+	<DocumentID>005056A2-27FA-A1E8-B218-D9B3C6CAC13B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B218-D9B3C6CAC13B</Name>
+	<Description>Close and Create a New Task</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-05T06:13:32.579</CreationDate>
+	<Notes/>
+	<Text>Close and Create a New Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B218-D9B3C6CA413B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

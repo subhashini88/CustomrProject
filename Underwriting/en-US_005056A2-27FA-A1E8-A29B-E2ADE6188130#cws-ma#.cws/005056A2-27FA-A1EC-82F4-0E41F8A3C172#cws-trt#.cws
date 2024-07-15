@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-82F4-0E41F8A40172">
+	<DocumentID>005056A2-27FA-A1EC-82F4-0E41F8A3C172</DocumentID>
+	<Name>005056A2-27FA-A1EC-82F4-0E41F8A3C172</Name>
+	<Description>usp_NewBusiness_DataExtract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-02T09:35:10.686</CreationDate>
+	<Notes/>
+	<Text>usp_NewBusiness_DataExtract</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-82F4-0E41F8A34172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

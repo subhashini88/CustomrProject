@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8DAD-4A5E9C3641A1">
+	<DocumentID>005056A2-27FA-A1EE-8DAD-4A5E9C3601A1</DocumentID>
+	<Name>005056A2-27FA-A1EE-8DAD-4A5E9C3601A1</Name>
+	<Description>Manager director Name</Description>
+	<CreatedBy>manishas</CreatedBy>
+	<CreationDate>2023-08-09T13:09:09.261</CreationDate>
+	<Notes/>
+	<Text>Manager director Name</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8DAD-4A5E9C3581A1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

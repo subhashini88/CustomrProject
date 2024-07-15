@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8954-46C944D141A0">
+	<DocumentID>005056A2-27FA-A1EE-8954-46C944D101A0</DocumentID>
+	<Name>005056A2-27FA-A1EE-8954-46C944D101A0</Name>
+	<Description>CM8 Doc ID</Description>
+	<CreatedBy>manishas</CreatedBy>
+	<CreationDate>2023-07-18T10:21:38.887</CreationDate>
+	<Notes/>
+	<Text>CM8 Doc ID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8954-46C944D081A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

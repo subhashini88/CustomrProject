@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9A7A-3519069A0169">
+	<DocumentID>005056A2-27FA-A1EB-9A7A-35190699C169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9A7A-35190699C169</Name>
+	<Description>New Business Review</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-02-08T08:37:14.711</CreationDate>
+	<Notes/>
+	<Text>New Business Review</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9A7A-351906994169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

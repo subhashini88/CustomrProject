@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-805D-638AD7FAC160">
+	<DocumentID>005056A2-27FA-A1EB-805D-638AD7FA8160</DocumentID>
+	<Name>005056A2-27FA-A1EB-805D-638AD7FA8160</Name>
+	<Description>WKSAuthToken</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-09-28T11:14:16.902</CreationDate>
+	<Notes/>
+	<Text>WKSAuthToken</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-805D-638AD7FA0160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

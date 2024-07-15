@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-814E-D7B9BF93418C">
+	<DocumentID>005056A2-27FA-A1ED-814E-D7B9BF93018C</DocumentID>
+	<Name>005056A2-27FA-A1ED-814E-D7B9BF93018C</Name>
+	<Description>Decision</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-16T20:39:50.234</CreationDate>
+	<Notes/>
+	<Text>Decision</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-814E-D7B9BF92818C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

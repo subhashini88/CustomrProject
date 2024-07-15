@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B8E9-0E4AC83D415E">
+	<DocumentID>005056A2-27FA-A1EA-B8E9-0E4AC83D015E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B8E9-0E4AC83D015E</Name>
+	<Description>PHI</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-21T11:51:25.875</CreationDate>
+	<Notes/>
+	<Text>PHI</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B8E9-0E4AC83C815E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

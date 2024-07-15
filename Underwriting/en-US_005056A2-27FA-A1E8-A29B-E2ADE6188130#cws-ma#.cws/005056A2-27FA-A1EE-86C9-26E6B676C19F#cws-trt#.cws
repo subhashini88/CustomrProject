@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-86C9-26E6B677019F">
+	<DocumentID>005056A2-27FA-A1EE-86C9-26E6B676C19F</DocumentID>
+	<Name>005056A2-27FA-A1EE-86C9-26E6B676C19F</Name>
+	<Description>Manual_UWPostIssueReviewCaseCreator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-05T11:11:11.938</CreationDate>
+	<Notes/>
+	<Text>Manual_UWPostIssueReviewCaseCreator</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-86C9-26E6B676419F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

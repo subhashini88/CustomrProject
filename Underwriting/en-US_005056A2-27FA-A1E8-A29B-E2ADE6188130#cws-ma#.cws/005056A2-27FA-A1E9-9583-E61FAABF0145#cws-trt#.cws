@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9583-E61FAABF4145">
+	<DocumentID>005056A2-27FA-A1E9-9583-E61FAABF0145</DocumentID>
+	<Name>005056A2-27FA-A1E9-9583-E61FAABF0145</Name>
+	<Description>Business Street Address:</Description>
+	<CreatedBy>ramya</CreatedBy>
+	<CreationDate>2019-04-03T13:07:05.602</CreationDate>
+	<Notes/>
+	<Text>Business Street Address:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9583-E61FAABE8145"
+		/>
+	</TextIdentifier>
+</TranslatedText>

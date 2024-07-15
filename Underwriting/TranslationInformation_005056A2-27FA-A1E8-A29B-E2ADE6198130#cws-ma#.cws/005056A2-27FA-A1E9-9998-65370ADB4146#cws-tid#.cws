@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9998-65370ADB8146">
+	<DocumentID>005056A2-27FA-A1E9-9998-65370ADB4146</DocumentID>
+	<Name>005056A2-27FA-A1E9-9998-65370ADB4146</Name>
+	<Description>Chubb
+  Employee</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-04-24T07:31:21.143</CreationDate>
+	<Notes/>
+	<DefaultText>Chubb
+  Employee</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-9998-65370ADBC146"
+		/>
+	</Translations>
+</TextIdentifier>

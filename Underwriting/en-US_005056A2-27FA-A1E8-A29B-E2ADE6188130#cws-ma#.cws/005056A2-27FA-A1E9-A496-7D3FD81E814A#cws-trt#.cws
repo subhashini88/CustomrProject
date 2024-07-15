@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A496-7D3FD81EC14A">
+	<DocumentID>005056A2-27FA-A1E9-A496-7D3FD81E814A</DocumentID>
+	<Name>005056A2-27FA-A1E9-A496-7D3FD81E814A</Name>
+	<Description>&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span  style='text-decoration:underline;font-weight:bold;'  &gt;Paramedical Exam/Lab Request&lt;/span&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-06-19T06:18:54.95</CreationDate>
+	<Notes/>
+	<Text>&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span  style='text-decoration:underline;font-weight:bold;'  &gt;Paramedical Exam/Lab Request&lt;/span&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A496-7D3FD81E014A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

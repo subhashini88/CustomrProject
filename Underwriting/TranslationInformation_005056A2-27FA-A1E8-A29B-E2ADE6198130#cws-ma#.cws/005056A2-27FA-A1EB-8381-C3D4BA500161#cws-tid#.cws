@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8381-C3D4BA504161">
+	<DocumentID>005056A2-27FA-A1EB-8381-C3D4BA500161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8381-C3D4BA500161</Name>
+	<Description>SaveandCompleteLSP</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-10-14T10:28:00.052</CreationDate>
+	<Notes/>
+	<DefaultText>SaveandCompleteLSP</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8381-C3D4BA508161"
+		/>
+	</Translations>
+</TextIdentifier>

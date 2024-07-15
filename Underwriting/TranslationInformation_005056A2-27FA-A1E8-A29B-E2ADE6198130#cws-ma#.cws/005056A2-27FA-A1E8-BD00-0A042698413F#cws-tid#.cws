@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BD00-0A042698813F">
+	<DocumentID>005056A2-27FA-A1E8-BD00-0A042698413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BD00-0A042698413F</Name>
+	<Description>To Update Decision and Decision Date to Underwriting SQL Table</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T17:57:56.014</CreationDate>
+	<Notes/>
+	<DefaultText>To Update Decision and Decision Date to Underwriting SQL Table</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BD00-0A042698C13F"
+		/>
+	</Translations>
+</TextIdentifier>

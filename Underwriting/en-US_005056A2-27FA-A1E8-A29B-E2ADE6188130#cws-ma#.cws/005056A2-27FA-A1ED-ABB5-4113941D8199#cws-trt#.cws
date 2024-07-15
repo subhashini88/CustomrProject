@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-ABB5-4113941DC199">
+	<DocumentID>005056A2-27FA-A1ED-ABB5-4113941D8199</DocumentID>
+	<Name>005056A2-27FA-A1ED-ABB5-4113941D8199</Name>
+	<Description>AEBBOTAutomation</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-17T15:20:15.865</CreationDate>
+	<Notes/>
+	<Text>AEBBOTAutomation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-ABB5-4113941D0199"
+		/>
+	</TextIdentifier>
+</TranslatedText>

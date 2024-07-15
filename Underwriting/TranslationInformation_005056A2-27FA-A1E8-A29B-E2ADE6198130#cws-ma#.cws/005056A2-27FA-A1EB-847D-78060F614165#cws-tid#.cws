@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-847D-78060F618165">
+	<DocumentID>005056A2-27FA-A1EB-847D-78060F614165</DocumentID>
+	<Name>005056A2-27FA-A1EB-847D-78060F614165</Name>
+	<Description>GetLSPValidationsObjects</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-10-19T10:32:50.809</CreationDate>
+	<Notes/>
+	<DefaultText>GetLSPValidationsObjects</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-847D-78060F61C165"
+		/>
+	</Translations>
+</TextIdentifier>

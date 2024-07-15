@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B975-F8BC25CE815E">
+	<DocumentID>005056A2-27FA-A1EA-B975-F8BC25CE415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B975-F8BC25CE415E</Name>
+	<Description>Cancer or any malignancy / which includes carcinoma / sarcoma / Hodgkin's Disease / leukemia / lymphoma / or a malignant tumor or found to have abnormal results on a cancer screening examination...</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-24T07:33:27.605</CreationDate>
+	<Notes/>
+	<DefaultText>Cancer or any malignancy / which includes carcinoma / sarcoma / Hodgkin's Disease / leukemia / lymphoma / or a malignant tumor or found to have abnormal results on a cancer screening examination...</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-B975-F8BC25CEC15E"
+		/>
+	</Translations>
+</TextIdentifier>

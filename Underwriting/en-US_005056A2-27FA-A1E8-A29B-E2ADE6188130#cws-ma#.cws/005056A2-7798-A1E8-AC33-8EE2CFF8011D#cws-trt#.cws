@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AC33-8EE2CFF8411D">
+	<DocumentID>005056A2-7798-A1E8-AC33-8EE2CFF8011D</DocumentID>
+	<Name>005056A2-7798-A1E8-AC33-8EE2CFF8011D</Name>
+	<Description>5050TI -  Medicare:</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-05T07:09:45.815</CreationDate>
+	<Notes/>
+	<Text>5050TI -  Medicare:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AC33-8EE2CFF7811D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

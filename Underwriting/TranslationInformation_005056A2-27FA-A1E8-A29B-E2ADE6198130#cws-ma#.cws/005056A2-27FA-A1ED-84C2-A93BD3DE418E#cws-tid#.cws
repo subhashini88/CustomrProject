@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-84C2-A93BD3DE818E">
+	<DocumentID>005056A2-27FA-A1ED-84C2-A93BD3DE418E</DocumentID>
+	<Name>005056A2-27FA-A1ED-84C2-A93BD3DE418E</Name>
+	<Description>Mapping Output</Description>
+	<CreatedBy>Prashant Chauhan</CreatedBy>
+	<CreationDate>2022-08-03T10:07:06.669</CreationDate>
+	<Notes/>
+	<DefaultText>Mapping Output</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-84C2-A93BD3DEC18E"
+		/>
+	</Translations>
+</TextIdentifier>

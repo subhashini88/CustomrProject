@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A2B8-2E34417A816B">
+	<DocumentID>005056A2-27FA-A1EB-A2B8-2E34417A416B</DocumentID>
+	<Name>005056A2-27FA-A1EB-A2B8-2E34417A416B</Name>
+	<Description>Coverage &amp; Claims_1</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-03-22T07:38:59.579</CreationDate>
+	<Notes/>
+	<DefaultText>Coverage &amp; Claims_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-A2B8-2E34417AC16B"
+		/>
+	</Translations>
+</TextIdentifier>

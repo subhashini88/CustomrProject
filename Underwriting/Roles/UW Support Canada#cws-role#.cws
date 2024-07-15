@@ -1,0 +1,18 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1E9-839E-724951EF4141">
+	<DocumentID>005056A2-27FA-A1E9-839E-724951EF0141</DocumentID>
+	<Name>UW Support Canada</Name>
+	<Description>UW Support Canada</Description>
+	<CreatedBy>saran</CreatedBy>
+	<CreationDate>2019-01-02T10:46:44.194</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

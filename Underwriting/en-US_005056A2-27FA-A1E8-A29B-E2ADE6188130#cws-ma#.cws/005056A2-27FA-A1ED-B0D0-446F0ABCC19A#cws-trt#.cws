@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B0D0-446F0ABD019A">
+	<DocumentID>005056A2-27FA-A1ED-B0D0-446F0ABCC19A</DocumentID>
+	<Name>005056A2-27FA-A1ED-B0D0-446F0ABCC19A</Name>
+	<Description>Maximum Attempts/Data Related Issues</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-15T15:02:28.492</CreationDate>
+	<Notes/>
+	<Text>Maximum Attempts/Data Related Issues</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B0D0-446F0ABC419A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

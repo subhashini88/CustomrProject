@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB9D-16353AC4013F">
+	<DocumentID>005056A2-27FA-A1E8-BB9D-16353AC3C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB9D-16353AC3C13F</Name>
+	<Description>RadioSetValue</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-22T16:46:11.941</CreationDate>
+	<Notes/>
+	<Text>RadioSetValue</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB9D-16353AC3413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

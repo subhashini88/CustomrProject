@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-923C-001123028168">
+	<DocumentID>005056A2-27FA-A1EB-923C-001123024168</DocumentID>
+	<Name>005056A2-27FA-A1EB-923C-001123024168</Name>
+	<Description>Generate task for Peer review</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-12-28T09:49:03.689</CreationDate>
+	<Notes/>
+	<Text>Generate task for Peer review</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-923C-00112301C168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

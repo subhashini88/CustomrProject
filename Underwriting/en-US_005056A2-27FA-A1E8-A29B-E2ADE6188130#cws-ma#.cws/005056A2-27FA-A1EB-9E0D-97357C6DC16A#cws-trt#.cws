@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9E0D-97357C6E016A">
+	<DocumentID>005056A2-27FA-A1EB-9E0D-97357C6DC16A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9E0D-97357C6DC16A</Name>
+	<Description>ADLPreProcessing</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-26T13:30:51.767</CreationDate>
+	<Notes/>
+	<Text>ADLPreProcessing</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9E0D-97357C6D416A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

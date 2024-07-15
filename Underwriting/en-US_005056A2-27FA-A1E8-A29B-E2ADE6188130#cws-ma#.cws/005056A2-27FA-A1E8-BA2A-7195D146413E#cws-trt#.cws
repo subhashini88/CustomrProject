@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA2A-7195D146813E">
+	<DocumentID>005056A2-27FA-A1E8-BA2A-7195D146413E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA2A-7195D146413E</Name>
+	<Description>Remove Individual - Child8</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-15T09:45:38.009</CreationDate>
+	<Notes/>
+	<Text>Remove Individual - Child8</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BA2A-7195D145C13E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

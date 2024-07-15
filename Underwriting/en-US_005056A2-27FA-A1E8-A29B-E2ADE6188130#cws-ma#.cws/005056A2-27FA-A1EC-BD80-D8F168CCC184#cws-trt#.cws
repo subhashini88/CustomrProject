@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BD80-D8F168CD0184">
+	<DocumentID>005056A2-27FA-A1EC-BD80-D8F168CCC184</DocumentID>
+	<Name>005056A2-27FA-A1EC-BD80-D8F168CCC184</Name>
+	<Description>is Any task Avialable?</Description>
+	<CreatedBy>prakash</CreatedBy>
+	<CreationDate>2022-06-27T11:17:05.324</CreationDate>
+	<Notes/>
+	<Text>is Any task Avialable?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BD80-D8F168CC4184"
+		/>
+	</TextIdentifier>
+</TranslatedText>

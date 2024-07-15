@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9A74-1EDF5AA68169">
+	<DocumentID>005056A2-27FA-A1EB-9A7C-7DB806C38169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9A7C-7DB806C38169</Name>
+	<Description>UpdateWKSEnrollmentTask</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-02-08T09:53:53.694</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateWKSEnrollmentTask</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9A74-1EDF5AA6C169"
+		/>
+	</Translations>
+</TextIdentifier>

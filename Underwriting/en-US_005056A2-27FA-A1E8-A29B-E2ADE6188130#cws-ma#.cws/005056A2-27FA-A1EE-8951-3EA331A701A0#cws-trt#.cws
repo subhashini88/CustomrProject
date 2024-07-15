@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8951-3EA331A741A0">
+	<DocumentID>005056A2-27FA-A1EE-8951-3EA331A701A0</DocumentID>
+	<Name>005056A2-27FA-A1EE-8951-3EA331A701A0</Name>
+	<Description>Market Code</Description>
+	<CreatedBy>manishas</CreatedBy>
+	<CreationDate>2023-07-18T08:53:29.889</CreationDate>
+	<Notes/>
+	<Text>Market Code</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8951-3EA331A681A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

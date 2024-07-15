@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B2AE-A1633BD5413B">
+	<DocumentID>005056A2-27FA-A1E8-B2AE-A1633BD5013B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B2AE-A1633BD5013B</Name>
+	<Description>Personal Follow Up</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-10-08T05:25:27.363</CreationDate>
+	<Notes/>
+	<Text>Personal Follow Up</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B2AE-A1633BD4813B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

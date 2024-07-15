@@ -1,0 +1,519 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9298-961ABC4641A4">
+	<DocumentID>005056A2-27FA-A1EE-9298-961ABC4681A4</DocumentID>
+	<Name>RejectScreenNew</Name>
+	<Description>RejectScreenNew</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2023-09-03T16:32:00.419</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<style
+					src="com/cica/uw/styles/bootstrap.min.css"
+					documentID="005056A2-27FA-A1ED-862C-684E955D018E"
+				/>
+				<style
+					src="com/cica/uw/styles/CaseTask.css"
+					documentID="005056A2-27FA-A1ED-862C-684E955B018E"
+				/>
+				<xforms:model
+					id="UpdateActivityLogModel"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:automatic="false"
+					wcpforms:businessElement="tns:UpdateActivityLogResponse"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false"
+					wcpforms:nontransactional="true">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:timeout=""
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+							src="http://schemas.cordys.com/default/UpdateActivityLog"
+							type="get"
+							operationName="UpdateActivityLog"
+							wcpforms:wsguid="005056A2-27FA-A1EE-906B-100038A541A4">
+							<TaskInstanceID
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<TaskType
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<receivingDept
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<notes
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<servicetype
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<actionBY
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<policyno
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<UserValues
+								xmlns="http://schemas.cordys.com/default"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/default</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/default</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xforms:model
+					id="CRMNotesOutBound"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:automatic="false"
+					wcpforms:businessElement="tns:APIResult"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false"
+					wcpforms:nontransactional="true">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:timeout=""
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+							src="http://schemas.cordys.com/default/UW_CRMNotesOutbound"
+							type="get"
+							operationName="UW_CRMNotesOutbound"
+							wcpforms:wsguid="005056A2-27FA-A1EE-8F14-04DA77E481A4">
+							<BusinessUnit
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<CreatedOn
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<ExternalID
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<Description
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<CreatedBy
+								xmlns="http://schemas.cordys.com/default"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/default</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/default</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xforms:model
+					id="RejectDummyModel"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:automatic="false"
+					wcpforms:businessElement="data"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:timeout=""
+						wcpforms:iteratorSize="50"
+					/>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xforms:model
+					id="TblUWPI_NotesModel"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:automatic="false"
+					wcpforms:businessElement="tns:tblUWPI_Notes"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:timeout=""
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+							src="http://schemas.cordys.com/uw/dataservices/1.0/UpdateTblUWPI_Notes"
+							type="get"
+							operationName="UpdateTblUWPI_Notes"
+							wcpforms:wsguid="005056A2-27FA-A1EC-B98C-62004988017E">
+							<tuple
+								xmlns="http://schemas.cordys.com/uw/dataservices/1.0"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/uw/dataservices/1.0</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						xmlns=""
+						id="ActivityLogUpdate">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<UpdateActivityLog
+									xmlns="http://schemas.cordys.com/default">
+									<TaskInstanceID/>
+									<TaskType/>
+									<receivingDept/>
+									<notes/>
+									<servicetype/>
+									<actionBY/>
+									<policyno/>
+									<UserValues/>
+								</UpdateActivityLog>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop"
+					wcpforms:customclass="primary-header create-task">
+					<xforms:textarea
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+						id="RejectNotes"
+						doEBIValidate="false"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 116px"
+						wcpforms:customclass="InputBorder2">
+						<xforms:label
+							textIdentifier="005056A2-27FA-A1EE-8F00-AE09CA6BC1A4"
+							wcpforms:class="v_label">Notes</xforms:label>
+					</xforms:textarea>
+					<xforms:group
+						appearance="controlbox"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+						id="controlbox1"
+						controltype="button"
+						wcpforms:layout="horizontal"
+						wcpforms:class="v_layout autoextent"
+						wcpforms:align="left_align"
+						wcpforms:size="null auto">
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="SubmitBtn"
+							wcpforms:class="h_button"
+							wcpforms:size="null 22px">
+							<xforms:label
+								textIdentifier="005056A2-7798-A1E8-AF5C-0A2DDA714121">Submit</xforms:label>
+							<xforms:action
+								xmlns:ev="http://www.w3.org/2001/xml-events"
+								ev:event="xforms-activate">
+								<xforms:SubmitBtn_Click/>
+							</xforms:action>
+						</xforms:trigger>
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="CancelBtn"
+							wcpforms:class="h_button"
+							wcpforms:size="null 22px">
+							<xforms:label
+								textIdentifier="005056A2-7798-A1E8-AF5C-0A2DDA6E4121">Cancel</xforms:label>
+							<xforms:action
+								xmlns:ev="http://www.w3.org/2001/xml-events"
+								ev:event="xforms-activate">
+								<xforms:CancelBtn_Click/>
+							</xforms:action>
+						</xforms:trigger>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[
+
+var PolicyNo, userForNotes, caseID, taskID,Flag='',CompanyCode,CaseTitle,CustomerID,date,TaskType,outputDate,CheckVal  ;
+
+function SubmitBtn_Click(eventObject)
+{
+debugger;
+   if(validate('Save'))
+    {
+	application.confirm("This action will complete this task as Obsolete and notify the Contact Center for review. Do you wish to continue?", false, conformfun, false, "Reject Task");
+	} 
+
+}
+
+function CancelBtn_Click(eventObject)
+{
+    Flag=false;
+ application.container.close();
+
+}
+function validate(Type)
+{
+	if(RejectNotes.getValue().length ==0)
+	{
+	application.notify("Mandatory selection: Notes entry required");
+	return false;
+	}
+	return true ;
+}
+function Form_InitDone(eventObject)
+{
+debugger;
+     PolicyNo=application.event.data.policynum;  
+	 CaseID=application.event.data.pitaskid
+	  created_on=application.event.data.created_on
+	    serviceType=application.event.data.serviceType
+		 CreatedBy=application.event.data.CreatedBy
+		 // TaskType=application.event.data.TaskType
+		  companyCode=application.event.data.companyCode
+		    CaseTitle=application.event.data.CaseTitle
+		  taskInstanceId= application.event.data.TaskInstanceId
+		  //taskType= Service/Review -- need to check
+
+   date=application.event.data.created_on;
+   
+   var parts = date.split('-');
+outputDate = `${parts[1]}/${parts[2]}/${parts[0]}`;
+}
+
+    function conformfun(confirmReturnValue)
+{
+    if (confirmReturnValue == 1)
+    {
+       Flag=true;
+		
+        var request = cordys.cloneXMLDocument(ActivityLogUpdate.XMLDocument);
+		
+		
+		
+        cordys.setNodeText(request,".//*[local-name()='UpdateActivityLog']/*[local-name()='TaskInstanceID']",taskInstanceId);
+       cordys.setNodeText(request,".//*[local-name()='UpdateActivityLog']/*[local-name()='TaskType']","Reject Task");
+        cordys.setNodeText(request,".//*[local-name()='UpdateActivityLog']/*[local-name()='receivingDept']","UW");
+        
+        cordys.setNodeText(request,".//*[local-name()='UpdateActivityLog']/*[local-name()='notes']",RejectNotes.getValue());
+        cordys.setNodeText(request,".//*[local-name()='UpdateActivityLog']/*[local-name()='servicetype']",serviceType);
+        cordys.setNodeText(request,".//*[local-name()='UpdateActivityLog']/*[local-name()='actionBY']",system.getUser().name);
+         cordys.setNodeText(request,".//*[local-name()='UpdateActivityLog']/*[local-name()='policyno']",PolicyNo);
+        cordys.setNodeText(request,".//*[local-name()='UpdateActivityLog']/*[local-name()='UserValues']",CaseID); 
+           
+       RejectDummyModel.clear()
+        RejectDummyModel.setMethodRequest(request);
+        
+        RejectDummyModel.reset();
+       alert('Notification completed successfully');
+       CheckVal="Yes";
+ dialogReturnValue();
+       application.container.close(); 
+     	 
+   
+    }//end of if confirmReturnValue
+	else{
+		CheckVal="No";
+ 
+		//dialogReturnValue();
+		// application.container.close(); 
+	}
+
+}
+
+function dialogReturnValue(){
+	var data = new Object();
+	data.CheckVal=CheckVal;
+	   return data;
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>RejectScreenNew</taskDescription>
+	<taskName>RejectScreenNew</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FDE8E88"
+			path="Underwriting/Web/com/cica/uw/styles/bootstrap.min.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FDA8E88"
+			path="Underwriting/Web/com/cica/uw/styles/CaseTask.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+	</StyleSheets>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EE-929D-D6C886E501A4">
+			<DocumentID>005056A2-27FA-A1EE-929D-D6C886E4C1A4</DocumentID>
+			<Name>005056A2-27FA-A1EE-929D-D6C886E4C1A4</Name>
+			<Description>005056A2-27FA-A1EE-929D-D6C886E4C1A4</Description>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2023-09-03T16:32:00.424</CreationDate>
+			<Notes/>
+			<DeveloperText>RejectScreenNew</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EE-929D-D6C886E541A4"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts/>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1EC-B98C-62004988017E"
+		/>
+		<uri
+			id="005056A2-27FA-A1EE-8F14-04DA77E481A4"
+		/>
+		<uri
+			id="005056A2-27FA-A1EE-906B-100038A541A4"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EE-9298-961ABC45C1A4">
+			<DocumentID>005056A2-27FA-A1EE-9298-961ABC4601A4</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2023-09-03T16:32:00.419</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EE-9298-961ABC4541A4">
+			<DocumentID>005056A2-27FA-A1EE-9298-961ABC4581A4</DocumentID>
+			<Name>CRMNotesOutBound</Name>
+			<Description>CRMNotesOutBound</Description>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2023-09-03T16:32:00.424</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/default</namespace>
+			<operationName>UW_CRMNotesOutbound</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EE-9298-961ABC44C1A4">
+			<DocumentID>005056A2-27FA-A1EE-9298-961ABC4501A4</DocumentID>
+			<Name>TblUWPI_NotesModel</Name>
+			<Description>TblUWPI_NotesModel</Description>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2023-09-03T16:32:00.419</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/uw/dataservices/1.0</namespace>
+			<operationName>UpdateTblUWPI_Notes</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EE-9298-961ABC4441A4">
+			<DocumentID>005056A2-27FA-A1EE-9298-961ABC4481A4</DocumentID>
+			<Name>UpdateActivityLogModel</Name>
+			<Description>UpdateActivityLogModel</Description>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2023-09-03T16:32:00.419</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/default</namespace>
+			<operationName>UpdateActivityLog</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EE-929D-D6C886E741A4">
+			<DocumentID>005056A2-27FA-A1EE-9298-961ABC4401A4</DocumentID>
+			<Name>RejectDummyModel</Name>
+			<Description>RejectDummyModel</Description>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2023-09-03T16:32:00.419</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName></operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

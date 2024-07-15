@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9F06-B22D5D9F816A">
+	<DocumentID>005056A2-27FA-A1EB-9F06-B22D5D9F416A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9F06-B22D5D9F416A</Name>
+	<Description>Select Enrollment Methodology</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-03-03T12:28:51.804</CreationDate>
+	<Notes/>
+	<Text>Select Enrollment Methodology</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9F06-B22D5D9EC16A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

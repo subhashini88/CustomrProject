@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BEF9-0D3168CB8160">
+	<DocumentID>005056A2-27FA-A1EA-BEF9-0D3168CB4160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BEF9-0D3168CB4160</Name>
+	<Description>Attached Guaranteed Issue Agreement:</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-09-21T12:02:41.656</CreationDate>
+	<Notes/>
+	<Text>Attached Guaranteed Issue Agreement:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BEF9-0D3168CAC160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

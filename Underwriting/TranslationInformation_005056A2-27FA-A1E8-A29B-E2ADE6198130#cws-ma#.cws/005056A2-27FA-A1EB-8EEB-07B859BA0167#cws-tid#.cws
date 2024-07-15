@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8EEB-07B859BA4167">
+	<DocumentID>005056A2-27FA-A1EB-8EEB-07B859BA0167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8EEB-07B859BA0167</Name>
+	<Description>LSPNotesInteractive</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-12-11T12:35:58.951</CreationDate>
+	<Notes/>
+	<DefaultText>LSPNotesInteractive</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8EEB-07B859BA8167"
+		/>
+	</Translations>
+</TextIdentifier>

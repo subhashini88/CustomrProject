@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8195-D64864424172">
+	<DocumentID>005056A2-27FA-A1EC-8195-D64864420172</DocumentID>
+	<Name>005056A2-27FA-A1EC-8195-D64864420172</Name>
+	<Description>Duplicate Records</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-08-26T10:53:48.629</CreationDate>
+	<Notes/>
+	<DefaultText>Duplicate Records</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-8195-D64864428172"
+		/>
+	</Translations>
+</TextIdentifier>

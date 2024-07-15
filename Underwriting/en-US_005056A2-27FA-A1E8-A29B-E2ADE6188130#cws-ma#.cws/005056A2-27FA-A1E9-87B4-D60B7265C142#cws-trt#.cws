@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-87B4-D60B72660142">
+	<DocumentID>005056A2-27FA-A1E9-87B4-D60B7265C142</DocumentID>
+	<Name>005056A2-27FA-A1E9-87B4-D60B7265C142</Name>
+	<Description>Delay Calculations</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-23T06:02:40.521</CreationDate>
+	<Notes/>
+	<Text>Delay Calculations</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-87B4-D60B72654142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

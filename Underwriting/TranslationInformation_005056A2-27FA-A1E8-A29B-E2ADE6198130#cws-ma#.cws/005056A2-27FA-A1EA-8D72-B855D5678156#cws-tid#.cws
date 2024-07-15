@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8D72-B855D567C156">
+	<DocumentID>005056A2-27FA-A1EA-8D72-B855D5678156</DocumentID>
+	<Name>005056A2-27FA-A1EA-8D72-B855D5678156</Name>
+	<Description>Low Rx Count</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-01-13T07:43:24.943</CreationDate>
+	<Notes/>
+	<DefaultText>Low Rx Count</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-8D72-B855D5680156"
+		/>
+	</Translations>
+</TextIdentifier>

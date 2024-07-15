@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-970A-DAA23CC9C145">
+	<DocumentID>005056A2-27FA-A1E9-970A-DAA23CC98145</DocumentID>
+	<Name>005056A2-27FA-A1E9-970A-DAA23CC98145</Name>
+	<Description>(326)Combined TELE-INTERVIEW- Cardiovascular</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-11T07:41:19.7</CreationDate>
+	<Notes/>
+	<Text>(326)Combined TELE-INTERVIEW- Cardiovascular</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-970A-DAA23CC90145"
+		/>
+	</TextIdentifier>
+</TranslatedText>

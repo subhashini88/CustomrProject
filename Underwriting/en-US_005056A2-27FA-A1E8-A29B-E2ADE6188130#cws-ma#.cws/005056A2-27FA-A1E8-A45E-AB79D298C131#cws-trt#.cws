@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A45E-AB79D2990131">
+	<DocumentID>005056A2-27FA-A1E8-A45E-AB79D298C131</DocumentID>
+	<Name>005056A2-27FA-A1E8-A45E-AB79D298C131</Name>
+	<Description>deductible_amount</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-27T08:55:53.087</CreationDate>
+	<Notes/>
+	<Text>deductible_amount</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-A45E-AB79D2984131"
+		/>
+	</TextIdentifier>
+</TranslatedText>

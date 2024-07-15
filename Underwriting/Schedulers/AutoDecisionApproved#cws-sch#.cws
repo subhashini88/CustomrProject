@@ -1,0 +1,63 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B518-B3AA2854C13D">
+	<DocumentID>005056A2-27FA-A1E8-B518-B3AA2854813D</DocumentID>
+	<Name>AutoDecisionApproved</Name>
+	<Description>AutoDecisionApproved</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-20T13:07:01.903</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="AutoDecisionApproved"
+			count="-1"
+			autodeploy="false"
+			targetLastModified="2018-10-20T11:03:21.735"
+			msgHolderLastModified="2018-12-06T07:32:06.186">
+			<datetime>
+				<daily>
+					<time>5:30</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B518-B3AA2853013D">
+			<DocumentID>005056A2-27FA-A1E8-B518-B3AA2852C13D</DocumentID>
+			<Name>005056A2-27FA-A1E8-B518-B3AA2852C13D</Name>
+			<Description>005056A2-27FA-A1E8-B518-B3AA2852C13D</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-10-20T13:07:01.902</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1E8-B50D-210DE046C13D"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

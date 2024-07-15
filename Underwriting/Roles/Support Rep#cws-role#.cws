@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A29C-DF0960F54130">
+	<DocumentID>005056A2-27FA-A1E8-A29C-DF0960F50130</DocumentID>
+	<Name>Support Rep</Name>
+	<Description>Support Rep</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-18T10:17:44.037</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1E9-8BA3-07C608470142">
+			<DocumentID>005056A2-27FA-A1E9-8BA3-07C60846C142</DocumentID>
+			<Name>PolicySearch_005056A2-27FA-A1E9-8BA3-07C60846C142</Name>
+			<Description>PolicySearch_005056A2-27FA-A1E9-8BA3-07C60846C142</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-02-12T07:18:28.438</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1E9-8781-13B5682E0142"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+</RoleDesignTime>

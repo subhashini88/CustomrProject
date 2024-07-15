@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-9125-BC51CF668144">
+	<DocumentID>005056A2-27FA-A1E9-9125-BC51CF664144</DocumentID>
+	<Name>005056A2-27FA-A1E9-9125-BC51CF664144</Name>
+	<Description>This was used to auto close the policy in Trac and in OT , but since the letter triggered missed the reason , we change this approach (UWOT 2168)</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-03-12T07:21:27.747</CreationDate>
+	<Notes/>
+	<Text>This was used to auto close the policy in Trac and in OT , but since the letter triggered missed the reason , we change this approach (UWOT 2168)</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9125-BC51CF65C144"
+		/>
+	</TextIdentifier>
+</TranslatedText>

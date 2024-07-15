@@ -1,0 +1,34 @@
+
+<BusinessIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.businessidentifier.BusinessIdentifier"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9223-987BD647C1A4">
+	<DocumentID>005056A2-27FA-A1EE-9223-987BD64781A4</DocumentID>
+	<Name>MDM_PolicyNo</Name>
+	<Description>MDM_PolicyNo</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2023-09-01T09:55:30.115</CreationDate>
+	<Notes/>
+	<DataType>1</DataType>
+	<Precision>0</Precision>
+	<TranslatableDescription/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EE-9223-987BD644C1A4">
+			<DocumentID>005056A2-27FA-A1EE-9223-987BD64481A4</DocumentID>
+			<Name>005056A2-27FA-A1EE-9223-987BD64481A4</Name>
+			<Description>005056A2-27FA-A1EE-9223-987BD64481A4</Description>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2023-09-01T09:55:30.115</CreationDate>
+			<Notes/>
+			<DeveloperText>MDM_PolicyNo</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EE-9223-987BD64581A4"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+</BusinessIdentifier>

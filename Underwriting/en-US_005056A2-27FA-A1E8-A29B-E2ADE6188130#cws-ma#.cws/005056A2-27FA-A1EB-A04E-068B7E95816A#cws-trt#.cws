@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A04E-068B7E95C16A">
+	<DocumentID>005056A2-27FA-A1EB-A04E-068B7E95816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-A04E-068B7E95816A</Name>
+	<Description>BOT</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2021-03-10T00:38:14.756</CreationDate>
+	<Notes/>
+	<Text>BOT</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A04E-068B7E95016A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

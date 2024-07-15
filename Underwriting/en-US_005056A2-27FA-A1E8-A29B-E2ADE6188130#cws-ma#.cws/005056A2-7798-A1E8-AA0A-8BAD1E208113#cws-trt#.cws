@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AA0A-8BAD1E20C113">
+	<DocumentID>005056A2-7798-A1E8-AA0A-8BAD1E208113</DocumentID>
+	<Name>005056A2-7798-A1E8-AA0A-8BAD1E208113</Name>
+	<Description>table_alert_severity</Description>
+	<CreatedBy>Ramamurthy, Abirama Sundari</CreatedBy>
+	<CreationDate>2018-08-25T05:46:17.344</CreationDate>
+	<Notes/>
+	<Text>table_alert_severity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AA0A-8BAD1E200113"
+		/>
+	</TextIdentifier>
+</TranslatedText>

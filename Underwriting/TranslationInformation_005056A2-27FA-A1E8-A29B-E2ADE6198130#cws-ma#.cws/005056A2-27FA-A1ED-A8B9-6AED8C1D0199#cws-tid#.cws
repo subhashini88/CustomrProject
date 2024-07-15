@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-A8B9-6AED8C1D4199">
+	<DocumentID>005056A2-27FA-A1ED-A8B9-6AED8C1D0199</DocumentID>
+	<Name>005056A2-27FA-A1ED-A8B9-6AED8C1D0199</Name>
+	<Description>BOT EAPP
+Transfer</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-02T10:53:16.181</CreationDate>
+	<Notes/>
+	<DefaultText>BOT EAPP
+Transfer</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-A8B9-6AED8C1D8199"
+		/>
+	</Translations>
+</TextIdentifier>

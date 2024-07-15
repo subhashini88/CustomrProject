@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8F76-4993741F4168">
+	<DocumentID>005056A2-27FA-A1EB-8F76-4993741F0168</DocumentID>
+	<Name>005056A2-27FA-A1EB-8F76-4993741F0168</Name>
+	<Description>WKSUWCase_bkp14122020</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-12-14T06:54:13.994</CreationDate>
+	<Notes/>
+	<Text>WKSUWCase_bkp14122020</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8F76-4993741E8168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

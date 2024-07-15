@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-948B-2CD1DB5E8157">
+	<DocumentID>005056A2-27FA-A1EA-948B-2CD1DB5E4157</DocumentID>
+	<Name>005056A2-27FA-A1EA-948B-2CD1DB5E4157</Name>
+	<Description>GetTblMRSOrdersObject</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2020-02-18T09:56:56.581</CreationDate>
+	<Notes/>
+	<Text>GetTblMRSOrdersObject</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-948B-2CD1DB5DC157"
+		/>
+	</TextIdentifier>
+</TranslatedText>

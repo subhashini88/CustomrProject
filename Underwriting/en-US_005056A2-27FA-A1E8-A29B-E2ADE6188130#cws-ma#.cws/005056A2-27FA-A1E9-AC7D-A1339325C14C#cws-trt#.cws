@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AC7D-A1339326014C">
+	<DocumentID>005056A2-27FA-A1E9-AC7D-A1339325C14C</DocumentID>
+	<Name>005056A2-27FA-A1E9-AC7D-A1339325C14C</Name>
+	<Description>Plan Activity for TAsk</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-07-29T11:49:40.429</CreationDate>
+	<Notes/>
+	<Text>Plan Activity for TAsk</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-AC7D-A1339325414C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

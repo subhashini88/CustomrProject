@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B3D5-6024556A416F">
+	<DocumentID>005056A2-27FA-A1EB-B3D5-6024556A016F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B3D5-6024556A016F</Name>
+	<Description>Insert - WKSOpsCase</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-17T10:19:33.012</CreationDate>
+	<Notes/>
+	<Text>Insert - WKSOpsCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B3D5-60245569816F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

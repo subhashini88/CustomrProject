@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-BDF0-B30400E9819E">
+	<DocumentID>005056A2-27FA-A1ED-BDF0-B30400E9419E</DocumentID>
+	<Name>005056A2-27FA-A1ED-BDF0-B30400E9419E</Name>
+	<Description>Btach Status</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-05-21T11:26:05.469</CreationDate>
+	<Notes/>
+	<Text>Btach Status</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-BDF0-B30400E8C19E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

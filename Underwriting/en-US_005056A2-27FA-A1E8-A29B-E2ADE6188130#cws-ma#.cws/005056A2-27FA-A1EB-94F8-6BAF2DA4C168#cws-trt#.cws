@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-94F8-6BAF2DA50168">
+	<DocumentID>005056A2-27FA-A1EB-94F8-6BAF2DA4C168</DocumentID>
+	<Name>005056A2-27FA-A1EB-94F8-6BAF2DA4C168</Name>
+	<Description>New Hire - Enrollment Window</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-01-11T07:54:00.256</CreationDate>
+	<Notes/>
+	<Text>New Hire - Enrollment Window</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-94F8-6BAF2DA44168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

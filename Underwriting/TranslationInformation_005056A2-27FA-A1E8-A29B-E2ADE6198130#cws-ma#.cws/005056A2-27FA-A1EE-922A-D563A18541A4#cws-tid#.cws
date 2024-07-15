@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EE-922A-D563A18581A4">
+	<DocumentID>005056A2-27FA-A1EE-922A-D563A18541A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-922A-D563A18541A4</Name>
+	<Description>UW_ReassociationOfPolicies</Description>
+	<CreatedBy>Akanksha</CreatedBy>
+	<CreationDate>2023-09-01T12:49:39.381</CreationDate>
+	<Notes/>
+	<DefaultText>UW_ReassociationOfPolicies</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EE-922A-D563A185C1A4"
+		/>
+	</Translations>
+</TextIdentifier>

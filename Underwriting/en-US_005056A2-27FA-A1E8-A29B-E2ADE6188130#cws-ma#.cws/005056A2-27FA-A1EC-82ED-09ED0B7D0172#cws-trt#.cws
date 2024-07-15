@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-82ED-09ED0B7D4172">
+	<DocumentID>005056A2-27FA-A1EC-82ED-09ED0B7D0172</DocumentID>
+	<Name>005056A2-27FA-A1EC-82ED-09ED0B7D0172</Name>
+	<Description>testUpdatetaskvalue</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-02T06:16:01.898</CreationDate>
+	<Notes/>
+	<Text>testUpdatetaskvalue</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-82ED-09ED0B7C8172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

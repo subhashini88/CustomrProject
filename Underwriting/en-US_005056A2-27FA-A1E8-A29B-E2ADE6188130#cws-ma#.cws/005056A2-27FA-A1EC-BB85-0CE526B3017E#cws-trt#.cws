@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BB85-0CE526B3417E">
+	<DocumentID>005056A2-27FA-A1EC-BB85-0CE526B3017E</DocumentID>
+	<Name>005056A2-27FA-A1EC-BB85-0CE526B3017E</Name>
+	<Description>005056A2-27FA-A1EC-BB85-0CE526B3017E</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2022-06-17T08:14:04.285</CreationDate>
+	<Notes/>
+	<Text>concat(ns2:GetTblUWPI_TaskDetailsObjectOutput/ns2:GetTblUWPI_TaskDetailsObjectResponse/ns2:tuple/ns2:old/ns2:tblUWPI_TaskDetails/ns2:TaskName, ' - ', ns2:GetTblUWPI_TaskDetailsObjectOutput/ns2:GetTblUWPI_TaskDetailsObjectResponse/ns2:tuple/ns2:old/ns2:tblUWPI_TaskDetails/ns2:ServiceType)</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BB85-0CE526B2817E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

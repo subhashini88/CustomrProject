@@ -1,0 +1,85 @@
+.inputCustom
+{
+  padding: 1% !important;
+    background: antiquewhite !important;
+
+}
+
+.btnCustom
+{
+width:125px !important;
+height:30px !important;
+background: darkblue !important;
+color: white !important;
+display: block !important;
+}
+
+.groupboxCustom
+{
+background: lightgoldenrodyellow !important;
+}
+
+.tabpageCustom
+{
+background: lightgoldenrodyellow !important;
+}
+.primary-header .RefAttachHeader .refreshBtn {
+  background-color: white;
+  border-color: white;
+  border: 0px solid #FFFFFF; 
+  color: #0067a7;
+  /*padding-left: 10px;*/
+  font-size: 15px;
+  cursor: pointer;
+  height: 0px;
+    width: 100px;
+    font-weight: normal;
+	margin-left: -4px;
+	margin-top: 1px;
+}
+.primary-header .RefAttachHeader  .viewAttachments {
+    height: 30px;
+    margin-bottom:10px;
+padding-left: 22px;
+	/*padding-left: 290px;*/
+	color: #0067a7 !important;
+	font-size:15px !important;
+	font: -webkit-small-control;
+/*width: 230px !important;*/
+  }
+ .primary-header .RefAttachHeader a:link, a:visited {
+  color: #0067a7;
+  text-decoration: none;
+  cursor: auto;
+}
+
+
+.primary-header .RichtextStyle {
+  font-size: 15px !important;
+}
+  .primary-header .paddingScrollField1 .PaddingScrollC .fieldsbox{
+	padding-left: 110px;
+        width: 440px !important;
+  }
+
+.manualTaskUnderwriting_radio{
+white-space: nowrap;
+    padding-left: 15px;
+}
+.follow_up_Date{
+    width: auto;
+    padding-left: 10px;
+    top: -25px;
+}
+.email_BodyTaskclass{
+padding-top: 300px;
+}
+.service_type{
+left: 43px;
+}
+.uw_source{
+left: 140px;
+}
+.reopen_grpBox{
+padding-left: 765px;
+}

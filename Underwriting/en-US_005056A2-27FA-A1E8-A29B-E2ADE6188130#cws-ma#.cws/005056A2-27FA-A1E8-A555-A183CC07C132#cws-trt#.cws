@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A555-A183CC080132">
+	<DocumentID>005056A2-27FA-A1E8-A555-A183CC07C132</DocumentID>
+	<Name>005056A2-27FA-A1E8-A555-A183CC07C132</Name>
+	<Description>Initial Screening Task Details</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-08-01T08:26:30.7</CreationDate>
+	<Notes/>
+	<Text>Initial Screening Task Details</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-A555-A183CC074132"
+		/>
+	</TextIdentifier>
+</TranslatedText>

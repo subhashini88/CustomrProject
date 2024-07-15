@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-9B94-04F1B82D01A7">
+	<DocumentID>005056A2-27FA-A1EE-9B94-04F1B82CC1A7</DocumentID>
+	<Name>005056A2-27FA-A1EE-9B94-04F1B82CC1A7</Name>
+	<Description>Expedited/Bundled GI WKSOPS Case Creation</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2023-10-19T08:05:34.144</CreationDate>
+	<Notes/>
+	<Text>Expedited/Bundled GI WKSOPS Case Creation</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-9B94-04F1B82C41A7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

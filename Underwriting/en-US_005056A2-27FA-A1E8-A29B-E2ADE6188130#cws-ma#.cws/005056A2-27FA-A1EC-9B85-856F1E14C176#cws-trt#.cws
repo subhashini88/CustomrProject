@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-9B85-856F1E150176">
+	<DocumentID>005056A2-27FA-A1EC-9B85-856F1E14C176</DocumentID>
+	<Name>005056A2-27FA-A1EC-9B85-856F1E14C176</Name>
+	<Description>ADL
+  Download Status</Description>
+	<CreatedBy>Abhishek</CreatedBy>
+	<CreationDate>2022-01-05T11:14:32.396</CreationDate>
+	<Notes/>
+	<Text>ADL
+  Download Status</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-9B85-856F1E144176"
+		/>
+	</TextIdentifier>
+</TranslatedText>

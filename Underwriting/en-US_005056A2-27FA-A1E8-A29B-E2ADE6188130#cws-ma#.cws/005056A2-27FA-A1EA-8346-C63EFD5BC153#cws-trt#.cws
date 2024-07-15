@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8346-C63EFD5C0153">
+	<DocumentID>005056A2-27FA-A1EA-8346-C63EFD5BC153</DocumentID>
+	<Name>005056A2-27FA-A1EA-8346-C63EFD5BC153</Name>
+	<Description>I,Cynthia
+Mulvihill, certify a valid authorization is in place.</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-11-22T12:15:17.864</CreationDate>
+	<Notes/>
+	<Text>I,Cynthia
+Mulvihill, certify a valid authorization is in place.</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8346-C63EFD5B4153"
+		/>
+	</TextIdentifier>
+</TranslatedText>

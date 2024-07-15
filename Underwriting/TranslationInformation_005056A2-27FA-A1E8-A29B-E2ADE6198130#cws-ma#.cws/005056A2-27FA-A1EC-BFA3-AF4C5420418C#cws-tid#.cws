@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BFA3-AF4C5420818C">
+	<DocumentID>005056A2-27FA-A1EC-BFA3-AF4C5420418C</DocumentID>
+	<Name>005056A2-27FA-A1EC-BFA3-AF4C5420418C</Name>
+	<Description>GetFollowUp2byPolicyNo</Description>
+	<CreatedBy>Karthik</CreatedBy>
+	<CreationDate>2022-07-08T07:44:53.189</CreationDate>
+	<Notes/>
+	<DefaultText>GetFollowUp2byPolicyNo</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-BFA3-AF4C5420C18C"
+		/>
+	</Translations>
+</TextIdentifier>

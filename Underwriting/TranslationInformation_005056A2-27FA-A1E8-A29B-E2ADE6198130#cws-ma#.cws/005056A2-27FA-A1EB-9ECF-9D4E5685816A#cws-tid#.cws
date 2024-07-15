@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9ECF-9D4E5685C16A">
+	<DocumentID>005056A2-27FA-A1EB-9ECF-9D4E5685816A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9ECF-9D4E5685816A</Name>
+	<Description>Manual Task</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-03-02T10:20:34.335</CreationDate>
+	<Notes/>
+	<DefaultText>Manual Task</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-9ECF-9D4E5686016A"
+		/>
+	</Translations>
+</TextIdentifier>

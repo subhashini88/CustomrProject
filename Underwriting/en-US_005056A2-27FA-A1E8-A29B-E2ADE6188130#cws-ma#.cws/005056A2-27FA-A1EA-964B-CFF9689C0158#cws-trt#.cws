@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-964B-CFF9689C4158">
+	<DocumentID>005056A2-27FA-A1EA-964B-CFF9689C0158</DocumentID>
+	<Name>005056A2-27FA-A1EA-964B-CFF9689C0158</Name>
+	<Description>Has Combined Insurance asked that we inquire if within the last 60 days been hospitalized, confined to a nursing home received hospice or home health care services, or been diagnosed with a terminal condition?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-02-27T07:13:46.456</CreationDate>
+	<Notes/>
+	<Text>Has Combined Insurance asked that we inquire if within the last 60 days been hospitalized, confined to a nursing home received hospice or home health care services, or been diagnosed with a terminal condition?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-964B-CFF9689B8158"
+		/>
+	</TextIdentifier>
+</TranslatedText>

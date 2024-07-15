@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE31-180972A48160">
+	<DocumentID>005056A2-27FA-A1EA-BE31-180972A44160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE31-180972A44160</Name>
+	<Description>GetWKSOpsCaseforMasAppNo</Description>
+	<CreatedBy>Abhishek</CreatedBy>
+	<CreationDate>2020-09-17T09:08:26.632</CreationDate>
+	<Notes/>
+	<DefaultText>GetWKSOpsCaseforMasAppNo</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-BE31-180972A4C160"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC86-6F3B9F7B413F">
+	<DocumentID>005056A2-27FA-A1E8-BC86-6F3B9F7B013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC86-6F3B9F7B013F</Name>
+	<Description>PH1</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-27T10:22:32.604</CreationDate>
+	<Notes/>
+	<Text>PH1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC86-6F3B9F7A813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

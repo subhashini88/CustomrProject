@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-93E5-FB9302DD8196">
+	<DocumentID>005056A2-27FA-A1ED-93E5-FB9302DD4196</DocumentID>
+	<Name>005056A2-27FA-A1ED-93E5-FB9302DD4196</Name>
+	<Description>ProcessContract</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-10-19T10:38:34.899</CreationDate>
+	<Notes/>
+	<Text>ProcessContract</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-93E5-FB9302DCC196"
+		/>
+	</TextIdentifier>
+</TranslatedText>

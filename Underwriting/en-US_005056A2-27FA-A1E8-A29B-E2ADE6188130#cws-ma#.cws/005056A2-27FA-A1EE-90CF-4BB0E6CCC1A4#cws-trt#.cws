@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-90CF-4BB0E6CD01A4">
+	<DocumentID>005056A2-27FA-A1EE-90CF-4BB0E6CCC1A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-90CF-4BB0E6CCC1A4</Name>
+	<Description>UW_RejectCRMOutbound</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-08-25T11:54:14.051</CreationDate>
+	<Notes/>
+	<Text>UW_RejectCRMOutbound</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-90CF-84AEA7FE41A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,64 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8070-5F0B87C3018C">
+	<DocumentID>005056A2-27FA-A1ED-8070-5F0B87C2C18C</DocumentID>
+	<Name>TransferBackTOFollowUpWorklist</Name>
+	<Description>TransferBackTOFollowUpWorklist</Description>
+	<CreatedBy>Karthik</CreatedBy>
+	<CreationDate>2022-07-12T10:53:28.891</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="TransferBackTOFollowUpWorklist"
+			count="-1"
+			autodeploy="true"
+			targetLastModified="2022-07-11T12:05:27.12"
+			msgHolderLastModified="2023-07-25T14:44:30.174">
+			<datetime>
+				<daily>
+					<time>0:5</time>
+					<time>13:5</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1ED-8070-5F0B87BFC18C">
+			<DocumentID>005056A2-27FA-A1ED-8070-5F0B87BF818C</DocumentID>
+			<Name>005056A2-27FA-A1ED-8070-5F0B87BF818C</Name>
+			<Description>005056A2-27FA-A1ED-8070-5F0B87BF818C</Description>
+			<CreatedBy>Karthik</CreatedBy>
+			<CreationDate>2022-07-12T10:53:28.891</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1ED-8043-A77E99AB018C"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A2D2-26639E6B4130">
+	<DocumentID>005056A2-27FA-A1E8-A2D2-26639E6B0130</DocumentID>
+	<Name>005056A2-27FA-A1E8-A2D2-26639E6B0130</Name>
+	<Description>CreateCase</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-07-19T11:44:11.513</CreationDate>
+	<Notes/>
+	<Text>CreateCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-A2D2-26639E6A8130"
+		/>
+	</TextIdentifier>
+</TranslatedText>

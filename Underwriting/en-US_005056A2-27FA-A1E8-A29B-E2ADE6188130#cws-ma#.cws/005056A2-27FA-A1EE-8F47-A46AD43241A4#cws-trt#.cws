@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8F47-A46AD43281A4">
+	<DocumentID>005056A2-27FA-A1EE-8F47-A46AD43241A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8F47-A46AD43241A4</Name>
+	<Description>Check Department</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-17T17:27:54.915</CreationDate>
+	<Notes/>
+	<Text>Check Department</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8F47-B18C6A7441A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

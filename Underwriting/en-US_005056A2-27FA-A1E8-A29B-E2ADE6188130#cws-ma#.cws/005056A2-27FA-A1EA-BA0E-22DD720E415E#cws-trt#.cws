@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BA0E-22DD720E815E">
+	<DocumentID>005056A2-27FA-A1EA-BA0E-22DD720E415E</DocumentID>
+	<Name>005056A2-27FA-A1EA-BA0E-22DD720E415E</Name>
+	<Description>is case available?</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-08-27T07:44:35.42</CreationDate>
+	<Notes/>
+	<Text>is case available?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BA0E-22DD720DC15E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

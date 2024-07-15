@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BC7E-72EE2295413F">
+	<DocumentID>005056A2-27FA-A1E8-BC7E-72EE2295013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BC7E-72EE2295013F</Name>
+	<Description>UpdateTbl_underwriting - CloseOutDate</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-27T04:11:21.875</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_underwriting - CloseOutDate</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BC7E-72EE2294813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

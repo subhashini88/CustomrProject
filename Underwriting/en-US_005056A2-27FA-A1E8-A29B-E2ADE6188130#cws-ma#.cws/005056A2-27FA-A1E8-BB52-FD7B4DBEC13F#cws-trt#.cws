@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB52-FD7B4DBF013F">
+	<DocumentID>005056A2-27FA-A1E8-BB52-FD7B4DBEC13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB52-FD7B4DBEC13F</Name>
+	<Description>&lt;span  style='font-weight:bold;text-decoration:underline;'  &gt;This Non Vendor Task has not been created as the follow up date set while creation has not arrived , This screen can be used to pre-complete the scheduled follow up task&lt;/span&gt;</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-21T05:36:43.406</CreationDate>
+	<Notes/>
+	<Text>&lt;span  style='font-weight:bold;text-decoration:underline;'  &gt;This Non Vendor Task has not been created as the follow up date set while creation has not arrived , This screen can be used to pre-complete the scheduled follow up task&lt;/span&gt;</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB52-FD7B4DBE413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

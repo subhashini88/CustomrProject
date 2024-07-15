@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A23A-B77D6CBDC147">
+	<DocumentID>005056A2-27FA-A1E9-A23A-B77D6CBD8147</DocumentID>
+	<Name>005056A2-27FA-A1E9-A23A-B77D6CBD8147</Name>
+	<Description>Forward Task</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-06-07T07:19:46.034</CreationDate>
+	<Notes/>
+	<Text>Forward Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-A23A-B77D6CBD0147"
+		/>
+	</TextIdentifier>
+</TranslatedText>

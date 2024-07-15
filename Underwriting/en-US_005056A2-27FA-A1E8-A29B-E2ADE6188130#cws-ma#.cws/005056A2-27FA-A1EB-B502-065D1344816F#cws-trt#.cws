@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B502-065D1344C16F">
+	<DocumentID>005056A2-27FA-A1EB-B502-065D1344816F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B502-065D1344816F</Name>
+	<Description>UW Decision Letter Submission</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-23T09:48:11.13</CreationDate>
+	<Notes/>
+	<Text>UW Decision Letter Submission</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B502-065D1344016F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

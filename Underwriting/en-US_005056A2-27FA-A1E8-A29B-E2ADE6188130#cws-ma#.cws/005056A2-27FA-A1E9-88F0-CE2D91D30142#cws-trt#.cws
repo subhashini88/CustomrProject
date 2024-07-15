@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-88F0-CE2D91D34142">
+	<DocumentID>005056A2-27FA-A1E9-88F0-CE2D91D30142</DocumentID>
+	<Name>005056A2-27FA-A1E9-88F0-CE2D91D30142</Name>
+	<Description>PHI 1 Received</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-29T12:51:27.407</CreationDate>
+	<Notes/>
+	<Text>PHI 1 Received</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-88F0-CE2D91D28142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

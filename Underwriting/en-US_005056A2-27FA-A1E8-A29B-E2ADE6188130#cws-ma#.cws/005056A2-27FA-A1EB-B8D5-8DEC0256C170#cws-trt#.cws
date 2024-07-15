@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B8D5-8DEC02570170">
+	<DocumentID>005056A2-27FA-A1EB-B8D5-8DEC0256C170</DocumentID>
+	<Name>005056A2-27FA-A1EB-B8D5-8DEC0256C170</Name>
+	<Description>UpdateTbl_underwriting_VendorOrderRequirementTask</Description>
+	<CreatedBy>ramya</CreatedBy>
+	<CreationDate>2021-07-12T21:15:03.735</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_underwriting_VendorOrderRequirementTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B8D5-8DEC02564170"
+		/>
+	</TextIdentifier>
+</TranslatedText>

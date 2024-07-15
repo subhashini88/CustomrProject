@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-84B4-CB033AD48165">
+	<DocumentID>005056A2-27FA-A1EB-84B4-CB033AD44165</DocumentID>
+	<Name>005056A2-27FA-A1EB-84B4-CB033AD44165</Name>
+	<Description>PlanActivities-Group Setup Task</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-10-20T13:00:59.466</CreationDate>
+	<Notes/>
+	<Text>PlanActivities-Group Setup Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-84B4-CB033AD3C165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,34 @@
+
+<BusinessIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.businessidentifier.BusinessIdentifier"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8AFC-4841DE230173">
+	<DocumentID>005056A2-27FA-A1EC-8AFC-4841DE22C173</DocumentID>
+	<Name>FileType</Name>
+	<Description>FileType</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-13T07:01:06.431</CreationDate>
+	<Notes/>
+	<DataType>1</DataType>
+	<Precision>0</Precision>
+	<TranslatableDescription/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EC-8AFC-4841DE200173">
+			<DocumentID>005056A2-27FA-A1EC-8AFC-4841DE1FC173</DocumentID>
+			<Name>005056A2-27FA-A1EC-8AFC-4841DE1FC173</Name>
+			<Description>005056A2-27FA-A1EC-8AFC-4841DE1FC173</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-10-13T07:01:06.431</CreationDate>
+			<Notes/>
+			<DeveloperText>FileType</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EC-8AFC-4841DE20C173"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+</BusinessIdentifier>

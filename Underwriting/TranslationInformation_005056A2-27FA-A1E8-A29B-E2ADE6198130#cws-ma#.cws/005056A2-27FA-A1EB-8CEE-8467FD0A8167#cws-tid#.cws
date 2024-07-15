@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8CEE-8467FD0AC167">
+	<DocumentID>005056A2-27FA-A1EB-8CEE-8467FD0A8167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8CEE-8467FD0A8167</Name>
+	<Description>test Business Process Model</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2020-12-01T10:31:34.458</CreationDate>
+	<Notes/>
+	<DefaultText>test Business Process Model</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8CEE-8467FD0B0167"
+		/>
+	</Translations>
+</TextIdentifier>

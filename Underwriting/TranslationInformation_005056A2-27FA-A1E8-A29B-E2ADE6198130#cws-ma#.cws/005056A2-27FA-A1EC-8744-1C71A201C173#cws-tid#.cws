@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8744-1C71A2020173">
+	<DocumentID>005056A2-27FA-A1EC-8744-1C71A201C173</DocumentID>
+	<Name>005056A2-27FA-A1EC-8744-1C71A201C173</Name>
+	<Description>UpdateADL_InputFiles</Description>
+	<CreatedBy>poonam</CreatedBy>
+	<CreationDate>2021-09-24T08:35:25.951</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateADL_InputFiles</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-8744-1C71A2024173"
+		/>
+	</Translations>
+</TextIdentifier>

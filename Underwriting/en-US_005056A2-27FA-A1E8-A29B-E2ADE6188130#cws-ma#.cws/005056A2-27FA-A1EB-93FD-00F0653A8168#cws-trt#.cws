@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-93FD-00F0653AC168">
+	<DocumentID>005056A2-27FA-A1EB-93FD-00F0653A8168</DocumentID>
+	<Name>005056A2-27FA-A1EB-93FD-00F0653A8168</Name>
+	<Description>UpdateTbl_underwriting taskid null</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2021-01-06T07:59:55.176</CreationDate>
+	<Notes/>
+	<Text>UpdateTbl_underwriting taskid null</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-93FD-00F0653A0168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

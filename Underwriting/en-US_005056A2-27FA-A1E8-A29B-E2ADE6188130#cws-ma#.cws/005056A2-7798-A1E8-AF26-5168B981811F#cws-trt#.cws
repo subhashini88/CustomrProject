@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AF26-5168B981C11F">
+	<DocumentID>005056A2-7798-A1E8-AF26-5168B981811F</DocumentID>
+	<Name>005056A2-7798-A1E8-AF26-5168B981811F</Name>
+	<Description>Gettbl_underwriting_followups_request_type</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-09-20T10:43:26.088</CreationDate>
+	<Notes/>
+	<Text>Gettbl_underwriting_followups_request_type</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AF26-5168B981011F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

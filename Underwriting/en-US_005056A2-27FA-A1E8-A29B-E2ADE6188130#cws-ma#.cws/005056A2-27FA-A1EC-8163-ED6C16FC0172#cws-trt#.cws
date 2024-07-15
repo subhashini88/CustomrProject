@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-8163-ED6C16FC4172">
+	<DocumentID>005056A2-27FA-A1EC-8163-ED6C16FC0172</DocumentID>
+	<Name>005056A2-27FA-A1EC-8163-ED6C16FC0172</Name>
+	<Description>Reinstatement</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-25T11:41:58.646</CreationDate>
+	<Notes/>
+	<Text>Reinstatement</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-8163-ED6C16FB8172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-84C5-AFD294794141">
+	<DocumentID>005056A2-27FA-A1E9-84C5-AFD294790141</DocumentID>
+	<Name>005056A2-27FA-A1E9-84C5-AFD294790141</Name>
+	<Description>Document to confirm legal guardianship</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-08T07:36:55.071</CreationDate>
+	<Notes/>
+	<Text>Document to confirm legal guardianship</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-84C5-AFD294788141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

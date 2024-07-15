@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8E1D-70B36F3B4167">
+	<DocumentID>005056A2-27FA-A1EB-8E1D-70B36F3B0167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8E1D-70B36F3B0167</Name>
+	<Description>Get Case Activity for
+UW</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-12-07T10:23:46.822</CreationDate>
+	<Notes/>
+	<Text>Get Case Activity for
+UW</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8E1D-70B36F3A8167"
+		/>
+	</TextIdentifier>
+</TranslatedText>

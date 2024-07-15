@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B9F7-1FA67A8A413D">
+	<DocumentID>005056A2-27FA-A1E8-B9F7-1FA67A8A013D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B9F7-1FA67A8A013D</Name>
+	<Description>MFCLICNY ID</Description>
+	<CreatedBy>PRTIWA1</CreatedBy>
+	<CreationDate>2018-11-14T07:16:52.752</CreationDate>
+	<Notes/>
+	<Text>MFCLICNY ID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B9F7-1FA67A89813D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

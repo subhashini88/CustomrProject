@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8C6F-939AE71F4167">
+	<DocumentID>005056A2-27FA-A1EB-8C6F-939AE71F0167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8C6F-939AE71F0167</Name>
+	<Description>Ops Model</Description>
+	<CreatedBy>Divakar Rajasekhar</CreatedBy>
+	<CreationDate>2020-11-28T22:20:41.612</CreationDate>
+	<Notes/>
+	<DefaultText>Ops Model</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8C6F-939AE71F8167"
+		/>
+	</Translations>
+</TextIdentifier>

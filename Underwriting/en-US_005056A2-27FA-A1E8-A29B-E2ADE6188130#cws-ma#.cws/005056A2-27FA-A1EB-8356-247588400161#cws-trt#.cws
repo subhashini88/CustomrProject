@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8356-247588404161">
+	<DocumentID>005056A2-27FA-A1EB-8356-247588400161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8356-247588400161</Name>
+	<Description>Group Disability Champion</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-13T14:03:09.239</CreationDate>
+	<Notes/>
+	<Text>Group Disability Champion</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8356-2475883F8161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-8260-0CB6B5A2418D">
+	<DocumentID>005056A2-27FA-A1ED-8260-0CB6B5A2018D</DocumentID>
+	<Name>005056A2-27FA-A1ED-8260-0CB6B5A2018D</Name>
+	<Description>CC</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-22T05:59:55.9</CreationDate>
+	<Notes/>
+	<DefaultText>CC</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-8260-0CB6B5A2818D"
+		/>
+	</Translations>
+</TextIdentifier>

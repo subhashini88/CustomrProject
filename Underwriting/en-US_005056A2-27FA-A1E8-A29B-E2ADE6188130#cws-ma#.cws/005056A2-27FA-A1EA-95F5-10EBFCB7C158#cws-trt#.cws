@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-95F5-10EBFCB80158">
+	<DocumentID>005056A2-27FA-A1EA-95F5-10EBFCB7C158</DocumentID>
+	<Name>005056A2-27FA-A1EA-95F5-10EBFCB7C158</Name>
+	<Description>Life Policy Search</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-02-26T04:48:00.069</CreationDate>
+	<Notes/>
+	<Text>Life Policy Search</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-95F5-10EBFCB74158"
+		/>
+	</TextIdentifier>
+</TranslatedText>

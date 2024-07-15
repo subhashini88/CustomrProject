@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-815B-B5357F0AC18C">
+	<DocumentID>005056A2-27FA-A1ED-815B-B5357F0A818C</DocumentID>
+	<Name>005056A2-27FA-A1ED-815B-B5357F0A818C</Name>
+	<Description>UW Service Task Follow-up</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2022-07-17T01:24:45.304</CreationDate>
+	<Notes/>
+	<Text>UW Service Task Follow-up</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-815B-B5357F0A018C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

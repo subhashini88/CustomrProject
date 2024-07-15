@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-83C0-AB6363318161">
+	<DocumentID>005056A2-27FA-A1EB-83C0-AB6363314161</DocumentID>
+	<Name>005056A2-27FA-A1EB-83C0-AB6363314161</Name>
+	<Description>Last Order?</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-10-15T16:28:22.288</CreationDate>
+	<Notes/>
+	<Text>Last Order?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-83C0-AB636330C161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEC-0E9629B8413F">
+	<DocumentID>005056A2-27FA-A1E8-BDEC-0E9629B8013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEC-0E9629B8013F</Name>
+	<Description>Gallbladder</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T10:36:54.567</CreationDate>
+	<Notes/>
+	<Text>Gallbladder</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEC-0E9629B7813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

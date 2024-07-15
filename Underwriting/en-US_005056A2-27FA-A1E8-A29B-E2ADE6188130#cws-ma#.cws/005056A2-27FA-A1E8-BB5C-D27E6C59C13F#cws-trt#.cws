@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BB5C-D27E6C5A013F">
+	<DocumentID>005056A2-27FA-A1E8-BB5C-D27E6C59C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BB5C-D27E6C59C13F</Name>
+	<Description>dropdown_tets</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2018-11-21T10:14:58.19</CreationDate>
+	<Notes/>
+	<Text>dropdown_tets</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BB5C-D27E6C59413F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

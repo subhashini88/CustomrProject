@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-7798-A1E8-ABD2-71ED9A230116">
+	<DocumentID>005056A2-7798-A1E8-ABD2-71ED9A22C116</DocumentID>
+	<Name>005056A2-7798-A1E8-ABD2-71ED9A22C116</Name>
+	<Description>due_date</Description>
+	<CreatedBy>Gunasekaran, VidhyaSri</CreatedBy>
+	<CreationDate>2018-09-03T07:22:10.671</CreationDate>
+	<Notes/>
+	<DefaultText>due_date</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-7798-A1E8-ABD2-71ED9A234116"
+		/>
+	</Translations>
+</TextIdentifier>

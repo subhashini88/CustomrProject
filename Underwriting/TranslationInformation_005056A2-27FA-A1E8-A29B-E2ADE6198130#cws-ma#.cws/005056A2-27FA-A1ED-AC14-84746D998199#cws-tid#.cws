@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-AC14-84746D99C199">
+	<DocumentID>005056A2-27FA-A1ED-AC14-84746D998199</DocumentID>
+	<Name>005056A2-27FA-A1ED-AC14-84746D998199</Name>
+	<Description>NBReviewSubmitforAEBOTModel</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-19T12:43:36.647</CreationDate>
+	<Notes/>
+	<DefaultText>NBReviewSubmitforAEBOTModel</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-AC14-84746D9A0199"
+		/>
+	</Translations>
+</TextIdentifier>

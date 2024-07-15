@@ -1,0 +1,613 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8B30-B4FBAE36C167">
+	<DocumentID>005056A2-27FA-A1EB-8B30-B4FBAE368167</DocumentID>
+	<Name>WorksiteUWAttachments</Name>
+	<Description>WorksiteUWAttachments</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-11-22T15:51:54.439</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetMasterAppListForGroupModel"
+					wcpforms:businessElement="tns:getMasterAppListForGroup"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false"
+					wcpforms:nontransactional="true">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/WorksiteWSAppPackage/GetMasterAppListForGroup"
+							operationName="GetMasterAppListForGroup"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EB-8BB4-5B131080C167">
+							<GroupID
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+							<taskType
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetPDFDocumentContentModel"
+					wcpforms:businessElement="tns:getPDFDocumentContent"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/WorksiteWSAppPackage/GetPDFDocumentContent"
+							operationName="GetPDFDocumentContent"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EB-8BB4-C616C09F0167">
+							<masterAppNo
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+							<masterAppId
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:instanceschema/>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						id="AttachmentApp"
+						type="application/javascript">
+						<Application>
+							<id>MasterAttachment</id>
+							<description>Select Attachment</description>
+							<caption>Select Attachment</caption>
+							<url>com/cica/WorkSite/WorksiteOpsAttachment.caf</url>
+							<frame>main</frame>
+						</Application>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:repeat
+						wcpforms:displayContextMenu="true"
+						wcpforms:toggleColumns="true"
+						wcpforms:movableColumns="false"
+						wcpforms:saveState="false"
+						wcpforms:autoInsert="false"
+						wcpforms:minRows="5"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+						id="attachementTable"
+						synchronizedDialogFrame="main"
+						isNavigationEnabled="true"
+						wcpforms:gridtype="datagrid"
+						wcpforms:checkboxes="false"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout autoextent"
+						wcpforms:size="null auto"
+						model="GetMasterAppListForGroupModel"
+						nodeset=".//*[local-name()='records']">
+						<xforms:group
+							appearance="elementbar"
+							id="_elementBar"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+							<xforms:group
+								appearance="paginationbar"
+								id="_paginationBar"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsPaginationbar"
+								wcpforms:class="paginationbar">
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navFirst1"
+									standardid="navFirst">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/pagination/first.png"
+										/>
+									</xforms:label>
+									<xforms:hint>First</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navPrevious1"
+									standardid="navPrevious">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/pagination/previous.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Previous</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navNext1"
+									standardid="navNext">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/pagination/next.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Next</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navLast1"
+									standardid="navLast">
+									<xforms:label>
+										<img
+											src="wcp/theme/default/icon/pagination/last.png"
+										/>
+									</xforms:label>
+									<xforms:hint>Last</xforms:hint>
+								</xforms:trigger>
+							</xforms:group>
+						</xforms:group>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opMasterAppId"
+							doEBIValidate="false"
+							wcpforms:size="100px 100%"
+							ref=".//*[local-name()='Id']">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EB-8B30-B4FBAE338167">Master APPId</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opMasterApp"
+							doEBIValidate="false"
+							wcpforms:size="100px 100%"
+							ref=".//*[local-name()='Name']">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EB-8B30-B4FBAE310167">Master App</xforms:label>
+							<xforms:action
+								ev:event="xforms-before-data-bind">
+								<xforms:opMasterApp_BeforeBind/>
+							</xforms:action>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opApproveDate"
+							doEBIValidate="false"
+							wcpforms:size="100px 100%"
+							ref=".//*[local-name()='Application_Approval_Date__c']"
+							wcpforms:dataType="date"
+							wcpforms:required="false"
+							wcpforms:displayformat="shortdate">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EB-8B36-8B790CA3C167">Approved Date</xforms:label>
+							<xforms:action
+								ev:event="xforms-before-data-bind">
+								<xforms:opApproveDate_BeforeBind/>
+							</xforms:action>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opApprovalStatus"
+							doEBIValidate="false"
+							wcpforms:size="100px 100%"
+							ref=".//*[local-name()='Master_Application_Status__c']">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EB-8B36-8B790CA14167">Approval Status</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="opAttachments"
+							doEBIValidate="false"
+							wcpforms:size="auto 100%"
+							ref=".//*[local-name()='Master_Application_Status__c']">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EB-8B36-8B790C9D4167">Attachments</xforms:label>
+							<xforms:action
+								ev:event="xforms-before-data-bind">
+								<xforms:opAttachments_BeforeBind/>
+							</xforms:action>
+						</xforms:output>
+					</xforms:repeat>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var taskType = "WKS";
+function Form_InitDone(eventObject)
+{
+    var groupId=application.event.data.GroupId; 
+    if(application.event.data.MasterID!=undefined)
+        taskType = "OPS";
+    application.setDialogSize(650, 750);
+   //var groupId = "CWMA22614";
+    var request = GetMasterAppListForGroupModel.getMethodRequest();
+    cordys.setNodeText(request,".//*[local-name()='GroupID']",groupId);
+    cordys.setNodeText(request,".//*[local-name()='taskType']",taskType);
+    GetMasterAppListForGroupModel.setMethodRequest(request);
+    GetMasterAppListForGroupModel.reset();
+    attachementTable.hideColumn(0);
+    if(document.getElementById("attachementTable").rows.length!=0 && taskType=="WKS")
+    {
+	for (var i = 1; i < document.getElementById("attachementTable").rows.length; i++) {     
+		for (var j = i+1; j < document.getElementById("attachementTable").rows.length; j++) {     
+		   if(opMasterAppId[i].getValue()==opMasterAppId[j].getValue()) { 
+				if(opApprovalStatus[j].getValue() =="View Attachments"){
+					var k = j+1;
+					document.getElementById("attachementTable").deleteRow(k);
+				}
+				else
+					continue;
+			}
+			  else
+				continue;
+		}     
+	} 
+}		
+}
+function opMasterApp_BeforeBind(eventObject)
+{
+    eventObject.srcElement.style.cursor = "pointer";
+    eventObject.srcElement.style.color = "blue";
+    eventObject.srcElement.style.textDecoration = "underline";
+    eventObject.srcElement.addEventListener("click",function(){
+    	var masterAppNo =this.data.innerHTML;
+    	var masterAppId = cordys.getNodeText(this.businessObject,".//*[local-name()='Id']");
+    	var request = GetPDFDocumentContentModel.getMethodRequest();
+    	cordys.setNodeText(request,".//*[local-name()='masterAppNo']",masterAppNo);
+    	cordys.setNodeText(request,".//*[local-name()='masterAppId']",masterAppId);
+    	GetPDFDocumentContentModel.setMethodRequest(request);
+        GetPDFDocumentContentModel.reset();
+        var dataset = cordys.getNodeText(GetPDFDocumentContentModel.getData(),".//*[local-name()='getPDFDocumentContent']")
+        var fileLink = window.location.origin+"\\home\\"+dataset.split("\webroot\\")[1];
+        window.open(fileLink);
+    	
+    });
+}
+function opAttachments_BeforeBind(eventObject)
+{
+    eventObject.srcElement.data.innerHTML = "View Attachments";
+    eventObject.srcElement.style.cursor = "pointer";
+    eventObject.srcElement.style.color = "blue";
+    eventObject.srcElement.style.textDecoration = "underline";
+    eventObject.srcElement.addEventListener("click",function(){
+    debugger;
+        var masterAppId = cordys.getNodeText(this.businessObject,".//*[local-name()='Id']");
+    	var data = new Object();
+        data.MasterID= masterAppId;      
+        application.showDialog(AttachmentApp.XMLDocument.documentElement, data, null, null, false);
+    });
+}
+function opApproveDate_BeforeBind(eventObject)
+{
+    if(eventObject.srcElement.data.innerHTML == "null")
+        eventObject.srcElement.data.innerHTML = "";
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>WorksiteUWAttachments</taskDescription>
+	<taskName>WorksiteUWAttachments</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8B36-8B790C9B0167">
+			<DocumentID>005056A2-27FA-A1EB-8B36-8B790C9AC167</DocumentID>
+			<Name>005056A2-27FA-A1EB-8B36-8B790C9AC167</Name>
+			<Description>005056A2-27FA-A1EB-8B36-8B790C9AC167</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-11-22T15:51:54.444</CreationDate>
+			<Notes/>
+			<DeveloperText>WorksiteUWAttachments</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EB-8B36-8B790C9B4167"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8B30-B4FBAE354167">
+			<DocumentID>005056A2-27FA-A1EB-8B30-B4FBAE350167</DocumentID>
+			<Name>005056A2-27FA-A1EB-8B30-B4FBAE350167</Name>
+			<Description>005056A2-27FA-A1EB-8B30-B4FBAE350167</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-11-22T15:51:54.434</CreationDate>
+			<Notes/>
+			<UIRef>opMasterAppId</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-8B30-B4FBAE334167">
+					<DocumentID>005056A2-27FA-A1EB-8B30-B4FBAE330167</DocumentID>
+					<Name>005056A2-27FA-A1EB-8B30-B4FBAE330167</Name>
+					<Description>005056A2-27FA-A1EB-8B30-B4FBAE330167</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-11-22T15:51:54.434</CreationDate>
+					<Notes/>
+					<DeveloperText>Master APPId</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8B30-B4FBAE338167"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-8B30-B4FBAE368167"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8B30-B4FBAE324167">
+			<DocumentID>005056A2-27FA-A1EB-8B30-B4FBAE320167</DocumentID>
+			<Name>005056A2-27FA-A1EB-8B30-B4FBAE320167</Name>
+			<Description>005056A2-27FA-A1EB-8B30-B4FBAE320167</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-11-22T15:51:54.439</CreationDate>
+			<Notes/>
+			<UIRef>opMasterApp</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-8B30-B4FBAE30C167">
+					<DocumentID>005056A2-27FA-A1EB-8B30-B4FBAE308167</DocumentID>
+					<Name>005056A2-27FA-A1EB-8B30-B4FBAE308167</Name>
+					<Description>005056A2-27FA-A1EB-8B30-B4FBAE308167</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-11-22T15:51:54.439</CreationDate>
+					<Notes/>
+					<DeveloperText>Master App</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8B30-B4FBAE310167"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-8B30-B4FBAE368167"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8B36-8B790CA68167">
+			<DocumentID>005056A2-27FA-A1EB-8B36-8B790CA64167</DocumentID>
+			<Name>005056A2-27FA-A1EB-8B36-8B790CA64167</Name>
+			<Description>005056A2-27FA-A1EB-8B36-8B790CA64167</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-11-22T15:51:54.439</CreationDate>
+			<Notes/>
+			<UIRef>opApproveDate</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-8B36-8B790CA38167">
+					<DocumentID>005056A2-27FA-A1EB-8B36-8B790CA34167</DocumentID>
+					<Name>005056A2-27FA-A1EB-8B36-8B790CA34167</Name>
+					<Description>005056A2-27FA-A1EB-8B36-8B790CA34167</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-11-22T15:51:54.439</CreationDate>
+					<Notes/>
+					<DeveloperText>Approved Date</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8B36-8B790CA3C167"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-8B30-B4FBAE368167"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8B36-8B790CA28167">
+			<DocumentID>005056A2-27FA-A1EB-8B36-8B790CA24167</DocumentID>
+			<Name>005056A2-27FA-A1EB-8B36-8B790CA24167</Name>
+			<Description>005056A2-27FA-A1EB-8B36-8B790CA24167</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-11-22T15:51:54.439</CreationDate>
+			<Notes/>
+			<UIRef>opApprovalStatus</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-8B36-8B790CA10167">
+					<DocumentID>005056A2-27FA-A1EB-8B36-8B790CA0C167</DocumentID>
+					<Name>005056A2-27FA-A1EB-8B36-8B790CA0C167</Name>
+					<Description>005056A2-27FA-A1EB-8B36-8B790CA0C167</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-11-22T15:51:54.439</CreationDate>
+					<Notes/>
+					<DeveloperText>Approval Status</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8B36-8B790CA14167"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-8B30-B4FBAE368167"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8B36-8B790CA00167">
+			<DocumentID>005056A2-27FA-A1EB-8B36-8B790C9FC167</DocumentID>
+			<Name>005056A2-27FA-A1EB-8B36-8B790C9FC167</Name>
+			<Description>005056A2-27FA-A1EB-8B36-8B790C9FC167</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-11-22T15:51:54.439</CreationDate>
+			<Notes/>
+			<UIRef>opAttachments</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-8B36-8B790C9D0167">
+					<DocumentID>005056A2-27FA-A1EB-8B36-8B790C9CC167</DocumentID>
+					<Name>005056A2-27FA-A1EB-8B36-8B790C9CC167</Name>
+					<Description>005056A2-27FA-A1EB-8B36-8B790C9CC167</Description>
+					<CreatedBy>naveen</CreatedBy>
+					<CreationDate>2020-11-22T15:51:54.439</CreationDate>
+					<Notes/>
+					<DeveloperText>Attachments</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8B36-8B790C9D4167"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-8B30-B4FBAE368167"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1EB-8BB4-5B131080C167"
+		/>
+		<uri
+			id="005056A2-27FA-A1EB-8BB4-C616C09F0167"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8B38-95E7E5238167">
+			<DocumentID>005056A2-27FA-A1EB-8B38-95E7E5234167</DocumentID>
+			<Name>GetMasterAppListForGroupModel</Name>
+			<Description>GetMasterAppListForGroupModel</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-11-22T16:55:06.274</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/WorksiteWSAppPackage</namespace>
+			<operationName>GetMasterAppListForGroup</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8B38-95E7E5230167">
+			<DocumentID>005056A2-27FA-A1EB-8B38-95E7E522C167</DocumentID>
+			<Name>GetPDFDocumentContentModel</Name>
+			<Description>GetPDFDocumentContentModel</Description>
+			<CreatedBy>naveen</CreatedBy>
+			<CreationDate>2020-11-22T16:55:06.274</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/WorksiteWSAppPackage</namespace>
+			<operationName>GetPDFDocumentContent</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

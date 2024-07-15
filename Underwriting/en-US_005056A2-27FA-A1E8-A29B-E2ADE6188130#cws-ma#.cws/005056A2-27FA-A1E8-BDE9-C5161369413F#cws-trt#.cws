@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDE9-C5161369813F">
+	<DocumentID>005056A2-27FA-A1E8-BDE9-C5161369413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDE9-C5161369413F</Name>
+	<Description>Checkbox13</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T09:37:28.573</CreationDate>
+	<Notes/>
+	<Text>Checkbox13</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDE9-C5161368C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

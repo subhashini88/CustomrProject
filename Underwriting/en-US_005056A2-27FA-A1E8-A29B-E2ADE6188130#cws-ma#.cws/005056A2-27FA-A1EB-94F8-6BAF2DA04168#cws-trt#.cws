@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-94F8-6BAF2DA08168">
+	<DocumentID>005056A2-27FA-A1EB-94F8-6BAF2DA04168</DocumentID>
+	<Name>005056A2-27FA-A1EB-94F8-6BAF2DA04168</Name>
+	<Description>Perpetual Enrollment</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-01-11T07:55:26.063</CreationDate>
+	<Notes/>
+	<Text>Perpetual Enrollment</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-94F8-6BAF2D9FC168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

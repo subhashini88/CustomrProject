@@ -1,0 +1,323 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8D6E-4EFC117A81A0">
+	<DocumentID>005056A2-27FA-A1EE-8D6E-4EFC117A41A0</DocumentID>
+	<Name>InterDepartmentPopup</Name>
+	<Description>InterDepartmentPopup</Description>
+	<CreatedBy>Sarada</CreatedBy>
+	<CreationDate>2023-08-08T09:48:22.253</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<xml
+					xmlns="">
+					<xml
+						id="manualtask"
+						type="application/javascript">
+						<Application>
+							<id>manual_task</id>
+							<description>InterDeptTask</description>
+							<caption>InterDeptTask</caption>
+							<url>com/cica/PostIssues/ManualServiceTaskCreator.caf</url>
+							<frame>main</frame>
+						</Application>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						appearance="group"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+						id="group2"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="400px 60px"
+						wcpforms:labelalign="ontop">
+						<xforms:group
+							appearance="controlbox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+							id="controlbox8"
+							controltype="button"
+							wcpforms:layout="horizontal"
+							wcpforms:class="f_layout"
+							wcpforms:align="left_align"
+							wcpforms:size="110px 30px"
+							wcpforms:anchors="null null 286.01px 15.01px"
+							wcpforms:position="auto auto">
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="RequestTask"
+								wcpforms:class="h_button"
+								wcpforms:size="null 22px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EE-8D74-34C445FE81A0">Request Task</xforms:label>
+								<xforms:action
+									xmlns:ev="http://www.w3.org/2001/xml-events"
+									ev:event="xforms-activate">
+									<xforms:RequestTask_Click/>
+								</xforms:action>
+							</xforms:trigger>
+						</xforms:group>
+						<xforms:group
+							appearance="controlbox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+							id="controlbox9"
+							controltype="button"
+							wcpforms:layout="horizontal"
+							wcpforms:class="f_layout"
+							wcpforms:align="left_align"
+							wcpforms:size="110px 30px"
+							wcpforms:anchors="null null 156.01px 15.01px"
+							wcpforms:position="auto auto">
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="manualTask"
+								wcpforms:class="h_button"
+								wcpforms:size="null 22px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-9ECF-9D4E5685816A">Manual Task</xforms:label>
+								<xforms:action
+									ev:event="xforms-activate">
+									<xforms:manualTask_Click/>
+								</xforms:action>
+							</xforms:trigger>
+						</xforms:group>
+						<xforms:group
+							appearance="controlbox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+							id="controlbox6"
+							controltype="button"
+							wcpforms:layout="horizontal"
+							wcpforms:class="f_layout"
+							wcpforms:align="left_align"
+							wcpforms:size="auto auto"
+							wcpforms:anchors="264px 15px 16.01px 15.01px"
+							wcpforms:position="264px 15px">
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="cancelButton"
+								wcpforms:class="h_button"
+								wcpforms:size="null 22px">
+								<xforms:label
+									textIdentifier="005056A2-7798-A1E8-AF5C-0A2DDA6E4121">Cancel</xforms:label>
+								<xforms:action
+									xmlns:ev="http://www.w3.org/2001/xml-events"
+									ev:event="xforms-activate">
+									<xforms:cancelButton_Click/>
+								</xforms:action>
+							</xforms:trigger>
+						</xforms:group>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var selectedRequest = "";
+
+function dialogReturnValue()
+    {
+    var data = new Object();
+      
+		data.Type = selectedRequest;
+		
+                return data;
+    }
+
+function manualTask_Click(eventObject)
+{
+  selectedRequest  = 'Manual Task';
+     application.container.close();
+}
+function Inter_CloseHandler(){
+}
+
+function cancelButton_Click(eventObject)
+{
+    selectedRequest  = 'Cancel';
+    application.container.close();
+}
+function RequestTask_Click(eventObject)
+{
+    selectedRequest  = 'Create Task';
+     application.container.close();
+}
+function Form_InitDone(eventObject)
+{
+    application.setDialogSize("461px","95px");
+    if(application.event.data != undefined && application.event.data != '' && application.event.data != null){
+   // if(application.event.data.screen=="UW Service Case")
+   // manualTask.hide();
+    //application.setDialogSize("461px","95px");
+    }
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>InterDepartmentPopup</taskDescription>
+	<taskName>InterDepartmentPopup</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EE-8D6E-4EFC117801A0">
+			<DocumentID>005056A2-27FA-A1EE-8D6E-4EFC1177C1A0</DocumentID>
+			<Name>005056A2-27FA-A1EE-8D6E-4EFC1177C1A0</Name>
+			<Description>005056A2-27FA-A1EE-8D6E-4EFC1177C1A0</Description>
+			<CreatedBy>Sarada</CreatedBy>
+			<CreationDate>2023-08-08T09:48:22.253</CreationDate>
+			<Notes/>
+			<DeveloperText>InterDepartmentPopup</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EE-8D6E-4EFC117841A0"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EE-92C5-8D60747341A4">
+			<DocumentID>005056A2-27FA-A1EE-92C5-8D60747301A4</DocumentID>
+			<Name>005056A2-27FA-A1EE-92C5-8D60747301A4</Name>
+			<Description>005056A2-27FA-A1EE-92C5-8D60747301A4</Description>
+			<CreatedBy>manishas</CreatedBy>
+			<CreationDate>2023-09-04T12:12:30.872</CreationDate>
+			<Notes/>
+			<UIRef>button1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EE-92C5-8D607473C1A4">
+					<DocumentID>005056A2-27FA-A1EE-92C5-8D60747381A4</DocumentID>
+					<Name>005056A2-27FA-A1EE-92C5-8D60747381A4</Name>
+					<Description>005056A2-27FA-A1EE-92C5-8D60747381A4</Description>
+					<CreatedBy>manishas</CreatedBy>
+					<CreationDate>2023-09-04T12:12:30.867</CreationDate>
+					<Notes/>
+					<DeveloperText>Manual Task</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-9ECF-9D4E5685816A"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EE-8D6E-4EFC117A41A0"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EE-92C5-8D607470C1A4">
+			<DocumentID>005056A2-27FA-A1EE-92C5-8D60747081A4</DocumentID>
+			<Name>005056A2-27FA-A1EE-92C5-8D60747081A4</Name>
+			<Description>005056A2-27FA-A1EE-92C5-8D60747081A4</Description>
+			<CreatedBy>manishas</CreatedBy>
+			<CreationDate>2023-09-04T12:12:30.872</CreationDate>
+			<Notes/>
+			<UIRef>RequestTask</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EE-92C5-8D60747141A4">
+					<DocumentID>005056A2-27FA-A1EE-92C5-8D60747101A4</DocumentID>
+					<Name>005056A2-27FA-A1EE-92C5-8D60747101A4</Name>
+					<Description>005056A2-27FA-A1EE-92C5-8D60747101A4</Description>
+					<CreatedBy>manishas</CreatedBy>
+					<CreationDate>2023-09-04T12:12:30.867</CreationDate>
+					<Notes/>
+					<DeveloperText>Request Task</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EE-8D74-34C445FE81A0"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EE-8D6E-4EFC117A41A0"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices/>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EE-8D74-34C445FD41A0">
+			<DocumentID>005056A2-27FA-A1EE-8D74-34C445FD01A0</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>Sarada</CreatedBy>
+			<CreationDate>2023-08-08T09:50:27.201</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

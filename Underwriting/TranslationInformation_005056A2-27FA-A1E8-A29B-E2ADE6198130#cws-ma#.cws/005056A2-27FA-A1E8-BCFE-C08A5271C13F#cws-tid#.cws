@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BCFE-C08A5272013F">
+	<DocumentID>005056A2-27FA-A1E8-BCFE-C08A5271C13F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BCFE-C08A5271C13F</Name>
+	<Description>Find out Letter ID and submit Letter to Mainframe</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-29T17:39:56.433</CreationDate>
+	<Notes/>
+	<DefaultText>Find out Letter ID and submit Letter to Mainframe</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BCFE-C08A5272413F"
+		/>
+	</Translations>
+</TextIdentifier>

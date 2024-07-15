@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BF81-8302E008813F">
+	<DocumentID>005056A2-27FA-A1E8-BF81-8302E008413F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BF81-8302E008413F</Name>
+	<Description>GetTblGroupPolicyForPolicyNumber</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-12-12T12:27:07.72</CreationDate>
+	<Notes/>
+	<Text>GetTblGroupPolicyForPolicyNumber</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BF81-8302E007C13F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

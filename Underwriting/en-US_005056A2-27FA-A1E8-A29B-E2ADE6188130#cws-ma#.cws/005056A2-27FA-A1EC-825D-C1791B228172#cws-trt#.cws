@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-825D-C1791B22C172">
+	<DocumentID>005056A2-27FA-A1EC-825D-C1791B228172</DocumentID>
+	<Name>005056A2-27FA-A1EC-825D-C1791B228172</Name>
+	<Description>EnrollmentFPNBCaseCreationBPM</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-30T09:47:42.528</CreationDate>
+	<Notes/>
+	<Text>EnrollmentFPNBCaseCreationBPM</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-825D-C1791B220172"
+		/>
+	</TextIdentifier>
+</TranslatedText>

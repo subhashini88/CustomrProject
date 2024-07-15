@@ -1,0 +1,789 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A99C-A6662150816D">
+	<DocumentID>005056A2-27FA-A1EB-A99C-A6662150416D</DocumentID>
+	<Name>Group Profile AddEdit</Name>
+	<Description>Group Profile AddEdit</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-04-26T09:48:13.918</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<style
+					src="com/cica/uw/styles/defaultUtil.css"
+					documentID="005056A2-27FA-A1EB-A21F-A1149081416B"
+				/>
+				<style
+					src="com/cica/uw/styles/customScreen.css"
+					documentID="005056A2-27FA-A1EB-A8D6-D42AF1CE016D"
+				/>
+				<xml
+					xmlns="">
+					<xml
+						id="GroupProfileAddApp"
+						type="application/javascript">
+						<Application>
+							<id>GroupProfileAdd</id>
+							<description/>
+							<caption/>
+							<url>/cordys/com/cica/Worksite/lookup/Group Profile Add.caf</url>
+							<frame>main</frame>
+						</Application>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop"
+					wcpforms:customclass="primary-header">
+					<xforms:group
+						appearance="region"
+						wcpforms:orientation="left"
+						wcpforms:textDirection="vertical"
+						wcpforms:scrollBy="roller"
+						wcpforms:resizable="yes"
+						wcpforms:multipleAppPalettes="true"
+						wcpforms:visibility="hidden"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsRegion"
+						wcpforms:type="left"
+						id="region1"
+						wcpforms:appPalettes="false"
+						wcpforms:layout="vertical"
+						wcpforms:class="region">
+						<xforms:group
+							appearance="apppalette"
+							wcpforms:title="false"
+							wcpforms:resizable="yes"
+							wcpforms:inPreferences="false"
+							wcpforms:registerViewAs="self"
+							wcpforms:dockable="true"
+							wcpforms:static="static"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsAppPalette"
+							id="apppalette1"
+							wcpforms:class="apppalette"
+							wcpforms:caption="AppPalette3"
+							wcpforms:layout="vertical">
+							<xforms:group
+								appearance="group"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+								id="group2"
+								wcpforms:layout="vertical"
+								wcpforms:class="v_layout autoextent"
+								wcpforms:size="null auto"
+								wcpforms:labelalign="ontop">
+								<xforms:group
+									appearance="controlbox"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+									id="controlbox1"
+									controltype="button"
+									wcpforms:layout="horizontal"
+									wcpforms:class="v_layout autoextent"
+									wcpforms:align="right_align"
+									wcpforms:size="null auto">
+									<xforms:trigger
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+										id="button1"
+										wcpforms:class="h_button"
+										wcpforms:size="null 30px"
+										wcpforms:customclass="CustomButton">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1EB-A9A2-2350B197416D">Edit</xforms:label>
+										<xforms:action
+											ev:event="xforms-activate">
+											<xforms:button1_Click/>
+										</xforms:action>
+									</xforms:trigger>
+								</xforms:group>
+							</xforms:group>
+							<xforms:group
+								appearance="group"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+								id="group3"
+								wcpforms:layout="vertical"
+								wcpforms:class="v_layout autoextent"
+								wcpforms:size="null auto"
+								wcpforms:labelalign="ontop">
+								<xforms:select1
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+									id="input1"
+									doEBIValidate="false"
+									initializeValueSets="0"
+									wcpforms:enumerated="false"
+									multiple="false"
+									wcpforms:class="v_layout_i"
+									wcpforms:size="300px auto"
+									wcpforms:customclass="inputfields">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1EB-A99D-20D19C99016D"
+										wcpforms:class="h_label left_align"
+										wcpforms:size="59px null">Group Profile</xforms:label>
+								</xforms:select1>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="input2"
+									doEBIValidate="false"
+									wcpforms:class="v_layout_i"
+									wcpforms:size="500px auto"
+									wcpforms:customclass="inputfields">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1EB-A99D-20D19C95016D"
+										wcpforms:class="h_label left_align"
+										wcpforms:size="59px null">Description</xforms:label>
+								</xforms:input>
+								<xforms:select1
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+									id="select2"
+									doEBIValidate="false"
+									initializeValueSets="0"
+									wcpforms:enumerated="false"
+									multiple="false"
+									wcpforms:class="h_layout"
+									wcpforms:size="300px auto"
+									wcpforms:customclass="inputfields">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1EB-A902-ECD61CBDC16D"
+										wcpforms:class="h_label left_align"
+										wcpforms:size="59px null">Organization</xforms:label>
+								</xforms:select1>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="input4"
+									doEBIValidate="false"
+									wcpforms:class="h_layout"
+									wcpforms:size="200px auto"
+									wcpforms:customclass="inputfields leftpadding">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1EB-A99D-87B4C2E0016D"
+										wcpforms:class="h_label left_align"
+										wcpforms:size="59px null">Availability</xforms:label>
+								</xforms:input>
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group1"
+									wcpforms:layout="vertical"
+									wcpforms:class="v_layout_i autoextent"
+									wcpforms:size="null auto"
+									wcpforms:labelalign="ontop">
+									<xforms:select1
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+										id="select3"
+										doEBIValidate="false"
+										initializeValueSets="0"
+										wcpforms:enumerated="false"
+										multiple="false"
+										wcpforms:class="h_layout"
+										wcpforms:size="300px auto"
+										wcpforms:customclass="inputfields">
+										<xforms:label
+											textIdentifier="005056A2-27FA-A1EB-A99D-20D19C8D016D"
+											wcpforms:class="h_label left_align"
+											wcpforms:size="59px null">Position</xforms:label>
+									</xforms:select1>
+									<xforms:label
+										appearance="codesnippet"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+										id="text1"
+										wcpforms:class="h_layout"
+										wcpforms:size="200px 30px"
+										wcpforms:customclass="inputfields leftpadding">
+										<div
+											xmlns="">
+											<label
+												style="margin-right: -2px;">User Profile</label>
+											<button
+												class="CustomButton">Add</button>
+										</div>
+									</xforms:label>
+								</xforms:group>
+								<xforms:select1
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+									id="select4"
+									doEBIValidate="false"
+									initializeValueSets="0"
+									wcpforms:enumerated="false"
+									multiple="false"
+									wcpforms:class="v_layout_i"
+									wcpforms:size="300px auto"
+									wcpforms:customclass="inputfields">
+									<xforms:label
+										textIdentifier="005056A2-27FA-A1EB-A99C-A6662157816D"
+										wcpforms:class="h_label left_align"
+										wcpforms:size="59px null">Level</xforms:label>
+								</xforms:select1>
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group4"
+									wcpforms:layout="vertical"
+									wcpforms:class="v_layout_i autoextent"
+									wcpforms:size="null auto"
+									wcpforms:labelalign="ontop"
+								/>
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group5"
+									wcpforms:layout="vertical"
+									wcpforms:class="v_layout_i autoextent"
+									wcpforms:size="null auto"
+									wcpforms:labelalign="ontop"
+								/>
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group6"
+									wcpforms:layout="vertical"
+									wcpforms:class="v_layout_i autoextent"
+									wcpforms:size="null auto"
+									wcpforms:labelalign="ontop"
+								/>
+								<xforms:group
+									appearance="group"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+									id="group7"
+									wcpforms:layout="vertical"
+									wcpforms:class="v_layout_i autoextent"
+									wcpforms:size="null auto"
+									wcpforms:labelalign="ontop">
+									<xforms:group
+										appearance="controlbox"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+										id="controlbox2"
+										controltype="button"
+										wcpforms:layout="horizontal"
+										wcpforms:class="v_layout autoextent"
+										wcpforms:align="right_align"
+										wcpforms:size="null auto">
+										<xforms:trigger
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+											id="button2"
+											wcpforms:customclass="CustomButton"
+											wcpforms:class="h_button"
+											wcpforms:size="null 30px">
+											<xforms:label
+												textIdentifier="005056A2-27FA-A1EB-AA29-BAE0678D016D">Save</xforms:label>
+											<xforms:action
+												ev:event="xforms-activate">
+												<xforms:button2_Click/>
+											</xforms:action>
+										</xforms:trigger>
+										<xforms:trigger
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+											id="button3"
+											wcpforms:customclass="CustomButton"
+											wcpforms:class="h_button"
+											wcpforms:size="null 30px">
+											<xforms:label
+												textIdentifier="005056A2-27FA-A1EB-AA29-BAE0678B816D">Cancel</xforms:label>
+											<xforms:action
+												ev:event="xforms-activate">
+												<xforms:button3_Click/>
+											</xforms:action>
+										</xforms:trigger>
+									</xforms:group>
+								</xforms:group>
+							</xforms:group>
+						</xforms:group>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var label="";
+var dropdownvalues;
+var parentGroup;
+function Form_InitDone(eventObject)
+{
+   label="Language";
+   parentGroup="group4";
+   Dynamicdropdowns();   
+   label="Roles";
+   parentGroup="group5";
+   Dynamicdropdowns(); 
+   label="LOB's";
+   parentGroup="group6";
+   Dynamicdropdowns(); 
+}
+
+function Dynamicdropdowns()
+{
+var container = document.createElement("div");
+   
+  
+        container.className = "inputfields";
+        var labelEle = document.createElement("label");
+        labelEle.innerHTML=label;
+        var input= document.createElement("select");
+         input.className="CustomSelect";
+        var iconLink = document.createElement("link");
+        iconLink .setAttribute("rel","stylesheet");
+        iconLink .setAttribute("href","https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+       var icona = document.createElement("button");
+       icona.setAttribute("onclick","addlanguage(this);");
+       icona.className = "AddDelButton";
+       var icon = document.createElement("i");
+       icon .setAttribute("class","fa fa-plus fa-lg");
+       icona .appendChild(icon );
+       var breakEle=document.createElement("br");
+        
+        //input.value="AOC0001";
+        container.appendChild(labelEle);
+        container.appendChild(input);
+        container.appendChild(iconLink);
+        container.appendChild(icona);
+        container.appendChild(breakEle);
+        
+         //row.appendChild(container);
+         
+          var mainContainer = document.getElementById(parentGroup);
+    //removeAllChildNodes(mainContainer);
+    mainContainer.appendChild(container);
+}
+function addlanguage(ele)
+{
+var container = document.createElement("div");
+   
+  
+        container.className = "inputfields";
+        
+        var input= document.createElement("select");
+        input.className="CustomSelect";
+        var iconLink = document.createElement("link");
+        iconLink .setAttribute("rel","stylesheet");
+        iconLink .setAttribute("href","https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+       var icona = document.createElement("button");
+       icona.setAttribute("onclick","Dellanguage(this);");
+       icona.className = "AddDelButton";
+       var icon = document.createElement("i");
+       icon .setAttribute("class","fa fa-times fa-lg");
+       icona .appendChild(icon );
+       var breakEle=document.createElement("br");
+        
+        //input.value="AOC0001";
+        //container.appendChild(label);
+        container.appendChild(input);
+        container.appendChild(iconLink);
+        container.appendChild(icona);
+        container.appendChild(breakEle);
+        
+         //row.appendChild(container);
+         
+          var mainContainer = ele.parentNode.parentNode;
+    
+    mainContainer.appendChild(container);
+}
+function Dellanguage(a)
+{
+a.parentNode.parentNode.removeChild(a.parentNode);
+}
+function Form_Init(eventObject)
+{
+    application.setDialogSize("770px","430px");
+}
+
+function button1_Click(eventObject)
+{
+    var data = new Object();
+    //data.label="Save As";
+    //data.criteriaName=svdSrchSel.getFormattedValue();    
+    
+    application.showDialog(GroupProfileAddApp.XMLDocument.documentElement, data, null, AddProfileHandler, false);
+}
+function AddProfileHandler(dialogReturnValue)
+{
+
+}
+function button3_Click(eventObject)
+{
+    application.container.close();
+}
+function button2_Click(eventObject)
+{
+    application.container.close();
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+			<xforms:action
+				ev:event="xforms-init">
+				<xforms:Form_Init/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>Group Profile AddEdit</taskDescription>
+	<taskName>Group Profile AddEdit</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19CA3C16D">
+			<DocumentID>005056A2-27FA-A1EB-A99D-20D19CA3816D</DocumentID>
+			<Name>005056A2-27FA-A1EB-A99D-20D19CA3816D</Name>
+			<Description>005056A2-27FA-A1EB-A99D-20D19CA3816D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-26T09:48:13.918</CreationDate>
+			<Notes/>
+			<DeveloperText></DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C9C416D">
+			<DocumentID>005056A2-27FA-A1EB-A99D-20D19C9C016D</DocumentID>
+			<Name>005056A2-27FA-A1EB-A99D-20D19C9C016D</Name>
+			<Description>005056A2-27FA-A1EB-A99D-20D19C9C016D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-26T09:59:50.457</CreationDate>
+			<Notes/>
+			<UIRef>button1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-A9A2-2350B197016D">
+					<DocumentID>005056A2-27FA-A1EB-A9A2-2350B196C16D</DocumentID>
+					<Name>005056A2-27FA-A1EB-A9A2-2350B196C16D</Name>
+					<Description>005056A2-27FA-A1EB-A9A2-2350B196C16D</Description>
+					<CreatedBy>Vaishnavi</CreatedBy>
+					<CreationDate>2021-04-26T12:25:40.978</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-A99C-A6662150416D"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C98416D">
+			<DocumentID>005056A2-27FA-A1EB-A99D-20D19C98016D</DocumentID>
+			<Name>005056A2-27FA-A1EB-A99D-20D19C98016D</Name>
+			<Description>005056A2-27FA-A1EB-A99D-20D19C98016D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-26T09:59:50.467</CreationDate>
+			<Notes/>
+			<UIRef>input1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C98C16D">
+					<DocumentID>005056A2-27FA-A1EB-A99D-20D19C98816D</DocumentID>
+					<Name>005056A2-27FA-A1EB-A99D-20D19C98816D</Name>
+					<Description>005056A2-27FA-A1EB-A99D-20D19C98816D</Description>
+					<CreatedBy>Vaishnavi</CreatedBy>
+					<CreationDate>2021-04-26T09:59:50.462</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-A99C-A6662150416D"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C96416D">
+			<DocumentID>005056A2-27FA-A1EB-A99D-20D19C96016D</DocumentID>
+			<Name>005056A2-27FA-A1EB-A99D-20D19C96016D</Name>
+			<Description>005056A2-27FA-A1EB-A99D-20D19C96016D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-26T09:59:50.462</CreationDate>
+			<Notes/>
+			<UIRef>input2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C94C16D">
+					<DocumentID>005056A2-27FA-A1EB-A99D-20D19C94816D</DocumentID>
+					<Name>005056A2-27FA-A1EB-A99D-20D19C94816D</Name>
+					<Description>005056A2-27FA-A1EB-A99D-20D19C94816D</Description>
+					<CreatedBy>Vaishnavi</CreatedBy>
+					<CreationDate>2021-04-26T09:59:50.467</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-A99C-A6662150416D"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C92C16D">
+			<DocumentID>005056A2-27FA-A1EB-A99D-20D19C92816D</DocumentID>
+			<Name>005056A2-27FA-A1EB-A99D-20D19C92816D</Name>
+			<Description>005056A2-27FA-A1EB-A99D-20D19C92816D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-26T09:59:50.467</CreationDate>
+			<Notes/>
+			<UIRef>select2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C8E416D">
+					<DocumentID>005056A2-27FA-A1EB-A99D-20D19C8E016D</DocumentID>
+					<Name>005056A2-27FA-A1EB-A99D-20D19C8E016D</Name>
+					<Description>005056A2-27FA-A1EB-A99D-20D19C8E016D</Description>
+					<CreatedBy>Vaishnavi</CreatedBy>
+					<CreationDate>2021-04-26T09:59:50.457</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-A99C-A6662150416D"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C90C16D">
+			<DocumentID>005056A2-27FA-A1EB-A99D-20D19C90816D</DocumentID>
+			<Name>005056A2-27FA-A1EB-A99D-20D19C90816D</Name>
+			<Description>005056A2-27FA-A1EB-A99D-20D19C90816D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-26T09:59:50.462</CreationDate>
+			<Notes/>
+			<UIRef>select3</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C8CC16D">
+					<DocumentID>005056A2-27FA-A1EB-A99D-20D19C8C816D</DocumentID>
+					<Name>005056A2-27FA-A1EB-A99D-20D19C8C816D</Name>
+					<Description>005056A2-27FA-A1EB-A99D-20D19C8C816D</Description>
+					<CreatedBy>Vaishnavi</CreatedBy>
+					<CreationDate>2021-04-26T09:59:50.467</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-A99C-A6662150416D"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C8EC16D">
+			<DocumentID>005056A2-27FA-A1EB-A99D-20D19C8E816D</DocumentID>
+			<Name>005056A2-27FA-A1EB-A99D-20D19C8E816D</Name>
+			<Description>005056A2-27FA-A1EB-A99D-20D19C8E816D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-26T09:59:50.467</CreationDate>
+			<Notes/>
+			<UIRef>select4</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-A99D-20D19C8C416D">
+					<DocumentID>005056A2-27FA-A1EB-A99D-20D19C8C016D</DocumentID>
+					<Name>005056A2-27FA-A1EB-A99D-20D19C8C016D</Name>
+					<Description>005056A2-27FA-A1EB-A99D-20D19C8C016D</Description>
+					<CreatedBy>Vaishnavi</CreatedBy>
+					<CreationDate>2021-04-26T09:59:50.457</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-A99C-A6662150416D"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A99D-87B4C2DEC16D">
+			<DocumentID>005056A2-27FA-A1EB-A99D-87B4C2DE816D</DocumentID>
+			<Name>005056A2-27FA-A1EB-A99D-87B4C2DE816D</Name>
+			<Description>005056A2-27FA-A1EB-A99D-87B4C2DE816D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-26T10:10:32.199</CreationDate>
+			<Notes/>
+			<UIRef>input4</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-A99D-87B4C2DF416D">
+					<DocumentID>005056A2-27FA-A1EB-A99D-87B4C2DF016D</DocumentID>
+					<Name>005056A2-27FA-A1EB-A99D-87B4C2DF016D</Name>
+					<Description>005056A2-27FA-A1EB-A99D-87B4C2DF016D</Description>
+					<CreatedBy>Vaishnavi</CreatedBy>
+					<CreationDate>2021-04-26T10:10:32.194</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-A99C-A6662150416D"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-AA29-BAE06790416D">
+			<DocumentID>005056A2-27FA-A1EB-AA29-BAE06790016D</DocumentID>
+			<Name>005056A2-27FA-A1EB-AA29-BAE06790016D</Name>
+			<Description>005056A2-27FA-A1EB-AA29-BAE06790016D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-29T05:15:31.5</CreationDate>
+			<Notes/>
+			<UIRef>button2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-AA29-BAE0678CC16D">
+					<DocumentID>005056A2-27FA-A1EB-AA29-BAE0678C816D</DocumentID>
+					<Name>005056A2-27FA-A1EB-AA29-BAE0678C816D</Name>
+					<Description>005056A2-27FA-A1EB-AA29-BAE0678C816D</Description>
+					<CreatedBy>Vaishnavi</CreatedBy>
+					<CreationDate>2021-04-29T05:15:31.5</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-A99C-A6662150416D"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-AA29-BAE0678E416D">
+			<DocumentID>005056A2-27FA-A1EB-AA29-BAE0678E016D</DocumentID>
+			<Name>005056A2-27FA-A1EB-AA29-BAE0678E016D</Name>
+			<Description>005056A2-27FA-A1EB-AA29-BAE0678E016D</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-29T05:15:31.5</CreationDate>
+			<Notes/>
+			<UIRef>button3</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-AA29-BAE0678B416D">
+					<DocumentID>005056A2-27FA-A1EB-AA29-BAE0678B016D</DocumentID>
+					<Name>005056A2-27FA-A1EB-AA29-BAE0678B016D</Name>
+					<Description>005056A2-27FA-A1EB-AA29-BAE0678B016D</Description>
+					<CreatedBy>Vaishnavi</CreatedBy>
+					<CreationDate>2021-04-29T05:15:31.5</CreationDate>
+					<Notes/>
+					<DeveloperText></DeveloperText>
+					<Identifier/>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-A99C-A6662150416D"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices/>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-A99D-87B4C2E7C16D">
+			<DocumentID>005056A2-27FA-A1EB-A99D-87B4C2E7816D</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>Vaishnavi</CreatedBy>
+			<CreationDate>2021-04-26T09:59:50.467</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

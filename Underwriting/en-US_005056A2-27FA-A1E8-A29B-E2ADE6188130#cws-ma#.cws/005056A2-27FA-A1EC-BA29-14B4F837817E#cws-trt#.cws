@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BA29-14B4F837C17E">
+	<DocumentID>005056A2-27FA-A1EC-BA29-14B4F837817E</DocumentID>
+	<Name>005056A2-27FA-A1EC-BA29-14B4F837817E</Name>
+	<Description>UW Service Task</Description>
+	<CreatedBy>Keerthi</CreatedBy>
+	<CreationDate>2022-06-10T10:01:53.533</CreationDate>
+	<Notes/>
+	<Text>UW Service Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BA29-14B4F837017E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

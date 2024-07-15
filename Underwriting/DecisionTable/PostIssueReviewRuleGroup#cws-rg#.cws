@@ -1,0 +1,489 @@
+
+<RuleGroup
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.rule.RuleGroup"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AF72-63787F6D814C">
+	<DocumentID>005056A2-27FA-A1E9-AF72-63787F6D414C</DocumentID>
+	<Name>PostIssueReviewRuleGroup</Name>
+	<Description>PostIssueReviewRuleGroup</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-08-13T13:19:05.025</CreationDate>
+	<Notes/>
+	<Priority>1</Priority>
+	<DecisionCases>
+		<DecisionCaseDesigntime
+			type="com.cordys.rule.DecisionCaseDesigntime"
+			typeVersion="EED4027A-1674-4072-BCFE-27F520DCC24E 02004E43-5049-71DE-8741-F3AC06C0B261"
+			RuntimeDocumentID="005056A2-27FA-A1E9-AF73-36A98A6FC14C">
+			<DocumentID>005056A2-27FA-A1E9-AF73-36A98A6F814C</DocumentID>
+			<Name>PostIssueReviewTaskSLA</Name>
+			<Description>PostIssueReviewTaskSLA</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2019-08-13T13:45:25.619</CreationDate>
+			<Notes/>
+			<effectivedate></effectivedate>
+			<enabled>true</enabled>
+			<expirydate></expirydate>
+			<modeldata>
+				<model
+					xmlns="http://rules/decisioncasemodel/definition"
+					ruleCount="12">
+					<header>
+						<condition>
+							<description
+								editableProperty="true">PostIssueReviewType</description>
+							<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+							<valueType
+								display="none">single</valueType>
+						</condition>
+						<action>
+							<description
+								editableProperty="true">Set DueDays</description>
+							<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+							<type>assignment</type>
+							<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+							<parameters/>
+							<ruleactionxml/>
+							<enabled
+								display="none"
+							/>
+						</action>
+					</header>
+					<rules>
+						<rule
+							rule_id="005056A2-27FA-A1E9-AF74-04E289DFC14C">
+							<name>Rule 1</name>
+							<description
+								editableProperty="true"
+								value="Rule 1">Rule 1</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="is Reinstatement">is &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>string</valueType>
+								<values>
+									<value>Reinstatement</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Reinstatement&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1E9-AF74-04E289DF814C">
+								<description
+									editableProperty="true"
+									value="to 3">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>3</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+						<rule
+							rule_id="005056A2-27FA-A1E9-AF75-C05E35DFC14C">
+							<name>Rule 4</name>
+							<description
+								editableProperty="true">Rule 4</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="is Rescission">is &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>string</valueType>
+								<values>
+									<value>Rescission</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Rescission&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1E9-AF75-C05E35DF814C">
+								<description
+									editableProperty="true"
+									value="to 1">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>1</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+						<rule
+							rule_id="005056A2-27FA-A1E9-AF75-C05E35DF414C">
+							<name>Rule 5</name>
+							<description
+								editableProperty="true">Rule 5</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="is Conversion">is &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>string</valueType>
+								<values>
+									<value>Conversion</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Conversion&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1E9-AF75-C05E35DF014C">
+								<description
+									editableProperty="true"
+									value="to 7">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>7</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+						<rule
+							rule_id="005056A2-27FA-A1E9-AF75-C05E35DEC14C">
+							<name>Rule 6</name>
+							<description
+								editableProperty="true">Rule 6</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="is Policy Changes">is &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>string</valueType>
+								<values>
+									<value>Policy Changes</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Policy Changes&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1E9-AF75-C05E35DE814C">
+								<description
+									editableProperty="true"
+									value="to 7">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>7</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+						<rule
+							rule_id="005056A2-27FA-A1E9-AF75-C05E35DE414C">
+							<name>Rule 7</name>
+							<description
+								editableProperty="true">Rule 7</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="is Internal Inquiries">is &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>string</valueType>
+								<values>
+									<value>Internal Inquiries</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Internal Inquiries&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1E9-AF75-C05E35DE014C">
+								<description
+									editableProperty="true"
+									value="to 1">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>1</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+						<rule
+							rule_id="005056A2-27FA-A1E9-AF75-C05E35DDC14C">
+							<name>Rule 8</name>
+							<description
+								editableProperty="true">Rule 8</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Post Decision Status Changes&quot; or sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Jet Issue Review&quot;">&lt;expression&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>complexexpression</valueType>
+								<values>
+									<value>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Post Decision Status Changes&quot; or sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Jet Issue Review&quot;</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Post Decision Status Changes&quot; or sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Jet Issue Review&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1E9-AF75-C05E35DD814C">
+								<description
+									editableProperty="true"
+									value="to 3">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>3</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+						<rule
+							rule_id="005056A2-27FA-A1E9-AF75-C05E35DD014C">
+							<name>Rule 9</name>
+							<description
+								editableProperty="true">Rule 9</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="is NY Major Medical Responses">is &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>string</valueType>
+								<values>
+									<value>NY Major Medical Responses</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;NY Major Medical Responses&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1E9-AF75-C05E35DCC14C">
+								<description
+									editableProperty="true"
+									value="to 7">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>7</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+						<rule
+							rule_id="005056A2-27FA-A1E9-AF75-C05E35DC014C">
+							<name>Rule 10</name>
+							<description
+								editableProperty="true">Rule 10</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Reinstatement&quot; and  sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Rescission&quot; and sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Conversion&quot; and sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Policy Changes&quot; and sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Internal Inquiries&quot; and sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Post Decision Status Changes&quot; and sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Decline Inquiries&quot; and sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;NY Major Medical Responses&quot;">&lt;expression&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>complexexpression</valueType>
+								<values>
+									<value>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Reinstatement&quot; and 
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Rescission&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Conversion&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Policy Changes&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Internal Inquiries&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Post Decision Status Changes&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Decline Inquiries&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;NY Major Medical Responses&quot;</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Reinstatement&quot; and 
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Rescission&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Conversion&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Policy Changes&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Internal Inquiries&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Post Decision Status Changes&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;Decline Inquiries&quot; and
+sch:PostIssueReviewTaskDueDay/@PostIssueReviewType != &quot;NY Major Medical Responses&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1E9-AF75-C05E35DBC14C">
+								<description
+									editableProperty="true"
+									value="to 3">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>3</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+						<rule
+							rule_id="005056A2-27FA-A1EA-8439-D672B2CC8153">
+							<name>Rule 11</name>
+							<description
+								editableProperty="true">Rule 11</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="is Decline Inquiries">is &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>string</valueType>
+								<values>
+									<value>Decline Inquiries</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Decline Inquiries&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1EA-8439-D672B2CC0153">
+								<description
+									editableProperty="true"
+									value="to 1">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>1</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+						<rule
+							rule_id="005056A2-27FA-A1EC-BA23-564D6A56817E">
+							<name>Rule 12</name>
+							<description
+								editableProperty="true">Rule 12</description>
+							<condition>
+								<description
+									editableProperty="true"
+									value="is Jet Issue Review">is &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType</xpath>
+								<valueType>string</valueType>
+								<values>
+									<value>Jet Issue Review</value>
+								</values>
+								<expression>sch:PostIssueReviewTaskDueDay/@PostIssueReviewType=&quot;Jet Issue Review&quot;</expression>
+							</condition>
+							<action
+								action_id="005056A2-27FA-A1EC-BA23-564D6A56417E">
+								<description
+									editableProperty="true"
+									value="to 1">to &lt;value&gt;</description>
+								<xpath>sch:PostIssueReviewTaskDueDay/@DueDays</xpath>
+								<type>assignment</type>
+								<propertiesPage>com/cordys/rule/actions/simpletextareaedit.caf</propertiesPage>
+								<parameters/>
+								<ruleactionxml>
+									<assignment
+										xmlns="http://rules/commontypes">
+										<expression>
+											<LHS>sch:PostIssueReviewTaskDueDay/@DueDays</LHS>
+											<RHS>1</RHS>
+										</expression>
+									</assignment>
+								</ruleactionxml>
+								<enabled>true</enabled>
+							</action>
+						</rule>
+					</rules>
+				</model>
+			</modeldata>
+			<on_delete>true</on_delete>
+			<on_insert>true</on_insert>
+			<on_update>true</on_update>
+			<ruledefinition/>
+			<rulepriority>5</rulepriority>
+			<ruletype>constraint</ruletype>
+			<version>1.0</version>
+			<ActionTemplates/>
+			<ConditionTemplates/>
+			<DecisionCaseOperationRealization/>
+			<ExternalActions/>
+			<Realization>
+				<DecisionRealization
+					type="com.cordys.rule.DecisionRealization"
+					RuntimeDocumentID="005056A2-27FA-A1E9-AF74-04E289F4014C">
+					<DocumentID>005056A2-27FA-A1E9-AF74-04E289F3C14C</DocumentID>
+					<Name>DecisionRealization_005056A2-27FA-A1E9-AF74-04E289F3C14C</Name>
+					<Description>DecisionRealization_005056A2-27FA-A1E9-AF74-04E289F3C14C</Description>
+					<CreatedBy>harshet</CreatedBy>
+					<CreationDate>2019-08-13T13:45:25.619</CreationDate>
+					<Notes/>
+					<BusinessObjectDocument>
+						<uri
+							id="005056A2-27FA-A1E9-AF72-63787F80414C"
+						/>
+					</BusinessObjectDocument>
+					<DecisionCase>
+						<uri
+							id="005056A2-27FA-A1E9-AF73-36A98A6F814C"
+						/>
+					</DecisionCase>
+				</DecisionRealization>
+			</Realization>
+			<Roles/>
+			<RuleGroup>
+				<uri
+					id="005056A2-27FA-A1E9-AF72-63787F6D414C"
+				/>
+			</RuleGroup>
+			<SchemaFragmentReference>
+				<uri
+					id="005056A2-27FA-A1E9-AF72-63787F80414C"
+				/>
+			</SchemaFragmentReference>
+			<WebserviceBindingOperations/>
+		</DecisionCaseDesigntime>
+	</DecisionCases>
+	<Rules/>
+</RuleGroup>

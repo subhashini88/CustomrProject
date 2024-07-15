@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-925D-74299DC2C194">
+	<DocumentID>005056A2-27FA-A1ED-925D-74299DC28194</DocumentID>
+	<Name>005056A2-27FA-A1ED-925D-74299DC28194</Name>
+	<Description>GetCompCasesToBeCreated</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-10-11T15:23:13.762</CreationDate>
+	<Notes/>
+	<DefaultText>GetCompCasesToBeCreated</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-925D-74299DC30194"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BA5B-CFFB6344413E">
+	<DocumentID>005056A2-27FA-A1E8-BA5E-5BF9A92A013E</DocumentID>
+	<Name>005056A2-27FA-A1E8-BA5E-5BF9A92A013E</Name>
+	<Description>&lt;h4&gt;&lt;span style=&quot;font-weight:bold;color: #ff2b08;;font-family: arial black, gadget, sans-serif ;&quot;&gt;We need credentials to hit Trac.&lt;/span&gt;&lt;/h4&gt;</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-16T08:27:35.381</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;h4&gt;&lt;span style=&quot;font-weight:bold;color: #ff2b08;;font-family: arial black, gadget, sans-serif ;&quot;&gt;We need credentials to hit Trac.&lt;/span&gt;&lt;/h4&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E8-BA5B-CFFB6344813E"
+		/>
+	</Translations>
+</TextIdentifier>

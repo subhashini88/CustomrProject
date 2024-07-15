@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-A658-5B877A514111">
+	<DocumentID>005056A2-7798-A1E8-A658-5B877A510111</DocumentID>
+	<Name>005056A2-7798-A1E8-A658-5B877A510111</Name>
+	<Description>Severity</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-08-06T10:14:43.415</CreationDate>
+	<Notes/>
+	<Text>Severity</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-A658-5B877A508111"
+		/>
+	</TextIdentifier>
+</TranslatedText>

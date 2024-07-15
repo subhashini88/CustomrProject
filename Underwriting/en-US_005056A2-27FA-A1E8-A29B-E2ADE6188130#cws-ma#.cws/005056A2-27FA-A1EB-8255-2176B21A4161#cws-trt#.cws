@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8255-2176B21A8161">
+	<DocumentID>005056A2-27FA-A1EB-8255-2176B21A4161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8255-2176B21A4161</Name>
+	<Description>View</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-10-08T10:55:10.045</CreationDate>
+	<Notes/>
+	<Text>View</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8255-2176B219C161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

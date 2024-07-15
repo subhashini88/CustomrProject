@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-866C-2698F2128165">
+	<DocumentID>005056A2-27FA-A1EB-866C-2698F2124165</DocumentID>
+	<Name>005056A2-27FA-A1EB-866C-2698F2124165</Name>
+	<Description>Bkup Implementation Task</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-10-29T08:15:06.643</CreationDate>
+	<Notes/>
+	<Text>Bkup Implementation Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-866C-2698F211C165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

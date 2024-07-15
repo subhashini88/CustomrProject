@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-A8C0-319968A18199">
+	<DocumentID>005056A2-27FA-A1ED-A8C0-319968A14199</DocumentID>
+	<Name>005056A2-27FA-A1ED-A8C0-319968A14199</Name>
+	<Description>CanadaVendorResponse_ForClosedCase</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-02-02T13:52:14.418</CreationDate>
+	<Notes/>
+	<Text>CanadaVendorResponse_ForClosedCase</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-A8C0-319968A0C199"
+		/>
+	</TextIdentifier>
+</TranslatedText>

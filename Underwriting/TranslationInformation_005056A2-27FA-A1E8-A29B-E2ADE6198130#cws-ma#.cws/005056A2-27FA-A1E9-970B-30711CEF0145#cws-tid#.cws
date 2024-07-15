@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-970B-30711CEF4145">
+	<DocumentID>005056A2-27FA-A1E9-970B-30711CEF0145</DocumentID>
+	<Name>005056A2-27FA-A1E9-970B-30711CEF0145</Name>
+	<Description>(346)Combined TELE-INTERVIEW- Thyroid  Disorder</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-04-11T07:45:24.076</CreationDate>
+	<Notes/>
+	<DefaultText>(346)Combined TELE-INTERVIEW- Thyroid  Disorder</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-970B-30711CEF8145"
+		/>
+	</Translations>
+</TextIdentifier>

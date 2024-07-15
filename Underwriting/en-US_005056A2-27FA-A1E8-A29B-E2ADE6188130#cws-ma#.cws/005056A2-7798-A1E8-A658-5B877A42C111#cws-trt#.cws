@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-A658-5B877A430111">
+	<DocumentID>005056A2-7798-A1E8-A658-5B877A42C111</DocumentID>
+	<Name>005056A2-7798-A1E8-A658-5B877A42C111</Name>
+	<Description>Current Audit Messages</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-08-06T10:30:44.502</CreationDate>
+	<Notes/>
+	<Text>Current Audit Messages</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-A658-5B877A424111"
+		/>
+	</TextIdentifier>
+</TranslatedText>

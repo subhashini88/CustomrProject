@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BBC9-72A38FE3C13F">
+	<DocumentID>005056A2-27FA-A1E8-BBC9-72A38FE3813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BBC9-72A38FE3813F</Name>
+	<Description>Checkbox1</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-11-23T13:44:45.468</CreationDate>
+	<Notes/>
+	<Text>Checkbox1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BBC9-72A38FE3013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

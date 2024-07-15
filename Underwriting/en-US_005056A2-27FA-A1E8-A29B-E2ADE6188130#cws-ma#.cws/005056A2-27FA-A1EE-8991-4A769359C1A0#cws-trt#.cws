@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8991-4A76935A01A0">
+	<DocumentID>005056A2-27FA-A1EE-8991-4A769359C1A0</DocumentID>
+	<Name>005056A2-27FA-A1EE-8991-4A769359C1A0</Name>
+	<Description>UW_CreateServiceTaskSLA</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2023-07-19T15:01:50.041</CreationDate>
+	<Notes/>
+	<Text>UW_CreateServiceTaskSLA</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8991-4A76935941A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

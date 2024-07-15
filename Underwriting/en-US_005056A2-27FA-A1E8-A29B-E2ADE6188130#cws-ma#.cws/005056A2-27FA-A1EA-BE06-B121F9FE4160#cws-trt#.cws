@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BE06-B121F9FE8160">
+	<DocumentID>005056A2-27FA-A1EA-BE06-B121F9FE4160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BE06-B121F9FE4160</Name>
+	<Description>Neuritis/Neuropathy</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-09-16T13:00:56.753</CreationDate>
+	<Notes/>
+	<Text>Neuritis/Neuropathy</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BE06-B121F9FDC160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

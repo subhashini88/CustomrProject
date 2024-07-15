@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-95F7-118CDF1C4175">
+	<DocumentID>005056A2-27FA-A1EC-95F7-118CDF1C0175</DocumentID>
+	<Name>005056A2-27FA-A1EC-95F7-118CDF1C0175</Name>
+	<Description>Group Contact 1</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-12-08T05:56:49.307</CreationDate>
+	<Notes/>
+	<Text>Group Contact 1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-95F7-118CDF1B8175"
+		/>
+	</TextIdentifier>
+</TranslatedText>

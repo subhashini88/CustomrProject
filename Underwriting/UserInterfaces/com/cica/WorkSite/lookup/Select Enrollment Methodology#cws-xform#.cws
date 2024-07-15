@@ -1,0 +1,306 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9F06-B22D5DA3416A">
+	<DocumentID>005056A2-27FA-A1EB-9F06-B22D5DA3816A</DocumentID>
+	<Name>Select Enrollment Methodology</Name>
+	<Description>Select Enrollment Methodology</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2021-03-03T12:28:51.799</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="SearchListByIdentifierModel"
+					wcpforms:businessElement="tns:WKSDropDownTable"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/WorksiteWSAppPackage/SearchListByIdentifier"
+							operationName="SearchListByIdentifier"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EA-BE11-F2729C2B0160">
+							<identifier
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+							<company_code
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+							<language
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:repeat
+						wcpforms:displayContextMenu="true"
+						wcpforms:toggleColumns="true"
+						wcpforms:movableColumns="false"
+						wcpforms:saveState="false"
+						wcpforms:autoInsert="false"
+						wcpforms:minRows="5"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+						id="taskStatusTable"
+						synchronizedDialogFrame="main"
+						isNavigationEnabled="true"
+						model="SearchListByIdentifierModel"
+						fixedHeader="true"
+						columnSortable="true"
+						nodeset="tns:WKSDropDownTable"
+						wcpforms:gridtype="datagrid"
+						wcpforms:checkboxes="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="395px 273px">
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="TaskStatus_table"
+							doEBIValidate="false"
+							ref=".//*[local-name()='description']"
+							wcpforms:size="auto 100%">
+							<xforms:label
+								textIdentifier="005056A2-27FA-A1EB-94F5-76F14AF70168">Enrollment Methodology</xforms:label>
+						</xforms:output>
+					</xforms:repeat>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var eleVal="";
+
+function Form_Init(eventObject)
+{
+    application.setDialogSize("450px","380px");
+    application.container.description="Select Enrollment Methodology";
+    application.container.caption="Select Enrollment Methodology";
+}
+function Form_InitDone(eventObject)
+{
+    //SearchListByIdentifierModel.reset();
+    
+    var request = SearchListByIdentifierModel.getMethodRequest();
+	cordys.setNodeText(request, ".//*[local-name()='identifier']", "Enrollment Methodology");
+	cordys.setNodeText(request, ".//*[local-name()='company_code']", "CBS");
+	cordys.setNodeText(request, ".//*[local-name()='language']", "English");
+	SearchListByIdentifierModel.setMethodRequest(request);
+	SearchListByIdentifierModel.reset();
+    
+    var val=application.event.data.value;
+    if(val!="")
+    {
+        var valA=val.split(";");
+        var rows=taskStatusTable.getRows();
+        var tblLen=rows.length;
+        for(var i=0;i<valA.length;i++)
+        {
+            for(var j=1;j<=tblLen;j++)
+            {
+                if(TaskStatus_table[j].getValue()==valA[i])
+                {
+                    taskStatusTable.checkRow(j,true);
+                }            
+            }        
+        }   
+    
+    }
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-init">
+				<xforms:Form_Init/>
+			</xforms:action>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>Select Enrollment Methodology</taskDescription>
+	<taskName>Select Enrollment Methodology</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets/>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9F06-B22D5D9E816A">
+			<DocumentID>005056A2-27FA-A1EB-9F06-B22D5D9E416A</DocumentID>
+			<Name>005056A2-27FA-A1EB-9F06-B22D5D9E416A</Name>
+			<Description>005056A2-27FA-A1EB-9F06-B22D5D9E416A</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2021-03-03T12:28:51.809</CreationDate>
+			<Notes/>
+			<DeveloperText>Select Enrollment Methodology</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EB-9F06-B22D5D9EC16A"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9F06-B22D5DA2416A">
+			<DocumentID>005056A2-27FA-A1EB-9F06-B22D5DA2816A</DocumentID>
+			<Name>005056A2-27FA-A1EB-9EFC-2E5B7CD0C16A</Name>
+			<Description>005056A2-27FA-A1EB-9EFC-2E5B7CD0C16A</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2021-03-03T12:28:51.804</CreationDate>
+			<Notes/>
+			<UIRef>TaskStatus_table</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9F06-B22D5D9D016A">
+					<DocumentID>005056A2-27FA-A1EB-9F06-B22D5D9CC16A</DocumentID>
+					<Name>005056A2-27FA-A1EB-9F06-B22D5D9CC16A</Name>
+					<Description>005056A2-27FA-A1EB-9F06-B22D5D9CC16A</Description>
+					<CreatedBy>sanjana</CreatedBy>
+					<CreationDate>2021-03-03T12:40:57.461</CreationDate>
+					<Notes/>
+					<DeveloperText>Enrollment Methodology</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-94F5-76F14AF70168"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-9F06-B22D5DA3816A"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9F06-B22D5DA1416A">
+			<DocumentID>005056A2-27FA-A1EB-9F06-B22D5DA1816A</DocumentID>
+			<Name>005056A2-27FA-A1EB-9F03-92A20777416A</Name>
+			<Description>005056A2-27FA-A1EB-9F03-92A20777416A</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2021-03-03T12:28:51.809</CreationDate>
+			<Notes/>
+			<UIRef>output1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9F06-B22D5DA0C16A">
+					<DocumentID>005056A2-27FA-A1EB-9F06-B22D5DA1016A</DocumentID>
+					<Name>005056A2-27FA-A1EB-9F03-92A20777C16A</Name>
+					<Description>005056A2-27FA-A1EB-9F03-92A20777C16A</Description>
+					<CreatedBy>sanjana</CreatedBy>
+					<CreationDate>2021-03-03T12:28:51.804</CreationDate>
+					<Notes/>
+					<DeveloperText>Output1</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1E8-A3F9-6C52D4E10131"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-9F06-B22D5DA3816A"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1EA-BE11-F2729C2B0160"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9F06-B22D5DA2C16A">
+			<DocumentID>005056A2-27FA-A1EB-9F06-B22D5DA3016A</DocumentID>
+			<Name>SearchListByIdentifierModel</Name>
+			<Description>SearchListByIdentifierModel</Description>
+			<CreatedBy>sanjana</CreatedBy>
+			<CreationDate>2021-03-03T12:28:51.799</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/WorksiteWSAppPackage</namespace>
+			<operationName>SearchListByIdentifier</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

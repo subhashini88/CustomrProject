@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-AD11-0C0C817CC14C">
+	<DocumentID>005056A2-27FA-A1E9-AD11-0C0C817C814C</DocumentID>
+	<Name>005056A2-27FA-A1E9-AD11-0C0C817C814C</Name>
+	<Description>ProductDescription</Description>
+	<CreatedBy>ARUN</CreatedBy>
+	<CreationDate>2019-08-01T10:13:33.416</CreationDate>
+	<Notes/>
+	<DefaultText>ProductDescription</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-AD11-0C0C817D014C"
+		/>
+	</Translations>
+</TextIdentifier>

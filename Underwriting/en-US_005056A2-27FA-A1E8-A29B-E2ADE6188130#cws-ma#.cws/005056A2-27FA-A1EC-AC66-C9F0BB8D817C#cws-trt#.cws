@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-AC66-C9F0BB8DC17C">
+	<DocumentID>005056A2-27FA-A1EC-AC66-C9F0BB8D817C</DocumentID>
+	<Name>005056A2-27FA-A1EC-AC66-C9F0BB8D817C</Name>
+	<Description>NB /Group service case delays</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2022-04-01T09:25:14.729</CreationDate>
+	<Notes/>
+	<Text>NB /Group service case delays</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-AC66-C9F0BB8D017C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-90FB-5A8EBF298144">
+	<DocumentID>005056A2-27FA-A1E9-90FB-5A8EBF294144</DocumentID>
+	<Name>005056A2-27FA-A1E9-90FB-5A8EBF294144</Name>
+	<Description>CloseOutDateTask</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-03-12T06:49:31.742</CreationDate>
+	<Notes/>
+	<Text>CloseOutDateTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-9124-BDF099BDC144"
+		/>
+	</TextIdentifier>
+</TranslatedText>

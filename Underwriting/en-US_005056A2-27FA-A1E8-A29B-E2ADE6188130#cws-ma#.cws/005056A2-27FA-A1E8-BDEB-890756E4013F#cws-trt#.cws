@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEB-890756E4413F">
+	<DocumentID>005056A2-27FA-A1E8-BDEB-890756E4013F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEB-890756E4013F</Name>
+	<Description>NY CCS Questionnaire</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T10:27:45.743</CreationDate>
+	<Notes/>
+	<Text>NY CCS Questionnaire</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEB-890756E3813F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

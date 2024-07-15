@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-AC88-9A232BFD816D">
+	<DocumentID>005056A2-27FA-A1EB-AC88-9A232BFD416D</DocumentID>
+	<Name>005056A2-27FA-A1EB-AC88-9A232BFD416D</Name>
+	<Description>Work Assignment Dash Board</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-05-11T06:39:30.207</CreationDate>
+	<Notes/>
+	<DefaultText>Work Assignment Dash Board</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-AC88-9A232BFDC16D"
+		/>
+	</Translations>
+</TextIdentifier>

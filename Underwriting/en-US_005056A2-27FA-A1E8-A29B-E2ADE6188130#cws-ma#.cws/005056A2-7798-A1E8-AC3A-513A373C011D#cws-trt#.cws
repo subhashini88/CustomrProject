@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-7798-A1E8-AC3A-513A373C411D">
+	<DocumentID>005056A2-7798-A1E8-AC3A-513A373C011D</DocumentID>
+	<Name>005056A2-7798-A1E8-AC3A-513A373C011D</Name>
+	<Description>ParentQueue</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-09-05T08:58:05.427</CreationDate>
+	<Notes/>
+	<Text>ParentQueue</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-7798-A1E8-AC3A-513A373B811D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

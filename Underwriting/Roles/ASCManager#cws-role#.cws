@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B41B-12EC685E813D">
+	<DocumentID>005056A2-27FA-A1E8-B41B-12EC685E413D</DocumentID>
+	<Name>ASCManager</Name>
+	<Description>ASCManager</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-15T11:57:45.137</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1E8-B41B-12EC685C813D">
+			<DocumentID>005056A2-27FA-A1E8-B41B-12EC685C413D</DocumentID>
+			<Name>WorksheetASC_005056A2-27FA-A1E8-B41B-12EC685C413D</Name>
+			<Description>WorksheetASC_005056A2-27FA-A1E8-B41B-12EC685C413D</Description>
+			<CreatedBy>harshet</CreatedBy>
+			<CreationDate>2018-10-15T11:57:45.138</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1E8-B350-2EA33A84813B"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+</RoleDesignTime>

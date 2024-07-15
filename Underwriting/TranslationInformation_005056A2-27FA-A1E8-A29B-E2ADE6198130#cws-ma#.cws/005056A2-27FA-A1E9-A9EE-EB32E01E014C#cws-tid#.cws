@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A9EE-EB32E01E414C">
+	<DocumentID>005056A2-27FA-A1E9-A9EE-EB32E01E014C</DocumentID>
+	<Name>005056A2-27FA-A1E9-A9EE-EB32E01E014C</Name>
+	<Description>005056A2-27FA-A1E9-A9EE-EB32E01E014C</Description>
+	<CreatedBy>ARUN</CreatedBy>
+	<CreationDate>2019-07-16T11:52:09.675</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: medium;&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;Please check the Effective date and make required adjustments to to the Effective Date&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-A9EE-EB32E01E814C"
+		/>
+	</Translations>
+</TextIdentifier>

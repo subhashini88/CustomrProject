@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B6B9-3248CB5CC19B">
+	<DocumentID>005056A2-27FA-A1ED-B6B9-3248CB5C819B</DocumentID>
+	<Name>005056A2-27FA-A1ED-B6B9-3248CB5C819B</Name>
+	<Description>If Successful Batch Updates</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-04-14T16:53:22.172</CreationDate>
+	<Notes/>
+	<DefaultText>If Successful Batch Updates</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1ED-B6B9-3248CB5D019B"
+		/>
+	</Translations>
+</TextIdentifier>

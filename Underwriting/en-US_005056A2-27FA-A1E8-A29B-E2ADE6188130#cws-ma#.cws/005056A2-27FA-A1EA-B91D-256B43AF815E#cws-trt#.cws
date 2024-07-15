@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B91D-256B43AFC15E">
+	<DocumentID>005056A2-27FA-A1EA-B91D-256B43AF815E</DocumentID>
+	<Name>005056A2-27FA-A1EA-B91D-256B43AF815E</Name>
+	<Description>Radio6</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-08-22T12:45:14.504</CreationDate>
+	<Notes/>
+	<Text>Radio6</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-B91D-256B43AF015E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

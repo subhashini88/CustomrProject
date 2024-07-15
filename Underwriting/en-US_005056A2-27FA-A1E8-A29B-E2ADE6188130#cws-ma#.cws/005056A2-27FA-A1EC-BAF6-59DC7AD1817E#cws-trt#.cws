@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BAF6-59DC7AD1C17E">
+	<DocumentID>005056A2-27FA-A1EC-BAF6-59DC7AD1817E</DocumentID>
+	<Name>005056A2-27FA-A1EC-BAF6-59DC7AD1817E</Name>
+	<Description>UWPICompleteTask</Description>
+	<CreatedBy>prakash</CreatedBy>
+	<CreationDate>2022-06-15T09:11:13.063</CreationDate>
+	<Notes/>
+	<Text>UWPICompleteTask</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BAF6-59DC7AD1017E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

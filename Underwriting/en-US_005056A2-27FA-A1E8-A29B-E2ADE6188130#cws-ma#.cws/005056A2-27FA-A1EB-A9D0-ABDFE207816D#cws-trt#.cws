@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-A9D0-ABDFE207C16D">
+	<DocumentID>005056A2-27FA-A1EB-A9D0-ABDFE207816D</DocumentID>
+	<Name>005056A2-27FA-A1EB-A9D0-ABDFE207816D</Name>
+	<Description>SendMail</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2021-04-27T10:24:08.941</CreationDate>
+	<Notes/>
+	<Text>SendMail</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1EB-A21F-66869974416B"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-A9D0-ABDFE207016D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

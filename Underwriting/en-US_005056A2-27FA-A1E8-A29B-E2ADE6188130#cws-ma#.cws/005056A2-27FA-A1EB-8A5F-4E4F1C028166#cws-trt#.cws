@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8A5F-4E4F1C02C166">
+	<DocumentID>005056A2-27FA-A1EB-8A5F-4E4F1C028166</DocumentID>
+	<Name>005056A2-27FA-A1EB-8A5F-4E4F1C028166</Name>
+	<Description>Underwriting Requirement</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-11-18T11:08:31.29</CreationDate>
+	<Notes/>
+	<Text>Underwriting Requirement</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-8A5F-4E4F1C020166"
+		/>
+	</TextIdentifier>
+</TranslatedText>

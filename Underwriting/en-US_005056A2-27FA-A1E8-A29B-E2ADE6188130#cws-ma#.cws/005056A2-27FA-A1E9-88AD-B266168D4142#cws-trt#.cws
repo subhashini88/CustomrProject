@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-88AD-B266168D8142">
+	<DocumentID>005056A2-27FA-A1E9-88AD-B266168D4142</DocumentID>
+	<Name>005056A2-27FA-A1E9-88AD-B266168D4142</Name>
+	<Description>Case Status</Description>
+	<CreatedBy>abirami</CreatedBy>
+	<CreationDate>2019-01-28T06:16:53.426</CreationDate>
+	<Notes/>
+	<Text>Case Status</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-88AD-B266168CC142"
+		/>
+	</TextIdentifier>
+</TranslatedText>

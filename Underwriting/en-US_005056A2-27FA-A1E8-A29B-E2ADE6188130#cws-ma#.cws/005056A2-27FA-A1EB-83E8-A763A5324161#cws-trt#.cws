@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-83E8-A763A5328161">
+	<DocumentID>005056A2-27FA-A1EB-83E8-A763A5324161</DocumentID>
+	<Name>005056A2-27FA-A1EB-83E8-A763A5324161</Name>
+	<Description>Textarea15</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-10-16T11:29:04.928</CreationDate>
+	<Notes/>
+	<Text>Textarea15</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-83E8-A763A531C161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-83A1-B8DBB1940141">
+	<DocumentID>005056A2-27FA-A1E9-83A1-B8DBB193C141</DocumentID>
+	<Name>005056A2-27FA-A1E9-83A1-B8DBB193C141</Name>
+	<Description>SK Supervision Certificate</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-01-02T13:32:36.688</CreationDate>
+	<Notes/>
+	<Text>SK Supervision Certificate</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-83A1-B8DBB1934141"
+		/>
+	</TextIdentifier>
+</TranslatedText>

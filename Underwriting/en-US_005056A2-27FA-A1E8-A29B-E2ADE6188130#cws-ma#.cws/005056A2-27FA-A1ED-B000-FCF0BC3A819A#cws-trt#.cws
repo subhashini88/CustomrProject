@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-B000-FCF0BC3AC19A">
+	<DocumentID>005056A2-27FA-A1ED-B000-FCF0BC3A819A</DocumentID>
+	<Name>005056A2-27FA-A1ED-B000-FCF0BC3A819A</Name>
+	<Description>New Task ID</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-03-11T12:19:09.42</CreationDate>
+	<Notes/>
+	<Text>New Task ID</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-B000-FCF0BC3A019A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

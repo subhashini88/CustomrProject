@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8E1D-70B36F364167">
+	<DocumentID>005056A2-27FA-A1EB-8E1D-70B36F360167</DocumentID>
+	<Name>005056A2-27FA-A1EB-8E1D-70B36F360167</Name>
+	<Description>Get Case Activity for Error Handling</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-12-07T10:23:46.822</CreationDate>
+	<Notes/>
+	<DefaultText>Get Case Activity for Error Handling</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8E1D-70B36F368167"
+		/>
+	</Translations>
+</TextIdentifier>

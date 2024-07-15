@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9D3D-C3A90579016A">
+	<DocumentID>005056A2-27FA-A1EB-9D3D-C3A90578C16A</DocumentID>
+	<Name>005056A2-27FA-A1EB-9D3D-C3A90578C16A</Name>
+	<Description>New Business Error</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-22T10:17:19.079</CreationDate>
+	<Notes/>
+	<Text>New Business Error</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9D3D-C3A90578416A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

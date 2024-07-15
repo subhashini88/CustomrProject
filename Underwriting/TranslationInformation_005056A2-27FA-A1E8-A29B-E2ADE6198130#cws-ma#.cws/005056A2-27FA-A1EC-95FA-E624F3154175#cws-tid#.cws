@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EC-95FA-E624F3158175">
+	<DocumentID>005056A2-27FA-A1EC-95FA-E624F3154175</DocumentID>
+	<Name>005056A2-27FA-A1EC-95FA-E624F3154175</Name>
+	<Description>Email_4</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-12-08T06:07:38.512</CreationDate>
+	<Notes/>
+	<DefaultText>Email_4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EC-95FA-E624F315C175"
+		/>
+	</Translations>
+</TextIdentifier>

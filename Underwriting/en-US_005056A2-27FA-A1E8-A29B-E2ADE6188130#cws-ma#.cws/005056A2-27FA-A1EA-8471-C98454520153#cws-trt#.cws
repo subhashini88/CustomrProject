@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8471-C98454524153">
+	<DocumentID>005056A2-27FA-A1EA-8471-C98454520153</DocumentID>
+	<Name>005056A2-27FA-A1EA-8471-C98454520153</Name>
+	<Description>WorksheetASCC</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-11-28T17:08:34.557</CreationDate>
+	<Notes/>
+	<Text>WorksheetASCC</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8471-C98454518153"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEF-590996B1C13F">
+	<DocumentID>005056A2-27FA-A1E8-BDEF-590996B1813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEF-590996B1813F</Name>
+	<Description>Do you have coverage under the Medicare plan other than original Medicare (for example a Medicare Advantage plan, or a Medicare HMO)?</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T12:13:10.435</CreationDate>
+	<Notes/>
+	<Text>Do you have coverage under the Medicare plan other than original Medicare (for example a Medicare Advantage plan, or a Medicare HMO)?</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEF-590996B1013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

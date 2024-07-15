@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EB-8345-2CF5E37DC161">
+	<DocumentID>005056A2-27FA-A1EB-8345-2CF5E37D8161</DocumentID>
+	<Name>005056A2-27FA-A1EB-8345-2CF5E37D8161</Name>
+	<Description>GROUP SETUP_2</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2020-10-13T07:08:28.98</CreationDate>
+	<Notes/>
+	<DefaultText>GROUP SETUP_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EB-8345-2CF5E37E0161"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1EA-B721-4C2F152F815D">
+	<DocumentID>005056A2-27FA-A1EA-B721-4C2F152F415D</DocumentID>
+	<Name>005056A2-27FA-A1EA-B721-4C2F152F415D</Name>
+	<Description>&lt;span style=&quot;font-size: medium;;color: #1e59ff;&quot;&gt;Children&lt;/span&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;;color: #1e59ff;&quot;&gt;&lt;bR /&gt;&lt;/span&gt;&lt;/p&gt;</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2020-08-12T10:18:47.075</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;span style=&quot;font-size: medium;;color: #1e59ff;&quot;&gt;Children&lt;/span&gt;&lt;p&gt;&lt;span style=&quot;font-size: medium;;color: #1e59ff;&quot;&gt;&lt;bR /&gt;&lt;/span&gt;&lt;/p&gt;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1EA-B721-4C2F152FC15D"
+		/>
+	</Translations>
+</TextIdentifier>

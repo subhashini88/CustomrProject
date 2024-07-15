@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-BDEA-26D382CFC13F">
+	<DocumentID>005056A2-27FA-A1E8-BDEA-26D382CF813F</DocumentID>
+	<Name>005056A2-27FA-A1E8-BDEA-26D382CF813F</Name>
+	<Description>Checkbox21</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2018-12-04T10:20:27.547</CreationDate>
+	<Notes/>
+	<Text>Checkbox21</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-BDEA-26D382CF013F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

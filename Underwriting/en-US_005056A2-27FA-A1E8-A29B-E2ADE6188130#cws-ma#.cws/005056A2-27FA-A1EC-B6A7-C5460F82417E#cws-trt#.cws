@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-B6A7-C5460F82817E">
+	<DocumentID>005056A2-27FA-A1EC-B6A7-C5460F82417E</DocumentID>
+	<Name>005056A2-27FA-A1EC-B6A7-C5460F82417E</Name>
+	<Description>For Each New Case</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2022-05-23T13:56:48.932</CreationDate>
+	<Notes/>
+	<Text>For Each New Case</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-B6A7-C5460F81C17E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

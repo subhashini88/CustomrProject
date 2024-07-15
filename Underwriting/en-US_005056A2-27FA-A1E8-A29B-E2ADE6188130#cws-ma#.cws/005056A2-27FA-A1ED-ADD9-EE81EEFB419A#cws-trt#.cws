@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-ADD9-EE81EEFB819A">
+	<DocumentID>005056A2-27FA-A1ED-ADD9-EE81EEFB419A</DocumentID>
+	<Name>005056A2-27FA-A1ED-ADD9-EE81EEFB419A</Name>
+	<Description>Update Review Action Summary for GI</Description>
+	<CreatedBy>Prashant Chauhan</CreatedBy>
+	<CreationDate>2023-02-28T13:07:01.494</CreationDate>
+	<Notes/>
+	<Text>Update Review Action Summary for GI</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-ADD9-EE81EEFAC19A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

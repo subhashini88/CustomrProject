@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1ED-ACB3-B641FA68019A">
+	<DocumentID>005056A2-27FA-A1ED-ACB3-B641FA67C19A</DocumentID>
+	<Name>005056A2-27FA-A1ED-ACB3-B641FA67C19A</Name>
+	<Description>AEBOTFPLSPValidantSubmit</Description>
+	<CreatedBy>Geetha Valaja</CreatedBy>
+	<CreationDate>2023-02-22T16:35:09.205</CreationDate>
+	<Notes/>
+	<Text>AEBOTFPLSPValidantSubmit</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1ED-ACB3-B641FA67419A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

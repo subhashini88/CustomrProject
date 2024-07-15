@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-BD93-02316F17C160">
+	<DocumentID>005056A2-27FA-A1EA-BD93-02316F178160</DocumentID>
+	<Name>005056A2-27FA-A1EA-BD93-02316F178160</Name>
+	<Description>Plan Code</Description>
+	<CreatedBy>naveen</CreatedBy>
+	<CreationDate>2020-09-14T06:20:57.769</CreationDate>
+	<Notes/>
+	<Text>Plan Code</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-BD93-02316F170160"
+		/>
+	</TextIdentifier>
+</TranslatedText>

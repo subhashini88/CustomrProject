@@ -1,0 +1,66 @@
+
+<Schedule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.scheduler.Schedule"
+	typeVersion="002346V0-0008-71DF-DFF5-1F210914E83B"
+	RuntimeDocumentID="005056A2-27FA-A1EB-83E2-DE98E9290161">
+	<DocumentID>005056A2-27FA-A1EB-83E2-DE98E928C161</DocumentID>
+	<Name>MRSWKSStatusSchedule</Name>
+	<Description>MRSWKSStatusSchedule</Description>
+	<CreatedBy>rudresh</CreatedBy>
+	<CreationDate>2020-10-16T10:47:46.896</CreationDate>
+	<Notes/>
+	<Count>-1</Count>
+	<ScheduleType>Daily</ScheduleType>
+	<ScheduleXML>
+		<schedule
+			xmlns="http://schemas.cordys.com/scheduler/1.0"
+			name="MRSWKSStatusSchedule"
+			count="-1"
+			autodeploy="true"
+			targetLastModified="2020-11-30T15:08:12.176"
+			msgHolderLastModified="2020-12-24T07:14:45.389">
+			<datetime>
+				<daily>
+					<time>8:0</time>
+					<time>12:30</time>
+					<time>15:30</time>
+					<time>18:0</time>
+				</daily>
+			</datetime>
+			<parameters
+				xmlns="http://schemas.cordys.com/scheduler/1.0">
+				<ExecuteProcess
+					xmlns="http://schemas.cordys.com/bpm/execution/1.0">
+					<type>definition</type>
+					<receiver>true</receiver>
+					<source>Scheduler Engine</source>
+					<modelSpace/>
+					<message>
+						<Message
+							xmlns="">No Message</Message>
+					</message>
+				</ExecuteProcess>
+			</parameters>
+		</schedule>
+	</ScheduleXML>
+	<TargetType>bpm</TargetType>
+	<ExternalAction>
+		<BPMExternalAction
+			type="com.cordys.bpm.BPMExternalAction"
+			RuntimeDocumentID="005056A2-27FA-A1EB-8CC8-00A64C440167">
+			<DocumentID>005056A2-27FA-A1EB-8CC8-00A64C43C167</DocumentID>
+			<Name>005056A2-27FA-A1EB-8CC8-00A64C43C167</Name>
+			<Description>005056A2-27FA-A1EB-8CC8-00A64C43C167</Description>
+			<CreatedBy>rudresh</CreatedBy>
+			<CreationDate>2020-11-30T16:50:33.255</CreationDate>
+			<Notes/>
+			<ContainedProcess>
+				<uri
+					id="005056A2-27FA-A1EA-BB13-9A395236815E"
+				/>
+			</ContainedProcess>
+		</BPMExternalAction>
+	</ExternalAction>
+	<WebserviceBindingOperation/>
+</Schedule>

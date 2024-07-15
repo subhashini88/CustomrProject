@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B515-0E135730813D">
+	<DocumentID>005056A2-27FA-A1E8-B515-0E135730413D</DocumentID>
+	<Name>005056A2-27FA-A1E8-B515-0E135730413D</Name>
+	<Description>Dummy - This condition will never happen</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-20T11:02:29.13</CreationDate>
+	<Notes/>
+	<Text>Dummy - This condition will never happen</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B515-0E13572FC13D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

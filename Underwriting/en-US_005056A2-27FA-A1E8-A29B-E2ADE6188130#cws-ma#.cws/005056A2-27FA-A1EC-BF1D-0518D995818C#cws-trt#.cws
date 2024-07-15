@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EC-BF1D-0518D995C18C">
+	<DocumentID>005056A2-27FA-A1EC-BF1D-0518D995818C</DocumentID>
+	<Name>005056A2-27FA-A1EC-BF1D-0518D995818C</Name>
+	<Description>getLSPPolicyHistory</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-05T15:07:42.244</CreationDate>
+	<Notes/>
+	<Text>getLSPPolicyHistory</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EC-BF1D-0518D995018C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

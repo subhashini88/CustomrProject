@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-853C-56E8FBD9C165">
+	<DocumentID>005056A2-27FA-A1EB-853C-56E8FBD98165</DocumentID>
+	<Name>005056A2-27FA-A1EB-853C-56E8FBD98165</Name>
+	<Description>PostRESTAPI</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-10-23T05:56:16.934</CreationDate>
+	<Notes/>
+	<Text>PostRESTAPI</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-853C-56E8FBD90165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

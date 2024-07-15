@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056A2-27FA-A1E9-A012-BE212F9A4147">
+	<DocumentID>005056A2-27FA-A1E9-A012-BE212F9A0147</DocumentID>
+	<Name>005056A2-27FA-A1E9-A012-BE212F9A0147</Name>
+	<Description>Not Completed_3</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-05-27T08:51:58.197</CreationDate>
+	<Notes/>
+	<DefaultText>Not Completed_3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE61A0130"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056A2-27FA-A1E9-A012-BE212F9A8147"
+		/>
+	</Translations>
+</TextIdentifier>

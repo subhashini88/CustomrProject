@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="005056A2-27FA-A1E8-A58C-0A2A38234132">
+	<DocumentID>005056A2-27FA-A1E8-A58C-0A2A38230132</DocumentID>
+	<Name>Underwriter Task</Name>
+	<Description>Underwriter Task</Description>
+	<CreatedBy>axbala</CreatedBy>
+	<CreationDate>2018-08-02T09:32:28.037</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="005056A2-27FA-A1EC-B4A7-9FE62731417D">
+			<DocumentID>005056A2-27FA-A1EC-B4A7-9FE62731017D</DocumentID>
+			<Name>ManualTaskCreation_005056A2-27FA-A1EC-B4A7-9FE62731017D</Name>
+			<Description>ManualTaskCreation_005056A2-27FA-A1EC-B4A7-9FE62731017D</Description>
+			<CreatedBy>Akanksha</CreatedBy>
+			<CreationDate>2022-05-13T09:33:49.453</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="005056A2-27FA-A1EB-AC97-09BE453E416D"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+</RoleDesignTime>

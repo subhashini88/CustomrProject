@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9A77-AF6CAF4F0169">
+	<DocumentID>005056A2-27FA-A1EB-9A77-AF6CAF4EC169</DocumentID>
+	<Name>005056A2-27FA-A1EB-9A77-AF6CAF4EC169</Name>
+	<Description>New
+  Policy File Count:</Description>
+	<CreatedBy>Vaishnavi</CreatedBy>
+	<CreationDate>2021-02-08T08:08:17.832</CreationDate>
+	<Notes/>
+	<Text>New
+  Policy File Count:</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9A77-AF6CAF4E4169"
+		/>
+	</TextIdentifier>
+</TranslatedText>

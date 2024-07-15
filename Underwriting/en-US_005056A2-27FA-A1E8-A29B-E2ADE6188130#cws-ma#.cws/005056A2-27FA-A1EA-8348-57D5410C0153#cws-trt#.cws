@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EA-8348-57D5410C4153">
+	<DocumentID>005056A2-27FA-A1EA-8348-57D5410C0153</DocumentID>
+	<Name>005056A2-27FA-A1EA-8348-57D5410C0153</Name>
+	<Description>Paper
+or Electronic</Description>
+	<CreatedBy>vinod</CreatedBy>
+	<CreationDate>2019-11-22T12:15:17.873</CreationDate>
+	<Notes/>
+	<Text>Paper
+or Electronic</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EA-8348-57D5410B8153"
+		/>
+	</TextIdentifier>
+</TranslatedText>

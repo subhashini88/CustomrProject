@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-ADD8-971D043C014C">
+	<DocumentID>005056A2-27FA-A1E9-ADD8-971D043BC14C</DocumentID>
+	<Name>005056A2-27FA-A1E9-ADD8-971D043BC14C</Name>
+	<Description>XGrid</Description>
+	<CreatedBy>ramya</CreatedBy>
+	<CreationDate>2019-08-05T09:29:26.187</CreationDate>
+	<Notes/>
+	<Text>XGrid</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-ADD8-971D043B414C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

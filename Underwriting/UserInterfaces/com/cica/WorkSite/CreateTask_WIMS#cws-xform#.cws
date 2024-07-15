@@ -1,0 +1,2857 @@
+
+<XFormDesigntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="002481EE-993D-11E2-E030-02C88B2B3B65"
+	RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785F4168">
+	<DocumentID>005056A2-27FA-A1EB-900B-C672785F8168</DocumentID>
+	<Name>CreateTask_WIMS</Name>
+	<Description>Create Task</Description>
+	<CreatedBy>dileep kumar</CreatedBy>
+	<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			key="com/cica/WorkSite/CreateTask"
+			focusatstartup="true"
+			showNotify="true"
+			showError="true">
+			<xhead>
+				<style
+					src="com/cica/uw/styles/defaultLib.css"
+					documentID="005056A2-27FA-A1EA-B6F0-BD514C4D815D"
+				/>
+				<style
+					src="com/cica/uw/styles/bootstrap.min.css"
+					documentID="005056A2-27FA-A1EA-B6F0-BD514C4F815D"
+				/>
+				<style
+					src="com/cica/uw/styles/CaseTask.css"
+					documentID="005056A2-27FA-A1EA-BC9F-27EE2331415E"
+				/>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="SearchListByIdentifierModel"
+					wcpforms:businessElement="tns:WKS_dropdown_table"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/WorksiteWSAppPackage/SearchListByIdentifier"
+							operationName="SearchListByIdentifier"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EA-BE11-F2729C2B0160">
+							<identifier
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+							<company_code
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+							<language
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="TaskDetailsModel"
+					wcpforms:businessElement="tns:TaskDetails"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/WorksiteWSAppPackage/UpdateTaskDetails"
+							operationName="UpdateTaskDetails"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EB-892C-75F24A890165">
+							<tuple
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="UWReqTypeDropDownModel"
+					wcpforms:businessElement="tns:WKS_dropdown_table"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/WorksiteWSAppPackage/SearchListByIdentifier"
+							operationName="SearchListByIdentifier"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EA-BE11-F2729C2B0160">
+							<identifier
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+							<company_code
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+							<language
+								xmlns="http://schemas.cordys.com/WorksiteWSAppPackage"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/WorksiteWSAppPackage</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+					<xforms:action
+						ev:event="xforms-onrequest">
+						<xforms:UWReqTypeDropDownModel_OnRequest/>
+					</xforms:action>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="WKSCreateTaskModel"
+					wcpforms:businessElement="tns:data"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/default/WKSCreateTask"
+							operationName="WKSCreateTask"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EB-8C98-3409711D0167">
+							<ID
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<TaskType
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<Action
+								xmlns="http://schemas.cordys.com/default"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/default</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/default</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="ns1">http://schemas.cordys.com/bpm/execution/1.0</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="LSPNotesInteractiveModel"
+					wcpforms:businessElement="tns:Response"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/default/LSPNotesInteractive"
+							operationName="LSPNotesInteractive"
+							type="get"
+							wcpforms:wsguid="005056A2-27FA-A1EB-8EEB-89F23F710167">
+							<CompanyCode
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<Date
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<Notes
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<PolicyNumber
+								xmlns="http://schemas.cordys.com/default"
+							/>
+							<Userid
+								xmlns="http://schemas.cordys.com/default"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/default</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/default</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						xmlns=""
+						id="TaskDetailsUpdate">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<UpdateTaskDetails
+									xmlns="http://schemas.cordys.com/WorksiteWSAppPackage">
+									<tuple>
+										<new>
+											<TaskDetails>
+												<TaskInstanceId/>
+												<TaskName/>
+												<MasterAppNumber/>
+												<GroupNumber/>
+												<CompanyCode/>
+												<TeamName/>
+												<Reason/>
+												<DueDate/>
+												<ReqType/>
+												<AppNumber/>
+												<ReqNotes/>
+												<CreatedBy/>
+												<CreatedDate/>
+												<CaseId/>
+												<linkedTask/>
+											</TaskDetails>
+										</new>
+									</tuple>
+								</UpdateTaskDetails>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+				</xml>
+				<uiElementsAssociations/>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop"
+					wcpforms:customclass="primary-header ">
+					<xforms:group
+						appearance="group"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+						id="group2"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout autoextent"
+						wcpforms:size="null auto"
+						wcpforms:labelalign="ontop">
+						<xforms:group
+							appearance="group"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+							id="group3"
+							wcpforms:layout="vertical"
+							wcpforms:class="v_layout_i autoextent"
+							wcpforms:size="null auto"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								appearance="codesnippet"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+								id="text2"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="null 30px">
+								<span
+									xmlns="">Error Handling</span>
+							</xforms:label>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="team1"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8794-E54D62CDC165"
+									wcpforms:class="v_label">Team</xforms:label>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:team1_Change/>
+								</xforms:action>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="reason1"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-88FD-3CA48AA38165"
+									wcpforms:class="v_label">Reason*</xforms:label>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="duedate1"
+								doEBIValidate="false"
+								wcpforms:displayformat="shortdate"
+								wcpforms:hasNoTime="true"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px"
+								wcpforms:customclass="InputBorderDate">
+								<xforms:label
+									textIdentifier="005056A2-7798-A1E8-ABD2-D6104E298116"
+									wcpforms:class="v_label">Due Date</xforms:label>
+								<xforms:action
+									ev:event="DOMFocusOut">
+									<xforms:duedate1_OutFocus/>
+								</xforms:action>
+							</xforms:input>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="notes1"
+								doEBIValidate="false"
+								wcpforms:customclass="ReqNotes"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="48% 150px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8794-E54D62C6C165"
+									wcpforms:class="v_label">Requestor Notes</xforms:label>
+							</xforms:textarea>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="team2"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8798-0A243870C165"
+									wcpforms:class="v_label">Team</xforms:label>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:team2_Change/>
+								</xforms:action>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="reason2"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-88FD-3CA48AA38165"
+									wcpforms:class="v_label">Reason*</xforms:label>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="duedate2"
+								doEBIValidate="false"
+								wcpforms:displayformat="shortdate"
+								wcpforms:hasNoTime="true"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px"
+								wcpforms:customclass="InputBorderDate">
+								<xforms:label
+									textIdentifier="005056A2-7798-A1E8-ABD2-D6104E298116"
+									wcpforms:class="v_label">Due Date</xforms:label>
+								<xforms:action
+									ev:event="DOMFocusOut">
+									<xforms:duedate2_OutFocus/>
+								</xforms:action>
+							</xforms:input>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="notes2"
+								doEBIValidate="false"
+								wcpforms:customclass="ReqNotes"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="48% 150px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8794-E54D62C6C165"
+									wcpforms:class="v_label">Requestor Notes</xforms:label>
+							</xforms:textarea>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="team3"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8798-0A243870C165"
+									wcpforms:class="v_label">Team</xforms:label>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:team3_Change/>
+								</xforms:action>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="reason3"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-88FD-3CA48AA38165"
+									wcpforms:class="v_label">Reason*</xforms:label>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="duedate3"
+								doEBIValidate="false"
+								wcpforms:customclass="InputBorderDate"
+								wcpforms:displayformat="shortdate"
+								wcpforms:hasNoTime="true"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-7798-A1E8-ABD2-D6104E298116"
+									wcpforms:class="v_label">Due Date</xforms:label>
+								<xforms:action
+									ev:event="DOMFocusOut">
+									<xforms:duedate3_OutFocus/>
+								</xforms:action>
+							</xforms:input>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="notes3"
+								doEBIValidate="false"
+								wcpforms:customclass="ReqNotes"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="48% 150px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8794-E54D62C6C165"
+									wcpforms:class="v_label">Requestor Notes</xforms:label>
+							</xforms:textarea>
+						</xforms:group>
+						<xforms:group
+							appearance="group"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+							id="group4"
+							wcpforms:layout="vertical"
+							wcpforms:class="v_layout_i autoextent"
+							wcpforms:size="null auto"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								appearance="codesnippet"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsText"
+								id="text1"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="null 30px">
+								<span
+									xmlns="">Requirement Request</span>
+							</xforms:label>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="req_type1"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px"
+								wcpforms:required="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8A54-43481C45C166"
+									wcpforms:class="v_label">Request Type</xforms:label>
+								<xforms:itemset
+									xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+									model="UWReqTypeDropDownModel">
+									<xforms:label
+										ref="tns:description"
+									/>
+									<xforms:value
+										ref="tns:value"
+									/>
+								</xforms:itemset>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:req_type1_Change/>
+								</xforms:action>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="tfd1"
+								doEBIValidate="false"
+								wcpforms:customclass="InputBorderDate"
+								wcpforms:displayformat="shortdate"
+								wcpforms:hasNoTime="true"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8313-FF1B01094161"
+									wcpforms:class="v_label">Task Follow-up Date</xforms:label>
+								<xforms:action
+									ev:event="DOMFocusOut">
+									<xforms:tfd1_OutFocus/>
+								</xforms:action>
+							</xforms:input>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="reqNotes1"
+								doEBIValidate="false"
+								wcpforms:customclass="ReqNotes"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="48% 116px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8794-E54D62C6C165"
+									wcpforms:class="v_label">Requestor Notes</xforms:label>
+							</xforms:textarea>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="req_type2"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder inputFieldLeftAlignTop"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px"
+								wcpforms:required="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8A54-43481C45C166"
+									wcpforms:class="v_label">Request Type</xforms:label>
+								<xforms:itemset
+									xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+									model="UWReqTypeDropDownModel">
+									<xforms:label
+										ref="tns:description"
+									/>
+									<xforms:value
+										ref="tns:value"
+									/>
+								</xforms:itemset>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:req_type2_Change/>
+								</xforms:action>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="tfd2"
+								doEBIValidate="false"
+								wcpforms:customclass="InputBorderDate inputFieldLeftAlignTop"
+								wcpforms:displayformat="shortdate"
+								wcpforms:hasNoTime="true"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8313-FF1B01094161"
+									wcpforms:class="v_label">Task Follow-up Date</xforms:label>
+								<xforms:action
+									ev:event="DOMFocusOut">
+									<xforms:tfd2_OutFocus/>
+								</xforms:action>
+							</xforms:input>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="reqNotes2"
+								doEBIValidate="false"
+								wcpforms:customclass="ReqNotes"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="48% 116px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8794-E54D62C6C165"
+									wcpforms:class="v_label">Requestor Notes</xforms:label>
+							</xforms:textarea>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="req_type3"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder inputFieldLeftAlignTop"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px"
+								wcpforms:required="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8A54-43481C45C166"
+									wcpforms:class="v_label">Request Type</xforms:label>
+								<xforms:itemset
+									xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+									model="UWReqTypeDropDownModel">
+									<xforms:label
+										ref="tns:description"
+									/>
+									<xforms:value
+										ref="tns:value"
+									/>
+								</xforms:itemset>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:req_type3_Change/>
+								</xforms:action>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="tfd3"
+								doEBIValidate="false"
+								wcpforms:customclass="InputBorderDate inputFieldLeftAlignTop"
+								wcpforms:displayformat="shortdate"
+								wcpforms:hasNoTime="true"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8313-FF1B01094161"
+									wcpforms:class="v_label">Task Follow-up Date</xforms:label>
+								<xforms:action
+									ev:event="DOMFocusOut">
+									<xforms:tfd3_OutFocus/>
+								</xforms:action>
+							</xforms:input>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="reqNotes3"
+								doEBIValidate="false"
+								wcpforms:customclass="ReqNotes"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="48% 116px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8794-E54D62C6C165"
+									wcpforms:class="v_label">Requestor Notes</xforms:label>
+							</xforms:textarea>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="req_type4"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder inputFieldLeftAlignTop"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px"
+								wcpforms:required="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8A54-43481C45C166"
+									wcpforms:class="v_label">Request Type</xforms:label>
+								<xforms:itemset
+									xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+									model="UWReqTypeDropDownModel">
+									<xforms:label
+										ref="tns:description"
+									/>
+									<xforms:value
+										ref="tns:value"
+									/>
+								</xforms:itemset>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:req_type4_Change/>
+								</xforms:action>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="tfd4"
+								doEBIValidate="false"
+								wcpforms:customclass="InputBorderDate inputFieldLeftAlignTop"
+								wcpforms:displayformat="shortdate"
+								wcpforms:hasNoTime="true"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8313-FF1B01094161"
+									wcpforms:class="v_label">Task Follow-up Date</xforms:label>
+								<xforms:action
+									ev:event="DOMFocusOut">
+									<xforms:tfd4_OutFocus/>
+								</xforms:action>
+							</xforms:input>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="reqNotes4"
+								doEBIValidate="false"
+								wcpforms:customclass="ReqNotes"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="48% 116px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8794-E54D62C6C165"
+									wcpforms:class="v_label">Requestor Notes</xforms:label>
+							</xforms:textarea>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="req_type5"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:customclass="InputBorder inputFieldLeftAlignTop"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px"
+								wcpforms:required="false">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8A54-43481C45C166"
+									wcpforms:class="v_label">Request Type</xforms:label>
+								<xforms:itemset
+									xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+									model="UWReqTypeDropDownModel">
+									<xforms:label
+										ref="tns:description"
+									/>
+									<xforms:value
+										ref="tns:value"
+									/>
+								</xforms:itemset>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:req_type5_Change/>
+								</xforms:action>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="tfd5"
+								wcpforms:customclass="InputBorderDate inputFieldLeftAlignTop"
+								doEBIValidate="false"
+								wcpforms:displayformat="shortdate"
+								wcpforms:hasNoTime="true"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="h_layout"
+								wcpforms:size="20% 64px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8313-FF1B01094161"
+									wcpforms:class="v_label">Task Follow-up Date</xforms:label>
+								<xforms:action
+									ev:event="DOMFocusOut">
+									<xforms:tfd5_OutFocus/>
+								</xforms:action>
+							</xforms:input>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="reqNotes5"
+								doEBIValidate="false"
+								wcpforms:customclass="ReqNotes"
+								wcpforms:class="v_layout_i"
+								wcpforms:size="48% 116px">
+								<xforms:label
+									textIdentifier="005056A2-27FA-A1EB-8794-E54D62C6C165"
+									wcpforms:class="v_label">Requestor Notes</xforms:label>
+							</xforms:textarea>
+						</xforms:group>
+						<xforms:group
+							appearance="controlbox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+							id="controlbox2"
+							controltype="button"
+							wcpforms:layout="horizontal"
+							wcpforms:class="v_layout_i"
+							wcpforms:align="right_align"
+							wcpforms:size="null 39px"
+							wcpforms:customclass="resubmit">
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="submit"
+								wcpforms:class="h_button"
+								wcpforms:size="null 30px">
+								<xforms:label
+									textIdentifier="005056A2-7798-A1E8-AF5C-0A2DDA714121">Submit</xforms:label>
+								<xforms:action
+									ev:event="xforms-activate">
+									<xforms:submit_Click/>
+								</xforms:action>
+							</xforms:trigger>
+						</xforms:group>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var MasterAppNumber;
+var GroupNumber;
+var CompanyState;
+var Assignee;
+var EH_Team_count,app_number,parentTask,parent_taskID,case_id;
+var valError = "true";
+var userDn = "";
+var policyDetermine;
+var maxLength;
+var ParentTaskType;
+
+
+function Form_InitDone(eventObject)
+{
+  MasterAppNumber=application.event.data.MasterAppNo;
+   GroupNumber=application.event.data.GroupNumber; 
+   CompanyState=application.event.data.CompanyCode; 
+   parent_taskID=application.event.data.parentTaskID;
+   Assignee=application.event.data.Assignee;
+   app_number=application.event.data.appNo;
+   parentTask=application.event.data.parent_task;
+   case_id=application.event.data.caseID;
+   ParentTaskType=application.event.data.ParentTaskType;
+   //userDn  = application.event.data.userDn;
+    userDn  = application.event.data.OrgUserDN;
+
+   /*case_id = "005056A2-27FA-A1EB-8CF5-EFFCE5020167";
+   MasterAppNumber = "MA-22499";
+   GroupNumber = "CWMA21428";
+   CompanyState ="NY";
+   Assigne = "DIKUMA4";*/
+   
+   if(app_number!=undefined){
+    policyDetermine = app_number;
+    if(policyDetermine.startsWith("W"))
+        policyDetermine = "CBS";
+    else
+    {
+        if(policyDetermine.startsWith("N"))
+            policyDetermine = "NY";
+        else            
+            policyDetermine = "";
+    }
+    }
+    
+   application.setDialogSize(1150, 1150); 
+   team3.hide();
+   team2.hide();
+   reason1.hide();
+   reason3.hide();
+   reason2.hide();
+   notes3.hide();
+   notes2.hide();
+   notes1.hide();
+   duedate1.hide();
+   duedate3.hide();
+   duedate2.hide();
+   
+   tfd1.hide();
+   tfd2.hide();
+   tfd3.hide();
+   tfd4.hide();
+   tfd5.hide();
+   
+   req_type2.hide();
+   req_type3.hide();
+   req_type4.hide();
+   req_type5.hide();
+   reqNotes1.hide();
+
+   reqNotes2.hide();
+   reqNotes3.hide();
+   reqNotes4.hide();
+    reqNotes5.hide();
+
+
+   var methodRequest = SearchListByIdentifierModel.getMethodRequest();
+   if(ParentTaskType == "OPS"){
+    cordys.setNodeText(methodRequest, ".//*[local-name()='identifier']","OpsEHTeam");
+    }
+    else
+    {
+    cordys.setNodeText(methodRequest, ".//*[local-name()='identifier']","EHTeam");
+    }
+    cordys.setNodeText(methodRequest, ".//*[local-name()='company_code']","CBS");
+    cordys.setNodeText(methodRequest, ".//*[local-name()='language']","English");
+    SearchListByIdentifierModel.setMethodRequest(methodRequest);
+    SearchListByIdentifierModel.reset();
+    var EHTeam=SearchListByIdentifierModel.getData();
+    var option = {value:"0", description:"Select"};
+    team1.addOption(option);
+    team3.addOption(option);
+    team2.addOption(option);
+    var Values = cordys.selectXMLNodes(EHTeam,".//*[local-name()='WKS_dropdown_table']")
+    var length=Values.length;
+    for (var s=0;s<length;s++) {
+    option.value = cordys.getNodeText(Values[s], ".//*[local-name()='value']");
+    option.description= cordys.getNodeText(Values[s], ".//*[local-name()='description']");
+    team1.addOption(option);
+    team3.addOption(option);
+    team2.addOption(option);
+  }
+    
+    var methodRequest = SearchListByIdentifierModel.getMethodRequest();
+    cordys.setNodeText(methodRequest, ".//*[local-name()='identifier']","EHReason");
+    cordys.setNodeText(methodRequest, ".//*[local-name()='company_code']","CBS");
+    cordys.setNodeText(methodRequest, ".//*[local-name()='language']","English");
+    SearchListByIdentifierModel.setMethodRequest(methodRequest);
+    SearchListByIdentifierModel.reset();
+    var EHReason=SearchListByIdentifierModel.getData();
+    var option = {value:"0", description:"Select"};
+    reason1.addOption(option);
+    reason2.addOption(option);
+    reason3.addOption(option);
+    var Values = cordys.selectXMLNodes(EHReason,".//*[local-name()='WKS_dropdown_table']")
+    var length=Values.length;
+    for (var s=0;s<length;s++) {
+    option.value = cordys.getNodeText(Values[s], ".//*[local-name()='value']");
+    option.description= cordys.getNodeText(Values[s], ".//*[local-name()='description']");
+    reason1.addOption(option);
+    reason3.addOption(option);
+    reason2.addOption(option);
+  }
+    // UW Requirement logic
+    var optionn = {value:"0", description:"Select"};
+    
+    UWReqTypeDropDownModel.reset();
+    req_type1.addOption(optionn,false,0,false);
+        req_type1.setValue("0");
+    req_type2.addOption(optionn,false,0,false);
+        req_type2.setValue("0");
+    req_type3.addOption(optionn,false,0,false);
+        req_type3.setValue("0");
+    req_type4.addOption(optionn,false,0,false);
+        req_type4.setValue("0");
+    req_type5.addOption(optionn,false,0,false);
+        req_type5.setValue("0");
+}
+function team1_Change(eventObject)
+{
+    if(team1.getValue()!="0"){
+    if(team1.getValue() == team3.getValue()|| team1.getValue() == team2.getValue())
+    {
+       application.notify(team1.getValue() +" is already selected")
+	   team1.setValue("0");
+       return false ;
+    }
+    reason1.show();
+    notes1.show();
+    duedate1.show();
+    team2.show();
+    EH_Team_count=1;
+    }
+}
+function team3_Change(eventObject)
+{
+   if(team3.getValue()!="0"){
+    if(team3.getValue() == team1.getValue()|| team3.getValue() == team2.getValue())
+    {
+       application.notify(team3.getValue() +" is already selected")
+	   team3.setValue("0");
+       return false ;
+    }
+    reason3.show();
+    notes3.show();
+    duedate3.show();
+    //team2.show();
+    EH_Team_count=3;
+    } 
+    else
+    { 
+     reason3.hide();
+     notes3.hide();
+     duedate3.hide();
+     //EH_Team_count="";
+   
+   
+    
+    }
+}
+function team2_Change(eventObject)
+{
+   if(team2.getValue()!="0"){
+     if(team2.getValue() == team1.getValue()|| team2.getValue() == team3.getValue())
+    {
+       application.notify(team2.getValue() +" is already selected")
+	   team2.setValue("0");
+       return false ;
+    }
+    reason2.show();
+    notes2.show();
+    duedate2.show();
+    EH_Team_count=2;
+    team3.show();
+    } 
+    else
+    { reason2.hide();
+     notes2.hide();
+     duedate2.hide();
+     reason3.hide();
+     notes3.hide();
+     duedate3.hide();
+     team3.hide();
+     team3.setValue("0");
+     //EH_Team_count="";
+    
+    }
+}
+function submit_Click(eventObject)
+{
+
+if(team1.getValue()==0 && req_type1.getValue()==0)
+{
+    application.notify("Please select minimum one Team or Requester type");
+    return false ;
+}
+ if(team1.getValue()!=0)
+  {
+	  if(reason1.getValue()==0)
+	  {
+		  application.notify("Reason cannot be blank for the teams selected");
+    return false ;
+	  }
+  }
+   if(team2.getValue()!=0)
+  {
+	   if(reason2.getValue()==0)
+	  {
+		  application.notify("Reason cannot be blank for the teams selected");
+    return false ;
+	  }
+  }
+   if(team3.getValue()!=0)
+  {
+	   if(reason3.getValue()==0)
+	  {
+		  application.notify("Reason cannot be blank for the teams selected");
+    return false ;
+	  }
+  }
+
+/*
+  if(team1.getValue()!=0)
+  {
+   if(team1.getValue() == team2.getValue()||team1.getValue()==team3.getValue())
+   {
+     application.showError(team1.getValue()+ " selected multiple times");
+     return false;
+   }
+}
+  if(team2.getValue()!=0)
+  {
+   if(team2.getValue() == team1.getValue()||team2.getValue()==team3.getValue())
+   {
+     application.showError(team2.getValue()+ " selected multiple times");
+     return false;
+   }
+}
+if(team3.getValue()!=0)
+  {
+   if(team3.getValue() == team1.getValue()||team3.getValue()==team2.getValue())
+   {
+     application.showError(team3.getValue()+ " selected multiple times");
+     return false;
+   }
+}
+
+if(req_type1.getValue()!=0)
+  {
+   if(req_type1.getValue() == req_type2.getValue()|| req_type1.getValue()==req_type3.getValue() || req_type1.getValue() == req_type4.getValue()||req_type1.getValue()==req_type5.getValue() )
+   {
+     application.showError(req_type1.getValue()+ " selected multiple times");
+     return false;
+   }
+}
+  if(req_type2.getValue()!=0)
+  {
+   if(req_type2.getValue() == req_type1.getValue()|| req_type2.getValue()==req_type3.getValue() || req_type2.getValue() == req_type4.getValue()||req_type2.getValue()==req_type5.getValue() )
+   {
+     application.showError(req_type2.getValue()+ " selected multiple times");
+     return false;
+   }
+}
+if(req_type3.getValue()!=0)
+  {
+    if(req_type3.getValue() == req_type1.getValue()||req_type3.getValue()==req_type2.getValue() || req_type3.getValue() == req_type4.getValue()||req_type3.getValue()==req_type5.getValue() )
+   {
+     application.showError(req_type3.getValue()+ " selected multiple times");
+     return false;
+   }
+}
+ if(req_type4.getValue()!=0)
+  {
+   if(req_type4.getValue() == req_type1.getValue()||req_type4.getValue()==req_type2.getValue() || req_type4.getValue() == req_type3.getValue()||req_type4.getValue()==req_type5.getValue() )
+   {
+     application.showError(req_type4.getValue()+ " selected multiple times");
+     return false;
+   }
+}
+if(req_type5.getValue()!=0)
+  {
+    if(req_type5.getValue()==req_type1.getValue() || req_type5.getValue() == req_type2.getValue()||req_type5.getValue()==req_type3.getValue() || req_type5.getValue() == req_type4.getValue())
+   {
+     application.showError(req_type5.getValue()+ " selected multiple times");
+     return false;
+   }
+}
+*/
+selectedFlag="false";
+submit.disable();
+
+    if(team1.getValue()!="0"){
+		selectedFlag="true";
+    var request = cordys.cloneXMLDocument(TaskDetailsUpdate.XMLDocument);
+        
+        if(ParentTaskType=="OPS"){
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","Error Handling");
+        }
+        else
+        {
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","UW Error Handling");
+        }
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='MasterAppNumber']",MasterAppNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='GroupNumber']",GroupNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CompanyCode']",CompanyState);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TeamName']",team1.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='Reason']",reason1.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='DueDate']",duedate1.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqNotes']",notes1.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedBy']",Assignee);
+        //cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedDate']",getCurrentDateandTime());
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CaseId']",case_id);
+cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='linkedTask']",parentTask);
+        
+        
+        TaskDetailsModel.clear();
+		TaskDetailsModel.setMethodRequest(request);
+        TaskDetailsModel.reset();
+        //adding notes to LSP
+        var maintext = notes1.getValue();
+        if(maintext !="" && maintext!= undefined && app_number!= undefined){
+        addingNotesToLSP(maintext);
+        }
+		
+        //TaskDetailsModel.synchronize();
+       if(!TaskDetailsModel.soapFaultOccurred)
+        {
+			var PKeyId= cordys.getNodeText(TaskDetailsModel.getData(),".//*[local-name()='Id']");// to pass it to the task creation bpm
+			// Logic to be written here to trigger task creation BPM
+		     var req = WKSCreateTaskModel.getMethodRequest();
+                     cordys.setNodeText(req,".//*[local-name()='ID']", PKeyId);cordys.setNodeText(req,".//*[local-name()='UserDn']", userDn);
+                 WKSCreateTaskModel.setMethodRequest(req);
+	             WKSCreateTaskModel.reset();
+                 //application.notify("Task details saved successfully");
+        }
+		else
+		{
+		  valError = "false";
+        }
+	}	
+        if(team2.getValue()!="0"){
+        //team1
+		selectedFlag="true";
+    var request = cordys.cloneXMLDocument(TaskDetailsUpdate.XMLDocument);
+        if(ParentTaskType=="OPS"){
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","Error Handling");
+        }
+        else
+        {
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","UW Error Handling");
+        }
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='MasterAppNumber']",MasterAppNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='GroupNumber']",GroupNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CompanyCode']",CompanyState);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TeamName']",team2.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='Reason']",reason2.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='DueDate']",duedate2.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqNotes']",notes2.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedBy']",Assignee);
+        //cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedDate']",getCurrentDateandTime());
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CaseId']",case_id);
+cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='linkedTask']",parentTask);
+        
+        
+        TaskDetailsModel.clear();
+		TaskDetailsModel.setMethodRequest(request);
+        TaskDetailsModel.reset();
+        //adding notes to LSP
+        var maintext = notes2.getValue();
+        if(maintext !="" && maintext!= undefined && app_number!= undefined){
+        addingNotesToLSP(maintext);
+        }
+        
+		if(!TaskDetailsModel.soapFaultOccurred)
+        {
+			var PKeyId= cordys.getNodeText(TaskDetailsModel.getData(),".//*[local-name()='Id']");// to pass it to the task creation bpm
+                 var req = WKSCreateTaskModel.getMethodRequest();
+                     cordys.setNodeText(req,".//*[local-name()='ID']", PKeyId);cordys.setNodeText(req,".//*[local-name()='UserDn']", userDn);
+                 WKSCreateTaskModel.setMethodRequest(req);
+	             WKSCreateTaskModel.reset();
+                //application.inform("Task Generated Successfully");
+        }
+		else
+		{
+		  valError = "false";
+        }
+        //team2
+        }
+        
+        if(team3.getValue()!="0"){
+        //team1
+        //team3
+		selectedFlag="true";
+        var request = cordys.cloneXMLDocument(TaskDetailsUpdate.XMLDocument);
+        
+       if(ParentTaskType=="OPS"){
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","Error Handling");
+        }
+        else
+        {
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","UW Error Handling");
+        }
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='MasterAppNumber']",MasterAppNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='GroupNumber']",GroupNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CompanyCode']",CompanyState);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TeamName']",team3.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='Reason']",reason3.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='DueDate']",duedate3.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqNotes']",notes3.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedBy']",Assignee);
+        //cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedDate']",getCurrentDateandTime());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CaseId']",case_id);
+     cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='linkedTask']",parentTask);
+        
+        TaskDetailsModel.clear();
+		TaskDetailsModel.setMethodRequest(request);
+        TaskDetailsModel.reset();
+        
+        //adding notes to LSP
+        var maintext = notes3.getValue();
+        if(maintext !="" && maintext!= undefined && app_number!= undefined){
+        addingNotesToLSP(maintext);
+        }
+        
+		if(!TaskDetailsModel.soapFaultOccurred)
+        {
+			var PKeyId= cordys.getNodeText(TaskDetailsModel.getData(),".//*[local-name()='Id']");// to pass it to the task creation bpm
+                 var req = WKSCreateTaskModel.getMethodRequest();
+                     cordys.setNodeText(req,".//*[local-name()='ID']", PKeyId);cordys.setNodeText(req,".//*[local-name()='UserDn']", userDn);
+                 WKSCreateTaskModel.setMethodRequest(req);
+	             WKSCreateTaskModel.reset();
+                 //application.nofify("Task details saved successfully");
+        }
+        
+        else
+		{
+		  valError = "false";
+        }
+        }
+		 if(req_type1.getValue()!="0"){
+			 selectedFlag="true";
+    var request = cordys.cloneXMLDocument(TaskDetailsUpdate.XMLDocument);
+        if(req_type1.getValue()==="Vendor Requirement")
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","Vendor Requirement");
+        else
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","UW Requirement");
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='MasterAppNumber']",MasterAppNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='GroupNumber']",GroupNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CompanyCode']",CompanyState);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqType']",req_type1.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='linkedTask']",parentTask);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqNotes']",reqNotes1.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedBy']",Assignee);
+		 cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TeamName']",req_type1.getValue());
+        //cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedDate']",getCurrentDateandTime());
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskStatus']","In-Progress");
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CaseId']",case_id);
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='DueDate']",tfd1.getValue());
+        
+        
+        TaskDetailsModel.clear();
+		TaskDetailsModel.setMethodRequest(request);
+        TaskDetailsModel.reset();
+        //TaskDetailsModel.synchronize();
+        if(!TaskDetailsModel.soapFaultOccurred)
+        {
+		var PKeyId= cordys.getNodeText(TaskDetailsModel.getData(),".//*[local-name()='Id']");// to pass it to the task creation bpm
+                 var req = WKSCreateTaskModel.getMethodRequest();
+                     cordys.setNodeText(req,".//*[local-name()='ID']", PKeyId);cordys.setNodeText(req,".//*[local-name()='UserDn']", userDn);
+                 WKSCreateTaskModel.setMethodRequest(req);
+	             WKSCreateTaskModel.reset();
+                 //application.nofify("Task details saved successfully");
+        }
+		else
+		{
+		  valError = "false";
+        }
+        }
+		if(req_type2.getValue()!="0"){
+			selectedFlag="true";
+    var request = cordys.cloneXMLDocument(TaskDetailsUpdate.XMLDocument);
+        
+        if(req_type2.getValue()==="Vendor Requirement")
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","Vendor Requirement");
+        else
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","UW Requirement");
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='MasterAppNumber']",MasterAppNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='GroupNumber']",GroupNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CompanyCode']",CompanyState);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqType']",req_type2.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TeamName']",req_type2.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='linkedTask']",parentTask);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqNotes']",reqNotes2.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedBy']",Assignee);
+       // cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedDate']",getCurrentDateandTime());
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskStatus']","In-Progress");
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CaseId']",case_id);
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='DueDate']",tfd2.getValue());
+        
+        
+        TaskDetailsModel.clear();
+		TaskDetailsModel.setMethodRequest(request);
+        TaskDetailsModel.reset();
+        //TaskDetailsModel.synchronize();
+        if(!TaskDetailsModel.soapFaultOccurred)
+        {
+			var PKeyId= cordys.getNodeText(TaskDetailsModel.getData(),".//*[local-name()='Id']");// to pass it to the task creation bpm
+                 var req = WKSCreateTaskModel.getMethodRequest();
+                     cordys.setNodeText(req,".//*[local-name()='ID']", PKeyId);cordys.setNodeText(req,".//*[local-name()='UserDn']", userDn);
+                 WKSCreateTaskModel.setMethodRequest(req);
+	             WKSCreateTaskModel.reset();
+                 //application.nofify("Task details saved successfully");
+        }
+		else
+		{
+		  valError = "false";
+        }
+        }
+		if(req_type3.getValue()!="0"){
+			selectedFlag="true";
+    var request = cordys.cloneXMLDocument(TaskDetailsUpdate.XMLDocument);
+        
+        if(req_type3.getValue()==="Vendor Requirement")
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","Vendor Requirement");
+        else
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","UW Requirement");
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='MasterAppNumber']",MasterAppNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='GroupNumber']",GroupNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CompanyCode']",CompanyState);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqType']",req_type3.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TeamName']",req_type3.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='linkedTask']",parentTask);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqNotes']",reqNotes3.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedBy']",Assignee);
+        //cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedDate']",getCurrentDateandTime());
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskStatus']","In-Progress");
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CaseId']",case_id);
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='DueDate']",tfd3.getValue());
+        
+        
+        TaskDetailsModel.clear();
+		TaskDetailsModel.setMethodRequest(request);
+        TaskDetailsModel.reset();
+        //TaskDetailsModel.synchronize();
+        if(!TaskDetailsModel.soapFaultOccurred)
+        {
+		var PKeyId= cordys.getNodeText(TaskDetailsModel.getData(),".//*[local-name()='Id']");// to pass it to the task creation bpm
+                 var req = WKSCreateTaskModel.getMethodRequest();
+                     cordys.setNodeText(req,".//*[local-name()='ID']", PKeyId);cordys.setNodeText(req,".//*[local-name()='UserDn']", userDn);
+                 WKSCreateTaskModel.setMethodRequest(req);
+	             WKSCreateTaskModel.reset();
+                 //application.nofify("Task details saved successfully");
+        }
+		else
+		{
+		  valError = "false";
+        }
+        }
+		if(req_type4.getValue()!="0"){
+			selectedFlag="true";
+    var request = cordys.cloneXMLDocument(TaskDetailsUpdate.XMLDocument);
+        
+        if(req_type4.getValue()==="Vendor Requirement")
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","Vendor Requirement");
+        else
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","UW Requirement");
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='MasterAppNumber']",MasterAppNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='GroupNumber']",GroupNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CompanyCode']",CompanyState);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqType']",req_type4.getValue());
+          cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TeamName']",req_type4.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='linkedTask']",parentTask);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqNotes']",reqNotes4.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedBy']",Assignee);
+        //cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedDate']",getCurrentDateandTime());
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskStatus']","In-Progress");
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CaseId']",case_id);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='DueDate']",tfd4.getValue());
+        
+        TaskDetailsModel.clear();
+		TaskDetailsModel.setMethodRequest(request);
+        TaskDetailsModel.reset();
+        //TaskDetailsModel.synchronize();
+        if(!TaskDetailsModel.soapFaultOccurred)
+        {
+			var PKeyId= cordys.getNodeText(TaskDetailsModel.getData(),".//*[local-name()='Id']");// to pass it to the task creation bpm
+                 var req = WKSCreateTaskModel.getMethodRequest();
+                     cordys.setNodeText(req,".//*[local-name()='ID']", PKeyId);cordys.setNodeText(req,".//*[local-name()='UserDn']", userDn);
+                 WKSCreateTaskModel.setMethodRequest(req);
+	             WKSCreateTaskModel.reset();
+                 //application.nofify("Task details saved successfully");
+        }
+		else
+		{
+		  valError = "false";
+        }
+        }
+		if(req_type5.getValue()!="0"){
+			selectedFlag="true";
+    var request = cordys.cloneXMLDocument(TaskDetailsUpdate.XMLDocument);
+        
+        if(req_type5.getValue()==="Vendor Requirement")
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","Vendor Requirement");
+        else
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskName']","UW Requirement");
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='MasterAppNumber']",MasterAppNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='GroupNumber']",GroupNumber);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CompanyCode']",CompanyState);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqType']",req_type5.getValue());
+          cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TeamName']",req_type5.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='linkedTask']",parentTask);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='ReqNotes']",reqNotes5.getValue());
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedBy']",Assignee);
+        //cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CreatedDate']",getCurrentDateandTime());
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='TaskStatus']","In-Progress");
+		cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='CaseId']",case_id);
+        cordys.setNodeText(request,".//*[local-name()='new']/*[local-name()='TaskDetails']/*[local-name()='DueDate']",tfd5.getValue());
+		
+        TaskDetailsModel.clear();
+        TaskDetailsModel.setMethodRequest(request);
+        TaskDetailsModel.reset();
+        //TaskDetailsModel.synchronize();
+        if(!TaskDetailsModel.soapFaultOccurred)
+        {
+		var PKeyId= cordys.getNodeText(TaskDetailsModel.getData(),".//*[local-name()='Id']");// to pass it to the task creation bpm
+                 var req = WKSCreateTaskModel.getMethodRequest();
+                     cordys.setNodeText(req,".//*[local-name()='ID']", PKeyId);cordys.setNodeText(req,".//*[local-name()='UserDn']", userDn);
+                 WKSCreateTaskModel.setMethodRequest(req);
+	             WKSCreateTaskModel.reset();
+                 //application.nofify("Task details saved successfully");
+        }
+		else
+		{
+		  valError = "false";
+        }
+        }
+    //document.getElementById("fb_closeImg").click(); 
+	if(selectedFlag==="true"){
+  if(valError!="false")	
+  {
+     alert("Tasks are created");
+	application.container.close();
+   }
+   else
+   {
+     submit.enable();
+	 application.notify("Tasks not generated","ERROR");
+   }
+	}
+	else{
+		application.notify("Please select atleast one task to create","ERROR");
+	}
+	parent.parent.parent.parent.document.querySelector("#refreshTaskButton").click();
+}
+function getCurrentDateandTime() {
+    var currentDate = new Date();
+    var day = currentDate.getDate();
+    if (day.toString().length == 1) {
+        day = "0" + day;
+    }
+    var month = currentDate.getMonth() + 1;
+    if (month.toString().length == 1) {
+        month = "0" + month;
+    }
+    var year = currentDate.getFullYear();
+    var date = year + '-' + month + '-' + day;
+    return date = date + "T" +
+        currentDate.getHours() + ":" +
+        currentDate.getMinutes() + ":" +
+        currentDate.getSeconds();
+}
+function duedate1_OutFocus(eventObject)
+{
+    if(new Date(duedate1.getValue()) <new Date())
+    {
+    duedate1.setValue()
+   application.notify("Due date Can not be lesser than current date","ERROR");
+    }
+}
+function duedate3_OutFocus(eventObject)
+{
+  if(new Date(duedate3.getValue()) <new Date())
+    {
+    duedate3.setValue()
+   application.notify("Due date Can not be lesser than current date","ERROR");
+    }
+}
+
+function duedate2_OutFocus(eventObject)
+{
+    if(new Date(duedate2.getValue()) <new Date())
+    {
+    duedate2.setValue()
+   application.notify("Due date Can not be lesser than current date","ERROR");
+    }
+}
+
+function UWReqTypeDropDownModel_OnRequest(eventObject)
+{
+    cordys.setNodeText(eventObject.request, ".//*[local-name()='identifier']","UWReqType");
+    cordys.setNodeText(eventObject.request, ".//*[local-name()='company_code']","CBS");
+    cordys.setNodeText(eventObject.request, ".//*[local-name()='language']","English");
+}
+function req_type1_Change(eventObject)
+{
+   if(req_type1.getValue()!=="0"){
+	  
+   if(req_type1.getValue() == req_type2.getValue()|| req_type1.getValue()==req_type3.getValue() || req_type1.getValue() == req_type4.getValue()||req_type1.getValue()==req_type5.getValue() )
+   {
+     application.notify(req_type1.getValue()+ " is already selected");
+	 req_type1.setValue("0");
+     return false;
+   }
+
+
+    tfd1.show();
+    reqNotes1.show();
+    req_type2.show();
+    }
+    else {
+
+    tfd1.hide()
+    reqNotes1.hide();
+    req_type2.hide();
+    }
+}
+function req_type2_Change(eventObject)
+{
+   if(req_type2.getValue()!=="0"){
+	   if(req_type2.getValue() == req_type1.getValue()|| req_type2.getValue()==req_type3.getValue() || req_type2.getValue() == req_type4.getValue()||req_type2.getValue()==req_type5.getValue() )
+   {
+     application.notify(req_type2.getValue()+ " is already selected");
+	 req_type2.setValue("0");
+     return false;
+   }
+    tfd2.show();
+    reqNotes2.show();
+    req_type3.show();
+    }
+    else {
+    tfd2.hide();
+    reqNotes2.hide();
+    req_type3.hide();
+    }
+}
+function req_type3_Change(eventObject)
+{
+   if(req_type3.getValue()!=="0"){
+	   if(req_type3.getValue() == req_type1.getValue()||req_type3.getValue()==req_type2.getValue() || req_type3.getValue() == req_type4.getValue()||req_type3.getValue()==req_type5.getValue() )
+   {
+     application.notify(req_type3.getValue()+ " is already selected");
+	 req_type3.setValue("0");
+     return false;
+   }
+    tfd3.show();
+    reqNotes3.show();
+    req_type4.show();
+    }
+    else {
+    tfd3.hide();
+    reqNotes3.hide();
+    req_type4.hide();
+    }
+}
+function req_type4_Change(eventObject)
+{
+    if(req_type4.getValue()!=="0"){
+		 if(req_type4.getValue() == req_type1.getValue()||req_type4.getValue()==req_type2.getValue() || req_type4.getValue() == req_type3.getValue()||req_type4.getValue()==req_type5.getValue() )
+   {
+     application.notify(req_type4.getValue()+ " is already selected");
+	 req_type4.setValue("0");
+     return false;
+   }
+    tfd4.show();
+    reqNotes4.show();
+    req_type5.show();
+    }
+    else {
+    tfd4.hide();
+    reqNotes4.hide();
+    req_type5.hide();
+    }
+}
+function req_type5_Change(eventObject)
+{
+    if(req_type1.getValue()!=="0"){
+		if(req_type5.getValue()==req_type1.getValue() || req_type5.getValue() == req_type2.getValue()||req_type5.getValue()==req_type3.getValue() || req_type5.getValue() == req_type4.getValue())
+   {
+     application.notify(req_type5.getValue()+ " is already selected");
+	 req_type5.setValue("0");
+     return false;
+   }
+    tfd5.show();
+    reqNotes5.show();
+    }
+    else {
+    tfd5.hide();
+    reqNotes5.hide();
+    }
+}
+function tfd1_OutFocus(eventObject)
+{
+  if(new Date(tfd1.getValue()) < new Date())
+  {
+   tfd1.setValue()
+   application.notify("Task Follow-Up Date cannot be lesser than current date","ERROR");
+   } 
+}
+function tfd2_OutFocus(eventObject)
+{
+  if(new Date(tfd2.getValue()) <new Date())
+   {
+   tfd2.setValue()
+   application.notify("Task Follow-Up Date cannot be lesser than current date","ERROR");
+   }
+}
+function tfd3_OutFocus(eventObject)
+{
+  if(new Date(tfd3.getValue()) <new Date())
+   {
+   tfd3.setValue()
+   application.notify("Task Follow-Up Date cannot be lesser than current date","ERROR");
+   }
+  
+}
+function tfd4_OutFocus(eventObject)
+{
+  if(new Date(tfd4.getValue()) <new Date())
+   {
+   tfd4.setValue()
+   application.notify("Task Follow-Up Date cannot be lesser than current date","ERROR");
+   }
+  
+}
+function tfd5_OutFocus(eventObject)
+{
+  if(new Date(tfd5.getValue()) <new Date())
+   {
+   tfd5.setValue()
+   application.notify("Task Follow-Up Date cannot be lesser than current date","ERROR");
+   }
+    
+}
+function addingNotesToLSP(maintext) {
+
+ var header = Assignee+";  Create Task;  ";
+            maxLength = 300-header.length;
+            var sentencearray = [];
+            checkthevalue(sentencearray, maintext);
+            
+        
+            for(var i=0;i<sentencearray.length;i++){
+                var request = LSPNotesInteractiveModel.getMethodRequest();
+        
+                cordys.setNodeText(request,".//*[local-name()='PolicyNumber']",app_number);
+                cordys.setNodeText(request,".//*[local-name()='Notes']",header+sentencearray[i]);
+                cordys.setNodeText(request,".//*[local-name()='CompanyCode']",policyDetermine);
+                cordys.setNodeText(request,".//*[local-name()='Userid']","WIMS USER");
+                cordys.setNodeText(request,".//*[local-name()='Date']",getCurrentDate().split(" ")[0]);
+        
+                LSPNotesInteractiveModel.setMethodRequest(request);
+                LSPNotesInteractiveModel.reset();
+            }
+
+}
+function checkthevalue(sentencearray, maintext) {
+
+
+        if (maintext.length < maxLength ) {
+            sentencearray.push(maintext);
+            return sentencearray;
+        }
+        else {
+            var substring = maintext.substring(0, maxLength );
+            var remainingString = maintext.substring(maxLength+1, maintext.length);
+            var n = substring.lastIndexOf(" ");
+            if (n == substring.length) {
+                sentencearray.push(substring);
+                checkthevalue(sentencearray, remainingString)
+            }
+            else {
+                var substring = maintext.substring(0, n);
+                var remainingString = maintext.substring(n, maintext.length);
+                sentencearray.push(substring);
+                checkthevalue(sentencearray, remainingString)
+            }
+        }
+    }
+
+
+function getCurrentDate()
+{
+    var currentDate = new Date(new Date().getTime() - (new Date().getTimezoneOffset() * 60 * 1000));
+    var day = currentDate.getDate();
+    if(day.toString().length==1)
+    {
+        day="0" + day;
+    }
+    var month = currentDate.getMonth() + 1;
+    if(month.toString().length==1)
+    {
+        month="0" + month;
+    }
+    var year = currentDate.getFullYear();
+    var date = year + '-' + month +  '-' + day;
+ 
+    return date = date + " " +
+                           currentDate.getHours() + ":" +
+                           currentDate.getMinutes() + ":" +
+                           currentDate.getSeconds() + ".000";
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<XFormWSDL/>
+	<automatic>false</automatic>
+	<caption></caption>
+	<data/>
+	<height></height>
+	<imageUrl></imageUrl>
+	<info></info>
+	<isInternal>false</isInternal>
+	<isLegacy>false</isLegacy>
+	<isPublicImage>false</isPublicImage>
+	<left></left>
+	<mode>full</mode>
+	<parameters/>
+	<qualifiedclassname></qualifiedclassname>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>Create Task</taskDescription>
+	<taskName>CreateTask_WIMS</taskName>
+	<title>true</title>
+	<top></top>
+	<type>XForm</type>
+	<width></width>
+	<CompositeControls/>
+	<Htms/>
+	<Images/>
+	<InstanceSchemaFragments/>
+	<Javascripts/>
+	<ReferredXForms/>
+	<Representations/>
+	<StyleSheets>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FBC8E88"
+			path="Underwriting/Web/com/cica/uw/styles/defaultLib.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FDE8E88"
+			path="Underwriting/Web/com/cica/uw/styles/bootstrap.min.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+		<uri
+			id="005056B1-D319-A1EE-A4D4-BA2D0FDA8E88"
+			path="Underwriting/Web/com/cica/uw/styles/CaseTask.css"
+			type="com.cordys.cws.documenttypes.css.Css"
+		/>
+	</StyleSheets>
+	<TranslatableApplications/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC324168">
+			<DocumentID>005056A2-27FA-A1EB-9012-940FDC320168</DocumentID>
+			<Name>005056A2-27FA-A1EB-9012-940FDC320168</Name>
+			<Description>005056A2-27FA-A1EB-9012-940FDC320168</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<DeveloperText>Create Task</DeveloperText>
+			<Identifier>
+				<uri
+					id="005056A2-27FA-A1EB-8794-E54D62D64165"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785BC168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672785C0168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8794-E54D62CF4165</Name>
+			<Description>005056A2-27FA-A1EB-8794-E54D62CF4165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<UIRef>team1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785B4168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C672785B8168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8794-E54D62CD4165</Name>
+					<Description>005056A2-27FA-A1EB-8794-E54D62CD4165</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Team_2</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8794-E54D62CDC165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785AC168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672785B0168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8794-E54D62CBC165</Name>
+			<Description>005056A2-27FA-A1EB-8794-E54D62CBC165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>reason1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785A4168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C672785A8168</DocumentID>
+					<Name>005056A2-27FA-A1EB-88FD-3CA48AA30165</Name>
+					<Description>005056A2-27FA-A1EB-88FD-3CA48AA30165</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+					<Notes/>
+					<DeveloperText>Reason*</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-88FD-3CA48AA38165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727859C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672785A0168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8796-D2E03C318165</Name>
+			<Description>005056A2-27FA-A1EB-8796-D2E03C318165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+			<Notes/>
+			<UIRef>notes3</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278594168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278598168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8D89-6331D4C24167</Name>
+					<Description>005056A2-27FA-A1EB-8D89-6331D4C24167</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Requestor Notes</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8794-E54D62C6C165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727858C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278590168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8796-D2E03C2F0165</Name>
+			<Description>005056A2-27FA-A1EB-8796-D2E03C2F0165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+			<Notes/>
+			<UIRef>duedate1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278584168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278588168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8796-D2E03C2E8165</Name>
+					<Description>005056A2-27FA-A1EB-8796-D2E03C2E8165</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Due Date</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-7798-A1E8-ABD2-D6104E298116"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727857C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278580168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8796-D2E03C2D0165</Name>
+			<Description>005056A2-27FA-A1EB-8796-D2E03C2D0165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<UIRef>submit</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278574168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278578168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8798-0A24387A4165</Name>
+					<Description>005056A2-27FA-A1EB-8798-0A24387A4165</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.522</CreationDate>
+					<Notes/>
+					<DeveloperText>Submit</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-7798-A1E8-AF5C-0A2DDA714121"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727856C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278570168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8798-0A2438724165</Name>
+			<Description>005056A2-27FA-A1EB-8798-0A2438724165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>team3</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278564168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278568168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8798-0A2438704165</Name>
+					<Description>005056A2-27FA-A1EB-8798-0A2438704165</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+					<Notes/>
+					<DeveloperText>Team_3</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8798-0A243870C165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727855C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278560168</DocumentID>
+			<Name>005056A2-27FA-A1EB-88FD-3CA48AA00165</Name>
+			<Description>005056A2-27FA-A1EB-88FD-3CA48AA00165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>reason3</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278554168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278558168</DocumentID>
+					<Name>005056A2-27FA-A1EB-88FD-3CA48AA08165</Name>
+					<Description>005056A2-27FA-A1EB-88FD-3CA48AA08165</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Reason*</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-88FD-3CA48AA38165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727854C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278550168</DocumentID>
+			<Name>005056A2-27FA-A1EB-88FD-3CA48A9F0165</Name>
+			<Description>005056A2-27FA-A1EB-88FD-3CA48A9F0165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<UIRef>notes2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278544168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278548168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8D89-6331D4C2C167</Name>
+					<Description>005056A2-27FA-A1EB-8D89-6331D4C2C167</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+					<Notes/>
+					<DeveloperText>Requestor Notes</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8794-E54D62C6C165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727853C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278540168</DocumentID>
+			<Name>005056A2-27FA-A1EB-88FD-3CA48A9E0165</Name>
+			<Description>005056A2-27FA-A1EB-88FD-3CA48A9E0165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>reason2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278534168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278538168</DocumentID>
+					<Name>005056A2-27FA-A1EB-88FD-3CA48A9E8165</Name>
+					<Description>005056A2-27FA-A1EB-88FD-3CA48A9E8165</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+					<Notes/>
+					<DeveloperText>Reason*</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-88FD-3CA48AA38165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727852C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278530168</DocumentID>
+			<Name>005056A2-27FA-A1EB-88FD-3CA48A9D0165</Name>
+			<Description>005056A2-27FA-A1EB-88FD-3CA48A9D0165</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>notes1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278524168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278528168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8D89-6331D4C34167</Name>
+					<Description>005056A2-27FA-A1EB-8D89-6331D4C34167</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Requestor Notes</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8794-E54D62C6C165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727851C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278520168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A54-43481C474166</Name>
+			<Description>005056A2-27FA-A1EB-8A54-43481C474166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+			<Notes/>
+			<UIRef>req_type1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278514168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278518168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A54-43481C454166</Name>
+					<Description>005056A2-27FA-A1EB-8A54-43481C454166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Request Type</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8A54-43481C45C166"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C6727850C168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278510168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A54-43481C440166</Name>
+			<Description>005056A2-27FA-A1EB-8A54-43481C440166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<UIRef>tfd1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C67278504168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C67278508168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C584166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C584166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Task Follow-up Date</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8313-FF1B01094161"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672784FC168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C67278500168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C574166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C574166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+			<Notes/>
+			<UIRef>reqNotes1</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672784F4168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C672784F8168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C56C166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C56C166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+					<Notes/>
+					<DeveloperText>Requestor Notes</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8794-E54D62C6C165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672784EC168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672784F0168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C53C166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C53C166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>reqNotes2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672784E4168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C672784E8168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C534166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C534166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Requestor Notes</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8794-E54D62C6C165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672784DC168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672784E0168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C514166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C514166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<UIRef>reqNotes3</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672784D4168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C672784D8168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C50C166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C50C166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Requestor Notes</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8794-E54D62C6C165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672784CC168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672784D0168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C4FC166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C4FC166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<UIRef>reqNotes4</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672784C4168">
+					<DocumentID>005056A2-27FA-A1EB-900B-C672784C8168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C4F4166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C4F4166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Requestor Notes</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8794-E54D62C6C165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC3B8168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672784C0168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C4D4166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C4D4166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>reqNotes5</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC3B0168">
+					<DocumentID>005056A2-27FA-A1EB-9012-940FDC3B4168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C4CC166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C4CC166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+					<Notes/>
+					<DeveloperText>Requestor Notes</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8794-E54D62C6C165"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC3A8168">
+			<DocumentID>005056A2-27FA-A1EB-9012-940FDC3AC168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C4BC166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C4BC166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>req_type2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC3A0168">
+					<DocumentID>005056A2-27FA-A1EB-9012-940FDC3A4168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C49C166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C49C166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+					<Notes/>
+					<DeveloperText>Request Type</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8A54-43481C45C166"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC398168">
+			<DocumentID>005056A2-27FA-A1EB-9012-940FDC39C168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C4AC166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C4AC166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>req_type3</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC390168">
+					<DocumentID>005056A2-27FA-A1EB-9012-940FDC394168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C4A4166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C4A4166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Request Type</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8A54-43481C45C166"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC388168">
+			<DocumentID>005056A2-27FA-A1EB-9012-940FDC38C168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C48C166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C48C166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>req_type4</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC380168">
+					<DocumentID>005056A2-27FA-A1EB-9012-940FDC384168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C45C166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C45C166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Request Type</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8A54-43481C45C166"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC378168">
+			<DocumentID>005056A2-27FA-A1EB-9012-940FDC37C168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C46C166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C46C166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>req_type5</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC370168">
+					<DocumentID>005056A2-27FA-A1EB-9012-940FDC374168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C464166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C464166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+					<Notes/>
+					<DeveloperText>Request Type</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8A54-43481C45C166"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC368168">
+			<DocumentID>005056A2-27FA-A1EB-9012-940FDC36C168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C444166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C444166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+			<Notes/>
+			<UIRef>tfd2</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC360168">
+					<DocumentID>005056A2-27FA-A1EB-9012-940FDC364168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C43C166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C43C166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+					<Notes/>
+					<DeveloperText>Task Follow-up Date</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8313-FF1B01094161"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC358168">
+			<DocumentID>005056A2-27FA-A1EB-9012-940FDC35C168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C42C166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C42C166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<UIRef>tfd3</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC350168">
+					<DocumentID>005056A2-27FA-A1EB-9012-940FDC354168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C424166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C424166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Task Follow-up Date</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8313-FF1B01094161"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC348168">
+			<DocumentID>005056A2-27FA-A1EB-9012-940FDC34C168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C414166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C414166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<UIRef>tfd4</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC340168">
+					<DocumentID>005056A2-27FA-A1EB-9012-940FDC344168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5E-969D2C40C166</Name>
+					<Description>005056A2-27FA-A1EB-8A5E-969D2C40C166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+					<Notes/>
+					<DeveloperText>Task Follow-up Date</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8313-FF1B01094161"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC338168">
+			<DocumentID>005056A2-27FA-A1EB-9012-940FDC33C168</DocumentID>
+			<Name>005056A2-27FA-A1EB-8A5E-969D2C3FC166</Name>
+			<Description>005056A2-27FA-A1EB-8A5E-969D2C3FC166</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+			<Notes/>
+			<UIRef>tfd5</UIRef>
+			<TooltipText/>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+					RuntimeDocumentID="005056A2-27FA-A1EB-9012-940FDC330168">
+					<DocumentID>005056A2-27FA-A1EB-9012-940FDC334168</DocumentID>
+					<Name>005056A2-27FA-A1EB-8A5F-2194684FC166</Name>
+					<Description>005056A2-27FA-A1EB-8A5F-2194684FC166</Description>
+					<CreatedBy>dileep kumar</CreatedBy>
+					<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+					<Notes/>
+					<DeveloperText>Task Follow-up Date</DeveloperText>
+					<Identifier>
+						<uri
+							id="005056A2-27FA-A1EB-8313-FF1B01094161"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<XForm>
+				<uri
+					id="005056A2-27FA-A1EB-900B-C672785F8168"
+				/>
+			</XForm>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Webservices>
+		<uri
+			id="005056A2-27FA-A1EA-BE11-F2729C2B0160"
+		/>
+		<uri
+			id="005056A2-27FA-A1EB-892C-75F24A890165"
+		/>
+		<uri
+			id="005056A2-27FA-A1EB-8C98-3409711D0167"
+		/>
+		<uri
+			id="005056A2-27FA-A1EB-8EEB-89F23F710167"
+		/>
+	</Webservices>
+	<aclFragments/>
+	<deliveryModels/>
+	<image/>
+	<input/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785EC168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672785F0168</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+			<operationName>freeformcontrols</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785E4168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672785E8168</DocumentID>
+			<Name>SearchListByIdentifierModel</Name>
+			<Description>SearchListByIdentifierModel</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.532</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/WorksiteWSAppPackage</namespace>
+			<operationName>SearchListByIdentifier</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785DC168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672785E0168</DocumentID>
+			<Name>TaskDetailsModel</Name>
+			<Description>TaskDetailsModel</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.527</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/WorksiteWSAppPackage</namespace>
+			<operationName>UpdateTaskDetails</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785D4168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672785D8168</DocumentID>
+			<Name>UWReqTypeDropDownModel</Name>
+			<Description>UWReqTypeDropDownModel</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/WorksiteWSAppPackage</namespace>
+			<operationName>SearchListByIdentifier</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785CC168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672785D0168</DocumentID>
+			<Name>WKSCreateTaskModel</Name>
+			<Description>WKSCreateTaskModel</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/default</namespace>
+			<operationName>WKSCreateTask</operationName>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="005056A2-27FA-A1EB-900B-C672785C4168">
+			<DocumentID>005056A2-27FA-A1EB-900B-C672785C8168</DocumentID>
+			<Name>LSPNotesInteractiveModel</Name>
+			<Description>LSPNotesInteractiveModel</Description>
+			<CreatedBy>dileep kumar</CreatedBy>
+			<CreationDate>2020-12-17T09:29:11.537</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<namespace>http://schemas.cordys.com/default</namespace>
+			<operationName>LSPNotesInteractive</operationName>
+		</MessagePart>
+	</messageParts>
+	<messages/>
+	<output/>
+	<tagsContainer/>
+	<taskParts/>
+</XFormDesigntime>

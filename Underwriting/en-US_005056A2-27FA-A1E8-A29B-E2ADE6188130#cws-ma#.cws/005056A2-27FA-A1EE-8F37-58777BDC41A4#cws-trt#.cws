@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EE-8F37-58777BDC81A4">
+	<DocumentID>005056A2-27FA-A1EE-8F37-58777BDC41A4</DocumentID>
+	<Name>005056A2-27FA-A1EE-8F37-58777BDC41A4</Name>
+	<Description>Term Due to Benefit Payment</Description>
+	<CreatedBy>manishas</CreatedBy>
+	<CreationDate>2023-08-17T09:11:20.98</CreationDate>
+	<Notes/>
+	<Text>Term Due to Benefit Payment</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EE-8F37-58777BDBC1A4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

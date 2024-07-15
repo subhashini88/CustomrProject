@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E8-B2AC-CB9B69BB013B">
+	<DocumentID>005056A2-27FA-A1E8-B2AC-CB9B69BAC13B</DocumentID>
+	<Name>005056A2-27FA-A1E8-B2AC-CB9B69BAC13B</Name>
+	<Description>Tree1</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2018-10-08T04:38:04.086</CreationDate>
+	<Notes/>
+	<Text>Tree1</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E8-B2AC-CB9B69BA413B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

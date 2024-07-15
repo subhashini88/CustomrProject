@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-B342-2C538292016F">
+	<DocumentID>005056A2-27FA-A1EB-B342-2C538291C16F</DocumentID>
+	<Name>005056A2-27FA-A1EB-B342-2C538291C16F</Name>
+	<Description>Revoke Task</Description>
+	<CreatedBy>kunal</CreatedBy>
+	<CreationDate>2021-06-14T12:04:40.904</CreationDate>
+	<Notes/>
+	<Text>Revoke Task</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-B342-2C538291416F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

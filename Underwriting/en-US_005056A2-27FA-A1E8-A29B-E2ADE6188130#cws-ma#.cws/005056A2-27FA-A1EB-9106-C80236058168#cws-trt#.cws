@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1EB-9106-C8023605C168">
+	<DocumentID>005056A2-27FA-A1EB-9106-C80236058168</DocumentID>
+	<Name>005056A2-27FA-A1EB-9106-C80236058168</Name>
+	<Description>ACE Group Critical Illness</Description>
+	<CreatedBy>sanjana</CreatedBy>
+	<CreationDate>2020-12-22T06:01:49.703</CreationDate>
+	<Notes/>
+	<Text>ACE Group Critical Illness</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1EB-9106-C80236050168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

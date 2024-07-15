@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056A2-27FA-A1E9-8921-0CE0433DC142">
+	<DocumentID>005056A2-27FA-A1E9-8921-146D61C98142</DocumentID>
+	<Name>005056A2-27FA-A1E9-8921-146D61C98142</Name>
+	<Description>4th Non Vendor Completed</Description>
+	<CreatedBy>harshet</CreatedBy>
+	<CreationDate>2019-01-30T11:44:01.141</CreationDate>
+	<Notes/>
+	<Text>4th Non Vendor Completed</Text>
+	<Language>
+		<uri
+			id="005056A2-27FA-A1E8-A29B-E2ADE6190130"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056A2-27FA-A1E9-8921-146D61C90142"
+		/>
+	</TextIdentifier>
+</TranslatedText>
